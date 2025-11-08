@@ -1,0 +1,46 @@
+--- Activities for: 4.1 Substructure Works (Piling, Pile Caps, Piers) ---
+As a Senior P6 Planning Engineer, I have reviewed the target WBS and the provided context. The context is sparse, mentioning only a single component ("Pedestal & Seismic arrestors"). Therefore, I will use my expert knowledge to construct a complete, logical Level 4 activity sequence for the entire substructure scope.
+
+The sequence below covers the standard construction methodology from mobilization for piling through to the completion of the piers, ready to receive the superstructure.
+
+---
+**GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**
+
+**1.0 Piling Works**
+1.1 Mobilize Piling Rig, Plant & Equipment
+1.2 Construct Piling Platform / Working Area
+1.3 Survey and Set Out Pile Locations
+1.4 Commence Pile Boring / Driving Operations
+1.5 Install Pile Reinforcement Cages
+1.6 Pour Concrete for Piles (e.g., Tremie method)
+1.7 Conduct Pile Integrity Testing (PIT)
+1.8 Conduct Static/Dynamic Pile Load Tests as per Specification
+
+**2.0 Pile Cap Construction**
+2.1 Bulk Excavation to Pile Cap Formation Level
+2.2 Trim / Break Piles to Final Cut-Off Level
+2.3 Place and Compact Blinding Concrete Layer
+2.4 Install Formwork for Pile Caps
+2.5 Fix Reinforcement for Pile Caps (including starter bars for piers)
+2.6 Pre-Pour Inspection and Approval
+2.7 Pour Concrete for Pile Caps
+2.8 Cure Concrete and Strip Formwork
+
+**3.0 Pier Construction**
+3.1 Erect Formwork for Pier Shafts (Lift 1)
+3.2 Fix Reinforcement for Pier Shafts (Lift 1)
+3.3 Pour Concrete for Pier Shafts (Lift 1)
+3.4 Cure and Strip Formwork for Pier Shafts (Lift 1)
+3.5 Erect Formwork for Pier Head / Crosshead
+3.6 Fix Reinforcement for Pier Head / Crosshead
+3.7 Pour Concrete for Pier Head / Crosshead
+3.8 Cure and Strip Formwork for Pier Head
+
+**4.0 Finishing Works & Handover**
+4.1 Install Formwork and Rebar for Pedestals
+4.2 Pour Concrete for Pedestals
+4.3 Install Bearings and/or Seismic Arrestors on Pedestals
+4.4 Apply Protective Coating / Curing Compound to Exposed Concrete Surfaces
+4.5 Backfill around Completed Pile Caps and Piers
+4.6 Compact Backfill in Layers to Specification
+4.7 Final Quality Inspection and Handover of Substructure Works

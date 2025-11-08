@@ -1,0 +1,1336 @@
+--- ACTIVITIES FOR: 1.1 Contract Mobilization & Site Establishment ---
+As a Senior P6 Planning Engineer, I have reviewed the TARGET WBS and the provided CONTEXT. The reference activities are not relevant to "Contract Mobilization & Site Establishment". Therefore, I will use my expert knowledge to generate a complete, logically sequenced Level 4 activity list for this WBS item.
+
+This list covers the initial administrative and contractual requirements, followed by the physical setup of the construction site, preparing it for the main works to commence.
+
+---
+**GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**
+
+1.  Receive Notice to Proceed (NTP) / Letter of Acceptance (LOA)
+2.  Submit Contractual Guarantees (Performance Bond, Advance Payment Guarantee)
+3.  Submit Required Insurance Policies for Approval
+4.  Appoint and Mobilize Core Project Management Team
+5.  Develop and Submit Project Management Plan (PMP) for Approval
+6.  Develop and Submit Baseline Programme (Schedule) for Approval
+7.  Develop and Submit Health, Safety & Environment (HSE) Plan for Approval
+8.  Develop and Submit Quality Assurance / Quality Control (QA/QC) Plan for Approval
+9.  Conduct Project Kick-Off Meeting with Client/Engineer
+10. Take Possession of the Site from the Client
+11. Conduct Joint Site Condition & Dilapidation Survey
+12. Establish Site Boundary, Hoarding, and Fencing
+13. Install Site Security, Access Gates, and CCTV System
+14. Perform Initial Site Clearance and Grubbing
+15. Apply for and Connect Temporary Utilities (Power, Water, Telecoms)
+16. Construct Temporary Site Access Roads and Hardstandings
+17. Install and Commission Site Offices (Contractor & Client)
+18. Install and Commission Site Welfare Facilities (Canteen, Toilets, First Aid)
+19. Establish Material Laydown Areas and Storage Yards
+20. Install Project Information Boards and Safety Signage
+21. Mobilize Initial Plant, Equipment, and Vehicles to Site
+22. Conduct Site-wide Safety Inductions for all Personnel
+23. Obtain Initial Permits to Commence Construction Works
+24. Complete Site Establishment and Readiness for Construction
+
+================================================================================
+
+--- ACTIVITIES FOR: 1.2 Project Controls (Planning, Cost, Document Control) ---
+As a Senior P6 Planning Engineer, I have analyzed the TARGET WBS and the provided CONTEXT. The reference activities are not relevant to the "Project Controls" WBS item. Therefore, I will leverage my expertise to generate a comprehensive, logically sequenced list of Level 4 activities appropriate for this non-physical, process-driven scope of work.
+
+The activities for Project Controls follow the project lifecycle: Setup, Execution (Monitoring & Control), and Closeout.
+
+---
+**GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**
+
+**1.0 Project Controls - Setup & Baseline Phase**
+1.1 Develop and Finalise Project Controls Plan
+1.2 Establish Work Breakdown Structure (WBS) and Organisational Breakdown Structure (OBS)
+1.3 Develop and Agree on Project Calendars
+1.4 Set up Document Management System (e.g., Aconex, ProjectWise)
+1.5 Establish Document Control Procedures and Numbering System
+1.6 Set up Cost Management and Planning Systems (e.g., P6, Prism, SAP)
+1.7 Develop Detailed Level 4 Baseline Programme
+1.8 Resource and Cost Load the Baseline Programme
+1.9 Conduct Baseline Programme Review and Validation Workshop
+1.10 Submit Baseline Programme for Approval
+1.11 **Milestone: Baseline Programme Approved**
+1.12 Establish Performance Measurement Baseline (PMB) for Cost & Schedule
+1.13 Establish Change Management and Variation Control Procedure
+
+**2.0 Project Controls - Execution, Monitoring & Control Phase (Level of Effort)**
+2.1 Perform Weekly Planning & Progress Update Cycle
+2.2 Prepare and Issue 4-Week Lookahead Programmes
+2.3 Prepare and Issue Monthly Progress Report (including S-Curves, CPI/SPI)
+2.4 Conduct Monthly Progress and Commercial Review Meetings
+2.5 Manage and Process Change Orders / Variations
+2.6 Maintain Programme Revisions and incorporate Approved Changes
+2.7 Perform Earned Value Management (EVM) Analysis
+2.8 Maintain and Update Project Cost Forecast (Estimate at Completion - EAC)
+2.9 Ongoing Management of Document Submittals and Transmittals
+2.10 Process and Distribute Requests for Information (RFIs) and Site Instructions
+2.11 Maintain Master Document Register (MDR)
+
+**3.0 Project Controls - Closeout Phase**
+3.1 Develop and Manage Commissioning & Handover Programme
+3.2 Compile and Submit Final As-Built Documentation
+3.3 Compile and Submit Final Handover Documentation (O&M Manuals)
+3.4 Prepare and Agree on Final Account Submission
+3.5 Prepare Final Project Controls Report (including Lessons Learned)
+3.6 Archive all Project Documentation and Data
+3.7 **Milestone: Project Controls Closeout Complete**
+
+================================================================================
+
+--- ACTIVITIES FOR: 1.3 Engineering Management & Design Coordination ---
+Based on my experience as a Senior P6 Planning Engineer, the provided context is not relevant to the target WBS "1.3 Engineering Management & Design Coordination". Therefore, I have developed a complete, logically sequenced list of Level 4 activities based on standard industry practice for managing a design lifecycle.
+
+---
+**GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**
+
+1.  **Design Initiation & Planning**
+    *   Develop and Finalise Engineering Management Plan (EMP)
+    *   Establish Design Deliverables Register and Schedule
+    *   Mobilise Design Management & Coordination Team
+    *   Conduct Project Design Kick-Off Meeting with all Disciplines
+    *   Finalise and Approve Basis of Design (BOD) Document
+
+2.  **Preliminary / 30% Design Stage**
+    *   Prepare and Issue 30% Preliminary Design Package for Internal Review
+    *   Conduct Inter-Disciplinary Coordination & Clash Review for 30% Design
+    *   Submit 30% Preliminary Design Package to Client for Review & Comment
+    *   Incorporate Client Comments into Design
+    *   Achieve Milestone: Client Approval of 30% Preliminary Design
+
+3.  **Detailed / 60% Design Stage**
+    *   Prepare and Issue 60% Detailed Design Package for Internal Review
+    *   Conduct Inter-Disciplinary Coordination & Clash Review for 60% Design
+    *   Submit 60% Detailed Design Package to Client for Review & Comment
+    *   Incorporate Client Comments into Design
+    *   Achieve Milestone: Client Approval of 60% Detailed Design
+
+4.  **Pre-Final / 90% Design Stage**
+    *   Prepare and Issue 90% Pre-Final Design Package for Internal Review
+    *   Conduct Final Inter-Disciplinary Coordination & Clash Detection
+    *   Submit 90% Pre-Final Design Package to Client for Final Review
+    *   Incorporate Final Client Comments into Design
+    *   Achieve Milestone: Client Approval of 90% Pre-Final Design
+
+5.  **Final Design & Construction Documentation**
+    *   Prepare and Issue 100% Issued for Construction (IFC) Drawings & Specifications
+    *   Perform Final Quality Assurance / Quality Control (QA/QC) on IFC Package
+    *   Submit IFC Package for Statutory / Authority Approvals
+    *   Achieve Milestone: Receive all Required Authority Approvals
+
+6.  **Ongoing Design Management (Level of Effort)**
+    *   Manage and Track Design Progress & Performance
+    *   Conduct Weekly Design Coordination Meetings
+    *   Manage Design Interface between Disciplines (Arch, Struc, MEP, etc.)
+    *   Manage and Control Design Changes and Variations
+    *   Manage Document Control and Transmittals
+
+7.  **Construction Support & Closeout**
+    *   Provide Technical Support during Procurement & Tendering Phase
+    *   Review and Approve Contractor Technical Submittals and Shop Drawings
+    *   Manage and Respond to Site Technical Queries (TQs) / Requests for Information (RFIs)
+    *   Review and Incorporate Red-Line Markups for As-Built Records
+    *   Prepare and Submit Final As-Built Drawings and Documentation
+    *   Compile and Issue Final Design Handover and Closeout Report
+
+================================================================================
+
+--- ACTIVITIES FOR: 1.4 Quality, Health, Safety & Environment (QHSE) Management ---
+As a Senior P6 Planning Engineer, I have reviewed the request. The provided CONTEXT activities ("Pedestal & Seismic arrestors") are entirely unrelated to the TARGET WBS ("1.4 Quality, Health, Safety & Environment (QHSE) Management").
+
+Therefore, I will leverage my expertise to generate a logical, sequenced list of Level 4 activities appropriate for managing QHSE throughout a project's lifecycle. These activities are primarily "Level of Effort" and key milestones, reflecting the management nature of this WBS.
+
+---
+**GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**
+
+1.  Develop Overall Project QHSE Management Plan
+2.  Develop Project-Specific Health & Safety (H&S) Plan
+3.  Develop Project-Specific Environmental Management Plan
+4.  Develop Project-Specific Quality Management Plan
+5.  Submit and Obtain Approval for all QHSE Plans
+6.  Establish QHSE Reporting, Monitoring, and Documentation Systems
+7.  Conduct Project Kick-off QHSE Workshop and Initial Team Training
+8.  Ongoing Site QHSE Inductions for all Personnel and Visitors (LOE)
+9.  Implement and Manage Permit to Work (PTW) System (LOE)
+10. Conduct Regular Site Safety Inspections and Management Walkdowns (LOE)
+11. Facilitate Regular Toolbox Talks and Pre-start Safety Briefings (LOE)
+12. Conduct Scheduled Internal and External QHSE Audits (LOE)
+13. Manage QHSE Non-Conformance, Corrective Actions, and Incident Reporting (LOE)
+14. Monitor Environmental Compliance (e.g., Noise, Dust, Waste Management) (LOE)
+15. Monitor and Report on Project QHSE Key Performance Indicators (KPIs) (LOE)
+16. Prepare and Submit Monthly QHSE Performance Reports
+17. Conduct Final QHSE Audits and Site Close-out Inspections
+18. Compile and Submit Final QHSE Project Handover Dossier
+
+================================================================================
+
+--- ACTIVITIES FOR: 2.1 Surveys (Topographical, Geotechnical) & Investigations ---
+Based on my experience as a Senior P6 Planning Engineer, the provided context is not relevant to the target WBS. Therefore, I will generate a logical sequence of Level 4 activities based on standard industry practice for conducting site surveys and investigations.
+
+---
+**GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**
+
+1.  Develop and Finalise Scope of Work (SOW) for Survey & Investigation Package
+2.  Procure and Appoint Specialist Survey Subcontractor
+3.  Submit and Approve Method Statements & Risk Assessments (RAMS) for Survey Works
+4.  Obtain all Necessary Permits to Work and Access Approvals
+5.  Mobilise Survey Team and Equipment to Site
+6.  Establish Site Control Points and Primary Benchmarks
+7.  Conduct Topographical Survey Fieldwork (e.g., using Total Station, GPS, LiDAR)
+8.  Set out and Mark Geotechnical Investigation Locations (e.g., Boreholes, Trial Pits)
+9.  Conduct Geotechnical Fieldwork - Borehole Drilling and In-situ Testing (SPT, CPT)
+10. Collect Soil, Rock, and Water Samples for Laboratory Analysis
+11. Perform Laboratory Testing on Geotechnical Samples
+12. Process Raw Topographical Survey Data and Generate Digital Terrain Model (DTM)
+13. Prepare and Submit Draft Topographical Survey Report and Drawings for Review
+14. Analyse Geotechnical Field and Laboratory Data
+15. Prepare and Submit Draft Geotechnical Investigation Report (GIR) for Review
+16. Incorporate Comments and Issue Final Topographical Survey Report
+17. Incorporate Comments and Issue Final Geotechnical Investigation Report (GIR)
+18. Compile and Issue Final Combined Site Investigation Report (SIR) to Design Team
+
+================================================================================
+
+--- ACTIVITIES FOR: 2.2 Detailed Design - Viaduct & Associated Structures ---
+As a Senior P6 Planning Engineer, I have analyzed the target WBS and the provided context. The context is minimal, referencing only a single component ("Pedestal & Seismic arrestors"). Therefore, I will leverage my expertise to build a complete, logical design sequence for a viaduct structure.
+
+The following Level 4 activity list represents a standard, end-to-end process for the detailed design of a major civil structure like a viaduct.
+
+---
+**GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**
+
+1.  **Design Management & Initiation**
+    *   Mobilize Detailed Design Team & Hold Kick-Off Meeting
+    *   Review and Finalize Basis of Design (BOD) Document
+    *   Compile and Review All Input Data (Geotechnical Reports, Surveys, Preliminary Design)
+    *   Develop and Approve Detailed Design Execution Plan & Schedule
+
+2.  **Global Structural Analysis & Modeling**
+    *   Develop 3D Global Structural Analysis Model (e.g., Midas, SAP2000)
+    *   Define and Apply All Load Cases (Dead, Live, Wind, Seismic, Thermal)
+    *   Run Global Structural Analysis and Extract Member Forces
+    *   Prepare and Submit Global Structural Analysis Report for Review
+
+3.  **Detailed Substructure Design**
+    *   Perform Detailed Design of Foundations (Piles / Pile Caps / Rafts)
+    *   Perform Detailed Design of Viaduct Piers and Pier Caps
+    *   Perform Detailed Design of Abutments and Wing Walls
+
+4.  **Detailed Superstructure Design**
+    *   Perform Detailed Design of Viaduct Deck / Girders (Precast or Cast-in-Situ)
+    *   Design and Specify Structural Bearings
+    *   Design Pier Head Pedestals and Seismic Arrestors/Restrainers
+    *   Design Expansion Joints and End-Diaphragms
+
+5.  **Associated Structures & Interface Design**
+    *   Design of Associated Retaining Walls and Embankments
+    *   Integrate and Design Structural Elements for Drainage System
+    *   Coordinate and Finalize Design for MEP/Systems Embedments (Conduits, Lighting)
+    *   Develop and Finalize Architectural Finishes and Cladding Details
+
+6.  **Drawing Production & Deliverables**
+    *   Produce General Arrangement (GA) Drawings
+    *   Produce Formwork and Reinforcement Drawings for Foundations
+    *   Produce Formwork and Reinforcement Drawings for Piers and Abutments
+    *   Produce Formwork and Reinforcement Drawings for Superstructure Deck/Girders
+    *   Produce Detail Drawings for Bearings, Pedestals, and Seismic Arrestors
+    *   Prepare Detailed Bill of Quantities (BoQ)
+    *   Prepare Technical Specifications for Materials and Workmanship
+
+7.  **Internal Review & Inter-Disciplinary Check (IDC)**
+    *   Conduct Internal Structural Design Review and Verification (Checker)
+    *   Issue Design Packages for Inter-Disciplinary Check (IDC)
+    *   Incorporate Comments from IDC Review Cycle
+
+8.  **Formal Submission & Approval**
+    *   Compile and Submit Full Design Package for "Issued for Approval" (IFA)
+    *   Receive and Review Comments from Client/Engineer
+    *   Incorporate Final Comments and Revise Drawings & Documents
+    *   Submit Final Design Package for "Issued for Construction" (IFC) Status
+    *   Archive Final Design Deliverables
+
+================================================================================
+
+--- ACTIVITIES FOR: 2.3 Detailed Design - Elevated Stations ---
+As a Senior P6 Planning Engineer, I have analyzed the target WBS and the provided context. The context is extremely limited, referencing only a specific structural component ("Pedestal & Seismic arrestors"). Therefore, I will use my expert knowledge of the engineering design lifecycle to build a comprehensive and logical Level 4 activity list for the detailed design of elevated stations, ensuring the specific component from the context is included within the appropriate design discipline.
+
+The following list represents a standard, logical sequence for a detailed design package, incorporating inter-disciplinary coordination and formal review cycles.
+
+---
+**GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**
+
+1.  **Design Initiation & Basis of Design**
+    *   Conduct Detailed Design Kick-Off Meeting
+    *   Gather and Review all Input Data (Geotechnical Reports, Topographical Surveys, Concept Design)
+    *   Develop and Finalize the "Basis of Design" Document
+    *   Establish BIM Execution Plan (BEP) and Common Data Environment (CDE)
+
+2.  **Architectural Detailed Design**
+    *   Develop Detailed General Arrangement (GA) Plans, Sections, and Elevations
+    *   Develop 3D Architectural Model
+    *   Finalize Architectural Finishes Schedule and Material Selection
+    *   Prepare Detailed Drawings for Facade, Roofing, and Internal Partitions
+    *   Prepare Door, Window, and Hardware Schedules
+
+3.  **Structural Detailed Design**
+    *   Develop Structural Framing System and 3D Structural Model
+    *   Perform Detailed Structural Analysis and Calculations (Static, Dynamic, Seismic)
+    *   Detailed Design of Substructure (Foundations, Piles, Pile Caps)
+    *   Detailed Design of Superstructure (Columns, Beams, Slabs, Station Box)
+    *   Detailed Design of Specialized Structural Components (e.g., Bearing **Pedestals, Seismic Arrestors**)
+    *   Prepare Structural Reinforcement Drawings and Bar Bending Schedules
+
+4.  **MEP & Systems Detailed Design**
+    *   Detailed Design of HVAC System, including Ducting and Plant Room Layouts
+    *   Detailed Design of Electrical Systems (Power, Lighting, Cable Containment, Earthing)
+    *   Detailed Design of Plumbing, Drainage, and Sanitary Systems
+    *   Detailed Design of Fire Protection and Life Safety Systems (Sprinklers, Alarms, Smoke Extract)
+    *   Detailed Design of Station ELV Systems (CCTV, PA, Access Control, Comms)
+    *   Develop Coordinated 3D MEP Models
+
+5.  **Design Integration & Coordination**
+    *   Conduct Weekly Inter-Disciplinary Coordination (IDC) Workshops
+    *   Perform BIM Clash Detection, Analysis, and Resolution
+    *   Update and Maintain Federated BIM Model
+
+6.  **Design Review and Submission Cycles**
+    *   Prepare and Consolidate 60% Detailed Design Submission Package
+    *   Conduct Internal QA/QC and Peer Review of 60% Design Package
+    *   Submit 60% Design Package for Client / Authority Review
+    *   Receive and Incorporate Comments on 60% Design Submission
+    *   Prepare and Consolidate 90% (Pre-Final) Design Submission Package
+    *   Conduct Internal QA/QC and Peer Review of 90% Design Package
+    *   Submit 90% Design Package for Client / Authority Review
+    *   Receive and Incorporate Final Comments on 90% Design Submission
+
+7.  **Final Deliverables**
+    *   Finalize all Design Calculations and Technical Specifications
+    *   Prepare Final Bill of Quantities (BOQ) and Cost Estimates
+    *   Prepare and Issue "Issued for Construction" (IFC) Drawing Package
+    *   Compile and Submit Final Design Report
+    *   Archive Final Design Deliverables
+
+8.  **Project Management**
+    *   Design Management and Progress Reporting (Level of Effort)
+
+================================================================================
+
+--- ACTIVITIES FOR: 2.4 Detailed Design - New Depot ---
+Here is the Level 4 activity list for the specified WBS item, created with the expertise of a Senior P6 Planning Engineer.
+
+**Analysis:** The target WBS is "2.4 Detailed Design - New Depot". This is a design-phase WBS, not a construction one. The provided context ("Pedestal & Seismic arrestors") is a specific construction activity and is therefore not relevant to the design process. As a Senior Planner, I will generate a logical sequence of design activities from scratch, covering the typical lifecycle from design kick-off to the issuance of construction documents.
+
+---
+**GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**
+
+1.  **Design Management & Mobilization**
+    *   Detailed Design Kick-Off Meeting
+    *   Establish Design Management Plan & Procedures
+    *   Mobilize Multi-Disciplinary Design Team
+    *   Review and Finalize Basis of Design (BoD)
+    *   Review and Incorporate Preliminary/Concept Design Feedback
+
+2.  **Site Investigation & Data Collection**
+    *   Conduct Detailed Topographical Survey of Depot Site
+    *   Conduct Geotechnical Investigations & Soil Analysis
+    *   Finalize Geotechnical Investigation Report
+    *   Identify and Survey Existing Utilities and Services
+
+3.  **Schematic Design Development (30% Submission)**
+    *   Develop 30% Architectural Design Package (Layouts, Elevations)
+    *   Develop 30% Civil & Structural Design Package (Grading, Foundation Concepts)
+    *   Develop 30% MEP & Utilities Design Package (System Schematics)
+    *   Develop 30% Depot Specialist Systems Design (Track Layout, Maintenance Bays)
+    *   Conduct Inter-Disciplinary Design Coordination & Review (30%)
+    *   Submit 30% Design Package for Client Review
+    *   Incorporate Client Feedback on 30% Design
+
+4.  **Detailed Design Development (60% Submission)**
+    *   Develop 60% Architectural Design Package (Detailed Plans, Sections)
+    *   Develop 60% Civil & Structural Design Package (Structural Framing, Drainage)
+    *   Develop 60% MEP & Utilities Design Package (Equipment Sizing, Duct/Pipe Routing)
+    *   Develop 60% Depot Specialist Systems Design (Signaling, OCS, Equipment Specs)
+    *   Perform BIM Model Integration and Clash Detection
+    *   Conduct Inter-Disciplinary Design Coordination & Review (60%)
+    *   Submit 60% Design Package for Client Review
+    *   Incorporate Client Feedback on 60% Design
+
+5.  **Pre-Final Design (90% Submission)**
+    *   Develop 90% Architectural Design Package (Finishes, Detailing)
+    *   Develop 90% Civil & Structural Design Package (Reinforcement Details, Calculations)
+    *   Develop 90% MEP & Utilities Design Package (Final Layouts, Control Schematics)
+    *   Develop 90% Depot Specialist Systems Design (Final Schematics, Interface Details)
+    *   Prepare Draft Technical Specifications for all Disciplines
+    *   Prepare Draft Bill of Quantities (BoQ)
+    *   Submit 90% Design Package for Client and Authority for Approval (AFA) Review
+    *   Incorporate Final Comments from Client and Authorities
+
+6.  **Final Design & Documentation (100% IFC)**
+    *   Finalize Architectural Issued for Construction (IFC) Drawings
+    *   Finalize Civil & Structural IFC Drawings & Calculations
+    *   Finalize MEP & Utilities IFC Drawings
+    *   Finalize Depot Specialist Systems IFC Drawings
+    *   Finalize all Technical Specifications
+    *   Finalize Bill of Quantities (BoQ)
+    *   Compile and Issue Complete IFC Design Package
+
+7.  **Design Close-Out**
+    *   Provide Technical Support during Tender Period
+    *   Archive Final Design Documents
+    *   Detailed Design Phase Close-Out Report
+
+================================================================================
+
+--- ACTIVITIES FOR: 2.5 GFC (Good for Construction) Drawing Submissions ---
+As a Senior P6 Planning Engineer, I have analyzed the TARGET WBS and the provided CONTEXT. The reference activities are not relevant to the design submission process. Therefore, I will leverage my expertise to create a comprehensive, logically sequenced Level 4 activity list for the GFC drawing submission process.
+
+This WBS item represents a critical design and documentation management phase, not a physical construction activity. The sequence below reflects the typical workflow of preparing, submitting, reviewing, and approving design packages by discipline, which is essential before construction can commence.
+
+---
+**GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**
+
+1.  **Commence GFC Drawing Production Phase (Milestone)**
+2.  **Establish and Maintain Master Drawing Submission Register**
+3.  **Prepare & Submit Civil & Site Works GFC Drawings**
+4.  **Client/Consultant Review & Approval of Civil & Site Works GFC Drawings**
+5.  **Prepare & Submit Structural GFC Drawings - Foundations & Substructure**
+6.  **Client/Consultant Review & Approval of Structural GFC Drawings - Foundations & Substructure**
+7.  **Prepare & Submit Structural GFC Drawings - Superstructure**
+8.  **Client/Consultant Review & Approval of Structural GFC Drawings - Superstructure**
+9.  **Prepare & Submit Architectural GFC Drawings - Core, Shell & Facade**
+10. **Client/Consultant Review & Approval of Architectural GFC Drawings - Core, Shell & Facade**
+11. **Prepare & Submit Mechanical (HVAC) GFC Drawings**
+12. **Client/Consultant Review & Approval of Mechanical (HVAC) GFC Drawings**
+13. **Prepare & Submit Electrical GFC Drawings**
+14. **Client/Consultant Review & Approval of Electrical GFC Drawings**
+15. **Prepare & Submit Plumbing & Drainage (PHE) GFC Drawings**
+16. **Client/Consultant Review & Approval of Plumbing & Drainage (PHE) GFC Drawings**
+17. **Prepare & Submit Fire Protection & Life Safety GFC Drawings**
+18. **Client/Consultant Review & Approval of Fire Protection & Life Safety GFC Drawings**
+19. **Prepare & Submit Interior Finishes GFC Drawings**
+20. **Client/Consultant Review & Approval of Interior Finishes GFC Drawings**
+21. **Prepare & Submit External Works & Landscaping GFC Drawings**
+22. **Client/Consultant Review & Approval of External Works & Landscaping GFC Drawings**
+23. **Compile and Issue Final Conformed Set of All GFC Drawings**
+24. **All GFC Drawing Submissions Complete (Milestone)**
+
+================================================================================
+
+--- ACTIVITIES FOR: 3.1 Long Lead Item Procurement (Bearings, Girders, etc.) ---
+As a Senior P6 Planning Engineer, I have analyzed the target WBS and the provided context. The context is minimal, only indicating the types of items to be procured (structural bearings, seismic arrestors, etc.). Therefore, I will leverage my expertise to build a complete, logical Level 4 procurement activity sequence.
+
+This sequence covers the entire procurement lifecycle, from finalizing specifications and tendering through to fabrication, inspection, and final delivery to the site.
+
+---
+**GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**
+
+1.  Finalize Technical Specifications & Bill of Quantities (BOQ) for all Long Lead Items
+2.  Prepare and Compile Tender / Request for Quotation (RFQ) Documents
+3.  Issue Tender/RFQ to Prequalified Suppliers
+4.  Tender Query Period and Pre-Bid Meetings
+5.  Receive and Open Bids from Suppliers
+6.  Technical and Commercial Bid Evaluation & Clarifications
+7.  Select Preferred Supplier and Finalize Negotiations
+8.  Award Contract / Issue Purchase Order (PO) for Long Lead Items (Milestone)
+9.  **Sub-Package: Structural Bearings & Seismic Arrestors**
+10. Supplier to Submit Shop Drawings & Design Calculations for Bearings
+11. Engineering Review & Approval of Bearing Shop Drawings
+12. Procure Raw Materials for Bearings
+13. Fabrication & Manufacturing of Bearings and Seismic Arrestors
+14. Factory Acceptance Testing (FAT) & Quality Inspection for Bearings
+15. Arrange Logistics & Transportation for Bearings
+16. Ex-works Delivery of Bearings & Arrestors to Site
+17. Receipt, Offloading, and Final Inspection of Bearings at Site
+18. **Sub-Package: Girders (Precast Concrete / Steel)**
+19. Supplier to Submit Shop Drawings & Design Calculations for Girders
+20. Engineering Review & Approval of Girder Shop Drawings
+21. Procure Raw Materials for Girders (Steel, Rebar, Cement, etc.)
+22. Fabrication of Steel Moulds / Formwork for Girders
+23. Fabrication / Casting of Girders
+24. Curing, Finishing, and Quality Control Checks for Girders
+25. Factory Acceptance Testing (FAT) & Final Inspection for Girders
+26. Arrange Heavy Lift & Specialized Transportation for Girders
+27. Phased Delivery of Girders to Site Laydown Area
+28. Receipt, Offloading, and Final Inspection of Girders at Site
+
+================================================================================
+
+--- ACTIVITIES FOR: 3.2 Right of Way (ROW) Support & Site Clearance ---
+As a Senior P6 Planning Engineer, I have reviewed the target WBS and the provided context. The reference activities are not relevant to "Right of Way (ROW) Support & Site Clearance". Therefore, I will leverage my expertise to generate a complete, logically sequenced Level 4 activity list from first principles.
+
+This process typically involves two major phases: first, securing the legal right to access the land (ROW Support), and second, preparing the land for construction (Site Clearance).
+
+---
+**GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**
+
+1.  **Conduct Topographical and Cadastral Surveys to Define ROW Limits**
+2.  **Prepare and Submit ROW Acquisition Plans and Legal Documents**
+3.  **Obtain Environmental Clearance and Permits for Site Activities**
+4.  **Initiate Landowner Negotiations and Compensation Process**
+5.  **Obtain Tree Cutting and Utility Relocation Permits from Authorities**
+6.  **Finalize and Secure Legal Title/Access Rights for all Required Parcels**
+7.  **Complete Handover of Land Parcels from Authorities/Landowners (Milestone)**
+8.  **Mobilize Survey and Site Clearance Teams and Equipment**
+9.  **Establish Site Boundaries and Set Out Control Points**
+10. **Conduct Utility Detection and Marking (GPR Scans, etc.)**
+11. **Coordinate and Execute Relocation of Conflicting Utilities (Power, Water, Telecom)**
+12. **Perform Tree Cutting, Grubbing, and Vegetation Removal**
+13. **Demolish and Remove Existing Obstructions/Structures**
+14. **Strip Topsoil and Stockpile for Future Use**
+15. **Execute Minor Earthworks (Cut/Fill) to Achieve Preliminary Grade Level**
+16. **Install Temporary Fencing, Hoarding, and Site Access Gates**
+17. **Conduct Final Joint Survey to Confirm Clearance Limits and Levels**
+18. **Handover Cleared Site to Main Construction Teams (Milestone)**
+
+================================================================================
+
+--- ACTIVITIES FOR: 3.3 Utility Diversion & Shifting ---
+Based on the TARGET WBS and my experience as a Senior Planning Engineer, I will disregard the irrelevant CONTEXT information and generate a logical, sequenced activity list for Utility Diversion.
+
+This process involves significant upfront investigation, coordination with multiple authorities, and careful execution to avoid service disruptions.
+
+---
+**GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**
+
+**WBS: 3.3 Utility Diversion & Shifting**
+
+**Phase 1: Pre-Construction & Enabling Works**
+1.  Obtain and Review Existing Utility Record Drawings (As-Builts)
+2.  Perform GPR (Ground Penetrating Radar) & CAT Scans to Survey for Unknown Utilities
+3.  Engage and Coordinate with all Relevant Utility Authorities (Power, Water, Telecom, Gas, etc.)
+4.  Develop and Submit Diversion Designs & Method Statements for Approval
+5.  Obtain All Necessary Permits to Work (PTW) and Road Opening Permits
+6.  Procure Long-Lead Materials (Pipes, Ducts, Cables, Manholes, Valves)
+7.  Mobilize Specialist Subcontractors and Equipment to Site
+8.  Excavate Trial Pits to Physically Verify Location and Depth of Existing Utilities
+
+**Phase 2: Installation of New Utility Corridors**
+9.  Set Out and Mark New Utility Alignments
+10. Excavate Trenches for New Utility Corridors
+11. Install Shoring and Trench Support Systems
+12. Install Bedding and Lay New Ducts, Conduits, and Pipes (e.g., Water, Sewer, Telecom)
+13. Construct New Manholes, Chambers, and Joint Bays
+14. Backfill and Compact Trenches for New Utility Corridors
+
+**Phase 3: Live Diversion, Connection & Commissioning**
+15. Pull New Electrical & Communication Cables through Installed Ducts
+16. Perform Splicing, Jointing, and Termination of New Cables
+17. Install New Water Mains, including Valves and Fittings
+18. Pressure Test, Flush, and Chlorinate New Water Mains
+19. **Perform Coordinated Cut-over:** Connect New Water Mains to Live Network
+20. **Perform Coordinated Cut-over:** Energize New Electrical Cables and De-energize Old
+21. **Perform Coordinated Cut-over:** Switch Over Telecom/Data Services to New Lines
+22. Test and Commission All New Utility Services with Relevant Authorities
+
+**Phase 4: Decommissioning & Reinstatement**
+23. Decommission and Make Safe Redundant Utility Lines
+24. Excavate and Remove Redundant Pipes and Cables from Construction Zone
+25. Grout and Fill Abandoned Ducts/Pipes as Required
+26. Final Backfilling and Compaction of All Work Areas
+27. Reinstate Surface Finishes (e.g., Asphalt, Paving, Landscaping)
+
+**Phase 5: Handover**
+28. Conduct Final Joint Inspection with All Utility Authorities
+29. Prepare and Submit Final As-Built Drawings and Handover Documentation
+30. Obtain Formal Sign-off and Acceptance from Each Utility Authority
+
+================================================================================
+
+--- ACTIVITIES FOR: 4.1 Substructure Works (Piling, Pile Caps, Piers) ---
+Based on the provided WBS and reference activities, and incorporating my expertise as a Senior Planning Engineer, here is a complete, logical, and sequenced Level 4 activity list for the Substructure Works.
+
+The provided context "Pedestal & Seismic arrestors" is a key component, but it represents one of the final steps. I have built the full construction sequence leading up to and including that activity.
+
+---
+**GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**
+
+1.  **Mobilization & Site Preparation**
+    *   Mobilize Piling Rig, Equipment, and Personnel to Work Area
+    *   Survey and Set Out for Pile Locations
+    *   Construct Piling Platform and Access Routes
+
+2.  **Piling Works**
+    *   Bore/Drive Piles to Designed Depth
+    *   Fabricate and Install Pile Reinforcement Cages
+    *   Pour Concrete for Piles
+    *   Allow for Concrete Curing Time for Piles
+    *   Conduct Pile Integrity Testing (PIT) and/or Static Load Tests
+    *   Trim/Break Pile Heads to Final Cut-off Level
+
+3.  **Pile Cap Construction**
+    *   Excavate for Pile Caps
+    *   Lay Blinding Concrete Layer
+    *   Erect Formwork for Pile Caps
+    *   Fix Reinforcement Steel for Pile Caps
+    *   Pour Concrete for Pile Caps
+    *   Allow for Concrete Curing Time for Pile Caps
+    *   Strip Formwork from Pile Caps
+    *   Apply Waterproofing/Protective Coating to Pile Caps
+    *   Backfill and Compact around Completed Pile Caps
+
+4.  **Pier Construction**
+    *   Fix Pier Starter Bars into Pile Cap
+    *   Erect Formwork and Falsework for Piers (Lift 1)
+    *   Fix Reinforcement Steel for Piers (Lift 1)
+    *   Pour Concrete for Piers (Lift 1)
+    *   Cure and Strip Formwork for Pier (Lift 1)
+    *   Repeat Formwork, Rebar, and Concrete Cycle for Subsequent Pier Lifts
+    *   Construct Pier Head/Crosshead (Formwork, Rebar, Concrete)
+    *   Cure and Strip Pier Head Formwork
+
+5.  **Final Finishes & Installation**
+    *   Grouting and Surface Preparation of Pier Head
+    *   Install Bearings, Pedestals & Seismic Arrestors
+    *   Final Survey, Inspection, and Handover of Substructure
+
+================================================================================
+
+--- ACTIVITIES FOR: 4.2 Superstructure Works (Segment Casting & Erection) ---
+Excellent. As a Senior P6 Planning Engineer, I will develop a comprehensive, logically sequenced Level 4 activity list for the target WBS.
+
+The provided context is minimal, only mentioning "Pedestal & Seismic arrestors." This is a critical interface activity between the substructure and superstructure, but it represents only a fraction of the required work. I will use my expertise to build out the full scope for precast segmental construction, incorporating the context item as a key predecessor for on-site erection.
+
+The overall strategy involves two parallel workstreams: manufacturing segments at a casting yard and erecting them on-site.
+
+---
+**GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**
+
+**WBS: 4.2 Superstructure Works (Segment Casting & Erection)**
+
+**A. PREPARATION & MOBILIZATION**
+1.  Submit & Approve Method Statements and Shop Drawings for Superstructure Works
+2.  Establish & Commission Precast Segment Casting Yard
+3.  Procure & Deliver Raw Materials for Segment Casting (Reinforcement, Cement, PT etc.)
+4.  Fabricate, Deliver & Assemble Segment Casting Moulds
+5.  Mobilize & Assemble Segment Erection Equipment (Launching Gantry / Cranes)
+6.  Commission & Load Test Launching Gantry / Erection Cranes
+
+**B. PRECAST SEGMENT CASTING (CYCLICAL PROCESS)**
+7.  Fabricate Reinforcement Cages for All Segments
+8.  Cast First "Match-Cast" Segment for Geometry Control
+9.  Commence Full Production: Cast Precast Segments (Typical Cycle)
+10. Transport & Stockpile Cast Segments in Storage Yard
+11. Final Curing, Survey Checks, and Quality Acceptance of Stockpiled Segments
+
+**C. ON-SITE ERECTION PREPARATION**
+12. Survey and Set Out Pier Head Alignments
+13. **Install Pier Head Bearings, Pedestals & Seismic Arrestors**
+14. Final Survey & Acceptance of Bearing Levels and Positions
+
+**D. SEGMENT ERECTION & INSTALLATION (CYCLICAL, PER SPAN)**
+15. Transport First Span Segments from Stockyard to Erection Point
+16. Lift & Place First Pier Segment onto Bearings
+17. Lift & Place Subsequent Standard Segments using Launching Gantry
+18. Apply Epoxy to Segment Joints and Adjust for Final Geometry
+19. Install & Stress Temporary Post-Tensioning (PT) Bars to Secure Span
+20. Install Permanent Post-Tensioning (PT) Tendons through Ducts
+21. Perform First Stage Stressing of Permanent PT Tendons
+22. Grout PT Ducts for Permanent Tendon Protection
+23. Advance Launching Gantry to the Next Span
+24. Repeat Erection Cycle for All Subsequent Spans
+
+**E. FINISHING & COMPLETION WORKS**
+25. Perform Final Stage (Stitch) Concreting Between Spans
+26. Install Expansion Joints at Abutments
+27. Install Permanent Parapets / Barriers on Viaduct Deck
+28. Install Deck Drainage System and other Bridge Furniture
+29. Final As-Built Survey and Quality Inspection of Superstructure
+30. Dismantle and Demobilize Launching Gantry and Site Equipment
+31. Handover of Completed Superstructure Works
+
+================================================================================
+
+--- ACTIVITIES FOR: 4.3 Special Spans & Ramps (Steel Girders, ROB/RUB) ---
+As a Senior P6 Planning Engineer, I have reviewed the target WBS and the provided context. The context is highly specific and incomplete, referencing only the installation of pedestals and seismic arrestors.
+
+To create a comprehensive and logical Level 4 plan for the construction of Special Spans with steel girders, I will integrate this activity into a full-cycle construction sequence, drawing upon my expertise to fill in the necessary preceding and succeeding activities.
+
+Here is the generated Level 4 activity list in a logical sequence.
+
+---
+**GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**
+
+**WBS: 4.3 Special Spans & Ramps (Steel Girders, ROB/RUB)**
+
+**1.0 Engineering, Procurement & Fabrication**
+1.1  Finalize & Approve Detailed Structural Designs & Shop Drawings
+1.2  Procure & Deliver Foundation Materials (Rebar, Piling Casings, Concrete)
+1.3  Fabricate Structural Steel Girders (Off-site)
+1.4  Apply Protective Coatings / Paint System to Girders at Fabrication Yard
+1.5  Factory Acceptance Testing (FAT) & Quality Inspection of Steel Girders
+1.6  Procure & Deliver Bearings, Pedestals, and Seismic Arrestors
+1.7  Procure & Deliver Decking Materials, Expansion Joints, and Parapets
+1.8  Arrange Logistics & Transportation for Oversized Girder Delivery to Site
+
+**2.0 Enabling & Substructure Works**
+2.1  Site Survey, Setting Out, and Geotechnical Verification
+2.2  Implement Traffic Management Plan & Obtain Road/Rail Block Permissions
+2.3  Site Clearance, Grubbing, and Earthworks for Abutments & Piers
+2.4  Construct Piled Foundations for Abutments & Piers
+2.5  Construct Pile Caps for Abutments & Piers
+2.6  Construct Abutment Walls (Formwork, Rebar, Concrete Pour)
+2.7  Construct Pier Shafts (Formwork, Rebar, Concrete Pour)
+2.8  Construct Pier Caps / Abutment Seats (Formwork, Rebar, Concrete Pour)
+2.9  Cure Concrete Substructure & Strip Formwork
+
+**3.0 Superstructure Erection**
+3.1  Prepare Girder Staging & Assembly Area
+3.2  Receive & Unload Steel Girders at Site
+3.3  Assemble Girder Segments on Ground (if required)
+3.4  Install Bearings, Pedestals & Seismic Arrestors on Pier Caps & Abutments
+3.5  Mobilize Heavy Lift Cranes / Launching Gantry
+3.6  Erect/Launch Main Steel Girders onto Bearings
+3.7  Install Diaphragms & Cross-Bracing between Girders
+3.8  Complete Bolting / Welding of All Steel Connections
+3.9  Conduct Survey & Alignment Checks of Erected Steel Superstructure
+
+**4.0 Deck, Ramps & Finishes**
+4.1  Install Deck Formwork / Permanent Deck Panels
+4.2  Fix Reinforcement for Concrete Deck Slab
+4.3  Install Conduits & Inserts for Utilities & Lighting
+4.4  Pour Concrete for Bridge Deck Slab
+4.5  Construct Approach Slabs & Retaining Walls for Ramps
+4.6  Install Expansion Joints at Abutments
+4.7  Apply Waterproofing Membrane to Bridge Deck
+4.8  Construct Concrete Parapets / Install Steel Railings
+4.9  Install Drainage System (Scuppers, Downpipes)
+4.10 Pave Asphalt Wearing Course on Deck & Approaches
+4.11 Install Bridge Lighting, Signage, and Road Markings
+
+**5.0 Testing, Commissioning & Handover**
+5.1  Conduct Structural Load Testing (Static & Dynamic)
+5.2  Complete Final Quality Inspections & Rectify Punch List Items
+5.3  Remove Traffic Management & Restore Traffic to Final Configuration
+5.4  Site Demobilization and Final Reinstatement
+5.5  Submit As-Built Drawings & Handover Documentation
+
+================================================================================
+
+--- ACTIVITIES FOR: 4.4 Viaduct Finishing Works ---
+As a Senior P6 Planning Engineer, I have analyzed the target WBS and the provided context. The reference activities are highly specific and incomplete for the full scope of "Viaduct Finishing Works".
+
+Based on my experience, I have expanded upon the provided context to create a complete, logically sequenced Level 4 activity list. This sequence represents a typical and efficient workflow for completing a viaduct structure after the main deck segments are in place.
+
+---
+**GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**
+
+1.  **Mobilization & Preparatory Works**
+    *   Mobilize personnel, plant, and materials to the viaduct deck.
+    *   Conduct as-built survey of the viaduct deck for level and alignment control.
+    *   Prepare deck surface (high-pressure water jetting, grinding, and minor concrete repairs).
+
+2.  **Permanent Bearings & Restraints**
+    *   Install Permanent Bearings on pier heads.
+    *   Install Pedestals and Seismic Arrestors.
+    *   Grout pedestals, bearings, and arrestor base plates.
+    *   Conduct post-grouting inspection and testing.
+
+3.  **Parapet Wall Construction**
+    *   Survey and set out for parapet wall alignment.
+    *   Install starter bars and fix reinforcement for parapet walls.
+    *   Erect formwork for parapet walls (inner and outer).
+    *   Pour concrete for parapet walls in sequential bays.
+    *   Strip formwork and apply curing compound.
+
+4.  **Deck Finishing & Waterproofing**
+    *   Apply waterproofing membrane system to the entire deck surface.
+    *   Conduct flood testing or integrity testing of the waterproofing membrane.
+    *   Lay protective screed or asphaltic layer over the membrane.
+
+5.  **Trackwork Installation (Assuming Rail Viaduct)**
+    *   Survey and set out for track plinth/baseplate locations.
+    *   Construct concrete track plinths.
+    *   Install rails, fastenings, and sleepers/baseplates.
+    *   Perform initial rail alignment and thermic welding.
+    *   Final tamping, stressing, and alignment of track.
+
+6.  **MEP & Systems Installation**
+    *   Install deck drainage system (scuppers, downpipes).
+    *   Install cable containment systems (ducts, troughs, and cable trays).
+    *   Install walkway and maintenance handrailing.
+    *   Pull and install power, signaling, and communication cables.
+    *   Install viaduct lighting poles and fixtures.
+    *   Install noise barriers and associated steelwork.
+
+7.  **Final Finishing & Joints**
+    *   Install expansion joints at abutments and designated piers.
+    *   Apply final protective/aesthetic coating to parapet walls.
+    *   Install all required signage and line marking.
+
+8.  **Testing, Commissioning & Handover**
+    *   Conduct final cleaning and removal of all temporary works from the deck.
+    *   Perform joint quality inspection with the client/engineer (Punch Listing).
+    *   Rectify all identified defects/snags.
+    *   Final Handover Inspection and Demobilization.
+
+================================================================================
+
+--- ACTIVITIES FOR: 5.1 Whitefield Station Construction ---
+Based on the WBS item and the provided context, and leveraging my expertise as a Senior P6 Planning Engineer, I have developed a complete, logically sequenced Level 4 activity list for the Whitefield Station Construction.
+
+The context provided ("Pedestal & Seismic arrestors") is a specific structural component. I have integrated this into the appropriate location within the full construction sequence, filling in all other necessary activities from mobilization to handover.
+
+---
+**GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**
+
+**1. Site Establishment & Enabling Works**
+*   Obtain All Necessary Permits to Work
+*   Site Mobilization, Setup Site Offices, Welfare Facilities & Laydown Areas
+*   Perform Initial Site Survey and Setting Out
+*   Install Temporary Fencing, Hoarding, and Access Gates
+*   Utility Location, Diversion, and Protection Works
+*   Site Clearance, Grubbing, and Removal of Obstructions
+
+**2. Substructure & Foundation Works**
+*   Bulk Excavation to Formation Level
+*   Piling Works (Installation of Bored/Driven Piles)
+*   Pile Trimming and Preparation
+*   Excavation for Pile Caps and Foundation Bases
+*   Install Blinding Concrete and Waterproofing
+*   Reinforcement Fixing and Formwork for Pile Caps & Foundations
+*   Concrete Pour for Pile Caps & Foundations
+*   Install Underground Drainage and Buried Services/Ducts
+*   Backfilling and Compaction up to Ground Level
+
+**3. Superstructure Works**
+*   Construct Ground Floor/Sub-level Retaining Walls and Columns
+*   Install Formwork & Rebar for Ground Floor Slab
+*   Pour Concrete for Ground Floor Slab
+*   Erect Structural Steel or RC Columns to Concourse Level
+*   **Install Pedestals & Seismic Arrestors on Support Columns**
+*   Install Formwork & Rebar for Concourse Level Beams and Slabs
+*   Pour Concrete for Concourse Level Slab
+*   Erect Structural Steel or RC Columns to Platform/Roof Level
+*   Construct Staircases and Lift/Elevator Shafts
+*   Install Main Roof Structural Steel/Concrete Frame
+*   Install Roof Decking, Waterproofing, and Cladding
+
+**4. Building Envelope & Architectural Finishes**
+*   Install External Facade, Cladding, and Glazing Systems
+*   Install External Doors and Louvres
+*   Commence Internal Blockwork and Partitioning
+*   Floor Screeding and Toppings
+*   First Fix Internal Finishes (Wall Linings, Plastering)
+*   Ceiling Grid and System Installation
+*   Second Fix Internal Finishes (Painting, Tiling, Floor Coverings)
+*   Installation of Internal Doors, Glazing, and Architectural Metalwork
+*   Fit-out of Station Rooms (Ticket Office, Staff Rooms, Toilets)
+*   Installation of Station Furniture and Fixtures
+
+**5. Mechanical, Electrical & Plumbing (MEP) and Systems Installation**
+*   MEP First Fix - Installation of Containment, Ductwork, and Pipework
+*   Installation of Major Plant (HVAC Chillers, Transformers, Switchgear)
+*   MEP Second Fix - Cable Pulling, Wiring, and Equipment Installation
+*   Installation of Lighting and Small Power Systems
+*   Installation of Fire Fighting, Alarm, and Life Safety Systems
+*   Installation of Plumbing, Drainage, and Sanitary Ware
+*   Installation of Station Specific Systems (CCTV, PA, Access Control, Ticketing)
+*   Installation of Lifts and Escalators
+
+**6. External Works & Site Completion**
+*   Final Grading and Preparation for External Areas
+*   Construction of Access Roads, Pavements, and Kerbs
+*   Installation of External Lighting and Signage
+*   Landscaping, Planting, and Irrigation Works
+*   Final Site Cleanup and Removal of Temporary Facilities
+
+**7. Testing, Commissioning & Handover**
+*   Pre-commissioning and Static Testing of Individual MEP Systems
+*   Commissioning and Dynamic Testing of MEP & Life Safety Systems
+*   Testing and Commissioning of Lifts and Escalators
+*   Integrated Station Systems Testing
+*   Final Inspections and Rectification of Snags (Punch List)
+*   Obtain Final Statutory Approvals and Occupancy Certificate
+*   Compile As-Built Drawings and O&M Manuals
+*   Final Handover of Whitefield Station to the Client/Operator
+
+================================================================================
+
+--- ACTIVITIES FOR: 5.2 K.R. Puram Station Construction ---
+As a Senior P6 Planning Engineer, I have reviewed the target WBS and the provided context. The context is minimal, referencing only "Pedestal & Seismic arrestors." Therefore, I will leverage my expertise to build a complete, logical Level 4 construction sequence for the K.R. Puram Station.
+
+---
+**GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**
+
+**1.0 Pre-Construction & Enabling Works**
+1.1  Site Mobilization, Establishment of Site Office & Laydown Areas
+1.2  Initial Site Survey, Setting Out, and Geotechnical Investigations
+1.3  Site Clearance, Grubbing, and Demolition of Existing Structures
+1.4  Traffic Management Plan Implementation & Barricading
+1.5  Diversion of Existing Utilities (Electrical, Water, Telecom, Sewerage)
+
+**2.0 Substructure & Foundation Works**
+2.1  Piling Works (Bored Cast-in-situ piles)
+2.2  Pile Breaking and Preparation for Pile Caps
+2.3  Excavation for Pile Caps and Foundations
+2.4  Pile Cap Reinforcement, Formwork, and Concreting
+2.5  Construction of Substructure Piers/Columns up to Ground Level
+2.6  Backfilling and Compaction around Foundations
+
+**3.0 Superstructure Works**
+3.1  Erection of Scaffolding and Formwork for Concourse Level
+3.2  Concourse Level Slab & Beams - Reinforcement & Concreting
+3.3  Construction of Columns from Concourse to Platform Level
+3.4  Erection of Scaffolding and Formwork for Platform Level
+3.5  Platform Level Slab & Beams - Reinforcement & Concreting
+3.6  Installation of Bearings, Pedestals & Seismic Arrestors
+3.7  Construction of Columns from Platform to Roof Level
+3.8  Fabrication and Erection of Structural Steel for Roof
+3.9  Roof Sheeting, Cladding, and Waterproofing Installation
+
+**4.0 Architectural Works & Finishes**
+4.1  External and Internal Masonry / Blockwork
+4.2  Installation of Door and Window Frames
+4.3  Internal Plastering and Wall Finishes
+4.4  Floor Screeding and Waterproofing (Wet Areas)
+4.5  Installation of Floor Finishes (Granite, Tiles, etc.)
+4.6  Installation of False Ceiling Grid and Panels
+4.7  Glazing and External Façade Works
+4.8  Painting Works (Internal and External)
+4.9  Installation of Handrails, Balustrades, and Station Furniture
+4.10 Installation of Station Signage and Wayfinding
+
+**5.0 MEP (Mechanical, Electrical, Plumbing) & Systems Installation**
+5.1  **MEP First Fix:**
+5.1.1 Installation of Embedded Conduits and Sleeves in Slabs/Walls
+5.1.2 Installation of Main HVAC Ducting and Fire Fighting Pipework
+5.1.3 Installation of Plumbing and Drainage Pipework
+5.2  **MEP Second Fix:**
+5.2.1 Electrical Cable Pulling, Glanding, and Termination
+5.2.2 Installation of Electrical Panels, DBs, and Cable Trays
+5.2.3 Installation of Light Fixtures, Switches, and Sockets
+5.2.4 Installation of HVAC Equipment (AHUs, Fans) and Grilles
+5.2.5 Installation of Fire Alarm System and Sprinklers
+5.2.6 Installation of Plumbing Fixtures and Sanitaryware
+5.3  **Specialized Systems:**
+5.3.1 Installation of Lifts and Escalators
+5.3.2 Installation of Public Address (PA) and CCTV Systems
+5.3.3 Installation of Telecom and SCADA System Infrastructure
+5.3.4 Installation of Automatic Fare Collection (AFC) Gates
+
+**6.0 External Area Development**
+6.1  Construction of External Stormwater Drainage System
+6.2  Grading and Preparation for External Pavements
+6.3  Construction of Approach Roads, Footpaths, and Kerbs
+6.4  Landscaping, Horticulture, and Irrigation Works
+6.5  Installation of External Lighting and Fencing
+
+**7.0 Testing, Commissioning & Handover**
+7.1  Pre-commissioning and Functional Testing of all MEP Systems
+7.2  Integrated Systems Testing (IST)
+7.3  Final Snagging (Punch Listing) and De-snagging
+7.4  Final Site Cleaning and Demobilization of Temporary Facilities
+7.5  Obtain Final Inspections and Statutory Approvals
+7.6  Preparation and Submission of As-Built Drawings and O&M Manuals
+7.7  Final Handover of the Station to the Client
+
+================================================================================
+
+--- ACTIVITIES FOR: 5.3 Central Station Construction ---
+Of course. As a Senior P6 Planning Engineer, I will generate a logical, sequenced Level 4 activity list for the target WBS.
+
+The provided context is minimal, only referencing "Pedestal & Seismic arrestors." This indicates a specific structural requirement, but it is insufficient to build a complete plan. Therefore, I will use my expert knowledge to create a comprehensive construction sequence for a major station, incorporating the provided detail in its logical place.
+
+---
+**GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**
+
+**WBS: 5.3 Central Station Construction**
+
+**1.0 Site Establishment & Enabling Works**
+*   Mobilize Site Plant, Equipment & Personnel
+*   Establish Site Offices, Welfare Facilities & Laydown Areas
+*   Perform Topographical Survey and Setting Out
+*   Implement Traffic & Pedestrian Management Plans
+*   Isolate, Disconnect, and Divert Existing Utilities
+*   Erect Site Hoarding and Secure Site Perimeter
+
+**2.0 Substructure Works**
+*   Install Piling (Secant, Contiguous, or Bearing Piles as required)
+*   Perform Bulk Excavation to Formation Level
+*   Install Temporary Shoring and Dewatering Systems
+*   Install Blinding Concrete and Waterproofing Membrane
+*   Install Foundation Rebar Cages
+*   Pour Foundation Concrete (Raft / Pile Caps)
+*   Construct Basement Retaining Walls and Columns
+*   Waterproof Substructure Walls
+
+**3.0 Superstructure Works**
+*   Install Pedestals & Seismic Arrestors at Column Locations
+*   Erect Ground Floor Structural Frame (Columns & Core Walls)
+*   Install Formwork, Rebar, and MEP First Fix for Level 1 Slab
+*   Pour Concrete for Level 1 Slab
+*   Erect Level 1 Structural Frame (Columns & Walls)
+*   *...Repeat Slab & Frame Cycle for all Subsequent Floors...*
+*   Erect Main Roof Structural Steel Frame
+*   Install Roof Decking and Substrate
+
+**4.0 Building Envelope & Cladding**
+*   Install Roof Weatherproofing and Insulation System
+*   Install External Façade Support System (Mullions/Transoms)
+*   Install Glazing, Cladding Panels, and Louvres
+*   Install External Doors and Entranceways
+*   Complete all External Sealant and Interface Works
+
+**5.0 Internal Works & Finishes**
+*   Install Internal Blockwork and Drywall Partitions
+*   Install Main Staircases and Complete Lift Shaft Construction
+*   MEP First Fix (Containment, Ductwork, Pipework) in Walls & Ceilings
+*   Apply Plastering / Wall Finishes
+*   Install Suspended Ceilings and Access Panels
+*   Install Raised Access Flooring / Floor Screed
+*   Install Floor Finishes (Tiling, Terrazzo, Vinyl)
+*   Install Wall Finishes (Tiling, Panelling)
+*   Install Internal Doors, Frames, and Glazed Screens
+*   Final Painting and Decorating
+
+**6.0 Mechanical, Electrical & Plumbing (MEP) & Systems Installation**
+*   Install Major Plant (HVAC Chillers, Air Handling Units, Switchgear)
+*   MEP Second Fix (Cabling, Sockets, Light Fixtures, Grilles, Sanitary Ware)
+*   Install Lifts and Escalators
+*   Install Fire Protection Systems (Sprinklers, Fire Alarms)
+*   Install Station Management Systems (BMS, CCTV, Public Address)
+*   Install Passenger Information and Ticketing Systems
+
+**7.0 External Works & Landscaping**
+*   Backfill and Grade around Station Structure
+*   Install Site-wide Stormwater Drainage and Utilities
+*   Construct Access Roads, Pavements, and Hard Landscaping
+*   Install External Lighting, Signage, and Street Furniture
+*   Perform Topsoiling and Soft Landscaping (Planting)
+
+**8.0 Testing, Commissioning & Handover**
+*   Perform MEP Systems Testing and Commissioning
+*   Conduct Integrated Systems Testing (Cause & Effect)
+*   Final Architectural Snagging and Defect Rectification
+*   Obtain Statutory Approvals and Certificate of Completion
+*   Final Site Clean and Demobilization
+*   Compile As-Built Drawings and Handover Documentation
+
+================================================================================
+
+--- ACTIVITIES FOR: 6.1 Earthworks, Formation & Drainage ---
+Based on my experience as a Senior P6 Planning Engineer, the provided context is not relevant to the target WBS. "Pedestals & Seismic Arrestors" are structural components, not part of the initial civil works.
+
+Therefore, I have developed a complete, logical Level 4 activity list for **6.1 Earthworks, Formation & Drainage** from first principles, following a standard construction sequence.
+
+---
+**GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**
+
+1.  Mobilize Plant, Equipment, and Labour for Earthworks Operations
+2.  Survey and Set Out of Works Area, including Cut/Fill Limits and Drainage Lines
+3.  Establish Environmental Controls (e.g., Silt Fencing, Settlement Ponds)
+4.  Site Clearance, Grubbing Up, and Removal of Obstructions
+5.  Strip Topsoil and Stockpile for Later Re-use
+6.  Bulk Excavation in Cut Areas to Required Levels
+7.  Haul Suitable Excavated Material to Fill/Embankment Areas
+8.  Dispose of Unsuitable or Surplus Material Off-Site
+9.  Place and Compact General Fill in Layers for Embankment Construction
+10. Excavate Trenches for Deep Drainage (Carrier Drains, Culverts)
+11. Install Pipe Bedding and Shoring for Trenches
+12. Lay Drainage Pipes, Culverts, and Associated Fittings
+13. Construct In-situ Concrete for Manholes, Catchpits, and Headwalls
+14. Backfill and Compact around Drainage Structures and over Pipes
+15. Final Grading and Trimming of Cut and Fill Slopes
+16. Proof Roll Subgrade to Identify Soft Spots
+17. Place and Compact Final Capping/Formation Layer
+18. Final Trim and Grade of Formation to Specification Tolerances
+19. Install Sub-surface Drainage (Filter Drains)
+20. Geotechnical Compaction Testing and Quality Assurance Records
+21. Conduct CCTV Survey and Testing of Completed Drainage Network
+22. Final As-Built Survey of Earthworks, Formation, and Drainage
+23. Reinstate Landscaping - Spread Topsoil and Seed on Slopes and Verges
+24. Final Inspection and Handover of Completed Area
+
+================================================================================
+
+--- ACTIVITIES FOR: 6.2 Depot Buildings & Workshop Structures ---
+As a Senior P6 Planning Engineer, I have reviewed the target WBS and the provided context. The context is highly specific and incomplete, referencing only "Pedestal & Seismic arrestors." I will use this as a key detail within the foundation and equipment installation phases, but I will build a complete, logical Level 4 construction sequence based on my professional experience with depot and workshop projects.
+
+Here is the generated Level 4 activity list for the specified WBS.
+
+---
+**GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**
+
+**WBS: 6.2 Depot Buildings & Workshop Structures**
+
+**1.0 Pre-Construction & Mobilization**
+1.1  Submit & Obtain Approval for Construction Method Statements & Shop Drawings
+1.2  Mobilize Site Facilities, Plant & Personnel
+1.3  Establish Temporary Utilities (Power, Water, Site Offices)
+1.4  Perform Initial Site Survey & Setting Out of Building Footprints
+1.5  Site Clearance, Grubbing, and Removal of Obstructions
+
+**2.0 Substructure & Foundations**
+2.1  Bulk Excavation to Formation Level
+2.2  Excavate for Foundations, Ground Beams & Service Trenches
+2.3  Install Underground Services (Drainage, Earthing, Below-Slab Conduits)
+2.4  Lay Blinding Concrete & Waterproofing Membrane
+2.5  Fabricate & Fix Rebar for Foundations & Pile Caps
+2.6  Install Formwork for Foundations & Ground Beams
+2.7  **Install Cast-in Items (Holding Down Bolts, Plates for Pedestals & Seismic Arrestors)**
+2.8  Pour Concrete for Foundations & Plinths
+2.9  Strip Formwork & Apply Curing Compound
+2.10 Backfill, Grade, and Compact Hardcore for Ground Floor Slab
+2.11 Install Reinforcement & Formwork for Ground Floor Slab
+2.12 Pour Concrete for Ground Floor Slab & Apply Finish
+
+**3.0 Superstructure**
+3.1  Procure, Fabricate & Deliver Structural Steel
+3.2  Erect Primary Structural Steel Frame (Columns & Rafters)
+3.3  Erect Secondary Steel (Purlins, Girts, Bracing)
+3.4  Install Roof Cladding, Gutters & Waterproofing System
+3.5  Install Wall Cladding, Louvers & Vents
+3.6  Construct Internal Masonry / Blockwork Walls
+3.7  Install External Doors, Windows & Glazing
+
+**4.0 MEP & Internal Finishes (First Fix)**
+4.1  Install MEP First Fix - High-Level Containment (Cable Trays, Trunking)
+4.2  Install MEP First Fix - HVAC Ductwork & Fire Sprinkler Pipework
+4.3  Install MEP First Fix - Plumbing, Drainage & Compressed Air Pipework
+4.4  Install MEP First Fix - Electrical Conduits & Back Boxes
+4.5  Construct Internal Partitions & Drywall
+4.6  Apply Floor Screeds and Toppings
+4.7  Install Suspended Ceilings Framework
+
+**5.0 Workshop Equipment & MEP (Second Fix)**
+5.1  Install Specialist Workshop Equipment (Vehicle Lifts, Cranes, Pits)
+5.2  **Mount & Grout Equipment on Pedestals & Install Seismic Arrestors**
+5.3  Install MEP Second Fix - Pull Cables & Wires
+5.4  Install MEP Second Fix - Light Fittings, Sockets, Switches
+5.5  Install MEP Second Fix - HVAC Grilles, Radiators & Fan Coil Units
+5.6  Install MEP Second Fix - Sanitary Ware & Plumbing Fixtures
+5.7  Install Fire Alarm & Detection System Devices
+
+**6.0 Architectural Finishes & Fit-Out**
+6.1  Complete Plastering & Wall Finishes
+6.2  First Coat Painting
+6.3  Install Floor Finishes (Epoxy Coating, Tiling, Vinyl)
+6.4  Install Internal Doors, Frames & Ironmongery
+6.5  Final Coat Painting & Decoration
+6.6  Install Joinery, Cabinetry & Fitments
+
+**7.0 External Works**
+7.1  Final Grading & Preparation for External Paving
+7.2  Install External Drainage & Service Connections
+7.3  Construct Kerbs, Access Roads & Hardstandings
+7.4  Install Perimeter Fencing, Gates & Barriers
+7.5  Install External Lighting Poles & Fixtures
+7.6  Complete Landscaping & Planting
+
+**8.0 Testing, Commissioning & Handover**
+8.1  Pre-commissioning & System Testing of all MEP Services
+8.2  Commissioning of Specialist Workshop Plant & Equipment
+8.3  Final Cleaning & Snagging (Punch List)
+8.4  Rectify Defects & Complete Snagging Items
+8.5  Final Inspection with Engineer/Client
+8.6  Submit As-Built Drawings and Operation & Maintenance (O&M) Manuals
+8.7  Substantial Completion & Handover to Client
+8.8  Demobilize Site Facilities & Personnel
+
+================================================================================
+
+--- ACTIVITIES FOR: 6.3 Internal Roads & Ancillary Works ---
+As a Senior P6 Planning Engineer, I have reviewed the TARGET WBS and the provided CONTEXT. The context is highly specific and incomplete for the scope of "Internal Roads & Ancillary Works". Therefore, I have used my expert knowledge to develop a comprehensive, logically sequenced Level 4 activity list that covers the full lifecycle of this work package, from mobilization to handover.
+
+---
+**GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**
+
+**1. Pre-Construction & Enabling Works**
+*   Procure and Deliver Long-Lead Items (e.g., Stormwater Pipes, Light Poles)
+*   Mobilize Site Team, Plant & Equipment for Road Works
+*   Survey, Set Out, and Peg Road Alignments, Levels, and Drainage Lines
+*   Clear and Grub Site along Road Corridors
+*   Strip and Stockpile Topsoil for Later Re-use
+*   Demolish any Existing Conflicting Pavements or Structures
+
+**2. Earthworks & Sub-grade Preparation**
+*   Bulk Excavation (Cut) to Formation Level
+*   Import, Place, and Compact Engineered Fill to Formation Level
+*   Proof Roll and Test Sub-grade for Compaction and CBR
+*   Final Grade and Trim Sub-grade to Lines and Levels
+
+**3. Underground Services & Drainage**
+*   Excavate Trenches for Stormwater Drainage and Utility Crossings
+*   Install Bedding Material for Pipes and Ducts
+*   Lay Stormwater Pipes and Culverts
+*   Construct Manholes, Catch Basins, and Headwalls
+*   Install Ducts for Electrical and Communication Services Crossings
+*   Backfill and Compact all Trenches and Service Crossings
+
+**4. Pavement Construction**
+*   Place, Spread, and Compact Sub-base Course Material
+*   Place, Spread, and Compact Base Course Material
+*   Conduct Field Density Tests for Sub-base and Base Course Layers
+*   Apply Prime Coat to Base Course
+*   Apply Tack Coat
+*   Lay and Compact Asphaltic Concrete - Binder Course
+*   Lay and Compact Asphaltic Concrete - Wearing Course
+
+**5. Ancillary Concrete & Structural Works**
+*   Install Formwork and Rebar for Kerbstones and Gutters
+*   Pour Concrete for Kerbstones and Gutters
+*   Construct Concrete Footpaths and Sidewalks
+*   Construct Foundations for Street Lighting Poles and Signage
+*   Construct Concrete Pedestals & Supports for Ancillary Structures
+
+**6. Ancillary Finishes & MEP**
+*   Erect Street Lighting Poles and Install Luminaires
+*   Install and Terminate Electrical Cables for Street Lighting
+*   Install Roadside Guardrails and Safety Barriers
+*   Erect Permanent Road Signage
+*   Apply Thermoplastic Road Markings and Lane Delineation
+*   Install Fencing and Gates along Road Corridors
+
+**7. Landscaping & Final Reinstatement**
+*   Spread Stockpiled Topsoil to Verges and Landscaped Areas
+*   Carry out Final Landscaping, Seeding, and Planting
+*   Final Grading and Site Clean-up
+
+**8. Testing, Commissioning & Handover**
+*   Test and Commission Street Lighting System
+*   Conduct Joint Site Inspection and Walkdown with Engineer/Client
+*   Rectify Punch List Items
+*   Prepare and Submit As-Built Drawings and Handover Documentation
+*   Demobilize all Remaining Plant, Equipment, and Personnel
+
+================================================================================
+
+--- ACTIVITIES FOR: 7.1 Interface with System Contractors (Track, Power, Signaling) ---
+As a Senior P6 Planning Engineer, I have analyzed the target WBS and the provided context. The context is highly specific, focusing on the physical installation of pedestals, which is a key physical interface point. However, a comprehensive interface management plan involves much more than just the physical works.
+
+I have used the context as a starting point for the construction phase and applied my expertise to build out the full, logical sequence of activities required to manage the interface with system contractors from initial planning through to final handover.
+
+---
+**GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**
+
+**1.0 Initial Coordination & Planning**
+*   Establish and Agree on Interface Management Plan (IMP) with all System Contractors
+*   Conduct Kick-Off Interface Workshops with Track, Power, and Signaling Contractors
+*   Develop and Agree on Master Interface Control Document (ICD) Framework
+*   Establish and Agree on a Common Data Environment (CDE) for Document Exchange
+
+**2.0 Design & Engineering Interface**
+*   Receive and Review System Contractors' 'Approved for Construction' (AFC) Drawings
+*   Incorporate System Requirements into Civil/Structural Designs (e.g., duct banks, equipment rooms, cable routes)
+*   Develop and Submit Combined Services Drawings (CSD) for System Contractor Review
+*   Conduct CSD Clash Detection and Resolution Workshops
+*   Obtain Final Approval of all Interface CSDs from relevant parties
+
+**3.0 Pre-Construction & Mobilization Interface**
+*   Coordinate and Agree on Detailed Phased Installation Schedule with all System Contractors
+*   Define and Agree on Site Access Protocols, Laydown Areas, and Permit to Work Procedures
+*   Jointly Review and Approve Health, Safety & Environmental (HSE) Interface Plans
+
+**4.0 Construction Interface & Area Handover**
+*   Survey and Set Out locations for System Contractor Equipment Foundations and Embedments
+*   Construct Foundations, Plinths, and **Pedestals** for Trackside Equipment
+*   Construct Foundations, Plinths, and **Pedestals** for Power Supply Equipment (e.g., substations, transformers)
+*   Construct Foundations, Plinths, and **Pedestals** for Signaling Equipment (e.g., signal posts, location cases)
+*   Install required embedded items (conduits, cable trays, earthing) as per approved CSDs
+*   Conduct Joint Quality Inspection and Acceptance of Civil Interface Works
+*   Formal Handover of Certified Work Area to Track Contractor
+*   Formal Handover of Certified Work Area to Power Contractor
+*   Formal Handover of Certified Work Area to Signaling Contractor
+
+**5.0 Testing, Commissioning & Final Interface**
+*   Provide Site Support and Access during System Installation and Testing Phases (Level of Effort)
+*   Participate in Joint Inspections during System Integration Testing (SIT)
+*   Manage and Close-Out Interface-Related Defects and Punch List Items
+*   Compile and Submit As-Built Records for all Physical Interface Points
+*   Achieve Final Sign-off on Interface Completion from all System Contractors
+
+================================================================================
+
+--- ACTIVITIES FOR: 7.2 Testing, Commissioning Support & Handover ---
+Based on my experience as a Senior P6 Planning Engineer, the provided context is not relevant to the target WBS. Therefore, I will generate a comprehensive, logically sequenced list of Level 4 activities for "Testing, Commissioning Support & Handover" based on standard industry practice.
+
+---
+**GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**
+
+**1.0 Preparation & Planning Phase**
+1.1 Develop and Submit Overall Testing & Commissioning Strategy and Plan
+1.2 Prepare and Submit System-Specific Pre-Commissioning Procedures & ITPs (Inspection and Test Plans)
+1.3 Prepare and Submit System-Specific Commissioning and Start-up Procedures
+1.4 Compile and Submit Draft Operation & Maintenance (O&M) Manuals for Review
+1.5 Define and Agree on Handover Protocol and Documentation Requirements with Client
+1.6 Procure and Calibrate Specialist Testing Equipment
+
+**2.0 Pre-Commissioning & Static Testing Phase**
+2.1 Achieve Mechanical Completion (MC) on a System-by-System Basis
+2.2 Conduct Joint Construction Punch-Listing Walkdowns with Client/Engineer
+2.3 Rectify all 'Category A' Punch List Items (Preventing Commissioning)
+2.4 Perform Static & Dead System Checks (e.g., Cable Continuity/Megger Tests, Pipe Pressure/Hydro Tests)
+2.5 Complete and Sign-Off all Pre-Commissioning ITPs and Checksheets
+2.6 Issue System-Specific Mechanical Completion Certificates (MCC)
+
+**3.0 Commissioning & Dynamic Testing Phase**
+3.1 System Energization and First Start-up (on a System-by-System Basis)
+3.2 Perform Dynamic & Live System Functional Tests (e.g., Loop Tuning, Equipment Start/Stop, Sequence Checks)
+3.3 Conduct System Integration Testing (SIT) to Verify Interface Functionality Between Systems
+3.4 Conduct Performance & Endurance Testing (e.g., Trial Operations, Load Bank Testing)
+3.5 Identify and Log Commissioning-Related Punch List Items
+3.6 Rectify all Outstanding Punch List Items
+
+**4.0 Handover & Completion Phase**
+4.1 Conduct Training for Client's Operations and Maintenance Personnel
+4.2 Compile and Submit Final As-Built Drawings and Records
+4.3 Compile and Submit Final, Approved Operation & Maintenance (O&M) Manuals
+4.4 Compile and Submit Handover Pack (Warranties, Spares Lists, Statutory Certificates)
+4.5 Conduct Final Joint Inspection and Acceptance Walkdown with Client
+4.6 Application for Substantial Completion Certificate
+4.7 Receive Substantial Completion Certificate (Handover Milestone)
+
+**5.0 Post-Completion & Project Close-Out**
+5.1 Demobilize Commissioning Team and Equipment from Site
+5.2 Provide Support During Initial Period of Operation
+5.3 Manage and Close Out Defects during Defects Liability Period (DLP)
+5.4 Prepare and Agree on Final Account
+5.5 Submit Final Project Close-Out Report
+5.6 Receive Final Acceptance Certificate (End of DLP)
+
+================================================================================
+
+--- ACTIVITIES FOR: 7.3 As-Built Documentation & Contract Demobilization ---
+Here is the Level 4 activity list for the target WBS, created with the expertise of a Senior P6 Planning Engineer.
+
+**WBS: 7.3 As-Built Documentation & Contract Demobilization**
+
+---
+**GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**
+
+1.  **As-Built & Handover Documentation**
+    1.1. Compile all field survey data, red-line markups, and quality inspection records.
+    1.2. Prepare and draft As-Built drawings (Civil, Structural, Architectural).
+    1.3. Prepare and draft As-Built drawings (MEP, Utilities, and Specialist Systems).
+    1.4. Compile all supplier/subcontractor warranties, guarantees, and material certificates.
+    1.5. Compile all Testing and Commissioning reports into a final handover package.
+    1.6. Prepare draft Operation & Maintenance (O&M) Manuals.
+    1.7. Consolidate and submit the complete As-Built and O&M documentation package for Client/Engineer review.
+    1.8. Incorporate Client/Engineer comments on all submitted documentation.
+    1.9. Submit final, approved As-Built drawings and Handover documentation.
+
+2.  **Site Demobilization & Reinstatement**
+    2.1. Prepare and submit the Site Demobilization & Reinstatement Plan for approval.
+    2.2. Conduct final joint site inspection (walk-down) with Client/Engineer to generate a final punch list (snag list).
+    2.3. Rectify all items on the final punch list to the satisfaction of the Engineer.
+    2.4. Dismantle and remove all temporary site offices, welfare facilities, and storage containers.
+    2.5. Demobilize and remove all contractor plant, equipment, and machinery from the site.
+    2.6. Disconnect and remove all temporary utilities (power, water, drainage).
+    2.7. Remove all surplus construction materials, scrap, and waste from the site.
+    2.8. Complete final site grading and reinstatement as per contract requirements.
+    2.9. Obtain formal sign-off for punch list completion and site reinstatement.
+
+3.  **Contract & Commercial Close-Out**
+    3.1. Apply for and obtain the Certificate of Substantial Completion / Taking-Over Certificate.
+    3.2. Prepare and submit the draft Final Account and application for final payment.
+    3.3. Negotiate and agree on the Final Account with the Client/Commercial team.
+    3.4. Submit all required documentation for the release of retention monies.
+    3.5. Obtain the Final Acceptance Certificate (FAC) from the Client.
+    3.6. Secure the release of all performance bonds and bank guarantees.
+    3.7. Archive all project documentation, correspondence, and financial records.
+    3.8. Final Contract Close-Out.
+
+================================================================================
+

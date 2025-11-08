@@ -1,0 +1,682 @@
+WBS_Name,Activity_ID,Activity_Name,Duration_Days,Predecessor
+1.1 Contract Mobilization & Site Establishment,A1000,GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**,1,START
+1.1 Contract Mobilization & Site Establishment,A1010,Receive Notice to Proceed (NTP) / Letter of Acceptance (LOA),1,START
+1.1 Contract Mobilization & Site Establishment,A1020,"Submit Contractual Guarantees (Performance Bond, Advance Payment Guarantee)",1,START
+1.1 Contract Mobilization & Site Establishment,A1030,Submit Required Insurance Policies for Approval,1,Receive Notice to Proceed (NTP) / Letter of Acceptance (LOA)
+"1.2 Project Controls (Planning, Cost, Document Control)",A1040,GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**,1,START
+"1.2 Project Controls (Planning, Cost, Document Control)",A1050,Project Controls - Setup & Baseline Phase**,1,START
+"1.2 Project Controls (Planning, Cost, Document Control)",A1060,Develop and Finalise Project Controls Plan,1,START
+"1.2 Project Controls (Planning, Cost, Document Control)",A1070,Establish Work Breakdown Structure (WBS) and Organisational Breakdown Structure (OBS),1,Develop and Finalise Project Controls Plan
+"1.2 Project Controls (Planning, Cost, Document Control)",A1080,Develop and Agree on Project Calendars,1,Establish Work Breakdown Structure (WBS) and Organisational Breakdown Structure (OBS)
+"1.2 Project Controls (Planning, Cost, Document Control)",A1090,"Set up Document Management System (e.g., Aconex, ProjectWise)",1,START
+"1.2 Project Controls (Planning, Cost, Document Control)",A1100,Establish Document Control Procedures and Numbering System,1,Set up Document Management System (e.g.
+"1.2 Project Controls (Planning, Cost, Document Control)",A1110,"Set up Cost Management and Planning Systems (e.g., P6, Prism, SAP)",1,START
+"1.2 Project Controls (Planning, Cost, Document Control)",A1120,Develop Detailed Level 4 Baseline Programme,1,Set up Cost Management and Planning Systems (e.g.
+"1.2 Project Controls (Planning, Cost, Document Control)",A1130,Resource and Cost Load the Baseline Programme,1,Develop Detailed Level 4 Baseline Programme
+"1.2 Project Controls (Planning, Cost, Document Control)",A1140,Conduct Baseline Programme Review and Validation Workshop,1,Resource and Cost Load the Baseline Programme
+"1.2 Project Controls (Planning, Cost, Document Control)",A1150,Submit Baseline Programme for Approval,1,Conduct Baseline Programme Review and Validation Workshop
+"1.2 Project Controls (Planning, Cost, Document Control)",A1160,Milestone: Baseline Programme Approved**,1,START
+"1.2 Project Controls (Planning, Cost, Document Control)",A1170,Establish Performance Measurement Baseline (PMB) for Cost & Schedule,1,Milestone: Baseline Programme Approved
+"1.2 Project Controls (Planning, Cost, Document Control)",A1180,Establish Change Management and Variation Control Procedure,1,Develop and Finalise Project Controls Plan
+"1.2 Project Controls (Planning, Cost, Document Control)",A1190,"Project Controls - Execution, Monitoring & Control Phase (Level of Effort)**",1,START
+"1.2 Project Controls (Planning, Cost, Document Control)",A1200,Perform Weekly Planning & Progress Update Cycle,1,Establish Performance Measurement Baseline (PMB) for Cost & Schedule
+"1.2 Project Controls (Planning, Cost, Document Control)",A1210,Prepare and Issue 4-Week Lookahead Programmes,1,Perform Weekly Planning & Progress Update Cycle
+"1.2 Project Controls (Planning, Cost, Document Control)",A1220,"Prepare and Issue Monthly Progress Report (including S-Curves, CPI/SPI)",1,START
+"1.2 Project Controls (Planning, Cost, Document Control)",A1230,Conduct Monthly Progress and Commercial Review Meetings,1,Prepare and Issue Monthly Progress Report (including S-Curves
+"1.2 Project Controls (Planning, Cost, Document Control)",A1240,Manage and Process Change Orders / Variations,1,Establish Change Management and Variation Control Procedure
+"1.2 Project Controls (Planning, Cost, Document Control)",A1250,Maintain Programme Revisions and incorporate Approved Changes,1,Manage and Process Change Orders / Variations
+"1.2 Project Controls (Planning, Cost, Document Control)",A1260,Perform Earned Value Management (EVM) Analysis,1,Perform Weekly Planning & Progress Update Cycle
+"1.2 Project Controls (Planning, Cost, Document Control)",A1270,Maintain and Update Project Cost Forecast (Estimate at Completion - EAC),1,Perform Earned Value Management (EVM) Analysis
+"1.2 Project Controls (Planning, Cost, Document Control)",A1280,Ongoing Management of Document Submittals and Transmittals,1,Establish Document Control Procedures and Numbering System
+"1.2 Project Controls (Planning, Cost, Document Control)",A1290,Process and Distribute Requests for Information (RFIs) and Site Instructions,1,Ongoing Management of Document Submittals and Transmittals
+"1.2 Project Controls (Planning, Cost, Document Control)",A1300,Maintain Master Document Register (MDR),1,Process and Distribute Requests for Information (RFIs) and Site Instructions
+"1.2 Project Controls (Planning, Cost, Document Control)",A1310,Project Controls - Closeout Phase**,1,START
+"1.2 Project Controls (Planning, Cost, Document Control)",A1320,Develop and Manage Commissioning & Handover Programme,1,Maintain Master Document Register (MDR)
+"1.2 Project Controls (Planning, Cost, Document Control)",A1330,Compile and Submit Final As-Built Documentation,1,Develop and Manage Commissioning & Handover Programme
+"1.2 Project Controls (Planning, Cost, Document Control)",A1340,Compile and Submit Final Handover Documentation (O&M Manuals),1,Compile and Submit Final As-Built Documentation
+"1.2 Project Controls (Planning, Cost, Document Control)",A1350,Prepare and Agree on Final Account Submission,1,Compile and Submit Final Handover Documentation (O&M Manuals)
+"1.2 Project Controls (Planning, Cost, Document Control)",A1360,Prepare Final Project Controls Report (including Lessons Learned),1,Prepare and Agree on Final Account Submission
+"1.2 Project Controls (Planning, Cost, Document Control)",A1370,Archive all Project Documentation and Data,1,Prepare Final Project Controls Report (including Lessons Learned)
+"1.2 Project Controls (Planning, Cost, Document Control)",A1380,Milestone: Project Controls Closeout Complete**,1,START
+1.3 Engineering Management & Design Coordination,A1390,GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**,1,START
+1.3 Engineering Management & Design Coordination,A1400,Design Initiation & Planning**,1,START
+1.3 Engineering Management & Design Coordination,A1410,Develop and Finalise Engineering Management Plan (EMP),1,Design Initiation & Planning
+1.3 Engineering Management & Design Coordination,A1420,Establish Design Deliverables Register and Schedule,1,Conduct Project Design Kick-Off Meeting with all Disciplines
+1.3 Engineering Management & Design Coordination,A1430,Mobilise Design Management & Coordination Team,1,Develop and Finalise Engineering Management Plan (EMP)
+1.3 Engineering Management & Design Coordination,A1440,Conduct Project Design Kick-Off Meeting with all Disciplines,1,Mobilise Design Management & Coordination Team
+1.3 Engineering Management & Design Coordination,A1450,Finalise and Approve Basis of Design (BOD) Document,1,Establish Design Deliverables Register and Schedule
+1.3 Engineering Management & Design Coordination,A1460,Preliminary / 30% Design Stage**,1,START
+1.3 Engineering Management & Design Coordination,A1470,Prepare and Issue 30% Preliminary Design Package for Internal Review,1,Finalise and Approve Basis of Design (BOD) Document
+1.3 Engineering Management & Design Coordination,A1480,Conduct Inter-Disciplinary Coordination & Clash Review for 30% Design,1,Prepare and Issue 30% Preliminary Design Package for Internal Review
+1.3 Engineering Management & Design Coordination,A1490,Submit 30% Preliminary Design Package to Client for Review & Comment,1,Conduct Inter-Disciplinary Coordination & Clash Review for 30% Design
+1.3 Engineering Management & Design Coordination,A1500,Incorporate Client Comments into Design,1,Submit 60% Detailed Design Package to Client for Review & Comment
+1.3 Engineering Management & Design Coordination,A1510,Achieve Milestone: Client Approval of 30% Preliminary Design,1,Incorporate Client Comments into Design
+1.3 Engineering Management & Design Coordination,A1520,Detailed / 60% Design Stage**,1,START
+1.3 Engineering Management & Design Coordination,A1530,Prepare and Issue 60% Detailed Design Package for Internal Review,1,Achieve Milestone: Client Approval of 30% Preliminary Design
+1.3 Engineering Management & Design Coordination,A1540,Conduct Inter-Disciplinary Coordination & Clash Review for 60% Design,1,Prepare and Issue 60% Detailed Design Package for Internal Review
+1.3 Engineering Management & Design Coordination,A1550,Submit 60% Detailed Design Package to Client for Review & Comment,1,Conduct Inter-Disciplinary Coordination & Clash Review for 60% Design
+1.3 Engineering Management & Design Coordination,A1560,Incorporate Client Comments into Design,1,Submit 60% Detailed Design Package to Client for Review & Comment
+1.3 Engineering Management & Design Coordination,A1570,Achieve Milestone: Client Approval of 60% Detailed Design,1,Incorporate Client Comments into Design
+1.3 Engineering Management & Design Coordination,A1580,Prepare and Issue 90% Pre-Final Design Package for Internal Review,1,Achieve Milestone: Client Approval of 60% Detailed Design
+1.3 Engineering Management & Design Coordination,A1590,Conduct Final Inter-Disciplinary Coordination & Clash Detection,1,Prepare and Issue 90% Pre-Final Design Package for Internal Review
+1.3 Engineering Management & Design Coordination,A1600,Submit 90% Pre-Final Design Package to Client for Final Review,1,Conduct Final Inter-Disciplinary Coordination & Clash Detection
+1.3 Engineering Management & Design Coordination,A1610,Incorporate Final Client Comments into Design,1,Submit 90% Pre-Final Design Package to Client for Final Review
+1.3 Engineering Management & Design Coordination,A1620,Achieve Milestone: Client Approval of 90% Pre-Final Design,1,Incorporate Final Client Comments into Design
+1.3 Engineering Management & Design Coordination,A1630,Prepare and Issue 100% Issued for Construction (IFC) Drawings & Specifications,1,Achieve Milestone: Client Approval of 90% Pre-Final Design
+1.3 Engineering Management & Design Coordination,A1640,Perform Final Quality Assurance / Quality Control (QA/QC) on IFC Package,1,Prepare and Issue 100% Issued for Construction (IFC) Drawings & Specifications
+1.3 Engineering Management & Design Coordination,A1650,Submit IFC Package for Statutory / Authority Approvals,1,Perform Final Quality Assurance / Quality Control (QA/QC) on IFC Package
+1.3 Engineering Management & Design Coordination,A1660,Achieve Milestone: Receive all Required Authority Approvals,1,Submit IFC Package for Statutory / Authority Approvals
+1.3 Engineering Management & Design Coordination,A1670,Manage and Track Design Progress & Performance,1,Finalise and Approve Basis of Design (BOD) Document
+1.3 Engineering Management & Design Coordination,A1680,Conduct Weekly Design Coordination Meetings,1,Manage and Track Design Progress & Performance
+1.3 Engineering Management & Design Coordination,A1690,"Manage Design Interface between Disciplines (Arch, Struc, MEP, etc.)",1,START
+1.3 Engineering Management & Design Coordination,A1700,Manage and Control Design Changes and Variations,1,Manage Design Interface between Disciplines (Arch
+1.3 Engineering Management & Design Coordination,A1710,Manage Document Control and Transmittals,1,Manage and Control Design Changes and Variations
+1.3 Engineering Management & Design Coordination,A1720,Provide Technical Support during Procurement & Tendering Phase,1,Achieve Milestone: Receive all Required Authority Approvals
+1.3 Engineering Management & Design Coordination,A1730,Review and Approve Contractor Technical Submittals and Shop Drawings,1,Provide Technical Support during Procurement & Tendering Phase
+1.3 Engineering Management & Design Coordination,A1740,Manage and Respond to Site Technical Queries (TQs) / Requests for Information (RFIs),1,Review and Approve Contractor Technical Submittals and Shop Drawings
+1.3 Engineering Management & Design Coordination,A1750,Review and Incorporate Red-Line Markups for As-Built Records,1,Manage and Respond to Site Technical Queries (TQs) / Requests for Information (RFIs)
+1.3 Engineering Management & Design Coordination,A1760,Prepare and Submit Final As-Built Drawings and Documentation,1,Review and Incorporate Red-Line Markups for As-Built Records
+1.3 Engineering Management & Design Coordination,A1770,Compile and Issue Final Design Handover and Closeout Report,1,Prepare and Submit Final As-Built Drawings and Documentation
+"1.4 Quality, Health, Safety & Environment (QHSE) Management",A1780,GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**,1,START
+"1.4 Quality, Health, Safety & Environment (QHSE) Management",A1790,Develop Overall Project QHSE Management Plan,1,START
+"1.4 Quality, Health, Safety & Environment (QHSE) Management",A1800,Develop Project-Specific Health & Safety (H&S) Plan,1,Develop Overall Project QHSE Management Plan
+"1.4 Quality, Health, Safety & Environment (QHSE) Management",A1810,Develop Project-Specific Environmental Management Plan,1,Develop Project-Specific Health & Safety (H&S) Plan
+"2.1 Surveys (Topographical, Geotechnical) & Investigations",A1820,GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**,1,START
+"2.1 Surveys (Topographical, Geotechnical) & Investigations",A1830,Develop and Finalise Scope of Work (SOW) for Survey & Investigation Package,1,START
+"2.1 Surveys (Topographical, Geotechnical) & Investigations",A1840,Procure and Appoint Specialist Survey Subcontractor,1,Develop and Finalise Scope of Work (SOW) for Survey & Investigation Package
+"2.1 Surveys (Topographical, Geotechnical) & Investigations",A1850,Submit and Approve Method Statements & Risk Assessments (RAMS) for Survey Works,1,Procure and Appoint Specialist Survey Subcontractor
+2.2 Detailed Design - Viaduct & Associated Structures,A1860,GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**,1,START
+2.2 Detailed Design - Viaduct & Associated Structures,A1870,Design Management & Initiation**,1,START
+2.2 Detailed Design - Viaduct & Associated Structures,A1880,Mobilize Detailed Design Team & Hold Kick-Off Meeting,1,START
+2.2 Detailed Design - Viaduct & Associated Structures,A1890,Review and Finalize Basis of Design (BOD) Document,1,Mobilize Detailed Design Team & Hold Kick-Off Meeting
+2.2 Detailed Design - Viaduct & Associated Structures,A1900,"Compile and Review All Input Data (Geotechnical Reports, Surveys, Preliminary Design)",1,START
+2.2 Detailed Design - Viaduct & Associated Structures,A1910,Develop and Approve Detailed Design Execution Plan & Schedule,1,Compile and Review All Input Data (Geotechnical Reports
+2.2 Detailed Design - Viaduct & Associated Structures,A1920,Global Structural Analysis & Modeling**,1,START
+2.2 Detailed Design - Viaduct & Associated Structures,A1930,"Develop 3D Global Structural Analysis Model (e.g., Midas, SAP2000)",1,START
+2.2 Detailed Design - Viaduct & Associated Structures,A1940,"Define and Apply All Load Cases (Dead, Live, Wind, Seismic, Thermal)",1,START
+2.2 Detailed Design - Viaduct & Associated Structures,A1950,Run Global Structural Analysis and Extract Member Forces,1,Define and Apply All Load Cases (Dead
+2.2 Detailed Design - Viaduct & Associated Structures,A1960,Prepare and Submit Global Structural Analysis Report for Review,1,Run Global Structural Analysis and Extract Member Forces
+2.2 Detailed Design - Viaduct & Associated Structures,A1970,Detailed Substructure Design**,1,START
+2.2 Detailed Design - Viaduct & Associated Structures,A1980,Perform Detailed Design of Foundations (Piles / Pile Caps / Rafts),1,Prepare and Submit Global Structural Analysis Report for Review
+2.2 Detailed Design - Viaduct & Associated Structures,A1990,Perform Detailed Design of Viaduct Piers and Pier Caps,1,Perform Detailed Design of Foundations (Piles / Pile Caps / Rafts)
+2.2 Detailed Design - Viaduct & Associated Structures,A2000,Perform Detailed Design of Abutments and Wing Walls,1,Perform Detailed Design of Viaduct Piers and Pier Caps
+2.2 Detailed Design - Viaduct & Associated Structures,A2010,Perform Detailed Design of Viaduct Deck / Girders (Precast or Cast-in-Situ),1,Perform Detailed Design of Abutments and Wing Walls
+2.2 Detailed Design - Viaduct & Associated Structures,A2020,Design and Specify Structural Bearings,1,Perform Detailed Design of Viaduct Deck / Girders (Precast or Cast-in-Situ)
+2.2 Detailed Design - Viaduct & Associated Structures,A2030,Design Pier Head Pedestals and Seismic Arrestors/Restrainers,1,Design and Specify Structural Bearings
+2.2 Detailed Design - Viaduct & Associated Structures,A2040,Design Expansion Joints and End-Diaphragms,1,Design Pier Head Pedestals and Seismic Arrestors/Restrainers
+2.2 Detailed Design - Viaduct & Associated Structures,A2050,Design of Associated Retaining Walls and Embankments,1,Design Expansion Joints and End-Diaphragms
+2.2 Detailed Design - Viaduct & Associated Structures,A2060,Integrate and Design Structural Elements for Drainage System,1,Design of Associated Retaining Walls and Embankments
+2.2 Detailed Design - Viaduct & Associated Structures,A2070,"Coordinate and Finalize Design for MEP/Systems Embedments (Conduits, Lighting)",1,START
+2.2 Detailed Design - Viaduct & Associated Structures,A2080,Develop and Finalize Architectural Finishes and Cladding Details,1,Coordinate and Finalize Design for MEP/Systems Embedments (Conduits
+2.2 Detailed Design - Viaduct & Associated Structures,A2090,Produce General Arrangement (GA) Drawings,1,Develop and Finalize Architectural Finishes and Cladding Details
+2.2 Detailed Design - Viaduct & Associated Structures,A2100,Produce Formwork and Reinforcement Drawings for Foundations,1,Produce General Arrangement (GA) Drawings
+2.2 Detailed Design - Viaduct & Associated Structures,A2110,Produce Formwork and Reinforcement Drawings for Piers and Abutments,1,Produce Formwork and Reinforcement Drawings for Foundations
+2.2 Detailed Design - Viaduct & Associated Structures,A2120,Produce Formwork and Reinforcement Drawings for Superstructure Deck/Girders,1,Produce Formwork and Reinforcement Drawings for Piers and Abutments
+2.2 Detailed Design - Viaduct & Associated Structures,A2130,"Produce Detail Drawings for Bearings, Pedestals, and Seismic Arrestors",1,START
+2.2 Detailed Design - Viaduct & Associated Structures,A2140,Prepare Detailed Bill of Quantities (BoQ),1,Produce Detail Drawings for Bearings
+2.2 Detailed Design - Viaduct & Associated Structures,A2150,Prepare Technical Specifications for Materials and Workmanship,1,Prepare Detailed Bill of Quantities (BoQ)
+2.2 Detailed Design - Viaduct & Associated Structures,A2160,Conduct Internal Structural Design Review and Verification (Checker),1,Prepare Technical Specifications for Materials and Workmanship
+2.2 Detailed Design - Viaduct & Associated Structures,A2170,Issue Design Packages for Inter-Disciplinary Check (IDC),1,Conduct Internal Structural Design Review and Verification (Checker)
+2.2 Detailed Design - Viaduct & Associated Structures,A2180,Incorporate Comments from IDC Review Cycle,1,Issue Design Packages for Inter-Disciplinary Check (IDC)
+2.2 Detailed Design - Viaduct & Associated Structures,A2190,"Compile and Submit Full Design Package for ""Issued for Approval"" (IFA)",1,Incorporate Comments from IDC Review Cycle
+2.2 Detailed Design - Viaduct & Associated Structures,A2200,Receive and Review Comments from Client/Engineer,1,"Compile and Submit Full Design Package for ""Issued for Approval"" (IFA)"
+2.2 Detailed Design - Viaduct & Associated Structures,A2210,Incorporate Final Comments and Revise Drawings & Documents,1,Receive and Review Comments from Client/Engineer
+2.2 Detailed Design - Viaduct & Associated Structures,A2220,"Submit Final Design Package for ""Issued for Construction"" (IFC) Status",1,Incorporate Final Comments and Revise Drawings & Documents
+2.2 Detailed Design - Viaduct & Associated Structures,A2230,Archive Final Design Deliverables,1,"Submit Final Design Package for ""Issued for Construction"" (IFC) Status"
+2.3 Detailed Design - Elevated Stations,A2240,GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**,1,START
+2.3 Detailed Design - Elevated Stations,A2250,Design Initiation & Basis of Design**,1,START
+2.3 Detailed Design - Elevated Stations,A2260,Conduct Detailed Design Kick-Off Meeting,1,START
+2.3 Detailed Design - Elevated Stations,A2270,"Gather and Review all Input Data (Geotechnical Reports, Topographical Surveys, Concept Design)",1,START
+2.3 Detailed Design - Elevated Stations,A2280,"Develop and Finalize the ""Basis of Design"" Document",1,Gather and Review all Input Data (Geotechnical Reports
+2.3 Detailed Design - Elevated Stations,A2290,Establish BIM Execution Plan (BEP) and Common Data Environment (CDE),1,"Develop and Finalize the ""Basis of Design"" Document"
+2.3 Detailed Design - Elevated Stations,A2300,Architectural Detailed Design**,1,START
+2.3 Detailed Design - Elevated Stations,A2310,"Develop Detailed General Arrangement (GA) Plans, Sections, and Elevations",1,START
+2.3 Detailed Design - Elevated Stations,A2320,Develop 3D Architectural Model,1,Develop Detailed General Arrangement (GA) Plans
+2.3 Detailed Design - Elevated Stations,A2330,Finalize Architectural Finishes Schedule and Material Selection,1,Develop 3D Architectural Model
+2.3 Detailed Design - Elevated Stations,A2340,"Prepare Detailed Drawings for Facade, Roofing, and Internal Partitions",1,START
+2.3 Detailed Design - Elevated Stations,A2350,"Prepare Door, Window, and Hardware Schedules",1,START
+2.3 Detailed Design - Elevated Stations,A2360,Structural Detailed Design**,1,START
+2.3 Detailed Design - Elevated Stations,A2370,Develop Structural Framing System and 3D Structural Model,1,Develop 3D Architectural Model
+2.3 Detailed Design - Elevated Stations,A2380,"Perform Detailed Structural Analysis and Calculations (Static, Dynamic, Seismic)",1,START
+2.3 Detailed Design - Elevated Stations,A2390,"Detailed Design of Substructure (Foundations, Piles, Pile Caps)",1,START
+2.3 Detailed Design - Elevated Stations,A2400,"Detailed Design of Superstructure (Columns, Beams, Slabs, Station Box)",1,START
+2.3 Detailed Design - Elevated Stations,A2410,"Detailed Design of Specialized Structural Components (e.g., Bearing **Pedestals, Seismic Arrestors**)",1,START
+2.3 Detailed Design - Elevated Stations,A2420,Prepare Structural Reinforcement Drawings and Bar Bending Schedules,1,Detailed Design of Specialized Structural Components (e.g.
+2.3 Detailed Design - Elevated Stations,A2430,"Detailed Design of HVAC System, including Ducting and Plant Room Layouts",1,START
+2.3 Detailed Design - Elevated Stations,A2440,"Detailed Design of Electrical Systems (Power, Lighting, Cable Containment, Earthing)",1,START
+2.3 Detailed Design - Elevated Stations,A2450,"Detailed Design of Plumbing, Drainage, and Sanitary Systems",1,START
+2.3 Detailed Design - Elevated Stations,A2460,"Detailed Design of Fire Protection and Life Safety Systems (Sprinklers, Alarms, Smoke Extract)",1,START
+2.3 Detailed Design - Elevated Stations,A2470,"Detailed Design of Station ELV Systems (CCTV, PA, Access Control, Comms)",1,START
+2.3 Detailed Design - Elevated Stations,A2480,Develop Coordinated 3D MEP Models,1,Detailed Design of Station ELV Systems (CCTV
+2.3 Detailed Design - Elevated Stations,A2490,Conduct Weekly Inter-Disciplinary Coordination (IDC) Workshops,1,Develop Coordinated 3D MEP Models
+2.3 Detailed Design - Elevated Stations,A2500,"Perform BIM Clash Detection, Analysis, and Resolution",1,START
+2.3 Detailed Design - Elevated Stations,A2510,Update and Maintain Federated BIM Model,1,Perform BIM Clash Detection
+2.3 Detailed Design - Elevated Stations,A2520,Prepare and Consolidate 60% Detailed Design Submission Package,1,Update and Maintain Federated BIM Model
+2.3 Detailed Design - Elevated Stations,A2530,Conduct Internal QA/QC and Peer Review of 60% Design Package,1,Prepare and Consolidate 60% Detailed Design Submission Package
+2.3 Detailed Design - Elevated Stations,A2540,Submit 60% Design Package for Client / Authority Review,1,Conduct Internal QA/QC and Peer Review of 60% Design Package
+2.3 Detailed Design - Elevated Stations,A2550,Receive and Incorporate Comments on 60% Design Submission,1,Submit 60% Design Package for Client / Authority Review
+2.3 Detailed Design - Elevated Stations,A2560,Prepare and Consolidate 90% (Pre-Final) Design Submission Package,1,Receive and Incorporate Comments on 60% Design Submission
+2.3 Detailed Design - Elevated Stations,A2570,Conduct Internal QA/QC and Peer Review of 90% Design Package,1,Prepare and Consolidate 90% (Pre-Final) Design Submission Package
+2.3 Detailed Design - Elevated Stations,A2580,Submit 90% Design Package for Client / Authority Review,1,Conduct Internal QA/QC and Peer Review of 90% Design Package
+2.3 Detailed Design - Elevated Stations,A2590,Receive and Incorporate Final Comments on 90% Design Submission,1,Submit 90% Design Package for Client / Authority Review
+2.3 Detailed Design - Elevated Stations,A2600,Finalize all Design Calculations and Technical Specifications,1,Receive and Incorporate Final Comments on 90% Design Submission
+2.3 Detailed Design - Elevated Stations,A2610,Prepare Final Bill of Quantities (BOQ) and Cost Estimates,1,"Prepare and Issue ""Issued for Construction"" (IFC) Drawing Package"
+2.3 Detailed Design - Elevated Stations,A2620,"Prepare and Issue ""Issued for Construction"" (IFC) Drawing Package",1,Finalize all Design Calculations and Technical Specifications
+2.3 Detailed Design - Elevated Stations,A2630,Compile and Submit Final Design Report,1,Prepare Final Bill of Quantities (BOQ) and Cost Estimates
+2.3 Detailed Design - Elevated Stations,A2640,Archive Final Design Deliverables,1,Compile and Submit Final Design Report
+2.3 Detailed Design - Elevated Stations,A2650,Design Management and Progress Reporting (Level of Effort),1,Conduct Detailed Design Kick-Off Meeting
+2.4 Detailed Design - New Depot,A2660,"Analysis:** The target WBS is ""2.4 Detailed Design - New Depot"". This is a design-phase WBS, not a construction one. The provided context (""Pedestal & Seismic arrestors"") is a specific construction activity and is therefore not relevant to the design process. As a Senior Planner, I will generate a logical sequence of design activities from scratch, covering the typical lifecycle from design kick-off to the issuance of construction documents.",1,START
+2.4 Detailed Design - New Depot,A2670,GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**,1,START
+2.4 Detailed Design - New Depot,A2680,Design Management & Mobilization**,1,START
+2.4 Detailed Design - New Depot,A2690,Detailed Design Kick-Off Meeting,1,START
+2.4 Detailed Design - New Depot,A2700,Establish Design Management Plan & Procedures,1,Detailed Design Kick-Off Meeting
+2.4 Detailed Design - New Depot,A2710,Mobilize Multi-Disciplinary Design Team,1,Establish Design Management Plan & Procedures
+2.4 Detailed Design - New Depot,A2720,Review and Finalize Basis of Design (BoD),1,Mobilize Multi-Disciplinary Design Team
+2.4 Detailed Design - New Depot,A2730,Review and Incorporate Preliminary/Concept Design Feedback,1,Review and Finalize Basis of Design (BoD)
+2.4 Detailed Design - New Depot,A2740,Site Investigation & Data Collection**,1,START
+2.4 Detailed Design - New Depot,A2750,Conduct Detailed Topographical Survey of Depot Site,1,Review and Incorporate Preliminary/Concept Design Feedback
+2.4 Detailed Design - New Depot,A2760,Conduct Geotechnical Investigations & Soil Analysis,1,Conduct Detailed Topographical Survey of Depot Site
+2.4 Detailed Design - New Depot,A2770,Finalize Geotechnical Investigation Report,1,Conduct Geotechnical Investigations & Soil Analysis
+2.4 Detailed Design - New Depot,A2780,Identify and Survey Existing Utilities and Services,1,Finalize Geotechnical Investigation Report
+2.4 Detailed Design - New Depot,A2790,Schematic Design Development (30% Submission)**,1,START
+2.4 Detailed Design - New Depot,A2800,"Develop 30% Architectural Design Package (Layouts, Elevations)",1,START
+2.4 Detailed Design - New Depot,A2810,"Develop 30% Civil & Structural Design Package (Grading, Foundation Concepts)",1,START
+2.4 Detailed Design - New Depot,A2820,Develop 30% MEP & Utilities Design Package (System Schematics),1,Develop 30% Civil & Structural Design Package (Grading
+2.4 Detailed Design - New Depot,A2830,"Develop 30% Depot Specialist Systems Design (Track Layout, Maintenance Bays)",1,START
+2.4 Detailed Design - New Depot,A2840,Conduct Inter-Disciplinary Design Coordination & Review (30%),1,Develop 30% Depot Specialist Systems Design (Track Layout
+2.4 Detailed Design - New Depot,A2850,Submit 30% Design Package for Client Review,1,Conduct Inter-Disciplinary Design Coordination & Review (30%)
+2.4 Detailed Design - New Depot,A2860,Incorporate Client Feedback on 30% Design,1,Submit 30% Design Package for Client Review
+2.4 Detailed Design - New Depot,A2870,"Develop 60% Architectural Design Package (Detailed Plans, Sections)",1,START
+2.4 Detailed Design - New Depot,A2880,"Develop 60% Civil & Structural Design Package (Structural Framing, Drainage)",1,START
+2.4 Detailed Design - New Depot,A2890,"Develop 60% MEP & Utilities Design Package (Equipment Sizing, Duct/Pipe Routing)",1,START
+2.4 Detailed Design - New Depot,A2900,"Develop 60% Depot Specialist Systems Design (Signaling, OCS, Equipment Specs)",1,START
+2.4 Detailed Design - New Depot,A2910,Perform BIM Model Integration and Clash Detection,1,Develop 60% Depot Specialist Systems Design (Signaling
+2.4 Detailed Design - New Depot,A2920,Conduct Inter-Disciplinary Design Coordination & Review (60%),1,Perform BIM Model Integration and Clash Detection
+2.4 Detailed Design - New Depot,A2930,Submit 60% Design Package for Client Review,1,Conduct Inter-Disciplinary Design Coordination & Review (60%)
+2.4 Detailed Design - New Depot,A2940,Incorporate Client Feedback on 60% Design,1,Submit 60% Design Package for Client Review
+2.4 Detailed Design - New Depot,A2950,"Develop 90% Architectural Design Package (Finishes, Detailing)",1,START
+2.4 Detailed Design - New Depot,A2960,"Develop 90% Civil & Structural Design Package (Reinforcement Details, Calculations)",1,START
+2.4 Detailed Design - New Depot,A2970,"Develop 90% MEP & Utilities Design Package (Final Layouts, Control Schematics)",1,START
+2.4 Detailed Design - New Depot,A2980,"Develop 90% Depot Specialist Systems Design (Final Schematics, Interface Details)",1,START
+2.4 Detailed Design - New Depot,A2990,Prepare Draft Technical Specifications for all Disciplines,1,Develop 90% Depot Specialist Systems Design (Final Schematics
+2.4 Detailed Design - New Depot,A3000,Prepare Draft Bill of Quantities (BoQ),1,Prepare Draft Technical Specifications for all Disciplines
+2.4 Detailed Design - New Depot,A3010,Submit 90% Design Package for Client and Authority for Approval (AFA) Review,1,Prepare Draft Bill of Quantities (BoQ)
+2.4 Detailed Design - New Depot,A3020,Incorporate Final Comments from Client and Authorities,1,Submit 90% Design Package for Client and Authority for Approval (AFA) Review
+2.4 Detailed Design - New Depot,A3030,Finalize Architectural Issued for Construction (IFC) Drawings,1,Incorporate Final Comments from Client and Authorities
+2.4 Detailed Design - New Depot,A3040,Finalize Civil & Structural IFC Drawings & Calculations,1,Finalize Architectural Issued for Construction (IFC) Drawings
+2.4 Detailed Design - New Depot,A3050,Finalize MEP & Utilities IFC Drawings,1,Finalize Civil & Structural IFC Drawings & Calculations
+2.4 Detailed Design - New Depot,A3060,Finalize Depot Specialist Systems IFC Drawings,1,Finalize MEP & Utilities IFC Drawings
+2.4 Detailed Design - New Depot,A3070,Finalize all Technical Specifications,1,Finalize Depot Specialist Systems IFC Drawings
+2.4 Detailed Design - New Depot,A3080,Finalize Bill of Quantities (BoQ),1,Finalize all Technical Specifications
+2.4 Detailed Design - New Depot,A3090,Compile and Issue Complete IFC Design Package,1,Finalize Bill of Quantities (BoQ)
+2.4 Detailed Design - New Depot,A3100,Provide Technical Support during Tender Period,1,Compile and Issue Complete IFC Design Package
+2.4 Detailed Design - New Depot,A3110,Archive Final Design Documents,1,Provide Technical Support during Tender Period
+2.4 Detailed Design - New Depot,A3120,Detailed Design Phase Close-Out Report,1,Archive Final Design Documents
+2.5 GFC (Good for Construction) Drawing Submissions,A3130,GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**,1,START
+2.5 GFC (Good for Construction) Drawing Submissions,A3140,Commence GFC Drawing Production Phase (Milestone)**,1,START
+2.5 GFC (Good for Construction) Drawing Submissions,A3150,Establish and Maintain Master Drawing Submission Register**,1,START
+2.5 GFC (Good for Construction) Drawing Submissions,A3160,Prepare & Submit Civil & Site Works GFC Drawings**,1,START
+"3.1 Long Lead Item Procurement (Bearings, Girders, etc.)",A3170,GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**,1,START
+"3.1 Long Lead Item Procurement (Bearings, Girders, etc.)",A3180,Finalize Technical Specifications & Bill of Quantities (BOQ) for all Long Lead Items,1,START
+"3.1 Long Lead Item Procurement (Bearings, Girders, etc.)",A3190,Prepare and Compile Tender / Request for Quotation (RFQ) Documents,1,Finalize Technical Specifications & Bill of Quantities (BOQ) for all Long Lead Items
+"3.1 Long Lead Item Procurement (Bearings, Girders, etc.)",A3200,Issue Tender/RFQ to Prequalified Suppliers,1,Prepare and Compile Tender / Request for Quotation (RFQ) Documents
+3.2 Right of Way (ROW) Support & Site Clearance,A3210,GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**,1,START
+3.2 Right of Way (ROW) Support & Site Clearance,A3220,Conduct Topographical and Cadastral Surveys to Define ROW Limits**,1,START
+3.2 Right of Way (ROW) Support & Site Clearance,A3230,Prepare and Submit ROW Acquisition Plans and Legal Documents**,1,START
+3.2 Right of Way (ROW) Support & Site Clearance,A3240,Obtain Environmental Clearance and Permits for Site Activities**,1,START
+3.3 Utility Diversion & Shifting,A3250,GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**,1,START
+3.3 Utility Diversion & Shifting,A3260,WBS: 3.3 Utility Diversion & Shifting**,1,START
+3.3 Utility Diversion & Shifting,A3270,Phase 1: Pre-Construction & Enabling Works**,1,START
+3.3 Utility Diversion & Shifting,A3280,Obtain and Review Existing Utility Record Drawings (As-Builts),1,START
+3.3 Utility Diversion & Shifting,A3290,Perform GPR (Ground Penetrating Radar) & CAT Scans to Survey for Unknown Utilities,1,Obtain and Review Existing Utility Record Drawings (As-Builts)
+3.3 Utility Diversion & Shifting,A3300,"Engage and Coordinate with all Relevant Utility Authorities (Power, Water, Telecom, Gas, etc.)",1,START
+3.3 Utility Diversion & Shifting,A3310,Phase 2: Installation of New Utility Corridors**,1,START
+3.3 Utility Diversion & Shifting,A3320,"Phase 3: Live Diversion, Connection & Commissioning**",1,START
+3.3 Utility Diversion & Shifting,A3330,Phase 4: Decommissioning & Reinstatement**,1,START
+3.3 Utility Diversion & Shifting,A3340,Phase 5: Handover**,1,START
+"4.1 Substructure Works (Piling, Pile Caps, Piers)",A3350,GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**,1,START
+"4.1 Substructure Works (Piling, Pile Caps, Piers)",A3360,Mobilization & Site Preparation**,1,START
+"4.1 Substructure Works (Piling, Pile Caps, Piers)",A3370,"Mobilize Piling Rig, Equipment, and Personnel to Work Area",1,START
+"4.1 Substructure Works (Piling, Pile Caps, Piers)",A3380,Survey and Set Out for Pile Locations,1,Mobilize Piling Rig
+"4.1 Substructure Works (Piling, Pile Caps, Piers)",A3390,Construct Piling Platform and Access Routes,1,Survey and Set Out for Pile Locations
+"4.1 Substructure Works (Piling, Pile Caps, Piers)",A3400,Piling Works**,1,START
+"4.1 Substructure Works (Piling, Pile Caps, Piers)",A3410,Bore/Drive Piles to Designed Depth,1,Construct Piling Platform and Access Routes
+"4.1 Substructure Works (Piling, Pile Caps, Piers)",A3420,Fabricate and Install Pile Reinforcement Cages,1,Bore/Drive Piles to Designed Depth
+"4.1 Substructure Works (Piling, Pile Caps, Piers)",A3430,Pour Concrete for Piles,1,Fabricate and Install Pile Reinforcement Cages
+"4.1 Substructure Works (Piling, Pile Caps, Piers)",A3440,Allow for Concrete Curing Time for Piles,1,Pour Concrete for Piles
+"4.1 Substructure Works (Piling, Pile Caps, Piers)",A3450,Conduct Pile Integrity Testing (PIT) and/or Static Load Tests,1,Allow for Concrete Curing Time for Piles
+"4.1 Substructure Works (Piling, Pile Caps, Piers)",A3460,Trim/Break Pile Heads to Final Cut-off Level,1,Conduct Pile Integrity Testing (PIT) and/or Static Load Tests
+"4.1 Substructure Works (Piling, Pile Caps, Piers)",A3470,Pile Cap Construction**,1,START
+"4.1 Substructure Works (Piling, Pile Caps, Piers)",A3480,Excavate for Pile Caps,1,Trim/Break Pile Heads to Final Cut-off Level
+"4.1 Substructure Works (Piling, Pile Caps, Piers)",A3490,Lay Blinding Concrete Layer,1,Excavate for Pile Caps
+"4.1 Substructure Works (Piling, Pile Caps, Piers)",A3500,Erect Formwork for Pile Caps,1,Lay Blinding Concrete Layer
+"4.1 Substructure Works (Piling, Pile Caps, Piers)",A3510,Fix Reinforcement Steel for Pile Caps,1,Erect Formwork for Pile Caps
+"4.1 Substructure Works (Piling, Pile Caps, Piers)",A3520,Pour Concrete for Pile Caps,1,Fix Reinforcement Steel for Pile Caps
+"4.1 Substructure Works (Piling, Pile Caps, Piers)",A3530,Allow for Concrete Curing Time for Pile Caps,1,Pour Concrete for Pile Caps
+"4.1 Substructure Works (Piling, Pile Caps, Piers)",A3540,Strip Formwork from Pile Caps,1,Allow for Concrete Curing Time for Pile Caps
+"4.1 Substructure Works (Piling, Pile Caps, Piers)",A3550,Apply Waterproofing/Protective Coating to Pile Caps,1,Strip Formwork from Pile Caps
+"4.1 Substructure Works (Piling, Pile Caps, Piers)",A3560,Backfill and Compact around Completed Pile Caps,1,Apply Waterproofing/Protective Coating to Pile Caps
+"4.1 Substructure Works (Piling, Pile Caps, Piers)",A3570,Fix Pier Starter Bars into Pile Cap,1,Backfill and Compact around Completed Pile Caps
+"4.1 Substructure Works (Piling, Pile Caps, Piers)",A3580,Erect Formwork and Falsework for Piers (Lift 1),1,Fix Pier Starter Bars into Pile Cap
+"4.1 Substructure Works (Piling, Pile Caps, Piers)",A3590,Fix Reinforcement Steel for Piers (Lift 1),1,Erect Formwork and Falsework for Piers (Lift 1)
+"4.1 Substructure Works (Piling, Pile Caps, Piers)",A3600,Pour Concrete for Piers (Lift 1),1,Fix Reinforcement Steel for Piers (Lift 1)
+"4.1 Substructure Works (Piling, Pile Caps, Piers)",A3610,Cure and Strip Formwork for Pier (Lift 1),1,Pour Concrete for Piers (Lift 1)
+"4.1 Substructure Works (Piling, Pile Caps, Piers)",A3620,"Repeat Formwork, Rebar, and Concrete Cycle for Subsequent Pier Lifts",1,START
+"4.1 Substructure Works (Piling, Pile Caps, Piers)",A3630,"Construct Pier Head/Crosshead (Formwork, Rebar, Concrete)",1,START
+"4.1 Substructure Works (Piling, Pile Caps, Piers)",A3640,Cure and Strip Pier Head Formwork,1,Construct Pier Head/Crosshead (Formwork
+"4.1 Substructure Works (Piling, Pile Caps, Piers)",A3650,Grouting and Surface Preparation of Pier Head,1,Cure and Strip Pier Head Formwork
+"4.1 Substructure Works (Piling, Pile Caps, Piers)",A3660,"Install Bearings, Pedestals & Seismic Arrestors",1,START
+"4.1 Substructure Works (Piling, Pile Caps, Piers)",A3670,"Final Survey, Inspection, and Handover of Substructure",1,START
+4.2 Superstructure Works (Segment Casting & Erection),A3680,GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**,1,START
+4.2 Superstructure Works (Segment Casting & Erection),A3690,WBS: 4.2 Superstructure Works (Segment Casting & Erection)**,1,START
+4.2 Superstructure Works (Segment Casting & Erection),A3700,A. PREPARATION & MOBILIZATION**,1,START
+4.2 Superstructure Works (Segment Casting & Erection),A3710,Submit & Approve Method Statements and Shop Drawings for Superstructure Works,1,START
+4.2 Superstructure Works (Segment Casting & Erection),A3720,Establish & Commission Precast Segment Casting Yard,1,Submit & Approve Method Statements and Shop Drawings for Superstructure Works
+4.2 Superstructure Works (Segment Casting & Erection),A3730,"Procure & Deliver Raw Materials for Segment Casting (Reinforcement, Cement, PT etc.)",1,START
+4.2 Superstructure Works (Segment Casting & Erection),A3740,B. PRECAST SEGMENT CASTING (CYCLICAL PROCESS)**,1,START
+4.2 Superstructure Works (Segment Casting & Erection),A3750,C. ON-SITE ERECTION PREPARATION**,1,START
+4.2 Superstructure Works (Segment Casting & Erection),A3760,"D. SEGMENT ERECTION & INSTALLATION (CYCLICAL, PER SPAN)**",1,START
+4.2 Superstructure Works (Segment Casting & Erection),A3770,E. FINISHING & COMPLETION WORKS**,1,START
+"4.3 Special Spans & Ramps (Steel Girders, ROB/RUB)",A3780,GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**,1,START
+"4.3 Special Spans & Ramps (Steel Girders, ROB/RUB)",A3790,"WBS: 4.3 Special Spans & Ramps (Steel Girders, ROB/RUB)**",1,START
+"4.3 Special Spans & Ramps (Steel Girders, ROB/RUB)",A3800,"Engineering, Procurement & Fabrication**",1,START
+"4.3 Special Spans & Ramps (Steel Girders, ROB/RUB)",A3810,Finalize & Approve Detailed Structural Designs & Shop Drawings,1,START
+"4.3 Special Spans & Ramps (Steel Girders, ROB/RUB)",A3820,"Procure & Deliver Foundation Materials (Rebar, Piling Casings, Concrete)",1,START
+"4.3 Special Spans & Ramps (Steel Girders, ROB/RUB)",A3830,Fabricate Structural Steel Girders (Off-site),1,Finalize & Approve Detailed Structural Designs & Shop Drawings
+"4.3 Special Spans & Ramps (Steel Girders, ROB/RUB)",A3840,Apply Protective Coatings / Paint System to Girders at Fabrication Yard,1,Fabricate Structural Steel Girders (Off-site)
+"4.3 Special Spans & Ramps (Steel Girders, ROB/RUB)",A3850,Factory Acceptance Testing (FAT) & Quality Inspection of Steel Girders,1,Apply Protective Coatings / Paint System to Girders at Fabrication Yard
+"4.3 Special Spans & Ramps (Steel Girders, ROB/RUB)",A3860,"Procure & Deliver Bearings, Pedestals, and Seismic Arrestors",1,START
+"4.3 Special Spans & Ramps (Steel Girders, ROB/RUB)",A3870,"Procure & Deliver Decking Materials, Expansion Joints, and Parapets",1,START
+"4.3 Special Spans & Ramps (Steel Girders, ROB/RUB)",A3880,Arrange Logistics & Transportation for Oversized Girder Delivery to Site,1,Factory Acceptance Testing (FAT) & Quality Inspection of Steel Girders
+"4.3 Special Spans & Ramps (Steel Girders, ROB/RUB)",A3890,Enabling & Substructure Works**,1,START
+"4.3 Special Spans & Ramps (Steel Girders, ROB/RUB)",A3900,"Site Survey, Setting Out, and Geotechnical Verification",1,START
+"4.3 Special Spans & Ramps (Steel Girders, ROB/RUB)",A3910,Implement Traffic Management Plan & Obtain Road/Rail Block Permissions,1,Site Survey
+"4.3 Special Spans & Ramps (Steel Girders, ROB/RUB)",A3920,"Site Clearance, Grubbing, and Earthworks for Abutments & Piers",1,START
+"4.3 Special Spans & Ramps (Steel Girders, ROB/RUB)",A3930,Construct Piled Foundations for Abutments & Piers,1,Site Clearance
+"4.3 Special Spans & Ramps (Steel Girders, ROB/RUB)",A3940,Construct Pile Caps for Abutments & Piers,1,Construct Piled Foundations for Abutments & Piers
+"4.3 Special Spans & Ramps (Steel Girders, ROB/RUB)",A3950,"Construct Abutment Walls (Formwork, Rebar, Concrete Pour)",1,START
+"4.3 Special Spans & Ramps (Steel Girders, ROB/RUB)",A3960,"Construct Pier Shafts (Formwork, Rebar, Concrete Pour)",1,START
+"4.3 Special Spans & Ramps (Steel Girders, ROB/RUB)",A3970,"Construct Pier Caps / Abutment Seats (Formwork, Rebar, Concrete Pour)",1,START
+"4.3 Special Spans & Ramps (Steel Girders, ROB/RUB)",A3980,Cure Concrete Substructure & Strip Formwork,1,Construct Pier Caps / Abutment Seats (Formwork
+"4.3 Special Spans & Ramps (Steel Girders, ROB/RUB)",A3990,Superstructure Erection**,1,START
+"4.3 Special Spans & Ramps (Steel Girders, ROB/RUB)",A4000,Prepare Girder Staging & Assembly Area,1,Install Bearings
+"4.3 Special Spans & Ramps (Steel Girders, ROB/RUB)",A4010,Receive & Unload Steel Girders at Site,1,Prepare Girder Staging & Assembly Area
+"4.3 Special Spans & Ramps (Steel Girders, ROB/RUB)",A4020,Assemble Girder Segments on Ground (if required),1,Receive & Unload Steel Girders at Site
+"4.3 Special Spans & Ramps (Steel Girders, ROB/RUB)",A4030,"Install Bearings, Pedestals & Seismic Arrestors on Pier Caps & Abutments",1,START
+"4.3 Special Spans & Ramps (Steel Girders, ROB/RUB)",A4040,Mobilize Heavy Lift Cranes / Launching Gantry,1,Assemble Girder Segments on Ground (if required)
+"4.3 Special Spans & Ramps (Steel Girders, ROB/RUB)",A4050,Erect/Launch Main Steel Girders onto Bearings,1,Mobilize Heavy Lift Cranes / Launching Gantry
+"4.3 Special Spans & Ramps (Steel Girders, ROB/RUB)",A4060,Install Diaphragms & Cross-Bracing between Girders,1,Erect/Launch Main Steel Girders onto Bearings
+"4.3 Special Spans & Ramps (Steel Girders, ROB/RUB)",A4070,Complete Bolting / Welding of All Steel Connections,1,Install Diaphragms & Cross-Bracing between Girders
+"4.3 Special Spans & Ramps (Steel Girders, ROB/RUB)",A4080,Conduct Survey & Alignment Checks of Erected Steel Superstructure,1,Complete Bolting / Welding of All Steel Connections
+"4.3 Special Spans & Ramps (Steel Girders, ROB/RUB)",A4090,"Deck, Ramps & Finishes**",1,START
+"4.3 Special Spans & Ramps (Steel Girders, ROB/RUB)",A4100,"Testing, Commissioning & Handover**",1,START
+4.4 Viaduct Finishing Works,A4110,GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**,1,START
+4.4 Viaduct Finishing Works,A4120,Mobilization & Preparatory Works**,1,START
+4.4 Viaduct Finishing Works,A4130,"Mobilize personnel, plant, and materials to the viaduct deck.",1,START
+4.4 Viaduct Finishing Works,A4140,Conduct as-built survey of the viaduct deck for level and alignment control.,1,START
+4.4 Viaduct Finishing Works,A4150,"Prepare deck surface (high-pressure water jetting, grinding, and minor concrete repairs).",1,START
+4.4 Viaduct Finishing Works,A4160,Permanent Bearings & Restraints**,1,START
+4.4 Viaduct Finishing Works,A4170,Install Permanent Bearings on pier heads.,1,START
+4.4 Viaduct Finishing Works,A4180,Install Pedestals and Seismic Arrestors.,1,START
+4.4 Viaduct Finishing Works,A4190,"Grout pedestals, bearings, and arrestor base plates.",1,START
+4.4 Viaduct Finishing Works,A4200,Conduct post-grouting inspection and testing.,1,START
+4.4 Viaduct Finishing Works,A4210,Parapet Wall Construction**,1,START
+4.4 Viaduct Finishing Works,A4220,Survey and set out for parapet wall alignment.,1,START
+4.4 Viaduct Finishing Works,A4230,Install starter bars and fix reinforcement for parapet walls.,1,START
+4.4 Viaduct Finishing Works,A4240,Erect formwork for parapet walls (inner and outer).,1,START
+4.4 Viaduct Finishing Works,A4250,Pour concrete for parapet walls in sequential bays.,1,START
+4.4 Viaduct Finishing Works,A4260,Strip formwork and apply curing compound.,1,START
+4.4 Viaduct Finishing Works,A4270,Apply waterproofing membrane system to the entire deck surface.,1,START
+4.4 Viaduct Finishing Works,A4280,Conduct flood testing or integrity testing of the waterproofing membrane.,1,START
+4.4 Viaduct Finishing Works,A4290,Lay protective screed or asphaltic layer over the membrane.,1,START
+4.4 Viaduct Finishing Works,A4300,Survey and set out for track plinth/baseplate locations.,1,START
+4.4 Viaduct Finishing Works,A4310,Construct concrete track plinths.,1,START
+4.4 Viaduct Finishing Works,A4320,"Install rails, fastenings, and sleepers/baseplates.",1,START
+4.4 Viaduct Finishing Works,A4330,Perform initial rail alignment and thermic welding.,1,START
+4.4 Viaduct Finishing Works,A4340,"Final tamping, stressing, and alignment of track.",1,START
+4.4 Viaduct Finishing Works,A4350,"Install deck drainage system (scuppers, downpipes).",1,START
+4.4 Viaduct Finishing Works,A4360,"Install cable containment systems (ducts, troughs, and cable trays).",1,START
+4.4 Viaduct Finishing Works,A4370,Install walkway and maintenance handrailing.,1,START
+4.4 Viaduct Finishing Works,A4380,"Pull and install power, signaling, and communication cables.",1,START
+4.4 Viaduct Finishing Works,A4390,Install viaduct lighting poles and fixtures.,1,START
+4.4 Viaduct Finishing Works,A4400,Install noise barriers and associated steelwork.,1,START
+4.4 Viaduct Finishing Works,A4410,Install expansion joints at abutments and designated piers.,1,START
+4.4 Viaduct Finishing Works,A4420,Apply final protective/aesthetic coating to parapet walls.,1,START
+4.4 Viaduct Finishing Works,A4430,Install all required signage and line marking.,1,START
+4.4 Viaduct Finishing Works,A4440,Conduct final cleaning and removal of all temporary works from the deck.,1,START
+4.4 Viaduct Finishing Works,A4450,Perform joint quality inspection with the client/engineer (Punch Listing).,1,START
+4.4 Viaduct Finishing Works,A4460,Rectify all identified defects/snags.,1,START
+4.4 Viaduct Finishing Works,A4470,Final Handover Inspection and Demobilization.,1,START
+5.1 Whitefield Station Construction,A4480,GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**,1,START
+5.1 Whitefield Station Construction,A4490,Site Establishment & Enabling Works**,1,START
+5.1 Whitefield Station Construction,A4500,Obtain All Necessary Permits to Work,1,START
+5.1 Whitefield Station Construction,A4510,"Site Mobilization, Setup Site Offices, Welfare Facilities & Laydown Areas",1,START
+5.1 Whitefield Station Construction,A4520,Perform Initial Site Survey and Setting Out,1,Site Mobilization
+5.1 Whitefield Station Construction,A4530,"Install Temporary Fencing, Hoarding, and Access Gates",1,START
+5.1 Whitefield Station Construction,A4540,"Utility Location, Diversion, and Protection Works",1,START
+5.1 Whitefield Station Construction,A4550,"Site Clearance, Grubbing, and Removal of Obstructions",1,START
+5.1 Whitefield Station Construction,A4560,Substructure & Foundation Works**,1,START
+5.1 Whitefield Station Construction,A4570,Bulk Excavation to Formation Level,1,Site Clearance
+5.1 Whitefield Station Construction,A4580,Piling Works (Installation of Bored/Driven Piles),1,Bulk Excavation to Formation Level
+5.1 Whitefield Station Construction,A4590,Pile Trimming and Preparation,1,Piling Works (Installation of Bored/Driven Piles)
+5.1 Whitefield Station Construction,A4600,Excavation for Pile Caps and Foundation Bases,1,Pile Trimming and Preparation
+5.1 Whitefield Station Construction,A4610,Install Blinding Concrete and Waterproofing,1,Excavation for Pile Caps and Foundation Bases
+5.1 Whitefield Station Construction,A4620,Reinforcement Fixing and Formwork for Pile Caps & Foundations,1,Install Blinding Concrete and Waterproofing
+5.1 Whitefield Station Construction,A4630,Concrete Pour for Pile Caps & Foundations,1,Reinforcement Fixing and Formwork for Pile Caps & Foundations
+5.1 Whitefield Station Construction,A4640,Install Underground Drainage and Buried Services/Ducts,1,Concrete Pour for Pile Caps & Foundations
+5.1 Whitefield Station Construction,A4650,Backfilling and Compaction up to Ground Level,1,Install Underground Drainage and Buried Services/Ducts
+5.1 Whitefield Station Construction,A4660,Superstructure Works**,1,START
+5.1 Whitefield Station Construction,A4670,Construct Ground Floor/Sub-level Retaining Walls and Columns,1,Backfilling and Compaction up to Ground Level
+5.1 Whitefield Station Construction,A4680,Install Formwork & Rebar for Ground Floor Slab,1,Construct Ground Floor/Sub-level Retaining Walls and Columns
+5.1 Whitefield Station Construction,A4690,Pour Concrete for Ground Floor Slab,1,Install Formwork & Rebar for Ground Floor Slab
+5.1 Whitefield Station Construction,A4700,Erect Structural Steel or RC Columns to Concourse Level,1,Pour Concrete for Ground Floor Slab
+5.1 Whitefield Station Construction,A4710,Install Pedestals & Seismic Arrestors on Support Columns**,1,START
+5.1 Whitefield Station Construction,A4720,Install Formwork & Rebar for Concourse Level Beams and Slabs,1,Install Pedestals & Seismic Arrestors on Support Columns
+5.1 Whitefield Station Construction,A4730,Pour Concrete for Concourse Level Slab,1,Install Formwork & Rebar for Concourse Level Beams and Slabs
+5.1 Whitefield Station Construction,A4740,Erect Structural Steel or RC Columns to Platform/Roof Level,1,Pour Concrete for Concourse Level Slab
+5.1 Whitefield Station Construction,A4750,Construct Staircases and Lift/Elevator Shafts,1,Erect Structural Steel or RC Columns to Platform/Roof Level
+5.1 Whitefield Station Construction,A4760,Install Main Roof Structural Steel/Concrete Frame,1,Construct Staircases and Lift/Elevator Shafts
+5.1 Whitefield Station Construction,A4770,"Install Roof Decking, Waterproofing, and Cladding",1,START
+5.1 Whitefield Station Construction,A4780,Building Envelope & Architectural Finishes**,1,START
+5.1 Whitefield Station Construction,A4790,"Install External Facade, Cladding, and Glazing Systems",1,START
+5.1 Whitefield Station Construction,A4800,Install External Doors and Louvres,1,Install External Facade
+5.1 Whitefield Station Construction,A4810,Commence Internal Blockwork and Partitioning,1,Install External Doors and Louvres
+5.1 Whitefield Station Construction,A4820,Floor Screeding and Toppings,1,MEP First Fix - Installation of Containment
+5.1 Whitefield Station Construction,A4830,"First Fix Internal Finishes (Wall Linings, Plastering)",1,START
+5.1 Whitefield Station Construction,A4840,Ceiling Grid and System Installation,1,First Fix Internal Finishes (Wall Linings
+5.1 Whitefield Station Construction,A4850,"Second Fix Internal Finishes (Painting, Tiling, Floor Coverings)",1,START
+5.1 Whitefield Station Construction,A4860,"Installation of Internal Doors, Glazing, and Architectural Metalwork",1,START
+5.1 Whitefield Station Construction,A4870,"Fit-out of Station Rooms (Ticket Office, Staff Rooms, Toilets)",1,START
+5.1 Whitefield Station Construction,A4880,Installation of Station Furniture and Fixtures,1,Fit-out of Station Rooms (Ticket Office
+5.1 Whitefield Station Construction,A4890,"Mechanical, Electrical & Plumbing (MEP) and Systems Installation**",1,START
+5.1 Whitefield Station Construction,A4900,"MEP First Fix - Installation of Containment, Ductwork, and Pipework",1,START
+5.1 Whitefield Station Construction,A4910,"Installation of Major Plant (HVAC Chillers, Transformers, Switchgear)",1,START
+5.1 Whitefield Station Construction,A4920,"MEP Second Fix - Cable Pulling, Wiring, and Equipment Installation",1,START
+5.1 Whitefield Station Construction,A4930,Installation of Lighting and Small Power Systems,1,MEP Second Fix - Cable Pulling
+5.1 Whitefield Station Construction,A4940,"Installation of Fire Fighting, Alarm, and Life Safety Systems",1,START
+5.1 Whitefield Station Construction,A4950,"Installation of Plumbing, Drainage, and Sanitary Ware",1,START
+5.1 Whitefield Station Construction,A4960,"Installation of Station Specific Systems (CCTV, PA, Access Control, Ticketing)",1,START
+5.1 Whitefield Station Construction,A4970,Installation of Lifts and Escalators,1,Construct Staircases and Lift/Elevator Shafts
+5.1 Whitefield Station Construction,A4980,External Works & Site Completion**,1,START
+5.1 Whitefield Station Construction,A4990,Final Grading and Preparation for External Areas,1,Install External Facade
+5.1 Whitefield Station Construction,A5000,"Construction of Access Roads, Pavements, and Kerbs",1,START
+5.1 Whitefield Station Construction,A5010,Installation of External Lighting and Signage,1,Construction of Access Roads
+5.1 Whitefield Station Construction,A5020,"Landscaping, Planting, and Irrigation Works",1,START
+5.1 Whitefield Station Construction,A5030,Final Site Cleanup and Removal of Temporary Facilities,1,Landscaping
+5.1 Whitefield Station Construction,A5040,"Testing, Commissioning & Handover**",1,START
+5.1 Whitefield Station Construction,A5050,Pre-commissioning and Static Testing of Individual MEP Systems,1,Installation of Station Specific Systems (CCTV
+5.1 Whitefield Station Construction,A5060,Commissioning and Dynamic Testing of MEP & Life Safety Systems,1,Pre-commissioning and Static Testing of Individual MEP Systems
+5.1 Whitefield Station Construction,A5070,Testing and Commissioning of Lifts and Escalators,1,Commissioning and Dynamic Testing of MEP & Life Safety Systems
+5.1 Whitefield Station Construction,A5080,Integrated Station Systems Testing,1,Testing and Commissioning of Lifts and Escalators
+5.1 Whitefield Station Construction,A5090,Final Inspections and Rectification of Snags (Punch List),1,Integrated Station Systems Testing
+5.1 Whitefield Station Construction,A5100,Obtain Final Statutory Approvals and Occupancy Certificate,1,Final Inspections and Rectification of Snags (Punch List)
+5.1 Whitefield Station Construction,A5110,Compile As-Built Drawings and O&M Manuals,1,Obtain Final Statutory Approvals and Occupancy Certificate
+5.1 Whitefield Station Construction,A5120,Final Handover of Whitefield Station to the Client/Operator,1,Compile As-Built Drawings and O&M Manuals
+5.2 K.R. Puram Station Construction,A5130,GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**,1,START
+5.2 K.R. Puram Station Construction,A5140,Pre-Construction & Enabling Works**,1,START
+5.2 K.R. Puram Station Construction,A5150,"Site Mobilization, Establishment of Site Office & Laydown Areas",1,START
+5.2 K.R. Puram Station Construction,A5160,"Initial Site Survey, Setting Out, and Geotechnical Investigations",1,START
+5.2 K.R. Puram Station Construction,A5170,"Site Clearance, Grubbing, and Demolition of Existing Structures",1,START
+5.2 K.R. Puram Station Construction,A5180,Traffic Management Plan Implementation & Barricading,1,Site Clearance
+5.2 K.R. Puram Station Construction,A5190,"Diversion of Existing Utilities (Electrical, Water, Telecom, Sewerage)",1,START
+5.2 K.R. Puram Station Construction,A5200,Substructure & Foundation Works**,1,START
+5.2 K.R. Puram Station Construction,A5210,Piling Works (Bored Cast-in-situ piles),1,Diversion of Existing Utilities (Electrical
+5.2 K.R. Puram Station Construction,A5220,Pile Breaking and Preparation for Pile Caps,1,Piling Works (Bored Cast-in-situ piles)
+5.2 K.R. Puram Station Construction,A5230,Excavation for Pile Caps and Foundations,1,Pile Breaking and Preparation for Pile Caps
+5.2 K.R. Puram Station Construction,A5240,"Pile Cap Reinforcement, Formwork, and Concreting",1,START
+5.2 K.R. Puram Station Construction,A5250,Construction of Substructure Piers/Columns up to Ground Level,1,Pile Cap Reinforcement
+5.2 K.R. Puram Station Construction,A5260,Backfilling and Compaction around Foundations,1,Construction of Substructure Piers/Columns up to Ground Level
+5.2 K.R. Puram Station Construction,A5270,Superstructure Works**,1,START
+5.2 K.R. Puram Station Construction,A5280,Erection of Scaffolding and Formwork for Concourse Level,1,Backfilling and Compaction around Foundations
+5.2 K.R. Puram Station Construction,A5290,Concourse Level Slab & Beams - Reinforcement & Concreting,1,Erection of Scaffolding and Formwork for Concourse Level
+5.2 K.R. Puram Station Construction,A5300,Construction of Columns from Concourse to Platform Level,1,Concourse Level Slab & Beams - Reinforcement & Concreting
+5.2 K.R. Puram Station Construction,A5310,Erection of Scaffolding and Formwork for Platform Level,1,Construction of Columns from Concourse to Platform Level
+5.2 K.R. Puram Station Construction,A5320,Platform Level Slab & Beams - Reinforcement & Concreting,1,Erection of Scaffolding and Formwork for Platform Level
+5.2 K.R. Puram Station Construction,A5330,"Installation of Bearings, Pedestals & Seismic Arrestors",1,START
+5.2 K.R. Puram Station Construction,A5340,Construction of Columns from Platform to Roof Level,1,Installation of Bearings
+5.2 K.R. Puram Station Construction,A5350,Fabrication and Erection of Structural Steel for Roof,1,Construction of Columns from Platform to Roof Level
+5.2 K.R. Puram Station Construction,A5360,"Roof Sheeting, Cladding, and Waterproofing Installation",1,START
+5.2 K.R. Puram Station Construction,A5370,Architectural Works & Finishes**,1,START
+5.2 K.R. Puram Station Construction,A5380,"MEP (Mechanical, Electrical, Plumbing) & Systems Installation**",1,START
+5.2 K.R. Puram Station Construction,A5390,External Area Development**,1,START
+5.2 K.R. Puram Station Construction,A5400,"Testing, Commissioning & Handover**",1,START
+5.3 Central Station Construction,A5410,GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**,1,START
+5.3 Central Station Construction,A5420,WBS: 5.3 Central Station Construction**,1,START
+5.3 Central Station Construction,A5430,Site Establishment & Enabling Works**,1,START
+5.3 Central Station Construction,A5440,"Mobilize Site Plant, Equipment & Personnel",1,START
+5.3 Central Station Construction,A5450,"Establish Site Offices, Welfare Facilities & Laydown Areas",1,START
+5.3 Central Station Construction,A5460,Perform Topographical Survey and Setting Out,1,Establish Site Offices
+5.3 Central Station Construction,A5470,Implement Traffic & Pedestrian Management Plans,1,Perform Topographical Survey and Setting Out
+5.3 Central Station Construction,A5480,"Isolate, Disconnect, and Divert Existing Utilities",1,START
+5.3 Central Station Construction,A5490,Erect Site Hoarding and Secure Site Perimeter,1,Isolate
+5.3 Central Station Construction,A5500,Substructure Works**,1,START
+5.3 Central Station Construction,A5510,"Install Piling (Secant, Contiguous, or Bearing Piles as required)",1,START
+5.3 Central Station Construction,A5520,Perform Bulk Excavation to Formation Level,1,Install Piling (Secant
+5.3 Central Station Construction,A5530,Install Temporary Shoring and Dewatering Systems,1,Perform Bulk Excavation to Formation Level
+5.3 Central Station Construction,A5540,Install Blinding Concrete and Waterproofing Membrane,1,Install Temporary Shoring and Dewatering Systems
+5.3 Central Station Construction,A5550,Install Foundation Rebar Cages,1,Install Blinding Concrete and Waterproofing Membrane
+5.3 Central Station Construction,A5560,Pour Foundation Concrete (Raft / Pile Caps),1,Install Foundation Rebar Cages
+5.3 Central Station Construction,A5570,Construct Basement Retaining Walls and Columns,1,Pour Foundation Concrete (Raft / Pile Caps)
+5.3 Central Station Construction,A5580,Waterproof Substructure Walls,1,Construct Basement Retaining Walls and Columns
+5.3 Central Station Construction,A5590,Superstructure Works**,1,START
+5.3 Central Station Construction,A5600,Install Pedestals & Seismic Arrestors at Column Locations,1,Waterproof Substructure Walls
+5.3 Central Station Construction,A5610,Erect Ground Floor Structural Frame (Columns & Core Walls),1,Install Pedestals & Seismic Arrestors at Column Locations
+5.3 Central Station Construction,A5620,"Install Formwork, Rebar, and MEP First Fix for Level 1 Slab",1,START
+5.3 Central Station Construction,A5630,Pour Concrete for Level 1 Slab,1,Install Formwork
+5.3 Central Station Construction,A5640,Erect Level 1 Structural Frame (Columns & Walls),1,Pour Concrete for Level 1 Slab
+5.3 Central Station Construction,A5650,Repeat Slab & Frame Cycle for all Subsequent Floors...*,1,Erect Level 1 Structural Frame (Columns & Walls)
+5.3 Central Station Construction,A5660,Erect Main Roof Structural Steel Frame,1,Repeat Slab & Frame Cycle for all Subsequent Floors...*
+5.3 Central Station Construction,A5670,Install Roof Decking and Substrate,1,Erect Main Roof Structural Steel Frame
+5.3 Central Station Construction,A5680,Building Envelope & Cladding**,1,START
+5.3 Central Station Construction,A5690,Install Roof Weatherproofing and Insulation System,1,Install Roof Decking and Substrate
+5.3 Central Station Construction,A5700,Install External Façade Support System (Mullions/Transoms),1,Install Roof Weatherproofing and Insulation System
+5.3 Central Station Construction,A5710,"Install Glazing, Cladding Panels, and Louvres",1,START
+5.3 Central Station Construction,A5720,Install External Doors and Entranceways,1,Install Glazing
+5.3 Central Station Construction,A5730,Complete all External Sealant and Interface Works,1,Install External Doors and Entranceways
+5.3 Central Station Construction,A5740,Internal Works & Finishes**,1,START
+5.3 Central Station Construction,A5750,Install Internal Blockwork and Drywall Partitions,1,Complete all External Sealant and Interface Works
+5.3 Central Station Construction,A5760,Install Main Staircases and Complete Lift Shaft Construction,1,Install Internal Blockwork and Drywall Partitions
+5.3 Central Station Construction,A5770,"MEP First Fix (Containment, Ductwork, Pipework) in Walls & Ceilings",1,START
+5.3 Central Station Construction,A5780,Apply Plastering / Wall Finishes,1,MEP First Fix (Containment
+5.3 Central Station Construction,A5790,Install Suspended Ceilings and Access Panels,1,Apply Plastering / Wall Finishes
+5.3 Central Station Construction,A5800,Install Raised Access Flooring / Floor Screed,1,Install Suspended Ceilings and Access Panels
+5.3 Central Station Construction,A5810,"Install Floor Finishes (Tiling, Terrazzo, Vinyl)",1,START
+5.3 Central Station Construction,A5820,"Install Wall Finishes (Tiling, Panelling)",1,START
+5.3 Central Station Construction,A5830,"Install Internal Doors, Frames, and Glazed Screens",1,START
+5.3 Central Station Construction,A5840,Final Painting and Decorating,1,Install Internal Doors
+5.3 Central Station Construction,A5850,"Mechanical, Electrical & Plumbing (MEP) & Systems Installation**",1,START
+5.3 Central Station Construction,A5860,"Install Major Plant (HVAC Chillers, Air Handling Units, Switchgear)",1,START
+5.3 Central Station Construction,A5870,"MEP Second Fix (Cabling, Sockets, Light Fixtures, Grilles, Sanitary Ware)",1,START
+5.3 Central Station Construction,A5880,Install Lifts and Escalators,1,MEP Second Fix (Cabling
+5.3 Central Station Construction,A5890,"Install Fire Protection Systems (Sprinklers, Fire Alarms)",1,START
+5.3 Central Station Construction,A5900,"Install Station Management Systems (BMS, CCTV, Public Address)",1,START
+5.3 Central Station Construction,A5910,Install Passenger Information and Ticketing Systems,1,Install Station Management Systems (BMS
+5.3 Central Station Construction,A5920,External Works & Landscaping**,1,START
+5.3 Central Station Construction,A5930,Backfill and Grade around Station Structure,1,Install Passenger Information and Ticketing Systems
+5.3 Central Station Construction,A5940,Install Site-wide Stormwater Drainage and Utilities,1,Backfill and Grade around Station Structure
+5.3 Central Station Construction,A5950,"Construct Access Roads, Pavements, and Hard Landscaping",1,START
+5.3 Central Station Construction,A5960,"Install External Lighting, Signage, and Street Furniture",1,START
+5.3 Central Station Construction,A5970,Perform Topsoiling and Soft Landscaping (Planting),1,Install External Lighting
+5.3 Central Station Construction,A5980,"Testing, Commissioning & Handover**",1,START
+5.3 Central Station Construction,A5990,Perform MEP Systems Testing and Commissioning,1,Perform Topsoiling and Soft Landscaping (Planting)
+5.3 Central Station Construction,A6000,Conduct Integrated Systems Testing (Cause & Effect),1,Perform MEP Systems Testing and Commissioning
+5.3 Central Station Construction,A6010,Final Architectural Snagging and Defect Rectification,1,Conduct Integrated Systems Testing (Cause & Effect)
+5.3 Central Station Construction,A6020,Obtain Statutory Approvals and Certificate of Completion,1,Final Architectural Snagging and Defect Rectification
+5.3 Central Station Construction,A6030,Final Site Clean and Demobilization,1,Obtain Statutory Approvals and Certificate of Completion
+5.3 Central Station Construction,A6040,Compile As-Built Drawings and Handover Documentation,1,Final Site Clean and Demobilization
+"6.1 Earthworks, Formation & Drainage",A6050,GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**,1,START
+"6.1 Earthworks, Formation & Drainage",A6060,"Mobilize Plant, Equipment, and Labour for Earthworks Operations",1,START
+"6.1 Earthworks, Formation & Drainage",A6070,"Survey and Set Out of Works Area, including Cut/Fill Limits and Drainage Lines",1,START
+"6.1 Earthworks, Formation & Drainage",A6080,"Establish Environmental Controls (e.g., Silt Fencing, Settlement Ponds)",1,START
+6.2 Depot Buildings & Workshop Structures,A6090,GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**,1,START
+6.2 Depot Buildings & Workshop Structures,A6100,WBS: 6.2 Depot Buildings & Workshop Structures**,1,START
+6.2 Depot Buildings & Workshop Structures,A6110,Pre-Construction & Mobilization**,1,START
+6.2 Depot Buildings & Workshop Structures,A6120,Submit & Obtain Approval for Construction Method Statements & Shop Drawings,1,START
+6.2 Depot Buildings & Workshop Structures,A6130,"Mobilize Site Facilities, Plant & Personnel",1,START
+6.2 Depot Buildings & Workshop Structures,A6140,"Establish Temporary Utilities (Power, Water, Site Offices)",1,START
+6.2 Depot Buildings & Workshop Structures,A6150,Perform Initial Site Survey & Setting Out of Building Footprints,1,Establish Temporary Utilities (Power
+6.2 Depot Buildings & Workshop Structures,A6160,"Site Clearance, Grubbing, and Removal of Obstructions",1,START
+6.2 Depot Buildings & Workshop Structures,A6170,Substructure & Foundations**,1,START
+6.2 Depot Buildings & Workshop Structures,A6180,Bulk Excavation to Formation Level,1,Site Clearance
+6.2 Depot Buildings & Workshop Structures,A6190,"Excavate for Foundations, Ground Beams & Service Trenches",1,START
+6.2 Depot Buildings & Workshop Structures,A6200,"Install Underground Services (Drainage, Earthing, Below-Slab Conduits)",1,START
+6.2 Depot Buildings & Workshop Structures,A6210,Lay Blinding Concrete & Waterproofing Membrane,1,Install Underground Services (Drainage
+6.2 Depot Buildings & Workshop Structures,A6220,Fabricate & Fix Rebar for Foundations & Pile Caps,1,Lay Blinding Concrete & Waterproofing Membrane
+6.2 Depot Buildings & Workshop Structures,A6230,Install Formwork for Foundations & Ground Beams,1,Fabricate & Fix Rebar for Foundations & Pile Caps
+6.2 Depot Buildings & Workshop Structures,A6240,"Install Cast-in Items (Holding Down Bolts, Plates for Pedestals & Seismic Arrestors)**",1,START
+6.2 Depot Buildings & Workshop Structures,A6250,Pour Concrete for Foundations & Plinths,1,Install Cast-in Items (Holding Down Bolts
+6.2 Depot Buildings & Workshop Structures,A6260,Strip Formwork & Apply Curing Compound,1,Pour Concrete for Foundations & Plinths
+6.2 Depot Buildings & Workshop Structures,A6270,"Backfill, Grade, and Compact Hardcore for Ground Floor Slab",1,START
+6.2 Depot Buildings & Workshop Structures,A6280,Install Reinforcement & Formwork for Ground Floor Slab,1,Backfill
+6.2 Depot Buildings & Workshop Structures,A6290,Pour Concrete for Ground Floor Slab & Apply Finish,1,Install Reinforcement & Formwork for Ground Floor Slab
+6.2 Depot Buildings & Workshop Structures,A6300,Superstructure**,1,START
+6.2 Depot Buildings & Workshop Structures,A6310,"Procure, Fabricate & Deliver Structural Steel",1,START
+6.2 Depot Buildings & Workshop Structures,A6320,Erect Primary Structural Steel Frame (Columns & Rafters),1,Procure
+6.2 Depot Buildings & Workshop Structures,A6330,"Erect Secondary Steel (Purlins, Girts, Bracing)",1,START
+6.2 Depot Buildings & Workshop Structures,A6340,"Install Roof Cladding, Gutters & Waterproofing System",1,START
+6.2 Depot Buildings & Workshop Structures,A6350,"Install Wall Cladding, Louvers & Vents",1,START
+6.2 Depot Buildings & Workshop Structures,A6360,Construct Internal Masonry / Blockwork Walls,1,Install Wall Cladding
+6.2 Depot Buildings & Workshop Structures,A6370,"Install External Doors, Windows & Glazing",1,START
+6.2 Depot Buildings & Workshop Structures,A6380,MEP & Internal Finishes (First Fix)**,1,START
+6.2 Depot Buildings & Workshop Structures,A6390,Workshop Equipment & MEP (Second Fix)**,1,START
+6.2 Depot Buildings & Workshop Structures,A6400,Architectural Finishes & Fit-Out**,1,START
+6.2 Depot Buildings & Workshop Structures,A6410,External Works**,1,START
+6.2 Depot Buildings & Workshop Structures,A6420,"Testing, Commissioning & Handover**",1,START
+6.3 Internal Roads & Ancillary Works,A6430,GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**,1,START
+6.3 Internal Roads & Ancillary Works,A6440,Pre-Construction & Enabling Works**,1,START
+6.3 Internal Roads & Ancillary Works,A6450,"Procure and Deliver Long-Lead Items (e.g., Stormwater Pipes, Light Poles)",1,START
+6.3 Internal Roads & Ancillary Works,A6460,"Mobilize Site Team, Plant & Equipment for Road Works",1,START
+6.3 Internal Roads & Ancillary Works,A6470,"Survey, Set Out, and Peg Road Alignments, Levels, and Drainage Lines",1,START
+6.3 Internal Roads & Ancillary Works,A6480,Clear and Grub Site along Road Corridors,1,Survey
+6.3 Internal Roads & Ancillary Works,A6490,Strip and Stockpile Topsoil for Later Re-use,1,Clear and Grub Site along Road Corridors
+6.3 Internal Roads & Ancillary Works,A6500,Demolish any Existing Conflicting Pavements or Structures,1,Strip and Stockpile Topsoil for Later Re-use
+6.3 Internal Roads & Ancillary Works,A6510,Earthworks & Sub-grade Preparation**,1,START
+6.3 Internal Roads & Ancillary Works,A6520,Bulk Excavation (Cut) to Formation Level,1,Demolish any Existing Conflicting Pavements or Structures
+6.3 Internal Roads & Ancillary Works,A6530,"Import, Place, and Compact Engineered Fill to Formation Level",1,START
+6.3 Internal Roads & Ancillary Works,A6540,Proof Roll and Test Sub-grade for Compaction and CBR,1,Import
+6.3 Internal Roads & Ancillary Works,A6550,Final Grade and Trim Sub-grade to Lines and Levels,1,Proof Roll and Test Sub-grade for Compaction and CBR
+6.3 Internal Roads & Ancillary Works,A6560,Underground Services & Drainage**,1,START
+6.3 Internal Roads & Ancillary Works,A6570,Excavate Trenches for Stormwater Drainage and Utility Crossings,1,Final Grade and Trim Sub-grade to Lines and Levels
+6.3 Internal Roads & Ancillary Works,A6580,Install Bedding Material for Pipes and Ducts,1,Excavate Trenches for Stormwater Drainage and Utility Crossings
+6.3 Internal Roads & Ancillary Works,A6590,Lay Stormwater Pipes and Culverts,1,Install Bedding Material for Pipes and Ducts
+6.3 Internal Roads & Ancillary Works,A6600,"Construct Manholes, Catch Basins, and Headwalls",1,START
+6.3 Internal Roads & Ancillary Works,A6610,Install Ducts for Electrical and Communication Services Crossings,1,Construct Manholes
+6.3 Internal Roads & Ancillary Works,A6620,Backfill and Compact all Trenches and Service Crossings,1,Install Ducts for Electrical and Communication Services Crossings
+6.3 Internal Roads & Ancillary Works,A6630,Pavement Construction**,1,START
+6.3 Internal Roads & Ancillary Works,A6640,"Place, Spread, and Compact Sub-base Course Material",1,START
+6.3 Internal Roads & Ancillary Works,A6650,"Place, Spread, and Compact Base Course Material",1,START
+6.3 Internal Roads & Ancillary Works,A6660,Conduct Field Density Tests for Sub-base and Base Course Layers,1,Place
+6.3 Internal Roads & Ancillary Works,A6670,Apply Prime Coat to Base Course,1,Conduct Field Density Tests for Sub-base and Base Course Layers
+6.3 Internal Roads & Ancillary Works,A6680,Apply Tack Coat,1,Apply Prime Coat to Base Course
+6.3 Internal Roads & Ancillary Works,A6690,Lay and Compact Asphaltic Concrete - Binder Course,1,Apply Tack Coat
+6.3 Internal Roads & Ancillary Works,A6700,Lay and Compact Asphaltic Concrete - Wearing Course,1,Pour Concrete for Kerbstones and Gutters
+6.3 Internal Roads & Ancillary Works,A6710,Ancillary Concrete & Structural Works**,1,START
+6.3 Internal Roads & Ancillary Works,A6720,Install Formwork and Rebar for Kerbstones and Gutters,1,Lay and Compact Asphaltic Concrete - Binder Course
+6.3 Internal Roads & Ancillary Works,A6730,Pour Concrete for Kerbstones and Gutters,1,Install Formwork and Rebar for Kerbstones and Gutters
+6.3 Internal Roads & Ancillary Works,A6740,Construct Concrete Footpaths and Sidewalks,1,Lay and Compact Asphaltic Concrete - Wearing Course
+6.3 Internal Roads & Ancillary Works,A6750,Construct Foundations for Street Lighting Poles and Signage,1,Construct Concrete Footpaths and Sidewalks
+6.3 Internal Roads & Ancillary Works,A6760,Construct Concrete Pedestals & Supports for Ancillary Structures,1,Construct Foundations for Street Lighting Poles and Signage
+6.3 Internal Roads & Ancillary Works,A6770,Ancillary Finishes & MEP**,1,START
+6.3 Internal Roads & Ancillary Works,A6780,Erect Street Lighting Poles and Install Luminaires,1,Construct Concrete Pedestals & Supports for Ancillary Structures
+6.3 Internal Roads & Ancillary Works,A6790,Install and Terminate Electrical Cables for Street Lighting,1,Erect Street Lighting Poles and Install Luminaires
+6.3 Internal Roads & Ancillary Works,A6800,Install Roadside Guardrails and Safety Barriers,1,Install and Terminate Electrical Cables for Street Lighting
+6.3 Internal Roads & Ancillary Works,A6810,Erect Permanent Road Signage,1,Install Roadside Guardrails and Safety Barriers
+6.3 Internal Roads & Ancillary Works,A6820,Apply Thermoplastic Road Markings and Lane Delineation,1,Erect Permanent Road Signage
+6.3 Internal Roads & Ancillary Works,A6830,Install Fencing and Gates along Road Corridors,1,Apply Thermoplastic Road Markings and Lane Delineation
+6.3 Internal Roads & Ancillary Works,A6840,Landscaping & Final Reinstatement**,1,START
+6.3 Internal Roads & Ancillary Works,A6850,Spread Stockpiled Topsoil to Verges and Landscaped Areas,1,Install Fencing and Gates along Road Corridors
+6.3 Internal Roads & Ancillary Works,A6860,"Carry out Final Landscaping, Seeding, and Planting",1,START
+6.3 Internal Roads & Ancillary Works,A6870,Final Grading and Site Clean-up,1,Carry out Final Landscaping
+6.3 Internal Roads & Ancillary Works,A6880,"Testing, Commissioning & Handover**",1,START
+6.3 Internal Roads & Ancillary Works,A6890,Test and Commission Street Lighting System,1,Final Grading and Site Clean-up
+6.3 Internal Roads & Ancillary Works,A6900,Conduct Joint Site Inspection and Walkdown with Engineer/Client,1,Test and Commission Street Lighting System
+6.3 Internal Roads & Ancillary Works,A6910,Rectify Punch List Items,1,Conduct Joint Site Inspection and Walkdown with Engineer/Client
+6.3 Internal Roads & Ancillary Works,A6920,Prepare and Submit As-Built Drawings and Handover Documentation,1,Rectify Punch List Items
+6.3 Internal Roads & Ancillary Works,A6930,"Demobilize all Remaining Plant, Equipment, and Personnel",1,START
+"7.1 Interface with System Contractors (Track, Power, Signaling)",A6940,GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**,1,START
+"7.1 Interface with System Contractors (Track, Power, Signaling)",A6950,Initial Coordination & Planning**,1,START
+"7.1 Interface with System Contractors (Track, Power, Signaling)",A6960,Establish and Agree on Interface Management Plan (IMP) with all System Contractors,1,START
+"7.1 Interface with System Contractors (Track, Power, Signaling)",A6970,"Conduct Kick-Off Interface Workshops with Track, Power, and Signaling Contractors",1,START
+"7.1 Interface with System Contractors (Track, Power, Signaling)",A6980,Develop and Agree on Master Interface Control Document (ICD) Framework,1,Conduct Kick-Off Interface Workshops with Track
+"7.1 Interface with System Contractors (Track, Power, Signaling)",A6990,Establish and Agree on a Common Data Environment (CDE) for Document Exchange,1,Develop and Agree on Master Interface Control Document (ICD) Framework
+"7.1 Interface with System Contractors (Track, Power, Signaling)",A7000,Design & Engineering Interface**,1,START
+"7.1 Interface with System Contractors (Track, Power, Signaling)",A7010,Receive and Review System Contractors' 'Approved for Construction' (AFC) Drawings,1,Establish and Agree on a Common Data Environment (CDE) for Document Exchange
+"7.1 Interface with System Contractors (Track, Power, Signaling)",A7020,"Incorporate System Requirements into Civil/Structural Designs (e.g., duct banks, equipment rooms, cable routes)",1,START
+"7.1 Interface with System Contractors (Track, Power, Signaling)",A7030,Develop and Submit Combined Services Drawings (CSD) for System Contractor Review,1,Incorporate System Requirements into Civil/Structural Designs (e.g.
+"7.1 Interface with System Contractors (Track, Power, Signaling)",A7040,Conduct CSD Clash Detection and Resolution Workshops,1,Develop and Submit Combined Services Drawings (CSD) for System Contractor Review
+"7.1 Interface with System Contractors (Track, Power, Signaling)",A7050,Obtain Final Approval of all Interface CSDs from relevant parties,1,Conduct CSD Clash Detection and Resolution Workshops
+"7.1 Interface with System Contractors (Track, Power, Signaling)",A7060,Pre-Construction & Mobilization Interface**,1,START
+"7.1 Interface with System Contractors (Track, Power, Signaling)",A7070,Coordinate and Agree on Detailed Phased Installation Schedule with all System Contractors,1,Obtain Final Approval of all Interface CSDs from relevant parties
+"7.1 Interface with System Contractors (Track, Power, Signaling)",A7080,"Define and Agree on Site Access Protocols, Laydown Areas, and Permit to Work Procedures",1,START
+"7.1 Interface with System Contractors (Track, Power, Signaling)",A7090,"Jointly Review and Approve Health, Safety & Environmental (HSE) Interface Plans",1,START
+"7.1 Interface with System Contractors (Track, Power, Signaling)",A7100,Construction Interface & Area Handover**,1,START
+"7.1 Interface with System Contractors (Track, Power, Signaling)",A7110,Survey and Set Out locations for System Contractor Equipment Foundations and Embedments,1,Jointly Review and Approve Health
+"7.1 Interface with System Contractors (Track, Power, Signaling)",A7120,"Construct Foundations, Plinths, and **Pedestals** for Trackside Equipment",1,START
+"7.1 Interface with System Contractors (Track, Power, Signaling)",A7130,"Construct Foundations, Plinths, and **Pedestals** for Power Supply Equipment (e.g., substations, transformers)",1,START
+"7.1 Interface with System Contractors (Track, Power, Signaling)",A7140,"Construct Foundations, Plinths, and **Pedestals** for Signaling Equipment (e.g., signal posts, location cases)",1,START
+"7.1 Interface with System Contractors (Track, Power, Signaling)",A7150,"Install required embedded items (conduits, cable trays, earthing) as per approved CSDs",1,START
+"7.1 Interface with System Contractors (Track, Power, Signaling)",A7160,Conduct Joint Quality Inspection and Acceptance of Civil Interface Works,1,Install required embedded items (conduits
+"7.1 Interface with System Contractors (Track, Power, Signaling)",A7170,Formal Handover of Certified Work Area to Track Contractor,1,Conduct Joint Quality Inspection and Acceptance of Civil Interface Works
+"7.1 Interface with System Contractors (Track, Power, Signaling)",A7180,Formal Handover of Certified Work Area to Power Contractor,1,Formal Handover of Certified Work Area to Track Contractor
+"7.1 Interface with System Contractors (Track, Power, Signaling)",A7190,Formal Handover of Certified Work Area to Signaling Contractor,1,Formal Handover of Certified Work Area to Power Contractor
+"7.1 Interface with System Contractors (Track, Power, Signaling)",A7200,"Testing, Commissioning & Final Interface**",1,START
+"7.1 Interface with System Contractors (Track, Power, Signaling)",A7210,Provide Site Support and Access during System Installation and Testing Phases (Level of Effort),1,Formal Handover of Certified Work Area to Signaling Contractor
+"7.1 Interface with System Contractors (Track, Power, Signaling)",A7220,Participate in Joint Inspections during System Integration Testing (SIT),1,Provide Site Support and Access during System Installation and Testing Phases (Level of Effort)
+"7.1 Interface with System Contractors (Track, Power, Signaling)",A7230,Manage and Close-Out Interface-Related Defects and Punch List Items,1,Participate in Joint Inspections during System Integration Testing (SIT)
+"7.1 Interface with System Contractors (Track, Power, Signaling)",A7240,Compile and Submit As-Built Records for all Physical Interface Points,1,Manage and Close-Out Interface-Related Defects and Punch List Items
+"7.1 Interface with System Contractors (Track, Power, Signaling)",A7250,Achieve Final Sign-off on Interface Completion from all System Contractors,1,Compile and Submit As-Built Records for all Physical Interface Points
+"7.2 Testing, Commissioning Support & Handover",A7260,GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**,1,START
+"7.2 Testing, Commissioning Support & Handover",A7270,Preparation & Planning Phase**,1,START
+"7.2 Testing, Commissioning Support & Handover",A7280,Develop and Submit Overall Testing & Commissioning Strategy and Plan,1,START
+"7.2 Testing, Commissioning Support & Handover",A7290,Prepare and Submit System-Specific Pre-Commissioning Procedures & ITPs (Inspection and Test Plans),1,Develop and Submit Overall Testing & Commissioning Strategy and Plan
+"7.2 Testing, Commissioning Support & Handover",A7300,Prepare and Submit System-Specific Commissioning and Start-up Procedures,1,Prepare and Submit System-Specific Pre-Commissioning Procedures & ITPs (Inspection and Test Plans)
+"7.2 Testing, Commissioning Support & Handover",A7310,Compile and Submit Draft Operation & Maintenance (O&M) Manuals for Review,1,Prepare and Submit System-Specific Commissioning and Start-up Procedures
+"7.2 Testing, Commissioning Support & Handover",A7320,Define and Agree on Handover Protocol and Documentation Requirements with Client,1,Compile and Submit Draft Operation & Maintenance (O&M) Manuals for Review
+"7.2 Testing, Commissioning Support & Handover",A7330,Procure and Calibrate Specialist Testing Equipment,1,Define and Agree on Handover Protocol and Documentation Requirements with Client
+"7.2 Testing, Commissioning Support & Handover",A7340,Pre-Commissioning & Static Testing Phase**,1,START
+"7.2 Testing, Commissioning Support & Handover",A7350,Achieve Mechanical Completion (MC) on a System-by-System Basis,1,Procure and Calibrate Specialist Testing Equipment
+"7.2 Testing, Commissioning Support & Handover",A7360,Conduct Joint Construction Punch-Listing Walkdowns with Client/Engineer,1,Achieve Mechanical Completion (MC) on a System-by-System Basis
+"7.2 Testing, Commissioning Support & Handover",A7370,Rectify all 'Category A' Punch List Items (Preventing Commissioning),1,Conduct Joint Construction Punch-Listing Walkdowns with Client/Engineer
+"7.2 Testing, Commissioning Support & Handover",A7380,"Perform Static & Dead System Checks (e.g., Cable Continuity/Megger Tests, Pipe Pressure/Hydro Tests)",1,START
+"7.2 Testing, Commissioning Support & Handover",A7390,Complete and Sign-Off all Pre-Commissioning ITPs and Checksheets,1,Perform Static & Dead System Checks (e.g.
+"7.2 Testing, Commissioning Support & Handover",A7400,Issue System-Specific Mechanical Completion Certificates (MCC),1,Complete and Sign-Off all Pre-Commissioning ITPs and Checksheets
+"7.2 Testing, Commissioning Support & Handover",A7410,Commissioning & Dynamic Testing Phase**,1,START
+"7.2 Testing, Commissioning Support & Handover",A7420,System Energization and First Start-up (on a System-by-System Basis),1,Issue System-Specific Mechanical Completion Certificates (MCC)
+"7.2 Testing, Commissioning Support & Handover",A7430,"Perform Dynamic & Live System Functional Tests (e.g., Loop Tuning, Equipment Start/Stop, Sequence Checks)",1,START
+"7.2 Testing, Commissioning Support & Handover",A7440,Conduct System Integration Testing (SIT) to Verify Interface Functionality Between Systems,1,Perform Dynamic & Live System Functional Tests (e.g.
+"7.2 Testing, Commissioning Support & Handover",A7450,"Conduct Performance & Endurance Testing (e.g., Trial Operations, Load Bank Testing)",1,START
+"7.2 Testing, Commissioning Support & Handover",A7460,Identify and Log Commissioning-Related Punch List Items,1,Conduct Performance & Endurance Testing (e.g.
+"7.2 Testing, Commissioning Support & Handover",A7470,Rectify all Outstanding Punch List Items,1,Identify and Log Commissioning-Related Punch List Items
+"7.2 Testing, Commissioning Support & Handover",A7480,Handover & Completion Phase**,1,START
+"7.2 Testing, Commissioning Support & Handover",A7490,Post-Completion & Project Close-Out**,1,START
+7.3 As-Built Documentation & Contract Demobilization,A7500,WBS: 7.3 As-Built Documentation & Contract Demobilization**,1,START
+7.3 As-Built Documentation & Contract Demobilization,A7510,GENERATED ACTIVITY LIST (LOGICAL SEQUENCE):**,1,START
+7.3 As-Built Documentation & Contract Demobilization,A7520,As-Built & Handover Documentation**,1,START
+7.3 As-Built Documentation & Contract Demobilization,A7530,"Compile all field survey data, red-line markups, and quality inspection records.",1,START
+7.3 As-Built Documentation & Contract Demobilization,A7540,"Prepare and draft As-Built drawings (Civil, Structural, Architectural).",1,START
+7.3 As-Built Documentation & Contract Demobilization,A7550,"Prepare and draft As-Built drawings (MEP, Utilities, and Specialist Systems).",1,START
+7.3 As-Built Documentation & Contract Demobilization,A7560,"Compile all supplier/subcontractor warranties, guarantees, and material certificates.",1,START
+7.3 As-Built Documentation & Contract Demobilization,A7570,Compile all Testing and Commissioning reports into a final handover package.,1,Compile all supplier/subcontractor warranties
+7.3 As-Built Documentation & Contract Demobilization,A7580,Prepare draft Operation & Maintenance (O&M) Manuals.,1,Compile all Testing and Commissioning reports into a final handover package.
+7.3 As-Built Documentation & Contract Demobilization,A7590,Consolidate and submit the complete As-Built and O&M documentation package for Client/Engineer review.,1,Prepare draft Operation & Maintenance (O&M) Manuals.
+7.3 As-Built Documentation & Contract Demobilization,A7600,Incorporate Client/Engineer comments on all submitted documentation.,1,Consolidate and submit the complete As-Built and O&M documentation package for Client/Engineer review.
+7.3 As-Built Documentation & Contract Demobilization,A7610,"Submit final, approved As-Built drawings and Handover documentation.",1,START
+7.3 As-Built Documentation & Contract Demobilization,A7620,Site Demobilization & Reinstatement**,1,START
+7.3 As-Built Documentation & Contract Demobilization,A7630,Prepare and submit the Site Demobilization & Reinstatement Plan for approval.,1,Compile all field survey data
+7.3 As-Built Documentation & Contract Demobilization,A7640,Conduct final joint site inspection (walk-down) with Client/Engineer to generate a final punch list (snag list).,1,Prepare and submit the Site Demobilization & Reinstatement Plan for approval.
+7.3 As-Built Documentation & Contract Demobilization,A7650,Rectify all items on the final punch list to the satisfaction of the Engineer.,1,Conduct final joint site inspection (walk-down) with Client/Engineer to generate a final punch list (snag list).
+7.3 As-Built Documentation & Contract Demobilization,A7660,"Dismantle and remove all temporary site offices, welfare facilities, and storage containers.",1,START
+7.3 As-Built Documentation & Contract Demobilization,A7670,"Demobilize and remove all contractor plant, equipment, and machinery from the site.",1,START
+7.3 As-Built Documentation & Contract Demobilization,A7680,"Disconnect and remove all temporary utilities (power, water, drainage).",1,START
+7.3 As-Built Documentation & Contract Demobilization,A7690,"Remove all surplus construction materials, scrap, and waste from the site.",1,START
+7.3 As-Built Documentation & Contract Demobilization,A7700,Complete final site grading and reinstatement as per contract requirements.,1,Remove all surplus construction materials
+7.3 As-Built Documentation & Contract Demobilization,A7710,Obtain formal sign-off for punch list completion and site reinstatement.,1,Complete final site grading and reinstatement as per contract requirements.
+7.3 As-Built Documentation & Contract Demobilization,A7720,Contract & Commercial Close-Out**,1,START
+7.3 As-Built Documentation & Contract Demobilization,A7730,Apply for and obtain the Certificate of Substantial Completion / Taking-Over Certificate.,1,Obtain formal sign-off for punch list completion and site reinstatement.
+7.3 As-Built Documentation & Contract Demobilization,A7740,Prepare and submit the draft Final Account and application for final payment.,1,Apply for and obtain the Certificate of Substantial Completion / Taking-Over Certificate.
+7.3 As-Built Documentation & Contract Demobilization,A7750,Negotiate and agree on the Final Account with the Client/Commercial team.,1,Prepare and submit the draft Final Account and application for final payment.
+7.3 As-Built Documentation & Contract Demobilization,A7760,Submit all required documentation for the release of retention monies.,1,Negotiate and agree on the Final Account with the Client/Commercial team.
+7.3 As-Built Documentation & Contract Demobilization,A7770,Obtain the Final Acceptance Certificate (FAC) from the Client.,1,Submit final
+7.3 As-Built Documentation & Contract Demobilization,A7780,Secure the release of all performance bonds and bank guarantees.,1,Obtain the Final Acceptance Certificate (FAC) from the Client.
+7.3 As-Built Documentation & Contract Demobilization,A7790,"Archive all project documentation, correspondence, and financial records.",1,START
+7.3 As-Built Documentation & Contract Demobilization,A7800,Final Contract Close-Out.,1,Archive all project documentation

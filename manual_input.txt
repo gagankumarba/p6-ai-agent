@@ -1,0 +1,8 @@
+Project Name: BMRCL Phase 3 Spur Line
+Key Scope Items: 3 elevated stations, 5km of viaduct, 1 new depot.
+Key Locations: Whitefield, K.R. Puram, Central
+Contract Type: EPC (Engineering, Procurement, Construction)
+Project Start: Q1 2026
+Key Milestones:
+- Station 1 (Whitefield) Handover: Q2 2027
+- Full Commissioning: Q4 2028
