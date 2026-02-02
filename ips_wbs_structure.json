@@ -1,0 +1,236 @@
+[
+    {
+        "code": "1",
+        "name": "DESIGN AND CONSTRUCTION OF ELEVATED VIADUCT AND AT-GRADE SECTION (BENNIGANAHALLI TO CHIKKABANAVARA)",
+        "level": 1,
+        "parent": null
+    },
+    {
+        "code": "1.1",
+        "name": "Design & Engineering",
+        "level": 2,
+        "parent": "1"
+    },
+    {
+        "code": "1.2",
+        "name": "Procurement",
+        "level": 2,
+        "parent": "1"
+    },
+    {
+        "code": "1.3",
+        "name": "Construction",
+        "level": 2,
+        "parent": "1"
+    },
+    {
+        "code": "1.4",
+        "name": "Project Management",
+        "level": 2,
+        "parent": "1"
+    },
+    {
+        "code": "1.1.1",
+        "name": "Elevated Viaduct Design",
+        "level": 3,
+        "parent": "1.1"
+    },
+    {
+        "code": "1.1.2",
+        "name": "At-Grade Section Design",
+        "level": 3,
+        "parent": "1.1"
+    },
+    {
+        "code": "1.1.3",
+        "name": "Bridge Design",
+        "level": 3,
+        "parent": "1.1"
+    },
+    {
+        "code": "1.1.4",
+        "name": "Retaining Wall Design",
+        "level": 3,
+        "parent": "1.1"
+    },
+    {
+        "code": "1.2.1",
+        "name": "Procurement of Materials",
+        "level": 3,
+        "parent": "1.2"
+    },
+    {
+        "code": "1.2.2",
+        "name": "Procurement of Equipment",
+        "level": 3,
+        "parent": "1.2"
+    },
+    {
+        "code": "1.3.1",
+        "name": "Benniganahalli to Elevated Section Start (CH: -0.964 Km to -0.675 Km)",
+        "level": 3,
+        "parent": "1.3"
+    },
+    {
+        "code": "1.3.2",
+        "name": "Elevated Viaduct Section 1 (CH: -0.675 Km to -0.050 Km)",
+        "level": 3,
+        "parent": "1.3"
+    },
+    {
+        "code": "1.3.3",
+        "name": "At-Grade Section 2 (CH: -0.050 Km to 11.137 Km)",
+        "level": 3,
+        "parent": "1.3"
+    },
+    {
+        "code": "1.3.4",
+        "name": "Elevated Viaduct Section 2 (CH: 11.137 km to 18.350 Km)",
+        "level": 3,
+        "parent": "1.3"
+    },
+    {
+        "code": "1.3.5",
+        "name": "At-Grade Section 3 (CH: 18.350 Km to 24.425 Km) to Chikkabanavara",
+        "level": 3,
+        "parent": "1.3"
+    },
+    {
+        "code": "1.4.1",
+        "name": "Planning & Scheduling",
+        "level": 3,
+        "parent": "1.4"
+    },
+    {
+        "code": "1.4.2",
+        "name": "Cost Control",
+        "level": 3,
+        "parent": "1.4"
+    },
+    {
+        "code": "1.4.3",
+        "name": "Quality Control",
+        "level": 3,
+        "parent": "1.4"
+    },
+    {
+        "code": "1.4.4",
+        "name": "Safety Management",
+        "level": 3,
+        "parent": "1.4"
+    },
+    {
+        "code": "1.3.1.1",
+        "name": "Earthworks and Embankment",
+        "level": 4,
+        "parent": "1.3.1"
+    },
+    {
+        "code": "1.3.1.2",
+        "name": "Drainage Works",
+        "level": 4,
+        "parent": "1.3.1"
+    },
+    {
+        "code": "1.3.1.3",
+        "name": "Utility Diversions",
+        "level": 4,
+        "parent": "1.3.1"
+    },
+    {
+        "code": "1.3.2.1",
+        "name": "Pile Foundations",
+        "level": 4,
+        "parent": "1.3.2"
+    },
+    {
+        "code": "1.3.2.2",
+        "name": "Pier Construction",
+        "level": 4,
+        "parent": "1.3.2"
+    },
+    {
+        "code": "1.3.2.3",
+        "name": "Segment Erection",
+        "level": 4,
+        "parent": "1.3.2"
+    },
+    {
+        "code": "1.3.2.4",
+        "name": "Ramp Construction",
+        "level": 4,
+        "parent": "1.3.2"
+    },
+    {
+        "code": "1.3.3.1",
+        "name": "Earthworks and Embankment",
+        "level": 4,
+        "parent": "1.3.3"
+    },
+    {
+        "code": "1.3.3.2",
+        "name": "Minor Bridges",
+        "level": 4,
+        "parent": "1.3.3"
+    },
+    {
+        "code": "1.3.3.3",
+        "name": "Retaining Wall Construction",
+        "level": 4,
+        "parent": "1.3.3"
+    },
+    {
+        "code": "1.3.3.4",
+        "name": "RUB Construction",
+        "level": 4,
+        "parent": "1.3.3"
+    },
+    {
+        "code": "1.3.3.5",
+        "name": "Utility Diversions",
+        "level": 4,
+        "parent": "1.3.3"
+    },
+    {
+        "code": "1.3.4.1",
+        "name": "Pile Foundations",
+        "level": 4,
+        "parent": "1.3.4"
+    },
+    {
+        "code": "1.3.4.2",
+        "name": "Pier Construction",
+        "level": 4,
+        "parent": "1.3.4"
+    },
+    {
+        "code": "1.3.4.3",
+        "name": "Segment Erection",
+        "level": 4,
+        "parent": "1.3.4"
+    },
+    {
+        "code": "1.3.5.1",
+        "name": "Earthworks and Embankment",
+        "level": 4,
+        "parent": "1.3.5"
+    },
+    {
+        "code": "1.3.5.2",
+        "name": "Drainage Works",
+        "level": 4,
+        "parent": "1.3.5"
+    },
+    {
+        "code": "1.3.5.3",
+        "name": "Major Bridge Construction",
+        "level": 4,
+        "parent": "1.3.5"
+    },
+    {
+        "code": "1.3.5.4",
+        "name": "Utility Diversions",
+        "level": 4,
+        "parent": "1.3.5"
+    }
+]

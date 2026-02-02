@@ -1,0 +1,6 @@
+[
+    {
+        "rule": "If the output of the planning process is judged as 'excellent', then maintain the current planning parameters and potentially increase their intensity or duration in the next run.",
+        "logic": "IF Planning_Output_Assessment == 'excellent' THEN Planning_Parameters = Current_Planning_Parameters AND (Intensity += delta OR Duration += delta), where delta is a small positive value."
+    }
+]
