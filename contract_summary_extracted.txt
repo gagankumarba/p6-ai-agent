@@ -1,0 +1,27 @@
+Based on the analysis of the provided contract text, here are the extracted project control parameters:
+
+---
+**Parameter**: Commencement Date
+**Value**: Date of issue of notice to proceed with the work
+**Clause/Section**: Section 6: Contract Data [Ref GCC 1.1]
+**Page No**: 129
+**Evidence Phrase**: "The start date shall be the date of issue of notice to proceed with the work."
+---
+**Parameter**: Total Project Duration
+**Value**: 27 Months (Including Monsoon)
+**Clause/Section**: Section 6: Contract Data [Ref GCC 17, 26]
+**Page No**: 129
+**Evidence Phrase**: "The Intended Completion Date for the whole of the Works is 27 MONTHS INCLUDING MONSOON with the following milestones"
+---
+**Parameter**: Liquidated Damages (LDs)
+**Value**: Specific % per day based on Key Dates (ranging 0.001% to 0.036% per day); Max limit 10% of final contract price
+**Clause/Section**: Section 6: Contract Data [Ref GCC 41] / Annexure 1
+**Page No**: 131 (Contract Data) & 369 (Rates)
+**Evidence Phrase**: "The liquidity damages for each Key dates/milestone has been indicated at Annexure-1 of Works/Employers requirement section for not achieving the Key Date/ Milestone for each Day. The maximum amount of liquidated damages for the whole of the works is Ten percent of final contract price"
+---
+**Parameter**: Retention Percentage and Limit
+**Value**: 5% of Contract Value (Recovered at rate of 6% from bills)
+**Clause/Section**: Section 7: PCC New Clause 4.20
+**Page No**: 218
+**Evidence Phrase**: "The Security Deposit shall be 5% of the contract value... The security deposit may be recovered at the rate 6% of bill amount till the security deposit is recovered."
+---

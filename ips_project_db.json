@@ -1,0 +1,71 @@
+{
+    "Project Database": {
+        "Scope": {
+            "Project Name": "DESIGN AND CONSTRUCTION OF ELEVATED VIADUCT OF LENGTH 8.027 Km & AT-GRADE SECTION OF LENGTH 17.551 Km FROM BENNIGANAHALLI TO CHIKKABANAVARA",
+            "Project Type": "EPC (Engineering, Procurement, and Construction)",
+            "Description": "Design and construction of an 8.027 km elevated viaduct (CH: -0.675 Km to -0.050 Km & CH: 11.137 km to 18.350 Km) including ramps and formation in embankments/cuttings including blanketing, major bridges, minor bridges, RUB, ROB, ROR, retaining wall, sacrificial retaining wall, drains, utility diversions of a 17.551 km at-grade section (CH: -0.964 Km to CH:-0.675 Km, CH: -0.050 Km to CH: 11.137 Km & CH: 18.350 Km to 24.425 Km), excluding station buildings, of Corridor - 2 of Bengaluru Suburban Railway Project (BSRP) from Benniganahalli to Chikkabanavara.",
+            "Location": "Benniganahalli to Chikkabanavara, Bengaluru, Karnataka, Corridor-2 of BSRP",
+            "Corridor": "Corridor - 2 of Bengaluru Suburban Railway Project (BSRP)",
+            "Tender No": "K-RIDE/BSRP/10/2021",
+            "Project Cost": "1000.00 Crores INR (Estimated)",
+            "Completion Period": "27 months",
+            "Tender Security/EMD": "Need not be paid; Tender Security Declaration as per Form (BDF/1) has to be submitted."
+        },
+        "Stakeholders": {
+            "Primary Stakeholders": [
+                {
+                    "Organization": "Rail Infrastructure Development Company (Karnataka) Limited (K-RIDE)",
+                    "Role": "Employer/Authority",
+                    "Contact Information": {
+                        "Address": "#8, 1st Floor, Samparka Soudha, Dr. Rajkumar Road, Opposite Orion Mall, Rajajinagar 1st Block, Bengaluru-560010",
+                        "Tel": "+91-7410004083",
+                        "Email": "gmcivil4@kride.in"
+                    }
+                },
+                {
+                    "Organization": "RAC Contractor",
+                    "Role": "EPC Contractor",
+                    "Contact Information": "Snjay Nagaraju, Mob: +91-9986788883, Email:raccontractors@gmail.com"
+                }
+            ],
+            "Secondary Stakeholders": [
+                "Government of Karnataka",
+                "Ministry of Railways",
+                "Local Authorities (BBMP)",
+                "Utility Companies (BESCOM, BWSSB, GAIL)",
+                "RDSO",
+                "Bangalore Traffic Police",
+                "Third Party Consultants (for quality control)",
+                "Regulatory Authorities (Commissioner of Railway Safety)"
+            ]
+        },
+        "Deliverables": {
+            "Key Deliverables": [
+                "Elevated Viaduct (8.027 km)",
+                "At-Grade Section (17.551 km)",
+                "Ramps",
+                "Major Bridges",
+                "Minor Bridges",
+                "RUB (Road Under Bridges)",
+                "ROB (Road Over Bridges)",
+                "ROR",
+                "Retaining Walls",
+                "Sacrificial Retaining Walls",
+                "Drains",
+                "Utility Diversions (At-Grade)",
+                "Related Infrastructural Works",
+                "Detailed Design Documents",
+                "Construction Documents",
+                "Safety, Health, and Environment (SHE) Plan",
+                "Quality Assurance Plan",
+                "Traffic Management Plan",
+                "As-Built Drawings",
+                "Operating and Maintenance Manuals",
+                "Performance Security"
+            ],
+            "Exclusions": [
+                "Station Buildings"
+            ]
+        }
+    }
+}

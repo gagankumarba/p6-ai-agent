@@ -1,0 +1,362 @@
+ERMHDR	5.0	2012-02-12	Project	admin	Adminstrator	dbxDatabaseNoName	Project Management	EGP
+%T	CURRTYPE
+%F	curr_id	decimal_digit_cnt	curr_symbol	decimal_symbol	digit_group_symbol	pos_curr_fmt_type	neg_curr_fmt_type	curr_type	curr_short_name	group_digit_cnt	base_exch_rate
+%R	1	0	$	.	,	#1.1	(#1.1)	Dollar	USD	3	1
+%R	10	2	$	.	,	#1.1	(#1.1)	Argentine Peso	ARS	3	3.077
+%R	11	2	A$	.	,	#1.1	(#1.1)	Australian Dollar	AUST	3	1.208
+%R	13	2	R$	.	,	#1.1	(#1.1)	Brazilian Real	BRL	3	2.014
+%R	14	2	£	.	,	#1.1	(#1.1)	British Pound	U.K.£	3	0.685097
+%R	15	2	CA$	.	,	#1.1	(#1.1)	Canadian Dollar	CAD	3	1.10573
+%R	16	2	Y	.	,	#1.1	(#1.1)	Chinese Yuan	CNY	3	7.694
+%R	17	2	€	.	,	#1.1	(#1.1)	EURO	EUR	3	0.739088
+%R	20	2	HK$	.	,	#1.1	(#1.1)	Hong Kong Dollar	HKD	3	7.81967
+%R	21	2	Rs	.	,	#1.1	(#1.1)	Indian Rupee	INR	3	40.67
+%R	23	2	¥	.	,	#1.1	(#1.1)	Japanese Yen	JPY	3	120.167
+%R	24	2	K	.	,	#1.1	(#1.1)	Korean Won	KRW	3	924.743
+%R	25	2	N$	.	,	#1.1	(#1.1)	Mexican Peso	MXN	3	10.7938
+%R	26	2	R	.	,	#1.1	(#1.1)	Russian Rouble	RUB	3	25.8085
+%R	28	2	Sk	.	,	#1.1	(#1.1)	Swedish Krona	SEK	3	6.80579
+%R	29	2	kr	.	,	#1.1	(#1.1)	Swiss Franc	CHF	3	1.21864
+%R	30	2	NIS	.	,	#1.1	(#1.1)	Israel Shekel	ILS	3	3.96384
+%R	32	0	EGP	.	,	1.1 #	(1.1#)	EGYPTION	EGP	3	1
+%T	OBS
+%F	obs_id	parent_obs_id	guid	seq_num	obs_name	obs_descr
+%R	565			0	Innovative GC	<HTML><BODY></BODY></HTML>
+%T	POBS
+%F	pobs_id	pobs_parent_id	seq_num	pobs_name	pobs_descr	pobs_manager
+%R	100		0	POBS_Root	Performing Organization_Root	
+%R	101	100	0	P	Performing Organization	
+%R	102	100	100	P-1	Performing Organization	
+%R	103	100	200	P-2	Performing Organization	
+%R	104	100	300	P-3	Performing Organization	
+%R	105	100	400	P-4	Performing Organization	
+%R	106	100	500	P-5	Performing Organization	
+%R	107	100	600	P-6	Performing Organization	
+%R	108	100	0	?><,./;'[]\=-`	?><,./;'[]\=-`	?><,./;'[]\=-`
+%T	UDFTYPE
+%F	udf_type_id	table_name	udf_type_name	udf_type_label	logical_data_type	super_flag	indicator_expression	summary_indicator_expression
+%R	496	TASK	user_field_496	(New)	FT_MONEY	N		
+%T	PROJECT
+%F	proj_id	fy_start_month_num	chng_eff_cmp_pct_flag	rsrc_self_add_flag	allow_complete_flag	rsrc_multi_assign_flag	ts_rsrc_mark_act_finish_flag	ts_rsrc_vw_inact_actv_flag	checkout_flag	project_flag	step_complete_flag	cost_qty_recalc_flag	sum_only_flag	batch_sum_flag	name_sep_char	def_complete_pct_type	proj_short_name	acct_id	orig_proj_id	source_proj_id	base_type_id	clndr_id	sum_base_proj_id	task_code_base	task_code_step	priority_num	wbs_max_sum_level	risk_level	strgy_priority_num	last_checksum	critical_drtn_hr_cnt	def_cost_per_qty	last_recalc_date	plan_start_date	plan_end_date	scd_end_date	add_date	sum_data_date	last_tasksum_date	fcst_start_date	def_duration_type	task_code_prefix	guid	def_qty_type	add_by_name	web_local_root_path	proj_url	def_rate_type	add_act_remain_flag	act_this_per_link_flag	def_task_type	act_pct_link_flag	critical_path_type	task_code_prefix_flag	def_rollup_dates_flag	use_project_baseline_flag	rem_target_link_flag	reset_planned_flag	allow_neg_act_flag	sum_assign_level	last_fin_dates_id	last_baseline_update_date	cr_external_key	apply_actuals_date	intg_proj_type	loaded_scope_level	export_flag	new_fin_dates_id	next_data_date	close_period_flag	trsrcsum_loaded
+%R	2363	1	N	Y	Y	Y	N	N	N	Y	N	N	N	Y	.	CP_Drtn	gama-14					1772		1000	10	10	2	3	500		0	0.00	2012-01-01 00:00	2011-11-27 00:00		2012-09-30 17:00	2012-02-05 14:08				DT_FixedDUR2	A	IZQoANAlIUadYonvh9/Buw	QT_Hour	admin			COST_PER_QTY	N	Y	TT_Task	Y	CT_TotFloat	Y	Y	Y	Y	N	N	SL_Taskrsrc						7	Y				
+%T	CALENDAR
+%F	clndr_id	default_flag	clndr_name	proj_id	base_clndr_id	last_chng_date	clndr_type	day_hr_cnt	week_hr_cnt	month_hr_cnt	year_hr_cnt	clndr_data
+%R	794	N	7-Day Workweek			2011-11-17 00:00	CA_Base	8	56	172	2000	(0||CalendarData()(  (0||DaysOfWeek()(    (0||1()(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||2()(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||3()(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||4()(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||5()(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||6()(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||7()(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))))  (0||VIEW(ShowTotal|Y)())  (0||Exceptions()(    (0||0(d|36525)())    (0||1(d|36675)())    (0||2(d|36711)())    (0||3(d|36773)())    (0||4(d|36853)())    (0||5(d|36854)())    (0||6(d|36885)())    (0||7(d|36892)())    (0||8(d|37039)())    (0||9(d|37076)())    (0||10(d|37137)())    (0||11(d|37217)())    (0||12(d|37218)())    (0||13(d|37250)())    (0||14(d|37257)())    (0||15(d|37441)())    (0||16(d|37615)())    (0||17(d|37622)())    (0||18(d|37806)())    (0||19(d|37980)())    (0||20(d|37987)())    (0||21(d|38173)())    (0||22(d|38345)())    (0||23(d|38352)())    (0||24(d|38537)())    (0||25(d|38712)())    (0||26(d|38719)())    (0||27(d|38902)())    (0||28(d|39076)())    (0||29(d|39083)())    (0||30(d|39267)())    (0||31(d|39441)())    (0||32(d|39448)())    (0||33(d|39633)())    (0||34(d|39807)())    (0||35(d|39814)())    (0||36(d|39997)())    (0||37(d|40172)())    (0||38(d|40179)())    (0||39(d|40364)())    (0||40(d|40536)())))))
+%R	841	Y	Beyti			2011-11-20 00:00	CA_Base	8	40	172	2000	(0||CalendarData()(  (0||DaysOfWeek()(    (0||1()(      (0||0(s|08:00|f|16:00)())))    (0||2()(      (0||0(s|08:00|f|16:00)())))    (0||3()(      (0||0(s|08:00|f|16:00)())))    (0||4()(      (0||0(s|08:00|f|16:00)())))    (0||5()(      (0||0(s|08:00|f|16:00)())))    (0||6()())    (0||7()(      (0||0(s|08:00|f|16:00)())))))  (0||VIEW(ShowTotal|Y)())  (0||Exceptions()(    (0||0(d|40428)())    (0||1(d|40429)())    (0||2(d|40430)())    (0||3(d|40432)())    (0||4(d|40433)())    (0||5(d|40434)())    (0||6(d|40435)())    (0||7(d|40436)())    (0||8(d|40437)())    (0||9(d|40495)())    (0||10(d|40496)())    (0||11(d|40497)())    (0||12(d|40498)())    (0||13(d|40499)())    (0||14(d|40500)())    (0||15(d|40502)())    (0||16(d|40503)())    (0||17(d|40504)())    (0||18(d|40505)())    (0||19(d|40506)())    (0||20(d|40507)())    (0||21(d|40782)(      (0||0(s|08:00|f|16:00)())))    (0||22(d|40783)(      (0||0(s|08:00|f|16:00)())))    (0||23(d|40784)(      (0||0(s|08:00|f|16:00)())))    (0||24(d|40785)(      (0||0(s|08:00|f|16:00)())))    (0||25(d|40786)(      (0||0(s|08:00|f|16:00)())))    (0||26(d|40787)(      (0||0(s|08:00|f|16:00)())))    (0||27(d|40789)(      (0||0(s|08:00|f|16:00)())))    (0||28(d|40790)(      (0||0(s|08:00|f|16:00)())))    (0||29(d|40791)(      (0||0(s|08:00|f|16:00)())))    (0||30(d|40792)(      (0||0(s|08:00|f|16:00)())))    (0||31(d|40793)(      (0||0(s|08:00|f|16:00)())))    (0||32(d|40794)(      (0||0(s|08:00|f|16:00)())))    (0||33(d|40852)())    (0||34(d|40853)())    (0||35(d|40854)())    (0||36(d|40855)())    (0||37(d|40860)(      (0||0(s|08:00|f|16:00)())))    (0||38(d|40861)(      (0||0(s|08:00|f|16:00)())))    (0||39(d|40862)(      (0||0(s|08:00|f|16:00)())))    (0||40(d|40863)(      (0||0(s|08:00|f|16:00)())))    (0||41(d|40864)(      (0||0(s|08:00|f|16:00)())))    (0||42(d|40874)())    (0||43(d|41139)())    (0||44(d|41140)())    (0||45(d|41141)())    (0||46(d|41142)())    (0||47(d|41143)())    (0||48(d|41144)())    (0||49(d|41146)())    (0||50(d|41147)())    (0||51(d|41148)())    (0||52(d|41149)())    (0||53(d|41150)())    (0||54(d|41151)())    (0||55(d|41202)())    (0||56(d|41203)())    (0||57(d|41204)())    (0||58(d|41205)())    (0||59(d|41206)())    (0||60(d|41207)())    (0||61(d|41209)())    (0||62(d|41210)())    (0||63(d|41211)())    (0||64(d|41212)())    (0||65(d|41213)())    (0||66(d|41214)())    (0||67(d|41489)())    (0||68(d|41490)())    (0||69(d|41491)())    (0||70(d|41492)())    (0||71(d|41493)())    (0||72(d|41494)())    (0||73(d|41496)())    (0||74(d|41497)())    (0||75(d|41498)())    (0||76(d|41499)())    (0||77(d|41500)())    (0||78(d|41501)())    (0||79(d|41559)())    (0||80(d|41560)())    (0||81(d|41561)())    (0||82(d|41562)())    (0||83(d|41563)())    (0||84(d|41564)())    (0||85(d|41566)())    (0||86(d|41567)())    (0||87(d|41568)())    (0||88(d|41569)())    (0||89(d|41570)())    (0||90(d|41571)())))))
+%R	1772	N	6days work			2009-11-16 00:00	CA_Base	8	40	172	2000	(0||CalendarData()(  (0||DaysOfWeek()(    (0||1()(      (0||0(s|08:00|f|16:00)())))    (0||2()(      (0||0(s|08:00|f|16:00)())))    (0||3()(      (0||0(s|08:00|f|16:00)())))    (0||4()(      (0||0(s|08:00|f|16:00)())))    (0||5()(      (0||0(s|08:00|f|16:00)())))    (0||6()())    (0||7()(      (0||0(s|08:00|f|16:00)())))))  (0||VIEW(ShowTotal|Y)())  (0||Exceptions()())))
+%T	SCHEDOPTIONS
+%F	schedoptions_id	proj_id	sched_outer_depend_type	sched_open_critical_flag	sched_lag_early_start_flag	sched_retained_logic	sched_setplantoforecast	sched_float_type	sched_calendar_on_relationship_lag	sched_use_expect_end_flag	sched_progress_override	level_float_thrs_cnt	level_outer_assign_flag	level_outer_assign_priority	level_over_alloc_pct	level_within_float_flag	level_keep_sched_date_flag	level_all_rsrc_flag	sched_use_project_end_date_for_float	enable_multiple_longest_path_calc	limit_multiple_longest_path_calc	max_multiple_longest_path	use_total_float_multiple_longest_paths	key_activity_for_multiple_longest_paths	LevelPriorityList
+%R	1	2363	SD_Both	N	Y	Y	N	FT_FF	rcal_Predecessor	Y	N	0	N	5	25	N	Y	Y	Y	N	Y	10	Y		priority_type,ASC
+%T	PROJWBS
+%F	wbs_id	proj_id	obs_id	seq_num	est_wt	proj_node_flag	sum_data_flag	status_code	wbs_short_name	wbs_name	phase_id	parent_wbs_id	ev_user_pct	ev_etc_user_value	orig_cost	indep_remain_total_cost	ann_dscnt_rate_pct	dscnt_period_type	indep_remain_work_qty	anticip_start_date	anticip_end_date	ev_compute_type	ev_etc_compute_type	guid	tmpl_guid	plan_open_state
+%R	14090	2363	565	200	1	Y	N	WS_Open	gama-14	House of fresh		10170	6	0.88	0.00	0.00						EC_Cmp_pct	EE_Rem_hr	y9EvC70xEUe9RSI3XQPdUQ		
+%R	14091	2363	565	0	1	N	N	WS_Open	Milestones	Project Milestones		14090	6	0.88	0.00	0.00						EC_Cmp_pct	EE_Rem_hr	VcXNjilGEE29r2iNevaAZg	G93d0Ozo/U2n3p25aVQPAw	
+%R	14092	2363	565	1	1	N	N	WS_Open	Mobilization	Mobilization		14090	6	0.88	0.00	0.00						EC_Cmp_pct	EE_Rem_hr	Ak6Er33de0Whwnf/BUeZ+A	y1yb8bHoDUKsVR7DBajimA	
+%R	14093	2363	565	2	1	N	N	WS_Open	Engineering	Engineering		14090	6	0.88	0.00	0.00						EC_Cmp_pct	EE_Rem_hr	b83DwkgJt0CJSzRURDk7/Q	kGNaZGFbMEWtrE8364Cn+A	
+%R	14094	2363	565	3	1	N	N	WS_Open	Construction	Construction		14090	6	0.88	0.00	0.00						EC_Cmp_pct	EE_Rem_hr	m1K+chyajEyjS01Y2NA9ug	yshWe/uUo0imKYTA6qFIFQ	
+%R	14095	2363	565	0	1	N	N	WS_Open	Shop drawings	Shop drawings		14093	6	0.88	0.00	0.00						EC_Cmp_pct	EE_Rem_hr	yqI/xzS6ckuoq2Bq1v38UQ	B8Honta+EUaUefJxw1e/Ew	
+%R	14096	2363	565	204	1	N	N	WS_Open	WT&PR	Utilities buildings		14094	6	0.88	0.00	0.00						EC_Cmp_pct	EE_Rem_hr	DJf1AfeNpUS4L68S57TqLA	anDwDw9pwkyPKGMO17PprQ	
+%R	14097	2363	565	306	1	N	N	WS_Open	1	Warehouse building		14094	6	0.88	0.00	0.00						EC_Cmp_pct	EE_Rem_hr	uXj+cARWyESgBeocgBE9lA		
+%R	14098	2363	565	0	1	N	N	WS_Open	Plain	Concrete Works		14095	6	0.88	0.00	0.00						EC_Cmp_pct	EE_Rem_hr	LCMs4TD3X0yzWxgpdiMiYA	C9hBRffcGkW+CyJqQnjFsQ	
+%R	14099	2363	565	201	1	N	N	WS_Open	Metal	Structure Steel		14095	6	0.88	0.00	0.00						EC_Cmp_pct	EE_Rem_hr	iWvm5A7v6U+aKMFAMhYxBQ	4kL0II0Gs0SDjzuhsoxiig	
+%R	14100	2363	565	301	1	N	N	WS_Open	Finishes	Finishes		14095	6	0.88	0.00	0.00						EC_Cmp_pct	EE_Rem_hr	SA3zzTZo/Eqwz9WiOaph5A	FVYh1lzkxEyYoFlWl8/tQw	
+%R	14101	2363	565	501	1	N	N	WS_Open	MEP	MEP		14095	6	0.88	0.00	0.00						EC_Cmp_pct	EE_Rem_hr	87pl4hEFRkCdlwhiv+5d1A	7DZmURHyPkmNENm2dAIeJQ	
+%R	14102	2363	565	205	1	N	N	WS_Open	1	Arch works		14096	6	0.88	0.00	0.00						EC_Cmp_pct	EE_Rem_hr	m2MIIXv3UEG8R0EroHkHEg		
+%R	14103	2363	565	0	1	N	N	WS_Open	Civil works	Civil works		14096	6	0.88	0.00	0.00						EC_Cmp_pct	EE_Rem_hr	c+d/i83wCkKhfw9zCkUaRQ		
+%R	14104	2363	565	101	1	N	N	WS_Open	Masonry	Masonry		14095	6	0.88	0.00	0.00						EC_Cmp_pct	EE_Rem_hr	OLRqtl6D1ky+J6vAJ0bzaw	dKRPrscYz0OrDkaXOVYP1w	
+%R	14105	2363	565	0	1	N	N	WS_Open	Civil	Civil works		14097	6	0.88	0.00	0.00						EC_Cmp_pct	EE_Rem_hr	hmQoTfl3JUKAXCA4ycrqLw	i/htwK52l0qF0qEDv9ATvQ	
+%R	14106	2363	565	2	1	N	N	WS_Open	Arch	Arch works		14097	6	0.88	0.00	0.00						EC_Cmp_pct	EE_Rem_hr	vhtuWvFx7E2UIc61vxjr7A	Jk9olmB1X0atFuKAAVMvCQ	
+%R	14109	2363	565	405	1	N	N	WS_Open	Site	Site Works		14094	6	0.88	0.00	0.00						EC_Cmp_pct	EE_Rem_hr	Dq/kM5/F+0Sz1Q+RqwgIpw	COVoKXr/+UODGnYMGI8eLw	
+%R	14110	2363	565	3	1	N	N	WS_Open	MEP	MEP Works		14097	6	0.88	0.00	0.00						EC_Cmp_pct	EE_Rem_hr	zw+mEXtsgkW/kavTpONn3Q	eJHX6WjGJEGxhQlDd3wFXQ	
+%R	14111	2363	565	305	1	N	N	WS_Open	3	UNDER GROUND TANK		14094	6	0.88	0.00	0.00						EC_Cmp_pct	EE_Rem_hr	aJgaldS0xEqEz7p5957WDA		
+%R	14113	2363	565	303	1	N	N	WS_Open	Masonry	Masonry Works		14105	6	0.88	0.00	0.00						EC_Cmp_pct	EE_Rem_hr	dgWjdT4l6UeHOeMI7RVxgw	JyZzN1veN0G/Q8DfDzw9WA	
+%R	14114	2363	565	305	1	N	N	WS_Open	Proofing	Damp proofing & Insulation		14105	6	0.88	0.00	0.00						EC_Cmp_pct	EE_Rem_hr	vhZ+vL3lW0mWP2CxLIbD1A	vjdNj2ZOHE2bxt4iwgOECA	
+%R	14115	2363	565	103	1	N	N	WS_Open	Earth	Earth works		14105	6	0.88	0.00	0.00						EC_Cmp_pct	EE_Rem_hr	YXT5NWh5rUm5aO5n13QDOg	yrm2DH8o1UStlieO9bASkA	
+%R	14116	2363	565	203	1	N	N	WS_Open	Concrete	Concrete Works		14105	6	0.88	0.00	0.00						EC_Cmp_pct	EE_Rem_hr	VMMpTsiIakaoyTo7ZXjTUQ	YsVCAdMa+UqqR6go1gwGSw	
+%R	14117	2363	565	204	1	N	N	WS_Open	Finishes	Finishes Works		14106	6	0.88	0.00	0.00						EC_Cmp_pct	EE_Rem_hr	IeJKmv4X8k6DZ5okHcUQTQ	79nFhxETvUuTcOoEHodfaQ	
+%R	14118	2363	565	404	1	N	N	WS_Open	Aluminium	Doors & Windows		14106	6	0.88	0.00	0.00						EC_Cmp_pct	EE_Rem_hr	3HuFKmRFrUOO0tsfG6pq6A	Xmfzz7sc+UG5zzryK8iCfg	
+%R	14119	2363	565	306	1	N	N	WS_Open	Steel	Structural Steel		14105	6	0.88	0.00	0.00						EC_Cmp_pct	EE_Rem_hr	+UTYw6d1yUym2bo1M9E+4w	a0qIQNO6HkuiWM6+9KPNQQ	
+%R	14120	2363	565	304	1	N	N	WS_Open	2	Electrical Works		14110	6	0.88	0.00	0.00						EC_Cmp_pct	EE_Rem_hr	UKwTMrfz3UylSORBcmHK1Q	FdodwXB7VUCwJAIY7C6yJw	
+%R	14121	2363	565	404	1	N	N	WS_Open	1	Mechanical Works		14110	6	0.88	0.00	0.00						EC_Cmp_pct	EE_Rem_hr	tHgpkeKaxUeyYVkeduk1gQ	/QvofOndGUG2jQ7WvHL04Q	
+%R	14122	2363	565	505	1	N	N	WS_Open	2	Plumbing Works		14121	6	0.88	0.00	0.00						EC_Cmp_pct	EE_Rem_hr	qJsaG+Bpq0aNkoEdlGVhdA	uxDv5pE0gEWQY57ta2qSZw	
+%R	14123	2363	565	404	1	N	N	WS_Open	HVAC&FFWorks	HVAC & Fire Fighting Works		14121	6	0.88	0.00	0.00						EC_Cmp_pct	EE_Rem_hr	jDuVKdIJyU6IZPpBhyFwog	jCtwPpBdLUe0M/Kh/uV7yw	
+%R	14140	2363	565	103	1	N	N	WS_Open	2	Admin building		14094	6	0.88	0.00	0.00						EC_Cmp_pct	EE_Rem_hr	Nv2jQt5Z0USxojGs2/gT1Q		
+%R	14191	2363	565	104	1	N	N	WS_Open	1	CIVIL WORKS		14140	6	0.88	0.00	0.00						EC_Cmp_pct	EE_Rem_hr	sV3JhTNVeU2LDEYmrFJ7FA		
+%R	14192	2363	565	104	1	N	N	WS_Open	2	ARCH WORKS		14140	6	0.88	0.00	0.00						EC_Cmp_pct	EE_Rem_hr	4nZ49Jg860yIG67ED62Tbg		
+%R	14193	2363	565	0	1	N	N	WS_Open	1	EARTH WORKS		14191	6	0.88	0.00	0.00						EC_Cmp_pct	EE_Rem_hr	vDvGOeNFqUCh82cmdw67HA		
+%R	14194	2363	565	1	1	N	N	WS_Open	2	CONCRETE WORKS		14191	6	0.88	0.00	0.00						EC_Cmp_pct	EE_Rem_hr	P+KchWiZe06OfQLSsFo5PA		
+%R	14195	2363	565	2	1	N	N	WS_Open	3	Masonry Works		14191	6	0.88	0.00	0.00						EC_Cmp_pct	EE_Rem_hr	8CcZhAgYF0eubkEfsSoMBg		
+%R	14196	2363	565	3	1	N	N	WS_Open	4	Damp proofing & Insulation		14191	6	0.88	0.00	0.00						EC_Cmp_pct	EE_Rem_hr	Hh+CjOn3/UCiXcG0ruKttA		
+%T	RSRC
+%F	rsrc_id	parent_rsrc_id	clndr_id	role_id	shift_id	ts_approve_user_id	user_id	pobs_id	guid	rsrc_seq_num	email_addr	employee_code	office_phone	other_phone	rsrc_name	rsrc_short_name	rsrc_title_name	def_qty_per_hr	cost_qty_type	ot_factor	active_flag	auto_compute_act_flag	def_cost_qty_link_flag	ot_flag	timesheet_flag	xfer_complete_day_cnt	xfer_notstart_day_cnt	curr_id	unit_id	rsrc_type	rsrc_notes	load_tasks_flag	level_flag	last_checksum
+%R	2152	2102	841						+7opv19L+kuofH2v+KhDyg	0					CASH	CASH		1	QT_Hour		Y	Y	Y	N	N	60	60	32		RT_Mat	<HTML><BODY></BODY></HTML>			
+%R	2102		841						3kANPi/130e8kTcYRpP1Ag	100					BEYTI MATERIALS	BEYTI-M		1	QT_Hour	0	Y	Y	Y	N	N	60	60	1		RT_Mat				
+%T	ACTVTYPE
+%F	actv_code_type_id	actv_short_len	seq_num	actv_code_type	proj_id	wbs_id	actv_code_type_scope
+%R	7250	7	2	TYPE OF WORK			AS_Global
+%T	RSRCRATE
+%F	rsrc_rate_id	rsrc_id	max_qty_per_hr	cost_per_qty	start_date	shift_period_id	cost_per_qty2	cost_per_qty3	cost_per_qty4	cost_per_qty5
+%R	2478	2152	0.125	1.00	2011-01-01 00:00		0.00	0.00	0.00	0.00
+%T	TASK
+%F	task_id	proj_id	wbs_id	clndr_id	est_wt	phys_complete_pct	rev_fdbk_flag	lock_plan_flag	auto_compute_act_flag	complete_pct_type	task_type	duration_type	review_type	status_code	task_code	task_name	rsrc_id	total_float_hr_cnt	free_float_hr_cnt	remain_drtn_hr_cnt	act_work_qty	remain_work_qty	target_work_qty	target_drtn_hr_cnt	target_equip_qty	act_equip_qty	remain_equip_qty	cstr_date	act_start_date	act_end_date	late_start_date	late_end_date	expect_end_date	early_start_date	early_end_date	restart_date	reend_date	target_start_date	target_end_date	review_end_date	rem_late_start_date	rem_late_end_date	cstr_type	priority_type	suspend_date	resume_date	float_path	float_path_order	guid	tmpl_guid	cstr_date2	cstr_type2	driving_path_flag	act_this_per_work_qty	act_this_per_equip_qty	external_early_start_date	external_late_end_date	create_date	update_date	create_user	update_user
+%R	100887	2363	14091	794	0	0	N	N	N	CP_Drtn	TT_Mile	DT_FixedDrtn	RV_OK	TK_NotStart	A1060	Project Start		0	0	0	0	0	0	0	0	0	0				2012-01-01 08:00	2012-01-01 08:00		2012-01-01 08:00	2012-01-01 08:00	2012-01-01 08:00	2012-01-01 08:00	2012-01-01 08:00	2012-01-01 08:00		2012-01-01 08:00	2012-01-01 08:00		PT_Normal					9+bM1U+wtEmZpuBuNwN/Sw	XrEfUROHe0SR5P60zmuSQQ			Y	0	0			2012-02-05 14:08	2012-02-05 17:13	admin	admin
+%R	100888	2363	14091	794	0	0	N	N	N	CP_Drtn	TT_FinMile	DT_FixedDrtn	RV_OK	TK_NotStart	A1070	Project Finish		0	0	0	0	0	0	0	0	0	0				2012-09-30 17:00	2012-09-30 17:00		2012-09-30 17:00	2012-09-30 17:00	2012-09-30 17:00	2012-09-30 17:00	2012-09-30 17:00	2012-09-30 17:00		2012-09-30 17:00	2012-09-30 17:00		PT_Normal					ESv31knmkUWWRUZvUPArqw	pMdqDaF/wkuPPP0hZX7+5g			Y	0	0			2012-02-05 14:08	2012-02-07 08:32	admin	admin
+%R	100889	2363	14092	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1050	Site Preparation Works		0	0	120	0	0	0	120	0	0	0				2012-01-01 08:00	2012-01-15 17:00		2012-01-01 08:00	2012-01-15 17:00	2012-01-01 08:00	2012-01-15 17:00	2012-01-01 08:00	2012-01-15 17:00		2012-01-01 08:00	2012-01-15 17:00		PT_Normal					9EEPoqlByU2TvKBgTDo4JQ	SbkjKOYRmUOWCYlgGNnp5Q			Y	0	0			2012-02-05 14:08	2012-02-05 17:13	admin	admin
+%R	100890	2363	14100	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDrtn	RV_OK	TK_NotStart	A300	Shop Drawings submittal		768	0	56	0	0	0	56	0	0	0				2012-06-10 08:00	2012-06-16 17:00		2012-03-06 08:00	2012-03-12 17:00	2012-03-06 08:00	2012-03-12 17:00	2012-03-06 08:00	2012-03-12 17:00		2012-06-10 08:00	2012-06-16 17:00		PT_Normal					F3ufr+GaB0CkCZdvNULCAA	msUYE7bNaU+eK0QJyIqmig			N	0	0			2012-02-05 14:08	2012-02-07 09:52	admin	admin
+%R	100891	2363	14100	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A310	Shop Drawings Approval		768	0	56	0	0	0	56	0	0	0				2012-06-17 08:00	2012-06-23 17:00		2012-03-13 08:00	2012-03-19 17:00	2012-03-13 08:00	2012-03-19 17:00	2012-03-13 08:00	2012-03-19 17:00		2012-06-17 08:00	2012-06-23 17:00		PT_Normal					yeAB/VAQ8U+QG1zGQUL0OA	Cjha1T7GqkajjpqOXrwj5g			N	0	0			2012-02-05 14:08	2012-02-07 09:52	admin	admin
+%R	100892	2363	14101	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDrtn	RV_OK	TK_NotStart	A340	Shop Drawings submittal		768	0	56	0	0	0	56	0	0	0				2012-07-24 08:00	2012-07-30 17:00		2012-04-19 08:00	2012-04-25 17:00	2012-04-19 08:00	2012-04-25 17:00	2012-04-19 08:00	2012-04-25 17:00		2012-07-24 08:00	2012-07-30 17:00		PT_Normal					NF5mJ6zvIkSPLKkddzboCQ	SuG5KFQy5EGTUVeuGFSe2g			N	0	0			2012-02-05 14:08	2012-02-07 09:52	admin	admin
+%R	100893	2363	14101	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A350	Shop Drawings Approval		768	496	56	0	0	0	56	0	0	0				2012-07-31 08:00	2012-08-06 17:00		2012-04-26 08:00	2012-05-02 17:00	2012-04-26 08:00	2012-05-02 17:00	2012-04-26 08:00	2012-05-02 17:00		2012-07-31 08:00	2012-08-06 17:00		PT_Normal					ckSQmyfeTEWLJ39lLeTxsQ	6Jkup/8EwkyYSz8H2Itdgg			N	0	0			2012-02-05 14:08	2012-02-07 09:52	admin	admin
+%R	100894	2363	14098	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDrtn	RV_OK	TK_NotStart	A120	Shop Drawings submittal		184	0	56	0	0	0	56	0	0	0				2012-01-31 08:00	2012-02-06 17:00		2012-01-08 08:00	2012-01-14 17:00	2012-01-08 08:00	2012-01-14 17:00	2012-01-08 08:00	2012-01-14 17:00		2012-01-31 08:00	2012-02-06 17:00		PT_Normal					OLarLz14tUaSazcw6LIwxQ	uow1mgoQnku7cUVQZdO/Rg			N	0	0			2012-02-05 14:08	2012-02-07 08:32	admin	admin
+%R	100895	2363	14098	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A170	Shop Drawings Approval		184	0	56	0	0	0	56	0	0	0				2012-02-05 08:00	2012-02-11 17:00		2012-01-13 08:00	2012-01-19 17:00	2012-01-13 08:00	2012-01-19 17:00	2012-01-13 08:00	2012-01-19 17:00		2012-02-05 08:00	2012-02-11 17:00		PT_Normal					OWeBjHJfkkixembw6ZMIXA	pL3FJFubdkOiZN5XPIU40g			N	0	0			2012-02-05 14:08	2012-02-07 08:32	admin	admin
+%R	100896	2363	14099	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDrtn	RV_OK	TK_NotStart	A160	Shop Drawings submittal		640	0	56	0	0	0	56	0	0	0				2012-04-21 08:00	2012-04-27 17:00		2012-02-01 08:00	2012-02-07 17:00	2012-02-01 08:00	2012-02-07 17:00	2012-02-01 08:00	2012-02-07 17:00		2012-04-21 08:00	2012-04-27 17:00		PT_Normal					0hfJlSfa8UKCMXEjMjQxYw	8FDKh0SH9USGJEz7Q1fOeg			N	0	0			2012-02-05 14:08	2012-02-07 08:32	admin	admin
+%R	100897	2363	14099	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A260	Shop Drawings Approval		640	0	56	0	0	0	56	0	0	0				2012-04-28 08:00	2012-05-04 17:00		2012-02-08 08:00	2012-02-14 17:00	2012-02-08 08:00	2012-02-14 17:00	2012-02-08 08:00	2012-02-14 17:00		2012-04-28 08:00	2012-05-04 17:00		PT_Normal					TAo6iGr/+kOTeiDg0Whgfw	p3Zt3p92yU66qiPjzR/+uQ			N	0	0			2012-02-05 14:08	2012-02-07 08:32	admin	admin
+%R	100898	2363	14104	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDrtn	RV_OK	TK_NotStart	A180	Shop Drawings submittal		432	0	56	0	0	0	56	0	0	0				2012-03-14 08:00	2012-03-20 17:00		2012-01-20 08:00	2012-01-26 17:00	2012-01-20 08:00	2012-01-26 17:00	2012-01-20 08:00	2012-01-26 17:00		2012-03-14 08:00	2012-03-20 17:00		PT_Normal					IVOmlBISQkS0p1IWRA/ZmQ	k9niuQkR+0i3693thUNybg			N	0	0			2012-02-05 14:08	2012-02-07 08:32	admin	admin
+%R	100899	2363	14104	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A270	Shop Drawings Approval		432	0	56	0	0	0	56	0	0	0				2012-03-19 08:00	2012-03-25 17:00		2012-01-25 08:00	2012-01-31 17:00	2012-01-25 08:00	2012-01-31 17:00	2012-01-25 08:00	2012-01-31 17:00		2012-03-19 08:00	2012-03-25 17:00		PT_Normal					SLuspTlGDUm8r4oKNwSHXQ	RwvIotA2/EyFIBKJT+o3dQ			N	0	0			2012-02-05 14:08	2012-02-07 08:32	admin	admin
+%R	100900	2363	14102	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1640	Masonry works		816	0	160	0	0	0	160	0	0	0				2012-07-23 08:00	2012-08-11 17:00		2012-04-12 08:00	2012-05-01 17:00	2012-04-12 08:00	2012-05-01 17:00	2012-04-12 08:00	2012-05-01 17:00		2012-07-23 08:00	2012-08-11 17:00		PT_Normal					DG+Eq2Tj3E+oV+bPOMKhDg				N	0	0			2012-02-05 14:08	2012-02-07 08:35	admin	admin
+%R	100901	2363	14102	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1650	Plaster works		816	0	240	0	0	0	240	0	0	0				2012-08-12 08:00	2012-09-10 17:00		2012-05-02 08:00	2012-05-31 17:00	2012-05-02 08:00	2012-05-31 17:00	2012-05-02 08:00	2012-05-31 17:00		2012-08-12 08:00	2012-09-10 17:00		PT_Normal					FnBS5van+kePvG3bYaYa6A				N	0	0			2012-02-05 14:08	2012-02-07 08:35	admin	admin
+%R	100902	2363	14102	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1660	Flooring works		816	0	160	0	0	0	160	0	0	0				2012-09-11 08:00	2012-09-30 17:00		2012-06-01 08:00	2012-06-20 17:00	2012-06-01 08:00	2012-06-20 17:00	2012-06-01 08:00	2012-06-20 17:00		2012-09-11 08:00	2012-09-30 17:00		PT_Normal					mNwiqaePGkO6RoVXd7JG9w				N	0	0			2012-02-05 14:08	2012-02-07 08:35	admin	admin
+%R	100903	2363	14102	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1670	Painting works		816	816	120	0	0	0	120	0	0	0				2012-09-16 08:00	2012-09-30 17:00		2012-06-06 08:00	2012-06-20 17:00	2012-06-06 08:00	2012-06-20 17:00	2012-06-06 08:00	2012-06-20 17:00		2012-09-16 08:00	2012-09-30 17:00		PT_Normal					H6cyq/Yqc0SM6KYF/ypNdw				N	0	0			2012-02-05 14:08	2012-02-07 08:35	admin	admin
+%R	100904	2363	14103	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1540	Excavation Works		816	0	160	0	0	0	160	0	0	0				2012-04-22 08:00	2012-05-11 17:00		2012-01-11 08:00	2012-01-30 17:00	2012-01-11 08:00	2012-01-30 17:00	2012-01-11 08:00	2012-01-30 17:00		2012-04-22 08:00	2012-05-11 17:00		PT_Normal					HihyF9qdbUCXtBZJfYANDQ				N	0	0			2012-02-05 14:08	2012-02-07 08:35	admin	admin
+%R	100905	2363	14103	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1550	Plain Concrete For Footings		816	0	80	0	0	0	80	0	0	0				2012-05-12 08:00	2012-05-21 17:00		2012-01-31 08:00	2012-02-09 17:00	2012-01-31 08:00	2012-02-09 17:00	2012-01-31 08:00	2012-02-09 17:00		2012-05-12 08:00	2012-05-21 17:00		PT_Normal					yiIz+c3LVE6+raWDPqof1A				N	0	0			2012-02-05 14:08	2012-02-07 08:35	admin	admin
+%R	100906	2363	14103	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1560	Reinforced Concrete For Footings		816	0	160	0	0	0	160	0	0	0				2012-05-22 08:00	2012-06-10 17:00		2012-02-10 08:00	2012-02-29 17:00	2012-02-10 08:00	2012-02-29 17:00	2012-02-10 08:00	2012-02-29 17:00		2012-05-22 08:00	2012-06-10 17:00		PT_Normal					DKN8TPverkCqj7KYJDvjhg				N	0	0			2012-02-05 14:08	2012-02-07 08:35	admin	admin
+%R	100907	2363	14103	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1570	Backfill Works		816	0	80	0	0	0	80	0	0	0				2012-07-03 08:00	2012-07-12 17:00		2012-03-23 08:00	2012-04-01 17:00	2012-03-23 08:00	2012-04-01 17:00	2012-03-23 08:00	2012-04-01 17:00		2012-07-03 08:00	2012-07-12 17:00		PT_Normal					oCuoR4lGJ0Ku2NgR0xVAoQ				N	0	0			2012-02-05 14:08	2012-02-07 08:35	admin	admin
+%R	100909	2363	14103	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1590	S.O.G for ground floors		816	0	80	0	0	0	80	0	0	0				2012-07-13 08:00	2012-07-22 17:00		2012-04-02 08:00	2012-04-11 17:00	2012-04-02 08:00	2012-04-11 17:00	2012-04-02 08:00	2012-04-11 17:00		2012-07-13 08:00	2012-07-22 17:00		PT_Normal					jVMJIsfUSEm/Xs4ucx+egA				N	0	0			2012-02-05 14:08	2012-02-07 08:35	admin	admin
+%R	100910	2363	14103	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1600	Ground floor columns		816	0	56	0	0	0	56	0	0	0				2012-06-11 08:00	2012-06-17 17:00		2012-03-01 08:00	2012-03-07 17:00	2012-03-01 08:00	2012-03-07 17:00	2012-03-01 08:00	2012-03-07 17:00		2012-06-11 08:00	2012-06-17 17:00		PT_Normal					eHhJlL0s2UuzcvOGy0mFZA				N	0	0			2012-02-05 14:08	2012-02-07 08:35	admin	admin
+%R	100911	2363	14103	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1610	Ground floor roof		816	0	120	0	0	0	120	0	0	0				2012-06-18 08:00	2012-07-02 17:00		2012-03-08 08:00	2012-03-22 17:00	2012-03-08 08:00	2012-03-22 17:00	2012-03-08 08:00	2012-03-22 17:00		2012-06-18 08:00	2012-07-02 17:00		PT_Normal					5b8t0VoU00aOxvlvA99g9w				N	0	0			2012-02-05 14:08	2012-02-07 08:35	admin	admin
+%R	100914	2363	14116	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1090	Plain Concrete Footings		0	0	160	0	0	0	160	0	0	0				2012-02-10 08:00	2012-02-29 17:00		2012-02-10 08:00	2012-02-29 17:00	2012-02-10 08:00	2012-02-29 17:00	2012-02-10 08:00	2012-02-29 17:00		2012-02-10 08:00	2012-02-29 17:00		PT_Normal					QEytiPlPtEKdabK79Vylwg	3V0u8v9uLEeEGresjZAZ0w			Y	0	0			2012-02-05 14:08	2012-02-07 08:32	admin	admin
+%R	100915	2363	14116	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1100	Reinforced Concrete Footings		0	0	160	0	0	0	160	0	0	0				2012-02-20 08:00	2012-03-10 17:00		2012-02-20 08:00	2012-03-10 17:00	2012-02-20 08:00	2012-03-10 17:00	2012-02-20 08:00	2012-03-10 17:00		2012-02-20 08:00	2012-03-10 17:00		PT_Normal					LSpBVVOUXESzLzEIEyWw8g	4S6lJGZ0n0WFU6kgzRodcg			Y	0	0			2012-02-05 14:08	2012-02-07 08:32	admin	admin
+%R	100916	2363	14116	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1140	Slab On Grade(100mm)		0	0	80	0	0	0	80	0	0	0				2012-06-14 08:00	2012-06-23 17:00		2012-06-14 08:00	2012-06-23 17:00	2012-06-14 08:00	2012-06-23 17:00	2012-06-14 08:00	2012-06-23 17:00		2012-06-14 08:00	2012-06-23 17:00		PT_Normal					Yh/l86NtFEqnfxL7C4VHrw	dKRldDny0U6J9QinE6J8kQ			Y	0	0			2012-02-05 14:08	2012-02-07 08:32	admin	admin
+%R	100917	2363	14116	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1150	Reinforced Concrete  Slab Above Mezzanine		616	600	56	0	0	0	56	0	0	0				2012-08-30 08:00	2012-09-05 17:00		2012-06-14 08:00	2012-06-20 17:00	2012-06-14 08:00	2012-06-20 17:00	2012-06-14 08:00	2012-06-20 17:00		2012-08-30 08:00	2012-09-05 17:00		PT_Normal					qT06+VY9kEu1IAHjw1swCQ	zHlGhHEySUe9pfOJTGx2ww			N	0	0			2012-02-05 14:08	2012-02-07 08:32	admin	admin
+%R	100918	2363	14113	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1230	Masonry under S.O.G		0	0	160	0	0	0	160	0	0	0				2012-03-26 08:00	2012-04-14 17:00		2012-03-26 08:00	2012-04-14 17:00	2012-03-26 08:00	2012-04-14 17:00	2012-03-26 08:00	2012-04-14 17:00		2012-03-26 08:00	2012-04-14 17:00		PT_Normal					8Shq6c3j/U+PSv1DMK+FNg	XtdApsobr0GtzzaefIB3+w			Y	0	0			2012-02-05 14:08	2012-02-07 08:32	admin	admin
+%R	100919	2363	14113	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1490	Masonry For Superstructure		0	0	240	0	0	0	240	0	0	0				2012-07-16 08:00	2012-08-14 17:00		2012-07-16 08:00	2012-08-14 17:00	2012-07-16 08:00	2012-08-14 17:00	2012-07-16 08:00	2012-08-14 17:00		2012-07-16 08:00	2012-08-14 17:00		PT_Normal					RBvVwrq8hkGNC/Y5SkRXjQ	+VwNwSLxYU2Nzm8Nch6ThA			Y	0	0			2012-02-05 14:08	2012-02-07 08:32	admin	admin
+%R	100920	2363	14114	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1120	Cold Bitumen insulation		0	0	120	0	0	0	120	0	0	0				2012-04-10 08:00	2012-04-24 17:00		2012-04-10 08:00	2012-04-24 17:00	2012-04-10 08:00	2012-04-24 17:00	2012-04-10 08:00	2012-04-24 17:00		2012-04-10 08:00	2012-04-24 17:00		PT_Normal					HLiYlEM4ckesPhvoNHdgxQ	QOsDD0nzkUmeFY5qCNUz7w			Y	0	0			2012-02-05 14:08	2012-02-07 08:32	admin	admin
+%R	100921	2363	14114	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1130	Polystyrene Sheets Under Slab On Grade		0	0	56	0	0	0	56	0	0	0				2012-06-24 08:00	2012-06-30 17:00		2012-06-24 08:00	2012-06-30 17:00	2012-06-24 08:00	2012-06-30 17:00	2012-06-24 08:00	2012-06-30 17:00		2012-06-24 08:00	2012-06-30 17:00		PT_Normal					zAPcSNppMUyOezsh9ZAorw	tGHOJxIvm06jQSNQAq9Mig			Y	0	0			2012-02-05 14:08	2012-02-07 08:32	admin	admin
+%R	100922	2363	14115	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1020	Excavation Works		0	0	120	0	0	0	120	0	0	0				2012-01-11 08:00	2012-01-25 17:00		2012-01-11 08:00	2012-01-25 17:00	2012-01-11 08:00	2012-01-25 17:00	2012-01-11 08:00	2012-01-25 17:00		2012-01-11 08:00	2012-01-25 17:00		PT_Normal					ZOjHShxvq0SrV/lPTa+NvA	LRTTyI1ztUeDUqd25mmz6Q			Y	0	0			2012-02-05 14:08	2012-02-07 08:32	admin	admin
+%R	100923	2363	14115	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1040	Backfill Works		0	0	120	0	0	0	120	0	0	0				2012-04-20 08:00	2012-05-04 17:00		2012-04-20 08:00	2012-05-04 17:00	2012-04-20 08:00	2012-05-04 17:00	2012-04-20 08:00	2012-05-04 17:00		2012-04-20 08:00	2012-05-04 17:00		PT_Normal					iVncFWIZr0GstX8FO0qszg	igQCME3J2U6HPZn2Da17mQ			Y	0	0			2012-02-05 14:08	2012-02-07 08:32	admin	admin
+%R	100924	2363	14115	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1080	Soil replacement&backfilling		0	0	120	0	0	0	120	0	0	0				2012-01-26 08:00	2012-02-09 17:00		2012-01-26 08:00	2012-02-09 17:00	2012-01-26 08:00	2012-02-09 17:00	2012-01-26 08:00	2012-02-09 17:00		2012-01-26 08:00	2012-02-09 17:00		PT_Normal					nnxf1BriGki2XhNV3MyLJw				Y	0	0			2012-02-05 14:08	2012-02-07 08:32	admin	admin
+%R	100925	2363	14119	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1170	Steel Structure Erection		0	0	320	0	0	0	320	0	0	0				2012-05-05 08:00	2012-06-13 17:00		2012-05-05 08:00	2012-06-13 17:00	2012-05-05 08:00	2012-06-13 17:00	2012-05-05 08:00	2012-06-13 17:00		2012-05-05 08:00	2012-06-13 17:00		PT_Normal					sv3LqCLi40yT6U3Flv+GtA	0uMwPb4XFkG7DRQ7JCYrTA			Y	0	0			2012-02-05 14:08	2012-02-07 08:32	admin	admin
+%R	100926	2363	14119	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1180	Roof Cladding		272	0	240	0	0	0	240	0	0	0				2012-07-08 08:00	2012-08-06 17:00		2012-06-04 08:00	2012-07-03 17:00	2012-06-04 08:00	2012-07-03 17:00	2012-06-04 08:00	2012-07-03 17:00		2012-07-08 08:00	2012-08-06 17:00		PT_Normal					+UTEAhp2vEuDWb6kH2pRAQ	qmHq11FN+E+8F/sKEE6vQQ			N	0	0			2012-02-05 14:08	2012-02-07 08:32	admin	admin
+%R	100927	2363	14119	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1190	Mezzanine erection		616	0	120	0	0	0	120	0	0	0				2012-08-15 08:00	2012-08-29 17:00		2012-05-30 08:00	2012-06-13 17:00	2012-05-30 08:00	2012-06-13 17:00	2012-05-30 08:00	2012-06-13 17:00		2012-08-15 08:00	2012-08-29 17:00		PT_Normal					4b8ks0gTBkmhLJfrD8V0Mg	QDPRSEFpME6o8YW4OgiIbQ			N	0	0			2012-02-05 14:08	2012-02-07 08:32	admin	admin
+%R	100928	2363	14119	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1200	Wall Cladding		16	0	160	0	0	0	160	0	0	0				2012-08-17 08:00	2012-09-05 17:00		2012-08-15 08:00	2012-09-03 17:00	2012-08-15 08:00	2012-09-03 17:00	2012-08-15 08:00	2012-09-03 17:00		2012-08-17 08:00	2012-09-05 17:00		PT_Normal					kx9FYLTIpEq8NZQy+Jco2w	YY8oRnNjK0+KyeSPg40/bg			N	0	0			2012-02-05 14:08	2012-02-07 08:32	admin	admin
+%R	100929	2363	14117	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1280	Internal Plaster		0	0	160	0	0	0	160	0	0	0				2012-08-15 08:00	2012-09-03 17:00		2012-08-15 08:00	2012-09-03 17:00	2012-08-15 08:00	2012-09-03 17:00	2012-08-15 08:00	2012-09-03 17:00		2012-08-15 08:00	2012-09-03 17:00		PT_Normal					9WqUJpSbrESSXXN+IPUVTQ	EN2TL8N8TE6HE58vEd3ODw			Y	0	0			2012-02-05 14:08	2012-02-07 08:32	admin	admin
+%R	100930	2363	14117	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1300	Internal Painting		16	16	160	0	0	0	160	0	0	0				2012-09-11 08:00	2012-09-30 17:00		2012-09-09 08:00	2012-09-28 17:00	2012-09-09 08:00	2012-09-28 17:00	2012-09-09 08:00	2012-09-28 17:00		2012-09-11 08:00	2012-09-30 17:00		PT_Normal					6szGoZ9EJkSoNfC+tvqDqg	v+IHCTf5tE25w+wpyrwmuw			N	0	0			2012-02-05 14:08	2012-02-07 08:32	admin	admin
+%R	100931	2363	14117	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1320	Acrylicon flooring		16	0	240	0	0	0	240	0	0	0				2012-09-01 08:00	2012-09-30 17:00		2012-08-30 08:00	2012-09-28 17:00	2012-08-30 08:00	2012-09-28 17:00	2012-08-30 08:00	2012-09-28 17:00		2012-09-01 08:00	2012-09-30 17:00		PT_Normal					cbAwZSZtaEmAKlk1vOgwcw	nBlOoYe4w0q2PqWJDWtJyw			N	0	0			2012-02-05 14:08	2012-02-07 08:59	admin	admin
+%R	100932	2363	14118	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1330	Windows Erection		16	0	160	0	0	0	160	0	0	0				2012-09-06 08:00	2012-09-25 17:00		2012-09-04 08:00	2012-09-23 17:00	2012-09-04 08:00	2012-09-23 17:00	2012-09-04 08:00	2012-09-23 17:00		2012-09-06 08:00	2012-09-25 17:00		PT_Normal					y1Dotn9bZ0ObYGX/W0FpMA	bz6LleK1DU+Qdb6J+7rNKw			N	0	0			2012-02-05 14:08	2012-02-07 08:32	admin	admin
+%R	100933	2363	14118	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1350	Doors Erection		16	16	160	0	0	0	160	0	0	0				2012-09-11 08:00	2012-09-30 17:00		2012-09-09 08:00	2012-09-28 17:00	2012-09-09 08:00	2012-09-28 17:00	2012-09-09 08:00	2012-09-28 17:00		2012-09-11 08:00	2012-09-30 17:00		PT_Normal					ycu0t24n0UCwGJXofMjHQA	p0cAq7eKWUOrMD/Ix1pf+w			N	0	0			2012-02-05 14:08	2012-02-07 08:32	admin	admin
+%R	100934	2363	14109	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1340	Site Works		24	24	400	0	0	0	400	0	0	0				2012-08-12 08:00	2012-09-30 17:00		2012-08-09 08:00	2012-09-27 17:00	2012-08-09 08:00	2012-09-27 17:00	2012-08-09 08:00	2012-09-27 17:00		2012-08-12 08:00	2012-09-30 17:00		PT_Normal					JT3nW1CHVkqh3xozT1u8fQ	vCos4CahIU+sj80D2OGyYg			N	0	0			2012-02-05 14:08	2012-02-07 08:32	admin	admin
+%R	100935	2363	14120	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1450	Fire alarm system		272	0	240	0	0	0	240	0	0	0				2012-08-07 08:00	2012-09-05 17:00		2012-07-04 08:00	2012-08-02 17:00	2012-07-04 08:00	2012-08-02 17:00	2012-07-04 08:00	2012-08-02 17:00		2012-08-07 08:00	2012-09-05 17:00		PT_Normal					kut032MAvEWMTBhA03DezQ	Di2jUr0lgUChSiLtLQuymA			N	0	0			2012-02-05 14:08	2012-02-07 08:32	admin	admin
+%R	100936	2363	14120	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1460	Lighting works		272	0	240	0	0	0	240	0	0	0				2012-08-22 08:00	2012-09-20 17:00		2012-07-19 08:00	2012-08-17 17:00	2012-07-19 08:00	2012-08-17 17:00	2012-07-19 08:00	2012-08-17 17:00		2012-08-22 08:00	2012-09-20 17:00		PT_Normal					adnMzhTHxEmfS5Ie8wGgtg	yHuL943Rj0CU6WSyJY6vEQ			N	0	0			2012-02-05 14:08	2012-02-07 08:32	admin	admin
+%R	100937	2363	14120	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1470	Switch board erection		272	272	160	0	0	0	160	0	0	0				2012-09-11 08:00	2012-09-30 17:00		2012-08-08 08:00	2012-08-27 17:00	2012-08-08 08:00	2012-08-27 17:00	2012-08-08 08:00	2012-08-27 17:00		2012-09-11 08:00	2012-09-30 17:00		PT_Normal					mvXQad6xT0GC2UJFRjekoQ	+EB+fcnqIk621QAZ/buxSg			N	0	0			2012-02-05 14:08	2012-02-07 08:32	admin	admin
+%R	100938	2363	14123	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1380	Fire Fighting Works		0	0	240	0	0	0	240	0	0	0				2012-09-01 08:00	2012-09-30 17:00		2012-09-01 08:00	2012-09-30 17:00	2012-09-01 08:00	2012-09-30 17:00	2012-09-01 08:00	2012-09-30 17:00		2012-09-01 08:00	2012-09-30 17:00		PT_Normal					U6gvCcWKiE2d7G8jvNUeWw	nlerN1wf5kSt9uFymNbsTg			Y	0	0			2012-02-05 14:08	2012-02-07 08:32	admin	admin
+%R	100939	2363	14123	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1480	HVAC Works		472	472	240	0	0	0	240	0	0	0				2012-09-01 08:00	2012-09-30 17:00		2012-07-04 08:00	2012-08-02 17:00	2012-07-04 08:00	2012-08-02 17:00	2012-07-04 08:00	2012-08-02 17:00		2012-09-01 08:00	2012-09-30 17:00		PT_Normal					eQR7LTkNvkiSqvyVtu3zkw	zB6NCreCa0yNLtEqhI84lQ			N	0	0			2012-02-05 14:08	2012-02-07 08:32	admin	admin
+%R	100940	2363	14122	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1420	Supply works		16	0	120	0	0	0	120	0	0	0				2012-08-17 08:00	2012-08-31 17:00		2012-08-15 08:00	2012-08-29 17:00	2012-08-15 08:00	2012-08-29 17:00	2012-08-15 08:00	2012-08-29 17:00		2012-08-17 08:00	2012-08-31 17:00		PT_Normal					aWqAvr8wUk6RNvQQEvLBVw	KstnYNbiFkWq0awmz+UbGA			N	0	0			2012-02-05 14:08	2012-02-07 08:32	admin	admin
+%R	100941	2363	14122	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1430	Drainage works		16	0	160	0	0	0	160	0	0	0				2012-08-27 08:00	2012-09-15 17:00		2012-08-25 08:00	2012-09-13 17:00	2012-08-25 08:00	2012-09-13 17:00	2012-08-25 08:00	2012-09-13 17:00		2012-08-27 08:00	2012-09-15 17:00		PT_Normal					DPXeIqy8WU+fVTeBT5jfLA	QsO3TDQWD0GHawQHr/mYbg			N	0	0			2012-02-05 14:08	2012-02-07 08:32	admin	admin
+%R	100942	2363	14122	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1440	Plumbing equipments		16	16	120	0	0	0	120	0	0	0				2012-09-16 08:00	2012-09-30 17:00		2012-09-14 08:00	2012-09-28 17:00	2012-09-14 08:00	2012-09-28 17:00	2012-09-14 08:00	2012-09-28 17:00		2012-09-16 08:00	2012-09-30 17:00		PT_Normal					mnJ2AfdweUGQOVDjxTpUFw	3vbIlEiGcEe6FRlvogR/wg			N	0	0			2012-02-05 14:08	2012-02-07 08:32	admin	admin
+%R	100943	2363	14116	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1680	R.C for pedestals&retaining walls		0	0	200	0	0	0	200	0	0	0				2012-03-01 08:00	2012-03-25 17:00		2012-03-01 08:00	2012-03-25 17:00	2012-03-01 08:00	2012-03-25 17:00	2012-03-01 08:00	2012-03-25 17:00		2012-03-01 08:00	2012-03-25 17:00		PT_Normal					b1FUWCFVC0KZVke/4fTJfg				Y	0	0			2012-02-05 14:08	2012-02-07 08:32	admin	admin
+%R	100944	2363	14116	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1690	Slab On Grade(150mm)		0	0	160	0	0	0	160	0	0	0				2012-07-01 08:00	2012-07-20 17:00		2012-07-01 08:00	2012-07-20 17:00	2012-07-01 08:00	2012-07-20 17:00	2012-07-01 08:00	2012-07-20 17:00		2012-07-01 08:00	2012-07-20 17:00		PT_Normal					9Y9QpvYlqUeqzSnGrPnecQ				Y	0	0			2012-02-05 14:08	2012-02-07 08:32	admin	admin
+%R	100945	2363	14114	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1700	Polyethylene sheet(400micron)		0	0	56	0	0	0	56	0	0	0				2012-06-24 08:00	2012-06-30 17:00		2012-06-24 08:00	2012-06-30 17:00	2012-06-24 08:00	2012-06-30 17:00	2012-06-24 08:00	2012-06-30 17:00		2012-06-24 08:00	2012-06-30 17:00		PT_Normal					1SqJ3pCZjUKy+WbAUGyO8g				Y	0	0			2012-02-05 14:08	2012-02-07 08:32	admin	admin
+%R	101137	2363	14194	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1710	Columns for ground floors		17	0	80	0	0	0	80	0	0	0				2012-03-09 08:00	2012-03-18 17:00		2012-03-06 16:00	2012-03-16 16:00	2012-03-06 16:00	2012-03-16 16:00	2012-03-06 16:00	2012-03-16 16:00		2012-03-09 08:00	2012-03-18 17:00		PT_Normal					oCwWhMB8uUihHwHgFegDBg	wLwfxw3N1ESCrbrfNAqpiw			N	0	0			2012-02-06 09:58	2012-02-07 08:32	admin	admin
+%R	101138	2363	14194	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1290	Ground floor slab		17	0	160	0	0	0	160	0	0	0				2012-03-19 08:00	2012-04-07 17:00		2012-03-16 16:00	2012-04-05 16:00	2012-03-16 16:00	2012-04-05 16:00	2012-03-16 16:00	2012-04-05 16:00		2012-03-19 08:00	2012-04-07 17:00		PT_Normal					OrpBww7/pkKdBikMx3t4DQ	Gv9iAU2ELUizh63oFi9gUA			N	0	0			2012-02-06 09:58	2012-02-07 08:32	admin	admin
+%R	101141	2363	14194	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1730	First floor columns		17	0	80	0	0	0	80	0	0	0				2012-04-08 08:00	2012-04-17 17:00		2012-04-05 16:00	2012-04-15 16:00	2012-04-05 16:00	2012-04-15 16:00	2012-04-05 16:00	2012-04-15 16:00		2012-04-08 08:00	2012-04-17 17:00		PT_Normal					GI4BN+NNL0Wm165CE/R6xA	jDe6O/1eaEmxz+rqW3mWfg			N	0	0			2012-02-06 09:58	2012-02-07 08:32	admin	admin
+%R	101142	2363	14194	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1740	First floor slab		17	0	160	0	0	0	160	0	0	0				2012-04-18 08:00	2012-05-07 17:00		2012-04-15 16:00	2012-05-05 16:00	2012-04-15 16:00	2012-05-05 16:00	2012-04-15 16:00	2012-05-05 16:00		2012-04-18 08:00	2012-05-07 17:00		PT_Normal					eIL3h4pDbUqdGtUPBUF4ew	ef4xdanETU+xRSN2/+yoaA			N	0	0			2012-02-06 09:58	2012-02-07 08:32	admin	admin
+%R	101143	2363	14194	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1750	Second floor columns		369	0	80	0	0	0	80	0	0	0				2012-06-21 08:00	2012-06-30 17:00		2012-05-05 16:00	2012-05-15 16:00	2012-05-05 16:00	2012-05-15 16:00	2012-05-05 16:00	2012-05-15 16:00		2012-06-21 08:00	2012-06-30 17:00		PT_Normal					MdU1jI3VGEOg53TUvw1CSA	P9MId2LVFUOaAl41YDwQzg			N	0	0			2012-02-06 09:58	2012-02-07 09:43	admin	admin
+%R	101144	2363	14194	794	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1760	Second floor slab		369	1	160	0	0	0	160	0	0	0				2012-07-01 08:00	2012-07-20 17:00		2012-05-15 16:00	2012-06-04 16:00	2012-05-15 16:00	2012-06-04 16:00	2012-05-15 16:00	2012-06-04 16:00		2012-07-01 08:00	2012-07-20 17:00		PT_Normal					Fb7JYhKPu0GUhDEtluF96w	ex6xTUdJYEy0veh+CTVbhg			N	0	0			2012-02-06 09:58	2012-02-07 09:43	admin	admin
+%R	101145	2363	14193	1772	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1770	Excavation		16	0	56	0	0	0	56	0	0	0				2012-01-14 08:00	2012-01-21 16:00		2012-01-11 08:00	2012-01-18 16:00	2012-01-11 08:00	2012-01-18 16:00	2012-01-11 08:00	2012-01-18 16:00		2012-01-14 08:00	2012-01-21 16:00		PT_Normal					OgK5w5f8fkeGMpiW/ihNNw				N	0	0			2012-02-06 09:58	2012-02-07 08:32	admin	admin
+%R	101146	2363	14193	1772	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1780	Sand replacement		16	0	80	0	0	0	80	0	0	0				2012-01-22 08:00	2012-02-01 16:00		2012-01-19 08:00	2012-01-30 16:00	2012-01-19 08:00	2012-01-30 16:00	2012-01-19 08:00	2012-01-30 16:00		2012-01-22 08:00	2012-02-01 16:00		PT_Normal					twk4KzGVUUielKl9U07D6Q				N	0	0			2012-02-06 09:58	2012-02-07 08:32	admin	admin
+%R	101147	2363	14194	1772	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1790	P.c footing		16	0	80	0	0	0	80	0	0	0				2012-02-02 08:00	2012-02-13 16:00		2012-01-31 08:00	2012-02-11 16:00	2012-01-31 08:00	2012-02-11 16:00	2012-01-31 08:00	2012-02-11 16:00		2012-02-02 08:00	2012-02-13 16:00		PT_Normal					IncReqF0R0uC0NQRXST6Xw				N	0	0			2012-02-06 09:58	2012-02-07 08:32	admin	admin
+%R	101148	2363	14194	1772	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1800	R.C footing		16	0	168	0	0	0	168	0	0	0				2012-02-14 08:00	2012-03-08 16:00		2012-02-12 08:00	2012-03-06 16:00	2012-02-12 08:00	2012-03-06 16:00	2012-02-12 08:00	2012-03-06 16:00		2012-02-14 08:00	2012-03-08 16:00		PT_Normal					LSzMnZNvBEakcpYj/qSZvA				N	0	0			2012-02-06 09:58	2012-02-07 08:32	admin	admin
+%R	101149	2363	14195	1772	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1810	Masonry works under S.O.G		632	0	160	0	0	0	160	0	0	0				2012-08-06 08:00	2012-08-28 16:00		2012-05-06 08:00	2012-05-28 16:00	2012-05-06 08:00	2012-05-28 16:00	2012-05-06 08:00	2012-05-28 16:00		2012-08-06 08:00	2012-08-28 16:00		PT_Normal					hD9TB3tgd0OuDuSCSOpUeQ				N	0	0			2012-02-06 09:58	2012-02-07 08:32	admin	admin
+%R	101150	2363	14195	1772	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1820	Masonry works		16	0	480	0	0	0	480	0	0	0				2012-05-08 08:00	2012-07-16 16:00		2012-05-06 08:00	2012-07-14 16:00	2012-05-06 08:00	2012-07-14 16:00	2012-05-06 08:00	2012-07-14 16:00		2012-05-08 08:00	2012-07-16 16:00		PT_Normal					/KRqYaY/Uk6lPbYot0Hwhg				N	0	0			2012-02-06 10:03	2012-02-07 08:32	admin	admin
+%R	101151	2363	14196	1772	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1830	Footing insulation		632	0	40	0	0	0	40	0	0	0				2012-08-29 08:00	2012-09-03 16:00		2012-05-29 08:00	2012-06-03 16:00	2012-05-29 08:00	2012-06-03 16:00	2012-05-29 08:00	2012-06-03 16:00		2012-08-29 08:00	2012-09-03 16:00		PT_Normal					qVysd/MFYUKuS5PTyxgTCg				N	0	0			2012-02-06 10:03	2012-02-07 08:32	admin	admin
+%R	101153	2363	14196	1772	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1840	Polyethylene sheet under S.O.G		632	0	24	0	0	0	24	0	0	0				2012-09-16 08:00	2012-09-18 16:00		2012-06-16 08:00	2012-06-18 16:00	2012-06-16 08:00	2012-06-18 16:00	2012-06-16 08:00	2012-06-18 16:00		2012-09-16 08:00	2012-09-18 16:00		PT_Normal					vbaId8aYUUeyrT4YVgj1SA				N	0	0			2012-02-06 10:05	2012-02-07 08:32	admin	admin
+%R	101154	2363	14193	1772	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1850	Backfilling under S.O.G		632	0	80	0	0	0	80	0	0	0				2012-09-04 08:00	2012-09-15 16:00		2012-06-04 08:00	2012-06-14 16:00	2012-06-04 08:00	2012-06-14 16:00	2012-06-04 08:00	2012-06-14 16:00		2012-09-04 08:00	2012-09-15 16:00		PT_Normal					hEtmahv2xk+dVFJI0RHZEg				N	0	0			2012-02-06 10:12	2012-02-07 08:32	admin	admin
+%R	101155	2363	14194	1772	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1860	Slab on grade		632	632	80	0	0	0	80	0	0	0				2012-09-19 08:00	2012-09-30 16:00		2012-06-19 08:00	2012-06-30 16:00	2012-06-19 08:00	2012-06-30 16:00	2012-06-19 08:00	2012-06-30 16:00		2012-09-19 08:00	2012-09-30 16:00		PT_Normal					h85Oir2BTUCaT0PjBHSKtQ				N	0	0			2012-02-06 10:13	2012-02-07 08:32	admin	admin
+%R	101156	2363	14192	1772	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1870	Plaster works		16	0	480	0	0	0	480	0	0	0				2012-05-31 08:00	2012-08-08 16:00		2012-05-29 08:00	2012-08-06 16:00	2012-05-29 08:00	2012-08-06 16:00	2012-05-29 08:00	2012-08-06 16:00		2012-05-31 08:00	2012-08-08 16:00		PT_Normal					cIwgKLbriEWp/4n78Q8Xzg				N	0	0			2012-02-06 10:23	2012-02-07 08:32	admin	admin
+%R	101157	2363	14192	1772	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1880	Paint works		16	16	320	0	0	0	320	0	0	0				2012-08-15 08:00	2012-09-30 16:00		2012-08-13 08:00	2012-09-27 16:00	2012-08-13 08:00	2012-09-27 16:00	2012-08-13 08:00	2012-09-27 16:00		2012-08-15 08:00	2012-09-30 16:00		PT_Normal					eHGL7eQ9S0OLQUp+iF+FuQ				N	0	0			2012-02-06 10:23	2012-02-07 08:32	admin	admin
+%R	101158	2363	14192	1772	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1890	Flooring works		16	0	480	0	0	0	480	0	0	0				2012-06-24 08:00	2012-09-01 16:00		2012-06-21 08:00	2012-08-29 16:00	2012-06-21 08:00	2012-08-29 16:00	2012-06-21 08:00	2012-08-29 16:00		2012-06-24 08:00	2012-09-01 16:00		PT_Normal					4B60h2Gq3EqoBpz/XLSSGw				N	0	0			2012-02-06 10:23	2012-02-07 08:32	admin	admin
+%R	101160	2363	14192	1772	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1900	Doors&windows		16	0	240	0	0	0	240	0	0	0				2012-08-09 08:00	2012-09-12 16:00		2012-08-07 08:00	2012-09-10 16:00	2012-08-07 08:00	2012-09-10 16:00	2012-08-07 08:00	2012-09-10 16:00		2012-08-09 08:00	2012-09-12 16:00		PT_Normal					n3Pux3JcjkGw0jr2/cEe7A				N	0	0			2012-02-06 10:29	2012-02-07 08:32	admin	admin
+%R	101161	2363	14192	1772	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1910	Gypsum board		56	56	320	0	0	0	320	0	0	0				2012-08-15 08:00	2012-09-30 16:00		2012-08-07 08:00	2012-09-22 16:00	2012-08-07 08:00	2012-09-22 16:00	2012-08-07 08:00	2012-09-22 16:00		2012-08-15 08:00	2012-09-30 16:00		PT_Normal					51dwoCgECEi0ozFuad4FFQ				N	0	0			2012-02-07 08:31	2012-02-07 08:32	admin	admin
+%R	101162	2363	14111	1772	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1920	Excavation		216	0	112	0	0	0	112	0	0	0				2012-02-16 08:00	2012-03-03 16:00		2012-01-16 08:00	2012-01-31 16:00	2012-01-16 08:00	2012-01-31 16:00	2012-01-16 08:00	2012-01-31 16:00		2012-02-16 08:00	2012-03-03 16:00		PT_Normal					hXgE8cVIA0CgJAWHq3Q6kw				N	0	0			2012-02-07 08:37	2012-02-07 09:27	admin	admin
+%R	101163	2363	14111	1772	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1930	Compaction & testing for Ex. Level		216	0	80	0	0	0	80	0	0	0				2012-03-04 08:00	2012-03-14 16:00		2012-02-01 08:00	2012-02-12 16:00	2012-02-01 08:00	2012-02-12 16:00	2012-02-01 08:00	2012-02-12 16:00		2012-03-04 08:00	2012-03-14 16:00		PT_Normal					kF/eAEuvTkKHUd7HaQuFTA				N	0	0			2012-02-07 08:37	2012-02-07 09:27	admin	admin
+%R	101164	2363	14111	1772	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1940	Plain Concrete Footing		216	0	112	0	0	0	112	0	0	0				2012-03-15 08:00	2012-03-31 16:00		2012-02-13 08:00	2012-02-28 16:00	2012-02-13 08:00	2012-02-28 16:00	2012-02-13 08:00	2012-02-28 16:00		2012-03-15 08:00	2012-03-31 16:00		PT_Normal					AwLZBoD/1UiwdujxO3u7NQ				N	0	0			2012-02-07 08:37	2012-02-07 09:27	admin	admin
+%R	101165	2363	14111	1772	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1950	Reinforced Concrete Footing		216	0	160	0	0	0	160	0	0	0				2012-04-01 08:00	2012-04-23 16:00		2012-02-29 08:00	2012-03-22 16:00	2012-02-29 08:00	2012-03-22 16:00	2012-02-29 08:00	2012-03-22 16:00		2012-04-01 08:00	2012-04-23 16:00		PT_Normal					6gN14jwV3kCIYXZFMaJH3g				N	0	0			2012-02-07 08:37	2012-02-07 09:27	admin	admin
+%R	101166	2363	14111	1772	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1960	Insulation  for Foundation		216	0	56	0	0	0	56	0	0	0				2012-04-24 08:00	2012-05-01 16:00		2012-03-24 08:00	2012-03-31 16:00	2012-03-24 08:00	2012-03-31 16:00	2012-03-24 08:00	2012-03-31 16:00		2012-04-24 08:00	2012-05-01 16:00		PT_Normal					UcNGAgIg/U+UJslQzkkAGA				N	0	0			2012-02-07 08:37	2012-02-07 09:27	admin	admin
+%R	101167	2363	14111	1772	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1970	Tank walls		216	0	240	0	0	0	240	0	0	0				2012-05-02 08:00	2012-06-05 16:00		2012-04-01 08:00	2012-05-05 16:00	2012-04-01 08:00	2012-05-05 16:00	2012-04-01 08:00	2012-05-05 16:00		2012-05-02 08:00	2012-06-05 16:00		PT_Normal					V7D3yENvbk+B5LrRwMzEHw				N	0	0			2012-02-07 08:37	2012-02-07 09:27	admin	admin
+%R	101168	2363	14111	1772	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1980	Tank roof		216	0	160	0	0	0	160	0	0	0				2012-06-06 08:00	2012-06-28 16:00		2012-05-06 08:00	2012-05-28 16:00	2012-05-06 08:00	2012-05-28 16:00	2012-05-06 08:00	2012-05-28 16:00		2012-06-06 08:00	2012-06-28 16:00		PT_Normal					AgOsSAnWaUKZ+s13TG2+Ow				N	0	0			2012-02-07 08:51	2012-02-07 09:27	admin	admin
+%R	101169	2363	14192	1772	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1990	Roof finish		312	312	360	0	0	0	360	0	0	0				2012-08-09 08:00	2012-09-30 16:00		2012-06-25 08:00	2012-08-15 16:00	2012-06-25 08:00	2012-08-15 16:00	2012-06-25 08:00	2012-08-15 16:00		2012-08-09 08:00	2012-09-30 16:00		PT_Normal					xCHdgJ2SmkuFtPJpMcRPew				N	0	0			2012-02-07 08:53	2012-02-07 09:43	admin	admin
+%R	101170	2363	14111	1772	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A2000	Tank finish works		216	216	640	0	0	0	640	0	0	0				2012-06-30 08:00	2012-09-30 16:00		2012-05-29 08:00	2012-08-29 16:00	2012-05-29 08:00	2012-08-29 16:00	2012-05-29 08:00	2012-08-29 16:00		2012-06-30 08:00	2012-09-30 16:00		PT_Normal					zM0XO90WiU2sslJSsaU43g				N	0	0			2012-02-07 09:27	2012-02-07 09:27	admin	admin
+%R	101171	2363	14194	1772	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A2010	Roof columns		312	0	56	0	0	0	56	0	0	0				2012-07-21 08:00	2012-07-28 16:00		2012-06-05 08:00	2012-06-12 16:00	2012-06-05 08:00	2012-06-12 16:00	2012-06-05 08:00	2012-06-12 16:00		2012-07-21 08:00	2012-07-28 16:00		PT_Normal					vGMr0DAHVEa4KLC+eNioeA				N	0	0			2012-02-07 09:42	2012-02-07 09:43	admin	admin
+%R	101172	2363	14194	1772	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A2020	Roof slab		312	0	80	0	0	0	80	0	0	0				2012-07-29 08:00	2012-08-08 16:00		2012-06-13 08:00	2012-06-24 16:00	2012-06-13 08:00	2012-06-24 16:00	2012-06-13 08:00	2012-06-24 16:00		2012-07-29 08:00	2012-08-08 16:00		PT_Normal					8NQDDXl6o0mHT5vpRDu8RA				N	0	0			2012-02-07 09:42	2012-02-07 09:43	admin	admin
+%T	ACTVCODE
+%F	actv_code_id	parent_actv_code_id	actv_code_type_id	actv_code_name	short_name	seq_num
+%R	12728		7250	civil works	civil	0
+%R	12729		7250	arch works	arch	100
+%T	PROJCOST
+%F	cost_item_id	acct_id	pobs_id	cost_type_id	proj_id	task_id	cost_name	po_number	vendor_name	act_cost	cost_per_qty	remain_cost	target_cost	cost_load_type	auto_compute_act_flag	target_qty	qty_name	cost_descr	contract_manager_import
+%R	3674				2363	100889	(New Expense Item)			0.00	45000.00	45000.00	45000.00	CL_Uniform	N	1			
+%R	3675				2363	100914	(New Expense Item)			0.00	517000.00	491150.00	491150.00	CL_Uniform	N	0.95			
+%R	3676				2363	100915	(New Expense Item)			0.00	4804800.00	4804800.00	4804800.00	CL_Uniform	N	1			
+%R	3677				2363	100916	(New Expense Item)			0.00	23750.00	1200150.00	1200150.00	CL_Start	N	50.532632			
+%R	3678				2363	100917	(New Expense Item)			0.00	78030.00	78030.00	78030.00	CL_Uniform	N	1			
+%R	3679				2363	100917	(New Expense Item)1			0.00	54400.00	54400.00	54400.00	CL_Uniform	N	1			
+%R	3680				2363	100918	(New Expense Item)			0.00	105690.00	105690.00	105690.00	CL_Uniform	N	1			
+%R	3681				2363	100919	(New Expense Item)			0.00	629320.00	629320.00	629320.00	CL_Uniform	N	1			
+%R	3682				2363	100920	(New Expense Item)			0.00	108000.00	108000.00	108000.00	CL_Uniform	N	1			
+%R	3683				2363	100921	(New Expense Item)			0.00	49000.00	1130550.00	1130550.00	CL_Uniform	N	23.072449			
+%R	3684				2363	100922	(New Expense Item)			0.00	640000.00	582400.00	582400.00	CL_Uniform	N	0.91			
+%R	3685				2363	100923	(New Expense Item)			0.00	390000.00	64350.00	64350.00	CL_Uniform	N	0.165			
+%R	3686				2363	100925	(New Expense Item)			0.00	971620.00	971620.00	971620.00	CL_Uniform	N	1			
+%R	3687				2363	100926	(New Expense Item)			0.00	545400.00	545400.00	545400.00	CL_Uniform	N	1			
+%R	3688				2363	100927	(New Expense Item)			0.00	306510.00	306510.00	306510.00	CL_Uniform	N	1			
+%R	3689				2363	100928	(New Expense Item)			0.00	79800.00	79800.00	79800.00	CL_Uniform	N	1			
+%R	3690				2363	100929	(New Expense Item)			0.00	44000.00	44000.00	44000.00	CL_Uniform	N	1			
+%R	3691				2363	100930	(New Expense Item)			0.00	69920.00	69920.00	69920.00	CL_Uniform	N	1			
+%R	3692				2363	100931	(New Expense Item)			0.00	217320.00	151735.00	151735.00	CL_Uniform	N	0.69821			
+%R	3693				2363	100932	(New Expense Item)			0.00	405938.00	372798.00	372798.00	CL_Uniform	N	0.918362			
+%R	3694				2363	100933	(New Expense Item)1			0.00	2615607.00	57188.00	57188.00	CL_Uniform	N	0.021864			
+%R	3695				2363	100933	(New Expense Item)			0.00	4549130.00	1534500.00	1534500.00	CL_Uniform	N	0.337317			
+%R	3696				2363	100934	(New Expense Item)			0.00	679280.00	693152.00	693152.00	CL_Uniform	N	1.020422			
+%R	3697				2363	100935	(New Expense Item)			0.00	1000000.00	1000000.00	1000000.00	CL_Start	N	1			
+%R	3698				2363	100936	(New Expense Item)			0.00	900000.00	800000.00	800000.00	CL_Uniform	N	0.888889			
+%R	3699				2363	100936	(New Expense Item)1			0.00	3300.00	3139.00	3139.00	CL_Uniform	N	0.951212			
+%R	3700				2363	100937	(New Expense Item)			0.00	66499.00	66499.00	66499.00	CL_Uniform	N	1			
+%R	3701				2363	100938	(New Expense Item)			0.00	2618016.00	2272711.00	2272711.00	CL_Uniform	N	0.868104			
+%R	3702				2363	100939	(New Expense Item)			0.00	1120176.00	533299.00	533299.00	CL_Start	N	0.476085			
+%R	3703				2363	100940	(New Expense Item)			0.00	300000.00	300000.00	300000.00	CL_Start	N	1			
+%R	3704				2363	100941	(New Expense Item)			0.00	200000.00	200000.00	200000.00	CL_Start	N	1			
+%R	3705				2363	100942	(New Expense Item)			0.00	30581.00	30581.00	30581.00	CL_Uniform	N	1			
+%R	3706				2363	100942	(New Expense Item)1			0.00	4300.00	4302.00	4302.00	CL_Uniform	N	1.000465			
+%T	TASKPRED
+%F	task_pred_id	task_id	pred_task_id	proj_id	pred_proj_id	pred_type	lag_hr_cnt	float_path	aref	arls
+%R	117991	100904	100889	2363	2363	PR_SS	80		2012-01-10 17:00	2012-03-28 08:00
+%R	117992	100939	100893	2363	2363	PR_FS	0		2012-05-02 17:00	2012-09-01 08:00
+%R	117993	100899	100898	2363	2363	PR_SS	40		2012-01-24 17:00	2012-03-07 08:00
+%R	117995	100927	100925	2363	2363	PR_FF	0		2012-05-30 08:00	2012-08-29 17:00
+%R	117996	100933	100932	2363	2363	PR_SS	40		2012-09-08 17:00	2012-08-17 08:00
+%R	117997	100888	100934	2363	2363	PR_FS	0		2012-09-27 17:00	2012-09-30 17:00
+%R	117998	100914	100895	2363	2363	PR_SS	40		2012-01-17 17:00	2012-01-29 08:00
+%R	117999	100901	100900	2363	2363	PR_FS	0		2012-05-01 17:00	2012-08-12 08:00
+%R	118001	100925	100923	2363	2363	PR_FS	0		2012-05-04 17:00	2012-05-05 08:00
+%R	118002	100936	100935	2363	2363	PR_SS	120		2012-07-18 17:00	2012-07-08 08:00
+%R	118003	100888	100939	2363	2363	PR_FS	0		2012-08-02 17:00	2012-09-30 17:00
+%R	118004	100889	100887	2363	2363	PR_FS	0		2012-01-01 08:00	2012-01-01 08:00
+%R	118005	100890	100897	2363	2363	PR_FS	160		2012-03-05 17:00	2012-05-21 08:00
+%R	118006	100896	100899	2363	2363	PR_FS	0		2012-01-31 17:00	2012-04-21 08:00
+%R	118007	100906	100905	2363	2363	PR_FS	0		2012-02-09 17:00	2012-05-22 08:00
+%R	118009	100934	100919	2363	2363	PR_FS	-48		2012-08-09 08:00	2012-08-17 17:00
+%R	118010	100923	100920	2363	2363	PR_FS	-40		2012-04-20 08:00	2012-04-24 17:00
+%R	118011	100935	100926	2363	2363	PR_FS	0		2012-07-03 17:00	2012-08-07 08:00
+%R	118012	100938	100929	2363	2363	PR_FS	-24		2012-09-01 08:00	2012-09-03 17:00
+%R	118013	100937	100936	2363	2363	PR_SS	160		2012-08-07 17:00	2012-07-23 08:00
+%R	118014	100941	100940	2363	2363	PR_SS	80		2012-08-24 17:00	2012-08-02 08:00
+%R	118015	100922	100889	2363	2363	PR_SS	80		2012-01-10 17:00	2011-12-17 08:00
+%R	118017	100914	100924	2363	2363	PR_FS	0		2012-02-09 17:00	2012-02-10 08:00
+%R	118018	100939	100926	2363	2363	PR_FS	0		2012-07-03 17:00	2012-09-01 08:00
+%R	118019	100888	100933	2363	2363	PR_FS	0		2012-09-28 17:00	2012-09-30 17:00
+%R	118020	100942	100941	2363	2363	PR_FS	0		2012-09-13 17:00	2012-09-16 08:00
+%R	118021	100888	100942	2363	2363	PR_FS	0		2012-09-28 17:00	2012-09-30 17:00
+%R	118022	100935	100893	2363	2363	PR_FS	0		2012-05-02 17:00	2012-08-07 08:00
+%R	118023	100895	100894	2363	2363	PR_SS	40		2012-01-12 17:00	2012-01-24 08:00
+%R	118024	100888	100903	2363	2363	PR_FS	0		2012-06-20 17:00	2012-09-30 17:00
+%R	118025	100911	100910	2363	2363	PR_FS	0		2012-03-07 17:00	2012-06-18 08:00
+%R	118026	100928	100919	2363	2363	PR_FS	0		2012-08-14 17:00	2012-08-17 08:00
+%R	118027	100931	100929	2363	2363	PR_FS	-40		2012-08-30 08:00	2012-09-05 17:00
+%R	118028	100888	100937	2363	2363	PR_FS	0		2012-08-27 17:00	2012-09-30 17:00
+%R	118029	100891	100890	2363	2363	PR_FS	0		2012-03-12 17:00	2012-06-17 08:00
+%R	118030	100892	100891	2363	2363	PR_FS	240		2012-04-18 17:00	2012-06-24 08:00
+%R	118031	100893	100892	2363	2363	PR_FS	0		2012-04-25 17:00	2012-07-31 08:00
+%R	118032	100932	100917	2363	2363	PR_FS	0		2012-06-20 17:00	2012-09-06 08:00
+%R	118033	100940	100919	2363	2363	PR_FS	0		2012-08-14 17:00	2012-08-17 08:00
+%R	118034	100926	100925	2363	2363	PR_FF	160		2012-06-04 08:00	2012-07-18 08:00
+%R	118035	100917	100927	2363	2363	PR_FS	0		2012-06-13 17:00	2012-08-30 08:00
+%R	118036	100894	100889	2363	2363	PR_SS	56		2012-01-07 17:00	2012-01-09 08:00
+%R	118037	100940	100893	2363	2363	PR_FS	0		2012-05-02 17:00	2012-08-17 08:00
+%R	118038	100898	100895	2363	2363	PR_FS	0		2012-01-19 17:00	2012-03-14 08:00
+%R	118039	100897	100896	2363	2363	PR_FS	0		2012-02-07 17:00	2012-04-28 08:00
+%R	118040	100918	100899	2363	2363	PR_FS	0		2012-01-31 17:00	2012-03-26 08:00
+%R	118041	100902	100901	2363	2363	PR_FS	0		2012-05-31 17:00	2012-09-11 08:00
+%R	118042	100903	100902	2363	2363	PR_SS	40		2012-06-05 17:00	2012-08-22 08:00
+%R	118043	100900	100909	2363	2363	PR_FS	0		2012-04-11 17:00	2012-07-23 08:00
+%R	118044	100915	100914	2363	2363	PR_SS	80		2012-02-19 17:00	2012-01-21 08:00
+%R	118045	100932	100928	2363	2363	PR_FS	0		2012-09-03 17:00	2012-09-06 08:00
+%R	118046	100925	100897	2363	2363	PR_FS	0		2012-02-14 17:00	2012-05-05 08:00
+%R	118047	100905	100904	2363	2363	PR_FS	0		2012-01-30 17:00	2012-05-12 08:00
+%R	118050	100920	100918	2363	2363	PR_FS	-40		2012-04-10 08:00	2012-04-14 17:00
+%R	118051	100929	100919	2363	2363	PR_FS	0		2012-08-14 17:00	2012-08-15 08:00
+%R	118052	100924	100922	2363	2363	PR_FS	0		2012-01-25 17:00	2012-01-26 08:00
+%R	118053	100888	100930	2363	2363	PR_FS	0		2012-09-28 17:00	2012-09-30 17:00
+%R	118054	100888	100938	2363	2363	PR_FS	0		2012-09-30 17:00	2012-09-30 17:00
+%R	118055	100943	100915	2363	2363	PR_SS	80		2012-02-29 17:00	2012-01-31 08:00
+%R	118056	100918	100943	2363	2363	PR_FS	0		2012-03-25 17:00	2012-03-26 08:00
+%R	118057	100945	100916	2363	2363	PR_FS	0		2012-06-23 17:00	2012-06-24 08:00
+%R	118058	100921	100945	2363	2363	PR_FS	-56		2012-06-24 08:00	2012-06-30 17:00
+%R	118059	100944	100921	2363	2363	PR_FS	0		2012-06-30 17:00	2012-07-01 08:00
+%R	118060	100916	100925	2363	2363	PR_FS	0		2012-06-13 17:00	2012-06-14 08:00
+%R	118061	100919	100944	2363	2363	PR_FS	-40		2012-07-16 08:00	2012-07-20 17:00
+%R	118062	100930	100931	2363	2363	PR_SS	80		2012-09-08 17:00	2012-08-02 08:00
+%R	118491	101138	101137	2363	2363	PR_FS	0		2012-03-16 16:00	2012-03-19 08:00
+%R	118495	101142	101141	2363	2363	PR_FS	0		2012-04-15 16:00	2012-04-18 08:00
+%R	118496	101143	101142	2363	2363	PR_FS	0		2012-05-05 16:00	2012-06-21 08:00
+%R	118497	101144	101143	2363	2363	PR_FS	0		2012-05-15 16:00	2012-07-01 08:00
+%R	118498	101146	101145	2363	2363	PR_FS	0		2012-01-18 16:00	2012-01-22 08:00
+%R	118499	101147	101146	2363	2363	PR_FS	0		2012-01-30 16:00	2012-02-02 08:00
+%R	118500	101148	101147	2363	2363	PR_FS	0		2012-02-11 16:00	2012-02-14 08:00
+%R	118501	101137	101148	2363	2363	PR_FS	0		2012-03-06 16:00	2012-03-09 08:00
+%R	118502	101145	100889	2363	2363	PR_SS	80		2012-01-10 17:00	2011-12-20 08:00
+%R	118504	101141	101138	2363	2363	PR_FS	0		2012-04-05 16:00	2012-04-08 08:00
+%R	118508	101149	101142	2363	2363	PR_FS	0		2012-05-05 16:00	2012-08-06 08:00
+%R	118509	101151	101149	2363	2363	PR_FS	0		2012-05-28 16:00	2012-08-29 08:00
+%R	118510	101154	101151	2363	2363	PR_FS	0		2012-06-03 16:00	2012-09-04 08:00
+%R	118511	101153	101154	2363	2363	PR_FS	0		2012-06-14 16:00	2012-09-16 08:00
+%R	118512	101155	101153	2363	2363	PR_FS	0		2012-06-18 16:00	2012-09-19 08:00
+%R	118513	101150	101142	2363	2363	PR_FS	0		2012-05-05 16:00	2012-05-08 08:00
+%R	118514	101156	101150	2363	2363	PR_SS	160		2012-05-28 16:00	2012-02-28 08:00
+%R	118515	101158	101156	2363	2363	PR_SS	160		2012-06-20 16:00	2012-03-22 08:00
+%R	118516	101160	101158	2363	2363	PR_SS	320		2012-08-06 16:00	2012-04-15 08:00
+%R	118517	101157	101160	2363	2363	PR_SS	40		2012-08-12 16:00	2012-07-05 08:00
+%R	118532	100888	101157	2363	2363	PR_FS	0		2012-09-27 16:00	2012-09-30 17:00
+%R	118533	101161	101156	2363	2363	PR_FS	0		2012-08-06 16:00	2012-08-15 08:00
+%R	118534	100888	101161	2363	2363	PR_FS	0		2012-09-22 16:00	2012-09-30 17:00
+%R	118536	100910	100906	2363	2363	PR_FS	0		2012-02-29 17:00	2012-06-11 08:00
+%R	118537	100909	100907	2363	2363	PR_FS	0		2012-04-01 17:00	2012-07-13 08:00
+%R	118538	100907	100911	2363	2363	PR_FS	0		2012-03-22 17:00	2012-07-03 08:00
+%R	118539	101163	101162	2363	2363	PR_FS	0		2012-01-31 16:00	2012-03-04 08:00
+%R	118540	101164	101163	2363	2363	PR_FS	0		2012-02-12 16:00	2012-03-15 08:00
+%R	118541	101165	101164	2363	2363	PR_FS	0		2012-02-28 16:00	2012-04-01 08:00
+%R	118542	101166	101165	2363	2363	PR_FS	0		2012-03-22 16:00	2012-04-24 08:00
+%R	118543	101167	101166	2363	2363	PR_FS	0		2012-03-31 16:00	2012-05-02 08:00
+%R	118544	101162	100889	2363	2363	PR_FS	0		2012-01-15 17:00	2012-02-16 08:00
+%R	118545	101168	101167	2363	2363	PR_FS	0		2012-05-05 16:00	2012-06-06 08:00
+%R	118547	100888	101169	2363	2363	PR_FS	0		2012-08-15 16:00	2012-09-30 17:00
+%R	118548	100888	101155	2363	2363	PR_FS	0		2012-06-30 16:00	2012-09-30 17:00
+%R	118550	101170	101168	2363	2363	PR_FS	0		2012-05-28 16:00	2012-06-30 08:00
+%R	118551	100888	101170	2363	2363	PR_FS	0		2012-08-29 16:00	2012-09-30 17:00
+%R	118552	101172	101171	2363	2363	PR_FS	0		2012-06-12 16:00	2012-07-29 08:00
+%R	118553	101171	101144	2363	2363	PR_FS	0		2012-06-04 16:00	2012-07-21 08:00
+%R	118554	101169	101172	2363	2363	PR_FS	0		2012-06-24 16:00	2012-08-09 08:00
+%R	118555	101150	100899	2363	2363	PR_FS	0		2012-01-31 17:00	2012-05-08 08:00
+%R	118556	101158	100891	2363	2363	PR_FS	0		2012-03-19 17:00	2012-06-24 08:00
+%T	TASKRSRC
+%F	taskrsrc_id	task_id	proj_id	cost_qty_link_flag	role_id	acct_id	rsrc_id	pobs_id	skill_level	pend_complete_pct	remain_qty	pend_remain_qty	target_qty	remain_qty_per_hr	target_lag_drtn_hr_cnt	target_qty_per_hr	act_ot_qty	act_reg_qty	relag_drtn_hr_cnt	ot_factor	cost_per_qty	target_cost	act_reg_cost	act_ot_cost	remain_cost	act_start_date	act_end_date	restart_date	reend_date	target_start_date	target_end_date	rem_late_start_date	rem_late_end_date	rollup_dates_flag	target_crv	remain_crv	actual_crv	ts_pend_act_end_flag	guid	rate_type	act_this_per_cost	act_this_per_qty	curv_id	rsrc_type	cost_per_qty_source_type	create_user	create_date	has_rsrchours	taskrsrc_sum_id
+%R	66249	101137	2363	Y			2152				132724		132724	1659.05	0	1659.05	0	0	0		1.00	132724.00	0.00	0.00	132724.00			2012-03-06 16:00	2012-03-16 16:00	2012-03-06 16:00	2012-03-16 16:00	2012-03-09 08:00	2012-03-18 17:00	Y				N	+lv2pGd+K0OmCcGhqyE4xQ	COST_PER_QTY	0.00	0		RT_Mat	ST_Rsrc	admin	2012-02-06 09:58		
+%R	66250	101138	2363	Y			2152				199086		199086	1244.2875	0	1244.2875	0	0	0		1.00	199086.00	0.00	0.00	199086.00			2012-03-16 16:00	2012-04-05 16:00	2012-03-16 16:00	2012-04-05 16:00	2012-03-19 08:00	2012-04-07 17:00	Y				N	Ws7nIXWEmUi2ZXy5xR+cLg	COST_PER_QTY	0.00	0		RT_Mat	ST_Rsrc	admin	2012-02-06 09:58		
+%R	66253	101141	2363	Y			2152				132724		132724	1659.05	0	1659.05	0	0	0		1.00	132724.00	0.00	0.00	132724.00			2012-04-05 16:00	2012-04-15 16:00	2012-04-05 16:00	2012-04-15 16:00	2012-04-08 08:00	2012-04-17 17:00	Y				N	LZKHwKLNn0i6mggXbKN0Mw	COST_PER_QTY	0.00	0		RT_Mat	ST_Rsrc	admin	2012-02-06 09:58		
+%R	66254	101142	2363	Y			2152				199086		199086	1244.2875	0	1244.2875	0	0	0		1.00	199086.00	0.00	0.00	199086.00			2012-04-15 16:00	2012-05-05 16:00	2012-04-15 16:00	2012-05-05 16:00	2012-04-18 08:00	2012-05-07 17:00	Y				N	f1ZN/ImKB0uA4esW79GdVQ	COST_PER_QTY	0.00	0		RT_Mat	ST_Rsrc	admin	2012-02-06 09:58		
+%R	66255	101143	2363	Y			2152				132724		132724	1659.05	0	1659.05	0	0	0		1.00	132724.00	0.00	0.00	132724.00			2012-05-05 16:00	2012-05-15 16:00	2012-05-05 16:00	2012-05-15 16:00	2012-06-21 08:00	2012-06-30 17:00	Y				N	6kFWZ5iDqEar0MBbbjbYRg	COST_PER_QTY	0.00	0		RT_Mat	ST_Rsrc	admin	2012-02-06 09:58		
+%R	66256	101144	2363	Y			2152				199086		199086	1244.2875	0	1244.2875	0	0	0		1.00	199086.00	0.00	0.00	199086.00			2012-05-15 16:00	2012-06-04 16:00	2012-05-15 16:00	2012-06-04 16:00	2012-07-01 08:00	2012-07-20 17:00	Y				N	Abg4tWVi3UiBUwdId/Nr5A	COST_PER_QTY	0.00	0		RT_Mat	ST_Rsrc	admin	2012-02-06 09:58		
+%T	TASKACTV
+%F	task_id	actv_code_type_id	actv_code_id	proj_id
+%R	100890	7250	12728	2363
+%R	100891	7250	12728	2363
+%R	100892	7250	12728	2363
+%R	100893	7250	12728	2363
+%R	100894	7250	12728	2363
+%R	100895	7250	12728	2363
+%R	100896	7250	12728	2363
+%R	100897	7250	12728	2363
+%R	100898	7250	12729	2363
+%R	100899	7250	12729	2363
+%T	UDFVALUE
+%F	udf_type_id	fk_id	proj_id	udf_date	udf_number	udf_text	udf_code_id
+%R	496	100896	2363		1000		
+%E

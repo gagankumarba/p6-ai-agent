@@ -1,0 +1,495 @@
+ERMHDR	6.0.0	2010-08-03	Project	admin	Adminstrator	dbxDatabaseNoName	Project Management	USD
+%T	COSTTYPE
+%F	cost_type_id	seq_num	cost_type
+%R	11	10000	Administration
+%T	CURRTYPE
+%F	curr_id	decimal_digit_cnt	curr_symbol	decimal_symbol	digit_group_symbol	pos_curr_fmt_type	neg_curr_fmt_type	curr_type	curr_short_name	group_digit_cnt	base_exch_rate
+%R	1	0	Ã.„	.	,	#1.1	(#1.1)	Dollar	USD	3	1
+%R	10	2	$	.	,	#1.1	(#1.1)	Argentine Peso	ARS	3	3.077
+%R	11	2	A$	.	,	#1.1	(#1.1)	Australian Dollar	AUST	3	1.208
+%R	13	2	R$	.	,	#1.1	(#1.1)	Brazilian Real	BRL	3	2.014
+%R	14	2	£	.	,	#1.1	(#1.1)	British Pound	U.K.£	3	0.685097
+%R	15	2	CA$	.	,	#1.1	(#1.1)	Canadian Dollar	CAD	3	1.10573
+%R	16	2	Y	.	,	#1.1	(#1.1)	Chinese Yuan	CNY	3	7.694
+%R	17	2	Ä	.	,	#1.1	(#1.1)	EURO	EUR	3	0.739088
+%R	20	2	HK$	.	,	#1.1	(#1.1)	Hong Kong Dollar	HKD	3	7.81967
+%R	21	2	Rs	.	,	#1.1	(#1.1)	Indian Rupee	INR	3	40.67
+%R	23	2	•	.	,	#1.1	(#1.1)	Japanese Yen	JPY	3	120.167
+%R	24	2	K	.	,	#1.1	(#1.1)	Korean Won	KRW	3	924.743
+%R	25	2	N$	.	,	#1.1	(#1.1)	Mexican Peso	MXN	3	10.7938
+%R	26	2	R	.	,	#1.1	(#1.1)	Russian Rouble	RUB	3	25.8085
+%R	28	2	Sk	.	,	#1.1	(#1.1)	Swedish Krona	SEK	3	6.80579
+%R	29	2	kr	.	,	#1.1	(#1.1)	Swiss Franc	CHF	3	1.21864
+%R	30	2	NIS	.	,	#1.1	(#1.1)	Israel Shekel	ILS	3	3.96384
+%T	OBS
+%F	obs_id	parent_obs_id	guid	seq_num	obs_name	obs_descr
+%R	565			0	Innovative GC	<HTML><BODY></BODY></HTML>
+%T	RSRCCURVDATA
+%F	curv_id	curv_name	default_flag	pct_usage_0	pct_usage_1	pct_usage_2	pct_usage_3	pct_usage_4	pct_usage_5	pct_usage_6	pct_usage_7	pct_usage_8	pct_usage_9	pct_usage_10	pct_usage_11	pct_usage_12	pct_usage_13	pct_usage_14	pct_usage_15	pct_usage_16	pct_usage_17	pct_usage_18	pct_usage_19	pct_usage_20
+%R	63	At Start	N	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+%R	64	At Finish	N	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	100
+%T	UMEASURE
+%F	unit_id	seq_num	unit_abbrev	unit_name
+%R	115	100	m3	»«·„ — «·„ﬂ⁄»
+%R	116	102	ton	»«·ÿ‰
+%T	PROJECT
+%F	proj_id	fy_start_month_num	chng_eff_cmp_pct_flag	rsrc_self_add_flag	allow_complete_flag	rsrc_multi_assign_flag	ts_rsrc_mark_act_finish_flag	ts_rsrc_vw_inact_actv_flag	checkout_flag	project_flag	step_complete_flag	cost_qty_recalc_flag	sum_only_flag	batch_sum_flag	name_sep_char	def_complete_pct_type	proj_short_name	acct_id	orig_proj_id	source_proj_id	base_type_id	clndr_id	sum_base_proj_id	task_code_base	task_code_step	priority_num	wbs_max_sum_level	risk_level	strgy_priority_num	last_checksum	critical_drtn_hr_cnt	def_cost_per_qty	last_recalc_date	plan_start_date	plan_end_date	scd_end_date	add_date	sum_data_date	last_tasksum_date	fcst_start_date	def_duration_type	task_code_prefix	guid	def_qty_type	add_by_name	web_local_root_path	proj_url	def_rate_type	add_act_remain_flag	act_this_per_link_flag	def_task_type	act_pct_link_flag	critical_path_type	task_code_prefix_flag	def_rollup_dates_flag	use_project_baseline_flag	rem_target_link_flag	reset_planned_flag	allow_neg_act_flag	sum_assign_level	last_fin_dates_id	last_baseline_update_date	loaded_scope_level	export_flag	new_fin_dates_id	next_data_date	close_period_flag	trsrcsum_loaded
+%R	764	1	N	Y	Y	Y	N	N	N	Y	N	N	N	Y	.	CP_Drtn	e.hussien					1069		1000	10	10	2	3	500		0	0	2010-01-15 00:00	2009-11-15 00:00		2011-06-14 08:00	2010-05-10 09:07				DT_FixedDUR2	A	CyQovLgFfECvgmenEmJ17Q	QT_Hour	admin			COST_PER_QTY	N	Y	TT_Task	Y	CT_TotFloat	Y	Y	Y	Y	N	N	SL_Taskrsrc			7	Y				
+%T	CALENDAR
+%F	clndr_id	default_flag	clndr_name	proj_id	base_clndr_id	last_chng_date	clndr_type	clndr_data
+%R	1066	N	RB09 - 1			2009-04-30 00:00	CA_Base	(0||CalendarData()(  (0||DaysOfWeek()(    (0||1()(      (0||0(s|08:00|f|16:00)())))    (0||2()(      (0||0(s|08:00|f|16:00)())))    (0||3()(      (0||0(s|08:00|f|16:00)())))    (0||4()(      (0||0(s|08:00|f|16:00)())))    (0||5()(      (0||0(s|08:00|f|16:00)())))    (0||6()())    (0||7()(      (0||0(s|08:00|f|16:00)())))))  (0||VIEW(ShowTotal|Y)())  (0||Exceptions()(    (0||0(d|39721)())    (0||1(d|39722)())    (0||2(d|39723)())    (0||3(d|39724)())    (0||4(d|39725)())    (0||5(d|39726)())    (0||6(d|39727)())    (0||7(d|39728)())    (0||8(d|39729)())    (0||9(d|39730)())    (0||10(d|39788)())    (0||11(d|39789)())    (0||12(d|39790)())    (0||13(d|39791)())    (0||14(d|39792)())    (0||15(d|39793)())    (0||16(d|39794)())    (0||17(d|40074)())    (0||18(d|40075)())    (0||19(d|40076)())    (0||20(d|40077)())    (0||21(d|40078)())    (0||22(d|40079)())    (0||23(d|40080)())    (0||24(d|40143)())    (0||25(d|40144)())    (0||26(d|40145)())    (0||27(d|40146)())    (0||28(d|40147)())    (0||29(d|40148)())    (0||30(d|40149)())    (0||31(d|40150)())    (0||32(d|40151)())    (0||33(d|40425)())    (0||34(d|40426)())    (0||35(d|40427)())    (0||36(d|40428)())    (0||37(d|40429)())    (0||38(d|40430)())    (0||39(d|40431)())    (0||40(d|40432)())    (0||41(d|40433)())    (0||42(d|40434)())    (0||43(d|40435)())    (0||44(d|40436)())    (0||45(d|40437)())    (0||46(d|40501)())    (0||47(d|40502)())    (0||48(d|40503)())    (0||49(d|40504)())    (0||50(d|40505)())    (0||51(d|40506)())    (0||52(d|40507)())))))
+%R	1069	N	6days work			2009-11-16 00:00	CA_Base	(0||CalendarData()(  (0||DaysOfWeek()(    (0||1()(      (0||0(s|08:00|f|16:00)())))    (0||2()(      (0||0(s|08:00|f|16:00)())))    (0||3()(      (0||0(s|08:00|f|16:00)())))    (0||4()(      (0||0(s|08:00|f|16:00)())))    (0||5()(      (0||0(s|08:00|f|16:00)())))    (0||6()())    (0||7()(      (0||0(s|08:00|f|16:00)())))))  (0||VIEW(ShowTotal|Y)())  (0||Exceptions()())))
+%T	PROJWBS
+%F	wbs_id	proj_id	obs_id	seq_num	est_wt	proj_node_flag	sum_data_flag	status_code	wbs_short_name	wbs_name	phase_id	parent_wbs_id	ev_user_pct	ev_etc_user_value	orig_cost	indep_remain_total_cost	ann_dscnt_rate_pct	dscnt_period_type	indep_remain_work_qty	anticip_start_date	anticip_end_date	ev_compute_type	ev_etc_compute_type	guid	tmpl_guid	plan_open_state
+%R	11202	764	565	101	1	Y	N	WS_Open	e.hussien	only one building		13451	4	0.88	0	0						EC_Cmp_pct	EE_Rem_hr	fxX4vKso1kCfS25SmPkS4Q		
+%R	11203	764	565	0	1	N	N	WS_Open	«”›· «·œﬂ…	«”›· «·œﬂ…		11202	4	0.88	0	0						EC_Cmp_pct	EE_Rem_hr	T009sYq+P0+CEayDQTuuhQ		
+%R	11204	764	565	2	1	N	N	WS_Open	«⁄„«· «·ÂÌﬂ·	«⁄„«· «·ÂÌﬂ·		11202	4	0.88	0	0						EC_Cmp_pct	EE_Rem_hr	SQOscCm4JEuWfK3x61VKFg		
+%R	11205	764	565	3	1	N	N	WS_Open	«⁄„«· «·„»«‰Ì	«⁄„«· «·„»«‰Ì		11202	4	0.88	0	0						EC_Cmp_pct	EE_Rem_hr	Nh225wHe90+KgITyyCfBHQ		
+%R	11206	764	565	100	1	N	N	WS_Open	«⁄„«· «· ‘ÿÌ»« 	«⁄„«· «· ‘ÿÌ»« 		11202	4	0.88	0	0						EC_Cmp_pct	EE_Rem_hr	O8OrO2MoW0OhQJ8asacHpg		
+%T	ACTVTYPE
+%F	actv_code_type_id	actv_short_len	seq_num	actv_code_type	proj_id	wbs_id	actv_code_type_scope
+%R	7292	7	0	 ’‰Ì› «·√⁄„«·	764		AS_Project
+%R	7293	7	100	«·„”∆Ê·Ì…	764		AS_Project
+%R	7294	7	1	«·œÊ—	764		AS_Project
+%T	RSRC
+%F	rsrc_id	parent_rsrc_id	clndr_id	role_id	shift_id	ts_approve_user_id	user_id	pobs_id	guid	rsrc_seq_num	email_addr	employee_code	office_phone	other_phone	rsrc_name	rsrc_short_name	rsrc_title_name	def_qty_per_hr	cost_qty_type	ot_factor	active_flag	auto_compute_act_flag	def_cost_qty_link_flag	ot_flag	timesheet_flag	xfer_complete_day_cnt	xfer_notstart_day_cnt	curr_id	unit_id	rsrc_type	rsrc_notes	load_tasks_flag	level_flag	last_checksum
+%R	2369	2368	1066						HEMjuTxv1UOrWIEo2AUqPw	0					«·⁄„«·…	Lab		1	QT_Hour		Y	Y	Y	N	N	60	60	1		RT_Labor				
+%R	2384	2369	1066						JFkKu10FaUCBrwS7ee/UrQ	0					„ﬁ«Ê·Ï »«ÿ‰	SUBC		1	QT_Hour		Y	Y	Y	N	N	60	60	1		RT_Labor				
+%R	2421	2384	1066						EHbtbO67eEWxLNlKn7VTiA	15					„ﬁ«Ê· ’» Œ—”«‰…	SBCO	„ﬁ«Ê· »«ÿ‰	1	QT_Hour		Y	Y	Y	N	N	60	60	1		RT_Labor				
+%R	2665		1069						rd7xi6lFL0a5hgAsherLbw	401					MATERIAL	MATERIAL		1	QT_Hour		Y	Y	Y	N	N	60	60	1		RT_Mat				
+%R	2666		1069						SczImIh5lkqnuu6gP4AUJw	200					„ﬁ«Ê· ‰Ã«—…	R-4		1	QT_Hour	0	Y	Y	Y	N	N	60	60	1		RT_Labor				
+%R	2667		1069						A9CZ2VObqUCwF8qv5P2iGA	901					„ﬁ«Ê· Õœ«œ…	R-5		1	QT_Hour	0	Y	Y	Y	N	N	60	60	1		RT_Labor				
+%R	2668	2665	1069						e9O7ekrgmkqMLriJ8YfysA	0					Œ—”«‰… „”·Õ…	R		1	QT_Hour	0	Y	Y	Y	N	N	60	60	1	115	RT_Mat	<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 4.0 Transitional//EN""><HTML><HEAD><META content=""text/html; charset=unicode"" http-equiv=Content-Type><META name=GENERATOR content=""MSHTML 8.00.6001.18702""></HEAD><BODY bgColor=#ffffff></BODY></HTML>			
+%R	2669	2665	1069						NKwSrJKfX0agG+LB/jN7ZQ	100					Œ—”«‰… ⁄«œÌ…	R-1		1	QT_Hour		Y	Y	Y	N	N	60	60	1	115	RT_Mat	<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 4.0 Transitional//EN""><HTML><HEAD><META content=""text/html; charset=unicode"" http-equiv=Content-Type><META name=GENERATOR content=""MSHTML 8.00.6001.18702""></HEAD><BODY bgColor=#ffffff></BODY></HTML>			
+%R	2670	2665	1069						FJkVU9RqKESD7h1orBWkfA	203					ÕœÌœ  ”·ÌÕ	R-2		1	QT_Hour	0	Y	Y	Y	N	N	60	60	1	116	RT_Mat				
+%R	2671	2421	1069						CJq0O7C1LkKqmsUGOvBivg	1					‘œ… Œ‘»Ì… Ê „⁄œ‰Ì…	R-7		1	QT_Hour	0	Y	Y	Y	N	N	60	60	1	115	RT_Mat				
+%R	2368		1066						WsbzywGBhE6yJ3+Dcl+ksA	301					„‘—Ê⁄ ⁄„«—«  «·„—Õ·… «· «”⁄…	R2T		1	QT_Hour		Y	Y	Y	N	N	60	60	1		RT_Labor				
+%T	ACTVCODE
+%F	actv_code_id	parent_actv_code_id	actv_code_type_id	actv_code_name	short_name	seq_num
+%R	13502		7292	Œ—”«‰… „”·Õ…	rc	0
+%R	13503		7292	Œ ⁄«œÌ…	pc	100
+%R	13504		7292	œÂ«‰« 	pnts	3
+%R	13505		7292	√—÷Ì« 	floors	4
+%R	13506		7292	»Ì«÷	blastin	5
+%R	13507		7292	‰Ã«—… «»Ê«» Ê ‘»«»Ìﬂ	(New)-2	6
+%R	13508		7292	„»«‰Ì	brick	200
+%R	13509		7293	(New Code Value)	(New)	0
+%R	13510		7294	«·œÊ— «·«Ê·	f.floor	0
+%R	13511		7294	«·œÊ— «·Œ«„”	5.floor	103
+%R	13512		7294	«·œÊ— ««·À«‰Ì	sec.flo	100
+%R	13513		7294	«·œÊ— «·—«»⁄	3.floor	101
+%R	13514		7294	«·œÊ— «·À«·À	4.floor	102
+%R	13515		7294	«·œÊ— «·«—÷Ì	g.floor	203
+%R	13516		7292	«·»·«ÿ« 	slab	1
+%R	13517		7292	«·«⁄„œ…	columns	2
+%T	RSRCRATE
+%F	rsrc_rate_id	rsrc_id	max_qty_per_hr	cost_per_qty	start_date	shift_period_id	cost_per_qty2	cost_per_qty3	cost_per_qty4	cost_per_qty5
+%R	2776	2421	100	10	2008-01-01 00:00		0	0	0	0
+%R	2825	2671	1	95	2010-01-01 00:00		0	0	0	0
+%R	2826	2667	1	87	2010-01-01 00:00		0	0	0	0
+%R	2827	2666	1	110	2010-01-01 00:00		0	0	0	0
+%R	2828	2670	1	3300	2010-01-01 00:00		0	0	0	0
+%R	2829	2669	81.25	300	2009-01-01 00:00		0	0	0	0
+%R	2830	2668	81.25	350	2009-01-01 00:00		0	0	0	0
+%T	TASK
+%F	task_id	proj_id	wbs_id	clndr_id	est_wt	phys_complete_pct	rev_fdbk_flag	lock_plan_flag	auto_compute_act_flag	complete_pct_type	task_type	duration_type	review_type	status_code	task_code	task_name	rsrc_id	total_float_hr_cnt	free_float_hr_cnt	remain_drtn_hr_cnt	act_work_qty	remain_work_qty	target_work_qty	target_drtn_hr_cnt	target_equip_qty	act_equip_qty	remain_equip_qty	cstr_date	act_start_date	act_end_date	late_start_date	late_end_date	expect_end_date	early_start_date	early_end_date	restart_date	reend_date	target_start_date	target_end_date	review_end_date	rem_late_start_date	rem_late_end_date	cstr_type	priority_type	suspend_date	resume_date	float_path	float_path_order	guid	tmpl_guid	cstr_date2	cstr_type2	driving_path_flag	act_this_per_work_qty	act_this_per_equip_qty	external_early_start_date	external_late_end_date	create_date	update_date	create_user	update_user	old_restart_date	old_reend_date	old_remain_drtn_hr_cnt
+%R	109614	764	11203	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1000	«·Õ›—		0	0	56	0	0	0	56	0	0	0				2010-01-16 08:00	2010-01-23 16:00		2010-01-16 08:00	2010-01-23 16:00	2010-01-16 08:00	2010-01-23 16:00	2010-01-16 08:00	2010-01-23 16:00		2010-01-16 08:00	2010-01-23 16:00		PT_Normal					gi7fr5un00GFkiVnKI7SeA				Y	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109615	764	11203	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1010	›—‘… Œ—”«‰… ⁄«œÌ…		0	0	16	0	0	0	16	0	0	0				2010-01-25 08:00	2010-01-26 16:00		2010-01-25 08:00	2010-01-26 16:00	2010-01-25 08:00	2010-01-26 16:00	2010-01-25 08:00	2010-01-26 16:00		2010-01-25 08:00	2010-01-26 16:00		PT_Normal					FxcZx/+HxUyGCwHtujKAVQ				Y	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109616	764	11203	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1020	Œ—”«‰… ⁄«œÌ… ··ﬁÊ«⁄œ		0	0	56	0	0	0	56	0	0	0				2010-01-27 08:00	2010-02-03 16:00		2010-01-27 08:00	2010-02-03 16:00	2010-01-27 08:00	2010-02-03 16:00	2010-01-27 08:00	2010-02-03 16:00		2010-01-27 08:00	2010-02-03 16:00		PT_Normal					QFZJvRcHPk+sntisla7NVg				Y	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109617	764	11203	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1030	Œ—”«‰… „”·Õ… ··ﬁÊ«⁄œ		0	0	88	0	0	0	88	0	0	0				2010-02-10 08:00	2010-02-22 16:00		2010-02-10 08:00	2010-02-22 16:00	2010-02-10 08:00	2010-02-22 16:00	2010-02-10 08:00	2010-02-22 16:00		2010-02-10 08:00	2010-02-22 16:00		PT_Normal					GMsYJedpiUyM1A4AzjPTIw				Y	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109618	764	11203	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1050	œﬂ… Œ—”«‰… ⁄«œÌ…		0	0	16	0	0	0	16	0	0	0				2010-05-16 08:00	2010-05-17 16:00		2010-05-16 08:00	2010-05-17 16:00	2010-05-16 08:00	2010-05-17 16:00	2010-05-16 08:00	2010-05-17 16:00		2010-05-16 08:00	2010-05-17 16:00		PT_Normal					fjoQ0HWIrEKTx0qvlre78w				Y	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109619	764	11203	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1060	„»«‰Ì ﬁ’Ì… «·—œ„		0	0	72	0	0	0	72	0	0	0				2010-02-24 08:00	2010-03-06 16:00		2010-02-24 08:00	2010-03-06 16:00	2010-02-24 08:00	2010-03-06 16:00	2010-02-24 08:00	2010-03-06 16:00		2010-02-24 08:00	2010-03-06 16:00		PT_Normal					wN7Ri6KiLkKHYQXhOEkghQ				Y	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109620	764	11203	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1070	⁄“· ﬁ’Ì… «·—œ„		0	0	32	0	0	0	32	0	0	0				2010-03-07 08:00	2010-03-10 16:00		2010-03-07 08:00	2010-03-10 16:00	2010-03-07 08:00	2010-03-10 16:00	2010-03-07 08:00	2010-03-10 16:00		2010-03-07 08:00	2010-03-10 16:00		PT_Normal					teP04MT9UkaJps1IC4zlfQ				Y	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109621	764	11203	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1080	Œ—”«‰… „”·Õ… ”„·«  ⁄·ÊÌ…		0	0	104	0	0	0	104	0	0	0				2010-04-15 08:00	2010-04-29 16:00		2010-04-15 08:00	2010-04-29 16:00	2010-04-15 08:00	2010-04-29 16:00	2010-04-15 08:00	2010-04-29 16:00		2010-04-15 08:00	2010-04-29 16:00		PT_Normal					saqGmF8Vw0ivUuM2Sg6D9Q				Y	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109622	764	11203	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1090	«⁄„«· «·√Õ·«·		0	0	8	0	0	0	8	0	0	0				2010-01-24 08:00	2010-01-24 16:00		2010-01-24 08:00	2010-01-24 16:00	2010-01-24 08:00	2010-01-24 16:00	2010-01-24 08:00	2010-01-24 16:00		2010-01-24 08:00	2010-01-24 16:00		PT_Normal					frovhoR4kUCNaMiQjWtTvw				Y	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109623	764	11203	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1100	—œ„ Õ Ì „‰”Ê» «”›· «·”„·«  «·⁄·ÊÌ…		0	0	240	0	0	0	240	0	0	0				2010-03-11 08:00	2010-04-14 16:00		2010-03-11 08:00	2010-04-14 16:00	2010-03-11 08:00	2010-04-14 16:00	2010-03-11 08:00	2010-04-14 16:00		2010-03-11 08:00	2010-04-14 16:00		PT_Normal					mkezdp2UJEiEwuFcIwBSCQ				Y	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109624	764	11203	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1110	—œ„ Õ Ì «”›· «·œﬂ…		0	0	88	0	0	0	88	0	0	0				2010-05-03 08:00	2010-05-15 16:00		2010-05-03 08:00	2010-05-15 16:00	2010-05-03 08:00	2010-05-15 16:00	2010-05-03 08:00	2010-05-15 16:00		2010-05-03 08:00	2010-05-15 16:00		PT_Normal					r5rzkhEe4Uipvf6d6jk+Ag				Y	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109625	764	11203	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1120	⁄“· «·”„·«  «·⁄·ÊÌ…		0	0	16	0	0	0	16	0	0	0				2010-05-01 08:00	2010-05-02 16:00		2010-05-01 08:00	2010-05-02 16:00	2010-05-01 08:00	2010-05-02 16:00	2010-05-01 08:00	2010-05-02 16:00		2010-05-01 08:00	2010-05-02 16:00		PT_Normal					UHGwiEgOrU+Aec4wcmAfAg				Y	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109626	764	11203	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1130	Œ—”«‰… ⁄«œÌ… «”›· «·„Ìœ		0	0	32	0	0	0	32	0	0	0				2010-02-06 08:00	2010-02-09 16:00		2010-02-06 08:00	2010-02-09 16:00	2010-02-06 08:00	2010-02-09 16:00	2010-02-06 08:00	2010-02-09 16:00		2010-02-06 08:00	2010-02-09 16:00		PT_Normal					GI/RMzK51kO4oVO1zuHM6A				Y	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109627	764	11203	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1140	Œ—”«‰… „”·Õ… «⁄„œ… «·√—÷Ì		0	0	64	0	0	0	64	0	0	0				2010-05-18 08:00	2010-05-26 16:00		2010-05-18 08:00	2010-05-26 16:00	2010-05-18 08:00	2010-05-26 16:00	2010-05-18 08:00	2010-05-26 16:00		2010-05-18 08:00	2010-05-26 16:00		PT_Normal					WwvZu4JucE+nHvy81XG/PA				Y	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109628	764	11204	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1150	»·«ÿ… «·√—÷Ì	2421	0	0	168	0	433	433	168	0	0	0				2010-05-27 08:00	2010-06-20 16:00		2010-05-27 08:00	2010-06-20 16:00	2010-05-27 08:00	2010-06-20 16:00	2010-05-27 08:00	2010-06-20 16:00		2010-05-27 08:00	2010-06-20 16:00		PT_Normal					l14ltxQdeEOZxFjLj7NWxg				Y	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109629	764	11204	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1160	«⁄„œ… «·œÊ—«·«Ê·	2666	0	0	64	0	143	143	64	0	0	0				2010-06-21 08:00	2010-06-29 16:00		2010-06-21 08:00	2010-06-29 16:00	2010-06-21 08:00	2010-06-29 16:00	2010-06-21 08:00	2010-06-29 16:00		2010-06-21 08:00	2010-06-29 16:00		PT_Normal					7m6gd1MJ3kmSFNuU+GAyEw				Y	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109630	764	11204	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1170	»·«ÿ… «·œÊ— «·√Ê·	2421	0	0	168	0	433	433	168	0	0	0				2010-06-30 08:00	2010-07-24 16:00		2010-06-30 08:00	2010-07-24 16:00	2010-06-30 08:00	2010-07-24 16:00	2010-06-30 08:00	2010-07-24 16:00		2010-06-30 08:00	2010-07-24 16:00		PT_Normal					luY4ni7M5UqqxwvkuuoivQ				Y	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109631	764	11204	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1180	«⁄„œ… «·œÊ— «·À«‰Ì	2666	0	0	64	0	143	143	64	0	0	0				2010-07-25 08:00	2010-08-02 16:00		2010-07-25 08:00	2010-08-02 16:00	2010-07-25 08:00	2010-08-02 16:00	2010-07-25 08:00	2010-08-02 16:00		2010-07-25 08:00	2010-08-02 16:00		PT_Normal					eGIwq96AhE+NSu8NvbIQXA				Y	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109632	764	11204	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1190	»·«ÿ… «·œÊ— «·À«‰Ì	2421	0	0	168	0	433	433	168	0	0	0				2010-08-03 08:00	2010-08-26 16:00		2010-08-03 08:00	2010-08-26 16:00	2010-08-03 08:00	2010-08-26 16:00	2010-08-03 08:00	2010-08-26 16:00		2010-08-03 08:00	2010-08-26 16:00		PT_Normal					Q0RDrKXml0mKUgGqo0YjlA				Y	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109633	764	11204	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1200	«⁄„œ… «·œÊ— «·À«·À	2666	0	0	64	0	143	143	64	0	0	0				2010-08-28 08:00	2010-09-05 16:00		2010-08-28 08:00	2010-09-05 16:00	2010-08-28 08:00	2010-09-05 16:00	2010-08-28 08:00	2010-09-05 16:00		2010-08-28 08:00	2010-09-05 16:00		PT_Normal					pd0N0WnGqkWS343MQOAWxw				Y	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109634	764	11204	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1210	»·«ÿ… «·œÊ— «·À«·À	2421	0	0	168	0	433	433	168	0	0	0				2010-09-06 08:00	2010-09-29 16:00		2010-09-06 08:00	2010-09-29 16:00	2010-09-06 08:00	2010-09-29 16:00	2010-09-06 08:00	2010-09-29 16:00		2010-09-06 08:00	2010-09-29 16:00		PT_Normal					K+sqO5a9ekaHz6+yr6Djtw				Y	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109635	764	11204	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1220	«⁄„œ… «·œÊ— «·—«»⁄	2666	0	0	64	0	143	143	64	0	0	0				2010-09-30 08:00	2010-10-09 16:00		2010-09-30 08:00	2010-10-09 16:00	2010-09-30 08:00	2010-10-09 16:00	2010-09-30 08:00	2010-10-09 16:00		2010-09-30 08:00	2010-10-09 16:00		PT_Normal					K7QoetyDHkmkUn8ZHeLBnw				Y	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109636	764	11204	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1230	»·«ÿ… «·œÊ— «·—«»⁄	2421	0	0	168	0	433	433	168	0	0	0				2010-10-10 08:00	2010-11-02 16:00		2010-10-10 08:00	2010-11-02 16:00	2010-10-10 08:00	2010-11-02 16:00	2010-10-10 08:00	2010-11-02 16:00		2010-10-10 08:00	2010-11-02 16:00		PT_Normal					11PIUNgFdU+096UE8wNxZw				Y	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109637	764	11204	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1240	«⁄„œ «·œÊ— «·Œ«„”	2666	0	0	64	0	143	143	64	0	0	0				2010-11-03 08:00	2010-11-11 16:00		2010-11-03 08:00	2010-11-11 16:00	2010-11-03 08:00	2010-11-11 16:00	2010-11-03 08:00	2010-11-11 16:00		2010-11-03 08:00	2010-11-11 16:00		PT_Normal					2v3rTjCD1UipD1KNfV5r7w				Y	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109638	764	11204	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1260	«⁄„œ… «·‘Œ‘ÌŒ…	2666	248	0	32	0	67	67	32	0	0	0				2011-01-12 08:00	2011-01-16 16:00		2010-12-07 08:00	2010-12-11 16:00	2010-12-07 08:00	2010-12-11 16:00	2010-12-07 08:00	2010-12-11 16:00		2011-01-12 08:00	2011-01-16 16:00		PT_Normal					E2YwIkGIIE6rx4yJFoHIsw				N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109639	764	11204	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1270	”ﬁ› «·‘Œ‘ÌŒ…	2421	248	0	32	0	82	82	32	0	0	0				2011-01-17 08:00	2011-01-20 16:00		2010-12-12 08:00	2010-12-15 16:00	2010-12-12 08:00	2010-12-15 16:00	2010-12-12 08:00	2010-12-15 16:00		2011-01-17 08:00	2011-01-20 16:00		PT_Normal					ySyK27E/pkWVEwgKWNB0zQ				N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109640	764	11205	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1280	„»«‰Ì «·œÊ— «·√—÷Ì		1248	0	160	0	0	0	160	0	0	0				2011-01-03 08:00	2011-01-25 16:00		2010-07-05 08:00	2010-07-27 16:00	2010-07-05 08:00	2010-07-27 16:00	2010-07-05 08:00	2010-07-27 16:00		2011-01-03 08:00	2011-01-25 16:00		PT_Normal					xspfPiw7Akqmxghbz/T0cg				N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109641	764	11205	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1290	„»«‰Ì «·œÊ— «·√Ê·		1016	232	160	0	0	0	160	0	0	0				2011-01-03 08:00	2011-01-25 16:00		2010-08-08 08:00	2010-08-30 16:00	2010-08-08 08:00	2010-08-30 16:00	2010-08-08 08:00	2010-08-30 16:00		2011-01-03 08:00	2011-01-25 16:00		PT_Normal					cZfIw02BOkOJb1Drt3oueg	vBoRzKLNvkKKDc4gBb1qng			N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109642	764	11205	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1300	„»«‰Ì «·œÊ— ««·À«‰Ì		784	0	160	0	0	0	160	0	0	0				2011-01-03 08:00	2011-01-25 16:00		2010-09-11 08:00	2010-10-03 16:00	2010-09-11 08:00	2010-10-03 16:00	2010-09-11 08:00	2010-10-03 16:00		2011-01-03 08:00	2011-01-25 16:00		PT_Normal					Wh9oQBdvF0yZgEPBDB3+Nw	vBoRzKLNvkKKDc4gBb1qng			N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109643	764	11205	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1310	„»«‰Ì «·œÊ— «·À«·À		464	464	160	0	0	0	160	0	0	0				2010-12-21 08:00	2011-01-12 16:00		2010-10-14 08:00	2010-11-06 16:00	2010-10-14 08:00	2010-11-06 16:00	2010-10-14 08:00	2010-11-06 16:00		2010-12-21 08:00	2011-01-12 16:00		PT_Normal					hWE1Kp8WqEqdwSpeBmCM5A	vBoRzKLNvkKKDc4gBb1qng			N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109644	764	11205	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1320	„»«‰Ì «·œÊ— «·—«»⁄		232	232	160	0	0	0	160	0	0	0				2010-12-21 08:00	2011-01-12 16:00		2010-11-17 08:00	2010-12-09 16:00	2010-11-17 08:00	2010-12-09 16:00	2010-11-17 08:00	2010-12-09 16:00		2010-12-21 08:00	2011-01-12 16:00		PT_Normal					ZuVbzTsAs0WHiGjV3tuXnw	vBoRzKLNvkKKDc4gBb1qng			N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109645	764	11205	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1330	„»«‰Ì «·œÊ—«·Œ«„”		0	0	160	0	0	0	160	0	0	0				2010-12-21 08:00	2011-01-12 16:00		2010-12-21 08:00	2011-01-12 16:00	2010-12-21 08:00	2011-01-12 16:00	2010-12-21 08:00	2011-01-12 16:00		2010-12-21 08:00	2011-01-12 16:00		PT_Normal					tt10Pp1r+ECTJ+ne5wMR0g	vBoRzKLNvkKKDc4gBb1qng			Y	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109646	764	11205	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1340	„»«‰Ì «·‘Œ‘ÌŒ… Ê€—›… «·„’⁄œ		248	0	48	0	0	0	48	0	0	0				2011-02-05 08:00	2011-02-10 16:00		2010-12-30 08:00	2011-01-05 16:00	2010-12-30 08:00	2011-01-05 16:00	2010-12-30 08:00	2011-01-05 16:00		2011-02-05 08:00	2011-02-10 16:00		PT_Normal					S3iZlIiaUEutWj4nou1ong	vBoRzKLNvkKKDc4gBb1qng			N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109647	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1350	»ƒÃ ·√⁄„«· «·Õ·Êﬁ Ê «·ﬂÂ—»«¡ «—÷Ì .1.2		784	0	72	0	0	0	72	0	0	0				2011-01-26 08:00	2011-02-05 16:00		2010-10-04 08:00	2010-10-13 16:00	2010-10-04 08:00	2010-10-13 16:00	2010-10-04 08:00	2010-10-13 16:00		2011-01-26 08:00	2011-02-05 16:00		PT_Normal					+Mu3kckInUulj0SKskYI2Q				N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109648	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1360	»ƒÃ ·√⁄„«· «·Õ·Êﬁ Ê «·ﬂÂ—»«¡ 3.4.5		0	0	72	0	0	0	72	0	0	0				2011-01-13 08:00	2011-01-23 16:00		2011-01-13 08:00	2011-01-23 16:00	2011-01-13 08:00	2011-01-23 16:00	2011-01-13 08:00	2011-01-23 16:00		2011-01-13 08:00	2011-01-23 16:00		PT_Normal					m6t2Vps87Ue0sKEJuvEzbw	yCnU6HKzEUyQwT0QDmmq6w			Y	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109649	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1370	 —ﬂÌ» Õ·Êﬁ «·√»Ê«» Ê «·‘»«»Ìﬂ √—÷Ì.1.2		840	56	80	0	0	0	80	0	0	0				2011-02-14 08:00	2011-02-24 16:00		2010-10-14 08:00	2010-10-25 16:00	2010-10-14 08:00	2010-10-25 16:00	2010-10-14 08:00	2010-10-25 16:00		2011-02-14 08:00	2011-02-24 16:00		PT_Normal					ZEjlaDgz9Um7B3ayhIWoBw				N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109650	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1380	 —ﬂÌ» Õ·Êﬁ «·√»Ê«» Ê «·‘»«»Ìﬂ 3.4.5		56	56	80	0	0	0	80	0	0	0				2011-02-01 08:00	2011-02-12 16:00		2011-01-24 08:00	2011-02-03 16:00	2011-01-24 08:00	2011-02-03 16:00	2011-01-24 08:00	2011-02-03 16:00		2011-02-01 08:00	2011-02-12 16:00		PT_Normal					5mPhFmzjB0mKuNPYPbAdsw	Jv04EAvdKEyIdl07PhKasg			N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109651	764	11203	1069	0	0	N	N	N	CP_Drtn	TT_FinMile	DT_FixedDrtn	RV_OK	TK_NotStart	A1390	«‰ Â«¡ «⁄„«· «”›· «·œﬂ…		64	0	0	0	0	0	0	0	0	0				2010-05-26 16:00	2010-05-26 16:00		2010-05-17 16:00	2010-05-17 16:00	2010-05-17 16:00	2010-05-17 16:00	2010-05-17 16:00	2010-05-17 16:00		2010-05-26 16:00	2010-05-26 16:00		PT_Normal					4Cp32JOb70mKq7XWxwaPlA				N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109652	764	11203	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1400	—œ„ »Ì‰ «·ﬁÊ«⁄œ «·⁄«œÌ…		0	0	8	0	0	0	8	0	0	0				2010-02-04 08:00	2010-02-04 16:00		2010-02-04 08:00	2010-02-04 16:00	2010-02-04 08:00	2010-02-04 16:00	2010-02-04 08:00	2010-02-04 16:00		2010-02-04 08:00	2010-02-04 16:00		PT_Normal					y88sR1bv3EWaDbc15TOPWw				Y	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109653	764	11204	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1250	»·«ÿ… «·œÊ— «·Œ«„”	2421	0	0	168	0	279	279	168	0	0	0				2010-11-13 08:00	2010-12-06 16:00		2010-11-13 08:00	2010-12-06 16:00	2010-11-13 08:00	2010-12-06 16:00	2010-11-13 08:00	2010-12-06 16:00		2010-11-13 08:00	2010-12-06 16:00		PT_Normal					QOVvxT8EXECcPovKPHpmDw				Y	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109654	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A2260	«⁄„«· «·‰Ã«—… œÊ— «—÷Ì		856	856	80	0	0	0	80	0	0	0				2011-06-02 08:00	2011-06-13 16:00		2011-01-29 08:00	2011-02-08 16:00	2011-01-29 08:00	2011-02-08 16:00	2011-01-29 08:00	2011-02-08 16:00		2011-06-02 08:00	2011-06-13 16:00		PT_Normal					3grWHnxy6kuwtKgRRKT8Fg	iFieBEAzFUuYBF2YinpUDw			N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109655	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A2270	«⁄„«· «·œÂ«‰«  œÊ— —«»⁄		160	0	192	0	0	0	192	0	0	0				2011-05-05 08:00	2011-06-01 16:00		2011-04-12 08:00	2011-05-09 16:00	2011-04-12 08:00	2011-05-09 16:00	2011-04-12 08:00	2011-05-09 16:00		2011-05-05 08:00	2011-06-01 16:00		PT_Normal					CWpnWcvTQkKXqMYzFczAEA	AmyDrJBpDEqAXFdF5yKh1Q			N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109656	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A2290	«⁄„«· «·’ÕÌ Ê ⁄“· «·Õ„«„«  œÊ— «—÷Ì		784	0	80	0	0	0	80	0	0	0				2011-03-21 08:00	2011-03-31 16:00		2010-11-27 08:00	2010-12-07 16:00	2010-11-27 08:00	2010-12-07 16:00	2010-11-27 08:00	2010-12-07 16:00		2011-03-21 08:00	2011-03-31 16:00		PT_Normal					5DrL2Jq5JkaWjBIgCJtQRQ	JgfBpJkXQ0+joPI7v9S25g			N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109657	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A2460	«⁄„«· »Ì«÷ Ê ﬂ—«‰Ì‘ «·œÊ—«·«—÷Ì		784	0	160	0	0	0	160	0	0	0				2011-02-26 08:00	2011-03-20 16:00		2010-11-03 08:00	2010-11-25 16:00	2010-11-03 08:00	2010-11-25 16:00	2010-11-03 08:00	2010-11-25 16:00		2011-02-26 08:00	2011-03-20 16:00		PT_Normal					DjHEcDzSikGKUuFsglpjxA	fjJrNU+o60aKRH2zqLj37Q			N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109658	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A2470	«⁄„«· »Ì«÷ Ê ﬂ—«‰Ì‘ «·œÊ—«·Œ«„” Ê «·‘Œ‘ÌŒ…		0	0	160	0	0	0	160	0	0	0				2011-02-13 08:00	2011-03-07 16:00		2011-02-13 08:00	2011-03-07 16:00	2011-02-13 08:00	2011-03-07 16:00	2011-02-13 08:00	2011-03-07 16:00		2011-02-13 08:00	2011-03-07 16:00		PT_Normal					CbppgrLUeEiZdB+AoLGRLQ	o3it1WJoBkGzFiX+JxVw+w			Y	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109659	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A2480	«⁄„«· »Ì«÷ Ê ﬂ—«‰Ì‘ «·œÊ—«·À«·À		160	0	160	0	0	0	160	0	0	0				2011-03-08 08:00	2011-03-30 16:00		2011-02-13 08:00	2011-03-07 16:00	2011-02-13 08:00	2011-03-07 16:00	2011-02-13 08:00	2011-03-07 16:00		2011-03-08 08:00	2011-03-30 16:00		PT_Normal					BGzS6bQfPU20IJL3onfSqg	Yoe59Euqa0KeBNYZtFqVQQ			N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109660	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A2490	«⁄„«· »Ì«÷ Ê ﬂ—«‰Ì‘ «·œÊ—«·—«»⁄		160	0	160	0	0	0	160	0	0	0				2011-03-08 08:00	2011-03-30 16:00		2011-02-13 08:00	2011-03-07 16:00	2011-02-13 08:00	2011-03-07 16:00	2011-02-13 08:00	2011-03-07 16:00		2011-03-08 08:00	2011-03-30 16:00		PT_Normal					Czutg5VHXEu4+hHgGIr+ig	mIC88S5/6E+iaAYrSDKsGw			N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109661	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A2500	«⁄„«· »Ì«÷ Ê ﬂ—«‰Ì‘ «·œÊ—««·À«‰Ì		856	0	160	0	0	0	160	0	0	0				2011-03-08 08:00	2011-03-30 16:00		2010-11-03 08:00	2010-11-25 16:00	2010-11-03 08:00	2010-11-25 16:00	2010-11-03 08:00	2010-11-25 16:00		2011-03-08 08:00	2011-03-30 16:00		PT_Normal					OBeJVvDxo0Od1tokSSm8mg	bO0CSJStY0ycWdwwQ4FjpQ			N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109662	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A2510	«⁄„«· «·‰Ã«—… œÊ— «Ê·		856	856	80	0	0	0	80	0	0	0				2011-06-02 08:00	2011-06-13 16:00		2011-01-29 08:00	2011-02-08 16:00	2011-01-29 08:00	2011-02-08 16:00	2011-01-29 08:00	2011-02-08 16:00		2011-06-02 08:00	2011-06-13 16:00		PT_Normal					XA9t/ysp9kiyVwOjAOMJ/Q	O76gsY79gEGcJV78UqvPeA			N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109663	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A2530	«⁄„«· «·‰Ã«—… œÊ— À«·À		160	160	80	0	0	0	80	0	0	0				2011-06-02 08:00	2011-06-13 16:00		2011-05-10 08:00	2011-05-21 16:00	2011-05-10 08:00	2011-05-21 16:00	2011-05-10 08:00	2011-05-21 16:00		2011-06-02 08:00	2011-06-13 16:00		PT_Normal					ZrpVX4jsgEWutd+e32HMwA	EE8mZvdOMkmaxHWkC57dAg			N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109664	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A2540	«⁄„«· «·‰Ã«—… œÊ— —«»⁄		160	160	80	0	0	0	80	0	0	0				2011-06-02 08:00	2011-06-13 16:00		2011-05-10 08:00	2011-05-21 16:00	2011-05-10 08:00	2011-05-21 16:00	2011-05-10 08:00	2011-05-21 16:00		2011-06-02 08:00	2011-06-13 16:00		PT_Normal					tH52GhC7MEGxPJsgGZ6x+Q	i7iz5c1zM0aJgkAJae0Frw			N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109665	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A2550	«⁄„«· «·‰Ã«—… œÊ— Œ«„”		160	0	80	0	0	0	80	0	0	0				2011-06-02 08:00	2011-06-13 16:00		2011-05-10 08:00	2011-05-21 16:00	2011-05-10 08:00	2011-05-21 16:00	2011-05-10 08:00	2011-05-21 16:00		2011-06-02 08:00	2011-06-13 16:00		PT_Normal					7obuR0m44E6bjT78J4pzIg	04SWGGyfo0WsZzgY3Mj9oQ			N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109666	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A2570	«⁄„«· «·œÂ«‰«  œÊ— À«·À		160	0	192	0	0	0	192	0	0	0				2011-05-05 08:00	2011-06-01 16:00		2011-04-12 08:00	2011-05-09 16:00	2011-04-12 08:00	2011-05-09 16:00	2011-04-12 08:00	2011-05-09 16:00		2011-05-05 08:00	2011-06-01 16:00		PT_Normal					mJhjzb9IL02I6OVsTpNhiA	610p58m5DkmLjCMuxH1p/Q			N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109667	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A2580	«⁄„«· «·œÂ«‰«  œÊ— «Ê·		856	0	192	0	0	0	192	0	0	0				2011-05-05 08:00	2011-06-01 16:00		2011-01-01 08:00	2011-01-27 16:00	2011-01-01 08:00	2011-01-27 16:00	2011-01-01 08:00	2011-01-27 16:00		2011-05-05 08:00	2011-06-01 16:00		PT_Normal					iYpVCwaAXEmiW1seAmru/A	dJKi/Ys+ikmqcstiIw2GLg			N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109668	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A2590	«⁄„«· «·œÂ«‰«  œÊ— Œ«„”		0	0	192	0	0	0	192	0	0	0				2011-04-12 08:00	2011-05-09 16:00		2011-04-12 08:00	2011-05-09 16:00	2011-04-12 08:00	2011-05-09 16:00	2011-04-12 08:00	2011-05-09 16:00		2011-04-12 08:00	2011-05-09 16:00		PT_Normal					QwI87vJaOkOk5eo1bJXmGw	/ZZqu+mikUCweLYkcR2wxw			Y	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109669	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A2600	«⁄„«· «·œÂ«‰«  œÊ— «—÷Ì		784	0	192	0	0	0	192	0	0	0				2011-04-25 08:00	2011-05-22 16:00		2011-01-01 08:00	2011-01-27 16:00	2011-01-01 08:00	2011-01-27 16:00	2011-01-01 08:00	2011-01-27 16:00		2011-04-25 08:00	2011-05-22 16:00		PT_Normal					56A9vDWERUC7FC4Rjuf/yg	I8sKk1Gp5kCG1B0sg+T16w			N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109670	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A2610	«⁄„«· ”Ì—«„Ìﬂ «·«—÷Ì«  Ê «·ÕÊ«∆ÿ œÊ— «Ê·		856	0	160	0	0	0	160	0	0	0				2011-04-12 08:00	2011-05-04 16:00		2010-12-08 08:00	2010-12-30 16:00	2010-12-08 08:00	2010-12-30 16:00	2010-12-08 08:00	2010-12-30 16:00		2011-04-12 08:00	2011-05-04 16:00		PT_Normal					PzdUTgw35EOuDAfpc1qaYg	8ocyomr0QECYV8DHLpfIUg			N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109671	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A2620	«⁄„«· ”Ì—«„Ìﬂ «·«—÷Ì«  Ê «·ÕÊ«∆ÿ œÊ— Œ«„”		0	0	160	0	0	0	160	0	0	0				2011-03-20 08:00	2011-04-11 16:00		2011-03-20 08:00	2011-04-11 16:00	2011-03-20 08:00	2011-04-11 16:00	2011-03-20 08:00	2011-04-11 16:00		2011-03-20 08:00	2011-04-11 16:00		PT_Normal					495U24Bkt0KR9JqXnEyv6Q	NDn0/S6g/UWjOa4V4RV6CA			Y	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109672	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A2630	«⁄„«· ”Ì—«„Ìﬂ «·«—÷Ì«  Ê «·ÕÊ«∆ÿ œÊ— —«»⁄		160	0	160	0	0	0	160	0	0	0				2011-04-12 08:00	2011-05-04 16:00		2011-03-20 08:00	2011-04-11 16:00	2011-03-20 08:00	2011-04-11 16:00	2011-03-20 08:00	2011-04-11 16:00		2011-04-12 08:00	2011-05-04 16:00		PT_Normal					P08QjlCFM0mDU8anyHYQOg	47YlKI67eUuDPwylC++dYA			N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109673	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A2640	«⁄„«· ”Ì—«„Ìﬂ «·«—÷Ì«  Ê «·ÕÊ«∆ÿ œÊ— À«·À		160	0	160	0	0	0	160	0	0	0				2011-04-12 08:00	2011-05-04 16:00		2011-03-20 08:00	2011-04-11 16:00	2011-03-20 08:00	2011-04-11 16:00	2011-03-20 08:00	2011-04-11 16:00		2011-04-12 08:00	2011-05-04 16:00		PT_Normal					Rx93J3bXUUmQ9QPYvXpMeQ	CbQmxHE/SkWD8bM+hq7PYg			N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109674	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A2650	«⁄„«· ”Ì—«„Ìﬂ «·«—÷Ì«  Ê «·ÕÊ«∆ÿ œÊ— À«‰Ì		856	0	160	0	0	0	160	0	0	0				2011-04-12 08:00	2011-05-04 16:00		2010-12-08 08:00	2010-12-30 16:00	2010-12-08 08:00	2010-12-30 16:00	2010-12-08 08:00	2010-12-30 16:00		2011-04-12 08:00	2011-05-04 16:00		PT_Normal					cbRuag1xjU2akvLzNfkYdQ	LI2DeuRAFUixwKGXz8REHA			N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109675	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A2660	«⁄„«· «·’ÕÌ Ê ⁄“· «·Õ„«„«  œÊ— «Ê·		856	0	80	0	0	0	80	0	0	0				2011-03-31 08:00	2011-04-11 16:00		2010-11-27 08:00	2010-12-07 16:00	2010-11-27 08:00	2010-12-07 16:00	2010-11-27 08:00	2010-12-07 16:00		2011-03-31 08:00	2011-04-11 16:00		PT_Normal					YBWCVGf1AUmDTawFUwEw/g	lNVvjFiWA0+T3yZwHf93nQ			N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109676	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1410	«·«⁄„«· «·„⁄œ‰Ì…		456	120	240	0	0	0	240	0	0	0				2011-05-05 08:00	2011-06-08 16:00		2011-02-28 08:00	2011-04-03 16:00	2011-02-28 08:00	2011-04-03 16:00	2011-02-28 08:00	2011-04-03 16:00		2011-05-05 08:00	2011-06-08 16:00		PT_Normal					UTt7f3zBuUC8/vBjfvZYrg				N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109677	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1420	«⁄„«· «·‰Ã«—… œÊ— À«‰Ì		856	856	80	0	0	0	80	0	0	0				2011-06-02 08:00	2011-06-13 16:00		2011-01-29 08:00	2011-02-08 16:00	2011-01-29 08:00	2011-02-08 16:00	2011-01-29 08:00	2011-02-08 16:00		2011-06-02 08:00	2011-06-13 16:00		PT_Normal					n41TAR4kwUSxtIe38R3qjQ				N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109678	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1430	«⁄„«· «·œÂ«‰«  œÊ— À«‰Ì		856	0	192	0	0	0	192	0	0	0				2011-05-05 08:00	2011-06-01 16:00		2011-01-01 08:00	2011-01-27 16:00	2011-01-01 08:00	2011-01-27 16:00	2011-01-01 08:00	2011-01-27 16:00		2011-05-05 08:00	2011-06-01 16:00		PT_Normal					hoTfmmmK3UW7z9rM+/084Q				N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109679	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1440	«⁄„«· »Ì«÷ Ê ﬂ—«‰Ì‘ «·œÊ—«·«Ê·		856	0	160	0	0	0	160	0	0	0				2011-03-08 08:00	2011-03-30 16:00		2010-11-03 08:00	2010-11-25 16:00	2010-11-03 08:00	2010-11-25 16:00	2010-11-03 08:00	2010-11-25 16:00		2011-03-08 08:00	2011-03-30 16:00		PT_Normal					JA+z/JJIbE+MZyTzIly34w				N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109680	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1450	«⁄„«· «·’ÕÌ Ê ⁄“· «·Õ„«„«  œÊ— À«‰Ì		856	0	80	0	0	0	80	0	0	0				2011-03-31 08:00	2011-04-11 16:00		2010-11-27 08:00	2010-12-07 16:00	2010-11-27 08:00	2010-12-07 16:00	2010-11-27 08:00	2010-12-07 16:00		2011-03-31 08:00	2011-04-11 16:00		PT_Normal					SvWKp5sU+0SvCVnvKICURg				N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109681	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1460	«⁄„«· «·’ÕÌ «·Œ«—ÃÌ		3336	3000	160	0	0	0	160	0	0	0				2011-05-17 08:00	2011-06-08 16:00		2010-01-16 08:00	2010-02-07 16:00	2010-01-16 08:00	2010-02-07 16:00	2010-01-16 08:00	2010-02-07 16:00		2011-05-17 08:00	2011-06-08 16:00		PT_Normal					xpnWPw5e4kuQzfnTQCVVIQ				N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109682	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1470	«⁄„«· ”Ì—«„Ìﬂ «·«—÷Ì«  Ê «·ÕÊ«∆ÿ œÊ— «—÷Ì		784	0	160	0	0	0	160	0	0	0				2011-04-02 08:00	2011-04-24 16:00		2010-12-08 08:00	2010-12-30 16:00	2010-12-08 08:00	2010-12-30 16:00	2010-12-08 08:00	2010-12-30 16:00		2011-04-02 08:00	2011-04-24 16:00		PT_Normal					JP8m/MFwQ0qGgoiLh/ouCQ				N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109683	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1480	«⁄„«· ÿ»ﬁ… ⁄«“·… ··Õ—«—… ··«”ÿÕ		448	0	56	0	0	0	56	0	0	0				2011-05-12 08:00	2011-05-19 16:00		2011-03-08 08:00	2011-03-15 16:00	2011-03-08 08:00	2011-03-15 16:00	2011-03-08 08:00	2011-03-15 16:00		2011-05-12 08:00	2011-05-19 16:00		PT_Normal					5Z3P/msqJ0yIfD2xW9Yqjw				N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109684	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1490	«⁄„«· »·«ÿ «·”ÿÕ		448	448	112	0	0	0	112	0	0	0				2011-05-29 08:00	2011-06-13 16:00		2011-03-24 08:00	2011-04-09 16:00	2011-03-24 08:00	2011-04-09 16:00	2011-03-24 08:00	2011-04-09 16:00		2011-05-29 08:00	2011-06-13 16:00		PT_Normal					tWNNONF/a0u3/ggzr+LEQQ				N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109685	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1500	 —ﬂÌ» «·√ÃÂ“… «·’ÕÌ…		0	0	240	0	0	0	240	0	0	0				2011-05-10 08:00	2011-06-13 16:00		2011-05-10 08:00	2011-06-13 16:00	2011-05-10 08:00	2011-06-13 16:00	2011-05-10 08:00	2011-06-13 16:00		2011-05-10 08:00	2011-06-13 16:00		PT_Normal					a/PyN8X200WRhHDEy+d8zQ				Y	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109686	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1510	›ﬂ «·”ﬁ«·«  «·„⁄œ‰Ì…		336	336	32	0	0	0	32	0	0	0				2011-06-09 08:00	2011-06-13 16:00		2011-04-21 08:00	2011-04-25 16:00	2011-04-21 08:00	2011-04-25 16:00	2011-04-21 08:00	2011-04-25 16:00		2011-06-09 08:00	2011-06-13 16:00		PT_Normal					tVaJufHkg02d+oqLJ8XOBw				N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109687	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1520	«⁄„«· «·—Œ«„ Ê «·œ—Ã ··⁄„«—…		40	0	200	0	0	0	200	0	0	0				2011-05-16 08:00	2011-06-13 16:00		2011-05-10 08:00	2011-06-07 16:00	2011-05-10 08:00	2011-06-07 16:00	2011-05-10 08:00	2011-06-07 16:00		2011-05-16 08:00	2011-06-13 16:00		PT_Normal					g+QDW3eG+kG1FQ5PAuQNSA				N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109688	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1530	 ‘ÿÌ» «⁄„«· «·œÂ«‰« 		40	40	120	0	0	0	120	0	0	0				2011-05-28 08:00	2011-06-13 16:00		2011-05-22 08:00	2011-06-07 16:00	2011-05-22 08:00	2011-06-07 16:00	2011-05-22 08:00	2011-06-07 16:00		2011-05-28 08:00	2011-06-13 16:00		PT_Normal					uPIslePDIUWdk6btVsp+BA				N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109689	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1560	«⁄„«·  ‘ÿÌ» «·Ê«ÃÂ… grc-”«›Ì Ê		248	248	240	0	0	0	240	0	0	0				2011-05-10 08:00	2011-06-13 16:00		2011-04-04 08:00	2011-05-08 16:00	2011-04-04 08:00	2011-05-08 16:00	2011-04-04 08:00	2011-05-08 16:00		2011-05-10 08:00	2011-06-13 16:00		PT_Normal					zCX1S6fbF0+ZZtbRybIH5g				N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109690	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1570	«⁄„«· «·ﬁ—„Ìœ		248	0	168	0	0	0	168	0	0	0				2011-04-16 08:00	2011-05-09 16:00		2011-03-10 08:00	2011-04-03 16:00	2011-03-10 08:00	2011-04-03 16:00	2011-03-10 08:00	2011-04-03 16:00		2011-04-16 08:00	2011-05-09 16:00		PT_Normal					mTmmg4qVRE2KHvdxrAMxNQ				N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109691	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1580	«⁄„«· «·ÿ»ﬁ… «·⁄«“·… ··—ÿÊ»… ··”ÿÕ		448	0	56	0	0	0	56	0	0	0				2011-05-21 08:00	2011-05-28 16:00		2011-03-16 08:00	2011-03-23 16:00	2011-03-16 08:00	2011-03-23 16:00	2011-03-16 08:00	2011-03-23 16:00		2011-05-21 08:00	2011-05-28 16:00		PT_Normal					q7MnK14iQkqWV0z3oMfTJg				N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109692	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1590	«⁄„«· «·ﬂÂ—»«¡ «—÷Ì  ’Ê«⁄œ Ê⁄·» Ê ”·ﬂ «—÷Ì 1-2		784	0	136	0	0	0	136	0	0	0				2011-02-06 08:00	2011-02-24 16:00		2010-10-14 08:00	2010-11-02 16:00	2010-10-14 08:00	2010-11-02 16:00	2010-10-14 08:00	2010-11-02 16:00		2011-02-06 08:00	2011-02-24 16:00		PT_Normal					XuYZlMW57kSN9ixmgfbBZg				N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109693	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1600	 ‘ÿÌ» «⁄„«· «·ﬂÂ—»«¡		40	40	80	0	0	0	80	0	0	0				2011-06-02 08:00	2011-06-13 16:00		2011-05-28 08:00	2011-06-07 16:00	2011-05-28 08:00	2011-06-07 16:00	2011-05-28 08:00	2011-06-07 16:00		2011-06-02 08:00	2011-06-13 16:00		PT_Normal					O8XYVT7cDEKe64l3b6DhNA				N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109694	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1610	 ”·Ì„ «⁄„«· «·⁄„«—…		0	0	0	0	0	0	0	0	0	0				2011-06-13 16:00	2011-06-13 16:00		2011-06-14 08:00	2011-06-14 08:00	2011-06-14 08:00	2011-06-14 08:00	2011-06-14 08:00	2011-06-14 08:00		2011-06-13 16:00	2011-06-13 16:00		PT_Normal					Ddz2qQ4aUkCVz/HV56L5NQ				Y	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109695	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A2670	«⁄„«· «·’ÕÌ Ê ⁄“· «·Õ„«„«  œÊ— À«·À		160	0	80	0	0	0	80	0	0	0				2011-03-31 08:00	2011-04-11 16:00		2011-03-08 08:00	2011-03-19 16:00	2011-03-08 08:00	2011-03-19 16:00	2011-03-08 08:00	2011-03-19 16:00		2011-03-31 08:00	2011-04-11 16:00		PT_Normal					4uU9ugDQHkC5E8Nzx6Sw0A	J+U/7Erig0ya6LN10SRxwg			N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109696	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A2680	«⁄„«· «·’ÕÌ Ê ⁄“· «·Õ„«„«  œÊ— —«»⁄		160	0	80	0	0	0	80	0	0	0				2011-03-31 08:00	2011-04-11 16:00		2011-03-08 08:00	2011-03-19 16:00	2011-03-08 08:00	2011-03-19 16:00	2011-03-08 08:00	2011-03-19 16:00		2011-03-31 08:00	2011-04-11 16:00		PT_Normal					xI6vp8WUfU2lIolPtbL20A	J+U/7Erig0ya6LN10SRxwg			N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109697	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A2690	«⁄„«· «·’ÕÌ Ê ⁄“· «·Õ„«„«  œÊ— Œ«„”		0	0	80	0	0	0	80	0	0	0				2011-03-08 08:00	2011-03-19 16:00		2011-03-08 08:00	2011-03-19 16:00	2011-03-08 08:00	2011-03-19 16:00	2011-03-08 08:00	2011-03-19 16:00		2011-03-08 08:00	2011-03-19 16:00		PT_Normal					8Znk6KyEyUmOosQpXD4ciw	J+U/7Erig0ya6LN10SRxwg			Y	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109698	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1540	 —ﬂÌ» «·√·„Ê‰ÌÊ„		336	0	120	0	0	0	120	0	0	0				2011-05-23 08:00	2011-06-08 16:00		2011-04-04 08:00	2011-04-20 16:00	2011-04-04 08:00	2011-04-20 16:00	2011-04-04 08:00	2011-04-20 16:00		2011-05-23 08:00	2011-06-08 16:00		PT_Normal					fTsyVxzfFUySMO1n6naD/g				N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109699	764	11204	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1550	› —… «‰ Ÿ«— ›ﬂ ‘œ… «·—«»⁄		232	0	96	0	0	0	96	0	0	0				2010-12-07 08:00	2010-12-20 16:00		2010-11-03 08:00	2010-11-16 16:00	2010-11-03 08:00	2010-11-16 16:00	2010-11-03 08:00	2010-11-16 16:00		2010-12-07 08:00	2010-12-20 16:00		PT_Normal					TczIciFRv0+RX2bcUwqhEQ				N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109700	764	11204	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A2700	› —… «‰ Ÿ«— ›ﬂ ‘œ… «·«Ê·		1016	0	96	0	0	0	96	0	0	0				2010-12-20 08:00	2011-01-02 16:00		2010-07-25 08:00	2010-08-07 16:00	2010-07-25 08:00	2010-08-07 16:00	2010-07-25 08:00	2010-08-07 16:00		2010-12-20 08:00	2011-01-02 16:00		PT_Normal					422gYKiIZEKhLE+LCZ8fRg	r+6QgpnbbUu/395GMC302g			N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109701	764	11204	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A2710	› —… «‰ Ÿ«— ›ﬂ ‘œ… «·√—÷Ì		1248	0	96	0	0	0	96	0	0	0				2010-12-20 08:00	2011-01-02 16:00		2010-06-21 08:00	2010-07-04 16:00	2010-06-21 08:00	2010-07-04 16:00	2010-06-21 08:00	2010-07-04 16:00		2010-12-20 08:00	2011-01-02 16:00		PT_Normal					gFBfshoaAEKu6eGwSauphA	r+6QgpnbbUu/395GMC302g			N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109702	764	11204	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A2720	› —… «‰ Ÿ«— ›ﬂ ‘œ… «·À«·À		464	0	96	0	0	0	96	0	0	0				2010-12-07 08:00	2010-12-20 16:00		2010-09-30 08:00	2010-10-13 16:00	2010-09-30 08:00	2010-10-13 16:00	2010-09-30 08:00	2010-10-13 16:00		2010-12-07 08:00	2010-12-20 16:00		PT_Normal					ZqWxWV9g20SiRQFMomE1WQ	r+6QgpnbbUu/395GMC302g			N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109703	764	11204	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A2730	› —… «‰ Ÿ«— ›ﬂ ‘œ… «·À«‰Ì		784	0	96	0	0	0	96	0	0	0				2010-12-20 08:00	2011-01-02 16:00		2010-08-28 08:00	2010-09-09 16:00	2010-08-28 08:00	2010-09-09 16:00	2010-08-28 08:00	2010-09-09 16:00		2010-12-20 08:00	2011-01-02 16:00		PT_Normal					ZVymIpSmIUaHWOLfjR89DQ	r+6QgpnbbUu/395GMC302g			N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109704	764	11204	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A2740	› —… «‰ Ÿ«— ›ﬂ ‘œ… «·Œ«„”		0	0	96	0	0	0	96	0	0	0				2010-12-07 08:00	2010-12-20 16:00		2010-12-07 08:00	2010-12-20 16:00	2010-12-07 08:00	2010-12-20 16:00	2010-12-07 08:00	2010-12-20 16:00		2010-12-07 08:00	2010-12-20 16:00		PT_Normal					1u+9/LxuzEawm7kuY9Ld0w	r+6QgpnbbUu/395GMC302g			Y	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109705	764	11204	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A2750	› —… «‰ Ÿ«— ›ﬂ ‘œ… «·‘Œ‘ÌŒ…		248	0	96	0	0	0	96	0	0	0				2011-01-22 08:00	2011-02-03 16:00		2010-12-16 08:00	2010-12-29 16:00	2010-12-16 08:00	2010-12-29 16:00	2010-12-16 08:00	2010-12-29 16:00		2011-01-22 08:00	2011-02-03 16:00		PT_Normal					ps0OA/Q+xUaSxbgcVpVX8g	r+6QgpnbbUu/395GMC302g			N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109706	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A2760	«⁄„«· «·ﬂÂ—»«¡ «—÷Ì  ’Ê«⁄œ Ê⁄·» Ê ”·ﬂ 3-4-5		0	0	136	0	0	0	136	0	0	0				2011-01-24 08:00	2011-02-12 16:00		2011-01-24 08:00	2011-02-12 16:00	2011-01-24 08:00	2011-02-12 16:00	2011-01-24 08:00	2011-02-12 16:00		2011-01-24 08:00	2011-02-12 16:00		PT_Normal					VHuBCxorKUqYTlMqLU9cig	BDSmfdtk10OoeBPMOyh8jg			Y	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109707	764	11203	1069	0	0	N	N	N	CP_Drtn	TT_Mile	DT_FixedDrtn	RV_OK	TK_NotStart	A1620	»œ«Ì… «⁄„«· «”›· «·œﬂ…		0	0	0	0	0	0	0	0	0	0				2010-01-16 08:00	2010-01-16 08:00		2010-01-16 08:00	2010-01-16 08:00	2010-01-16 08:00	2010-01-16 08:00	2010-01-16 08:00	2010-01-16 08:00		2010-01-16 08:00	2010-01-16 08:00		PT_Normal					O7noSWnv8EGLl1HlzdK94g				Y	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109708	764	11204	1069	0	0	N	N	N	CP_Drtn	TT_Mile	DT_FixedDrtn	RV_OK	TK_NotStart	A1630	»œ«Ì… «⁄„«· «·ÂÌﬂ·		64	64	0	0	0	0	0	0	0	0				2010-05-27 08:00	2010-05-27 08:00		2010-05-18 08:00	2010-05-18 08:00	2010-05-18 08:00	2010-05-18 08:00	2010-05-18 08:00	2010-05-18 08:00		2010-05-27 08:00	2010-05-27 08:00		PT_Normal					LSLmcuPxhE+a0dkVc50vsw				N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109709	764	11204	1069	0	0	N	N	N	CP_Drtn	TT_FinMile	DT_FixedDrtn	RV_OK	TK_NotStart	A1640	‰Â«Ì… «⁄„«· «·ÂÌﬂ·		1232	1232	0	0	0	0	0	0	0	0				2011-06-13 16:00	2011-06-13 16:00		2010-12-15 16:00	2010-12-15 16:00	2010-12-15 16:00	2010-12-15 16:00	2010-12-15 16:00	2010-12-15 16:00		2011-06-13 16:00	2011-06-13 16:00		PT_Normal					uO7LPj54FEyYWJIwzS+Ymw				N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109710	764	11205	1069	0	0	N	N	N	CP_Drtn	TT_Mile	DT_FixedDrtn	RV_OK	TK_NotStart	A1650	»œ«Ì… «⁄„«· «·„»«‰Ì		1248	0	0	0	0	0	0	0	0	0				2011-01-03 08:00	2011-01-03 08:00		2010-07-05 08:00	2010-07-05 08:00	2010-07-05 08:00	2010-07-05 08:00	2010-07-05 08:00	2010-07-05 08:00		2011-01-03 08:00	2011-01-03 08:00		PT_Normal					Z8KU4c8bMke5rPGsMaanBw				N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109711	764	11205	1069	0	0	N	N	N	CP_Drtn	TT_FinMile	DT_FixedDrtn	RV_OK	TK_NotStart	A1660	‰Â«Ì… «⁄„«· «·„»«‰Ì		248	0	0	0	0	0	0	0	0	0				2011-02-10 16:00	2011-02-10 16:00		2011-01-05 16:00	2011-01-05 16:00	2011-01-05 16:00	2011-01-05 16:00	2011-01-05 16:00	2011-01-05 16:00		2011-02-10 16:00	2011-02-10 16:00		PT_Normal					XztvFyoG+kGxMQwzKc/wnQ				N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109712	764	11206	1069	0	0	N	N	N	CP_Drtn	TT_Mile	DT_FixedDrtn	RV_OK	TK_NotStart	A2770	»œ«Ì… «⁄„«· «· ‘ÿÌ»«  «·œ«Œ·Ì…		1248	464	0	0	0	0	0	0	0	0				2011-01-26 08:00	2011-01-26 08:00		2010-07-28 08:00	2010-07-28 08:00	2010-07-28 08:00	2010-07-28 08:00	2010-07-28 08:00	2010-07-28 08:00		2011-01-26 08:00	2011-01-26 08:00		PT_Normal					2S6qd1tzhEiXbDUA7ia50g				N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109713	764	11206	1069	0	0	N	N	N	CP_Drtn	TT_FinMile	DT_FixedDrtn	RV_OK	TK_NotStart	A2780	‰Â«Ì… «⁄„«· «· ‘ÿÌ»«  «·œ«Œ·Ì…		160	160	0	0	0	0	0	0	0	0				2011-06-13 16:00	2011-06-13 16:00		2011-05-21 16:00	2011-05-21 16:00	2011-05-21 16:00	2011-05-21 16:00	2011-05-21 16:00	2011-05-21 16:00		2011-06-13 16:00	2011-06-13 16:00		PT_Normal					gcspOvcCx0GjcKBE2dcKVQ				N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109714	764	11206	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A1670	«⁄„«· «·»Ì«÷ «·Œ«—ÃÌ		248	0	600	0	0	0	600	0	0	0				2011-02-12 08:00	2011-05-09 16:00		2011-01-06 08:00	2011-04-03 16:00	2011-01-06 08:00	2011-04-03 16:00	2011-01-06 08:00	2011-04-03 16:00		2011-02-12 08:00	2011-05-09 16:00		PT_Normal					EgMkmbDMoUS53wzw1rG5oA				N	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%R	109715	764	11203	1069	1	0	N	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	RV_OK	TK_NotStart	A2790	—ﬁ«» «⁄„œ…		0	0	8	0	0	0	8	0	0	0				2010-02-23 08:00	2010-02-23 16:00		2010-02-23 08:00	2010-02-23 16:00	2010-02-23 08:00	2010-02-23 16:00	2010-02-23 08:00	2010-02-23 16:00		2010-02-23 08:00	2010-02-23 16:00		PT_Normal					wIeo78bX80SgBakRsyK8zg				Y	0	0			2010-05-10 09:07	2010-05-10 09:07	admin	admin			
+%T	PROJCOST
+%F	cost_item_id	acct_id	pobs_id	cost_type_id	proj_id	task_id	cost_name	po_number	vendor_name	act_cost	cost_per_qty	remain_cost	target_cost	cost_load_type	auto_compute_act_flag	target_qty	qty_name	cost_descr
+%R	15601			11	764	109621	ÊÃ»… ﬂ› …			0	0	0	0	CL_End	N	0		
+%R	15602				764	109628	(New Expense Item)			0	0	0	0	CL_Uniform	N	0		
+%T	TASKACTV
+%F	task_id	actv_code_type_id	actv_code_id	proj_id
+%R	109615	7292	13503	764
+%R	109616	7292	13503	764
+%R	109617	7292	13502	764
+%R	109618	7292	13503	764
+%R	109621	7292	13502	764
+%R	109626	7292	13503	764
+%R	109627	7292	13502	764
+%R	109628	7292	13516	764
+%R	109629	7292	13517	764
+%R	109630	7292	13516	764
+%R	109631	7292	13517	764
+%R	109632	7292	13516	764
+%R	109633	7292	13517	764
+%R	109634	7292	13516	764
+%R	109635	7292	13517	764
+%R	109636	7292	13516	764
+%R	109637	7292	13517	764
+%R	109638	7292	13517	764
+%R	109639	7292	13516	764
+%R	109640	7292	13508	764
+%R	109641	7292	13508	764
+%R	109642	7292	13508	764
+%R	109643	7292	13508	764
+%R	109644	7292	13508	764
+%R	109645	7292	13508	764
+%R	109646	7292	13508	764
+%R	109647	7294	13512	764
+%R	109649	7294	13512	764
+%R	109653	7292	13516	764
+%R	109654	7292	13507	764
+%R	109657	7292	13506	764
+%R	109658	7292	13506	764
+%R	109659	7292	13506	764
+%R	109660	7292	13506	764
+%R	109661	7292	13506	764
+%R	109661	7294	13512	764
+%R	109662	7292	13507	764
+%R	109662	7294	13510	764
+%R	109663	7292	13507	764
+%R	109664	7292	13507	764
+%R	109665	7292	13507	764
+%R	109667	7294	13510	764
+%R	109670	7292	13504	764
+%R	109670	7294	13510	764
+%R	109674	7294	13512	764
+%R	109675	7294	13510	764
+%R	109677	7292	13507	764
+%R	109677	7294	13512	764
+%R	109678	7294	13512	764
+%R	109679	7292	13506	764
+%R	109679	7294	13510	764
+%R	109680	7294	13512	764
+%R	109692	7294	13512	764
+%T	TASKNOTE
+%F	task_id	proj_id	task_notes
+%R	109614	764	<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 4.0 Transitional//EN""><HTML><HEAD><META content=""text/html; charset=unicode"" http-equiv=Content-Type><META name=GENERATOR content=""MSHTML 8.00.6001.18702""></HEAD><BODY bgColor=#ffffff></BODY></HTML>
+%R	109682	764	<HTML><BODY></BODY></HTML>
+%T	TASKPRED
+%F	task_pred_id	task_id	pred_task_id	proj_id	pred_proj_id	pred_type	lag_hr_cnt	float_path	aref	arls
+%R	116868	109616	109615	764	764	PR_FS	0		2010-01-26 16:00	2010-01-27 08:00
+%R	116869	109617	109626	764	764	PR_FS	0		2010-02-09 16:00	2010-02-10 08:00
+%R	116870	109622	109614	764	764	PR_FS	0		2010-01-23 16:00	2010-01-24 08:00
+%R	116871	109615	109622	764	764	PR_FS	0		2010-01-24 16:00	2010-01-25 08:00
+%R	116872	109652	109616	764	764	PR_FS	0		2010-02-03 16:00	2010-02-04 08:00
+%R	116873	109626	109652	764	764	PR_FS	0		2010-02-04 16:00	2010-02-06 08:00
+%R	116874	109621	109623	764	764	PR_FS	0		2010-04-14 16:00	2010-04-15 08:00
+%R	116875	109618	109624	764	764	PR_FS	0		2010-05-15 16:00	2010-05-16 08:00
+%R	116876	109620	109619	764	764	PR_FS	0		2010-03-06 16:00	2010-03-07 08:00
+%R	116877	109623	109620	764	764	PR_FS	0		2010-03-10 16:00	2010-03-11 08:00
+%R	116878	109625	109621	764	764	PR_FS	0		2010-04-29 16:00	2010-05-01 08:00
+%R	116879	109627	109618	764	764	PR_FS	0		2010-05-17 16:00	2010-05-18 08:00
+%R	116880	109624	109625	764	764	PR_FS	0		2010-05-02 16:00	2010-05-03 08:00
+%R	116881	109629	109628	764	764	PR_FS	0		2010-06-20 16:00	2010-06-21 08:00
+%R	116882	109630	109629	764	764	PR_FS	0		2010-06-29 16:00	2010-06-30 08:00
+%R	116883	109631	109630	764	764	PR_FS	0		2010-07-24 16:00	2010-07-25 08:00
+%R	116884	109632	109631	764	764	PR_FS	0		2010-08-02 16:00	2010-08-03 08:00
+%R	116885	109634	109633	764	764	PR_FS	0		2010-09-05 16:00	2010-09-06 08:00
+%R	116886	109635	109634	764	764	PR_FS	0		2010-09-29 16:00	2010-09-30 08:00
+%R	116887	109636	109635	764	764	PR_FS	0		2010-10-09 16:00	2010-10-10 08:00
+%R	116888	109637	109636	764	764	PR_FS	0		2010-11-02 16:00	2010-11-03 08:00
+%R	116889	109639	109638	764	764	PR_FS	0		2010-12-11 16:00	2011-01-17 08:00
+%R	116890	109633	109632	764	764	PR_FS	0		2010-08-26 16:00	2010-08-28 08:00
+%R	116891	109653	109637	764	764	PR_FS	0		2010-11-11 16:00	2010-11-13 08:00
+%R	116892	109638	109653	764	764	PR_FS	0		2010-12-06 16:00	2011-01-12 08:00
+%R	116893	109628	109627	764	764	PR_FS	0		2010-05-26 16:00	2010-05-27 08:00
+%R	116894	109650	109648	764	764	PR_FS	0		2011-01-23 16:00	2011-02-01 08:00
+%R	116895	109649	109647	764	764	PR_FS	0		2010-10-13 16:00	2011-02-14 08:00
+%R	116896	109692	109647	764	764	PR_FS	0		2010-10-13 16:00	2011-02-06 08:00
+%R	116897	109641	109700	764	764	PR_FS	0		2010-08-07 16:00	2011-01-03 08:00
+%R	116898	109644	109699	764	764	PR_FS	0		2010-11-16 16:00	2010-12-21 08:00
+%R	116899	109642	109703	764	764	PR_FS	0		2010-09-09 16:00	2011-01-03 08:00
+%R	116900	109643	109702	764	764	PR_FS	0		2010-10-13 16:00	2010-12-21 08:00
+%R	116901	109645	109704	764	764	PR_FS	0		2010-12-20 16:00	2010-12-21 08:00
+%R	116902	109646	109705	764	764	PR_FS	0		2010-12-29 16:00	2011-02-05 08:00
+%R	116903	109679	109649	764	764	PR_FS	0		2010-10-25 16:00	2011-03-08 08:00
+%R	116904	109657	109649	764	764	PR_FS	0		2010-10-25 16:00	2011-02-26 08:00
+%R	116905	109661	109649	764	764	PR_FS	0		2010-10-25 16:00	2011-03-08 08:00
+%R	116906	109657	109692	764	764	PR_FS	0		2010-11-02 16:00	2011-02-26 08:00
+%R	116907	109661	109692	764	764	PR_FS	0		2010-11-02 16:00	2011-03-08 08:00
+%R	116908	109679	109692	764	764	PR_FS	0		2010-11-02 16:00	2011-03-08 08:00
+%R	116909	109684	109691	764	764	PR_FS	0		2011-03-23 16:00	2011-05-29 08:00
+%R	116910	109691	109683	764	764	PR_FS	0		2011-03-15 16:00	2011-05-21 08:00
+%R	116911	109683	109658	764	764	PR_FS	0		2011-03-07 16:00	2011-05-12 08:00
+%R	116912	109682	109657	764	764	PR_FS	0		2010-11-25 16:00	2011-04-02 08:00
+%R	116913	109669	109682	764	764	PR_FS	0		2010-12-30 16:00	2011-04-25 08:00
+%R	116914	109640	109701	764	764	PR_FS	0		2010-07-04 16:00	2011-01-03 08:00
+%R	116915	109647	109640	764	764	PR_FS	0		2010-07-27 16:00	2011-01-26 08:00
+%R	116916	109654	109669	764	764	PR_FS	0		2011-01-27 16:00	2011-06-02 08:00
+%R	116917	109698	109669	764	764	PR_FS	0		2011-01-27 16:00	2011-05-23 08:00
+%R	116918	109614	109707	764	764	PR_FS	0		2010-01-16 08:00	2010-01-16 08:00
+%R	116919	109651	109618	764	764	PR_FS	0		2010-05-17 16:00	2010-05-26 16:00
+%R	116920	109628	109708	764	764	PR_FS	0		2010-05-18 08:00	2010-05-27 08:00
+%R	116921	109709	109639	764	764	PR_FS	0		2010-12-15 16:00	2011-06-13 16:00
+%R	116922	109640	109710	764	764	PR_FS	0		2010-07-05 08:00	2011-01-03 08:00
+%R	116923	109711	109646	764	764	PR_FS	0		2011-01-05 16:00	2011-02-10 16:00
+%R	116924	109708	109651	764	764	PR_FS	0		2010-05-17 16:00	2010-05-27 08:00
+%R	116925	109701	109628	764	764	PR_FS	0		2010-06-20 16:00	2010-12-20 08:00
+%R	116926	109700	109630	764	764	PR_FS	0		2010-07-24 16:00	2010-12-20 08:00
+%R	116927	109703	109632	764	764	PR_FS	0		2010-08-26 16:00	2010-12-20 08:00
+%R	116928	109702	109634	764	764	PR_FS	0		2010-09-29 16:00	2010-12-07 08:00
+%R	116929	109699	109636	764	764	PR_FS	0		2010-11-02 16:00	2010-12-07 08:00
+%R	116930	109704	109653	764	764	PR_FS	0		2010-12-06 16:00	2010-12-07 08:00
+%R	116931	109705	109639	764	764	PR_FS	0		2010-12-15 16:00	2011-01-22 08:00
+%R	116932	109675	109679	764	764	PR_FS	0		2010-11-25 16:00	2011-03-31 08:00
+%R	116933	109670	109675	764	764	PR_FS	0		2010-12-07 16:00	2011-04-12 08:00
+%R	116934	109667	109670	764	764	PR_FS	0		2010-12-30 16:00	2011-05-05 08:00
+%R	116935	109680	109661	764	764	PR_FS	0		2010-11-25 16:00	2011-03-31 08:00
+%R	116936	109674	109680	764	764	PR_FS	0		2010-12-07 16:00	2011-04-12 08:00
+%R	116937	109677	109674	764	764	PR_FS	0		2010-12-30 16:00	2011-06-02 08:00
+%R	116938	109670	109679	764	764	PR_FS	0		2010-11-25 16:00	2011-04-12 08:00
+%R	116939	109673	109659	764	764	PR_FS	0		2011-03-07 16:00	2011-04-12 08:00
+%R	116940	109674	109661	764	764	PR_FS	0		2010-11-25 16:00	2011-04-12 08:00
+%R	116941	109671	109658	764	764	PR_FS	0		2011-03-07 16:00	2011-03-20 08:00
+%R	116942	109671	109697	764	764	PR_FS	0		2011-03-19 16:00	2011-03-20 08:00
+%R	116943	109672	109660	764	764	PR_FS	0		2011-03-07 16:00	2011-04-12 08:00
+%R	116944	109672	109696	764	764	PR_FS	0		2011-03-19 16:00	2011-04-12 08:00
+%R	116945	109673	109695	764	764	PR_FS	0		2011-03-19 16:00	2011-04-12 08:00
+%R	116946	109666	109673	764	764	PR_FS	0		2011-04-11 16:00	2011-05-05 08:00
+%R	116947	109678	109674	764	764	PR_FS	0		2010-12-30 16:00	2011-05-05 08:00
+%R	116948	109706	109648	764	764	PR_FS	0		2011-01-23 16:00	2011-01-24 08:00
+%R	116949	109648	109643	764	764	PR_FS	0		2010-11-06 16:00	2011-01-13 08:00
+%R	116950	109647	109641	764	764	PR_FS	0		2010-08-30 16:00	2011-01-26 08:00
+%R	116951	109648	109644	764	764	PR_FS	0		2010-12-09 16:00	2011-01-13 08:00
+%R	116952	109648	109645	764	764	PR_FS	0		2011-01-12 16:00	2011-01-13 08:00
+%R	116953	109647	109642	764	764	PR_FS	0		2010-10-03 16:00	2011-01-26 08:00
+%R	116954	109695	109659	764	764	PR_FS	0		2011-03-07 16:00	2011-03-31 08:00
+%R	116955	109697	109658	764	764	PR_FS	0		2011-03-07 16:00	2011-03-08 08:00
+%R	116956	109696	109660	764	764	PR_FS	0		2011-03-07 16:00	2011-03-31 08:00
+%R	116957	109687	109668	764	764	PR_FS	0		2011-05-09 16:00	2011-05-16 08:00
+%R	116958	109694	109684	764	764	PR_FS	0		2011-04-09 16:00	2011-06-13 16:00
+%R	116959	109647	109712	764	764	PR_FS	0		2010-07-28 08:00	2011-01-26 08:00
+%R	116960	109689	109646	764	764	PR_FS	0		2011-01-05 16:00	2011-05-10 08:00
+%R	116961	109714	109711	764	764	PR_FS	0		2011-01-05 16:00	2011-02-12 08:00
+%R	116962	109690	109714	764	764	PR_FF	0		2011-03-10 08:00	2011-05-09 16:00
+%R	116963	109689	109690	764	764	PR_FS	0		2011-04-03 16:00	2011-05-10 08:00
+%R	116964	109654	109682	764	764	PR_FS	0		2010-12-30 16:00	2011-06-02 08:00
+%R	116965	109662	109670	764	764	PR_FS	0		2010-12-30 16:00	2011-06-02 08:00
+%R	116966	109663	109673	764	764	PR_FS	0		2011-04-11 16:00	2011-06-02 08:00
+%R	116967	109665	109671	764	764	PR_FS	0		2011-04-11 16:00	2011-06-02 08:00
+%R	116968	109664	109672	764	764	PR_FS	0		2011-04-11 16:00	2011-06-02 08:00
+%R	116969	109712	109640	764	764	PR_FS	0		2010-07-27 16:00	2011-01-26 08:00
+%R	116970	109715	109617	764	764	PR_FS	0		2010-02-22 16:00	2010-02-23 08:00
+%R	116971	109619	109715	764	764	PR_FS	0		2010-02-23 16:00	2010-02-24 08:00
+%R	116972	109710	109701	764	764	PR_FS	0		2010-07-04 16:00	2011-01-03 08:00
+%R	116973	109676	109714	764	764	PR_FF	0		2011-02-28 08:00	2011-06-08 16:00
+%R	116974	109698	109714	764	764	PR_FS	0		2011-04-03 16:00	2011-05-23 08:00
+%R	116975	109685	109668	764	764	PR_FS	0		2011-05-09 16:00	2011-05-10 08:00
+%R	116976	109686	109698	764	764	PR_FS	0		2011-04-20 16:00	2011-06-09 08:00
+%R	116977	109686	109676	764	764	PR_FS	0		2011-04-03 16:00	2011-06-09 08:00
+%R	116978	109686	109690	764	764	PR_FS	0		2011-04-03 16:00	2011-06-09 08:00
+%R	116979	109686	109681	764	764	PR_FS	0		2010-02-07 16:00	2011-06-09 08:00
+%R	116980	109688	109687	764	764	PR_FF	0		2011-05-22 08:00	2011-06-13 16:00
+%R	116981	109693	109687	764	764	PR_FF	0		2011-05-28 08:00	2011-06-13 16:00
+%R	116982	109656	109657	764	764	PR_FS	0		2010-11-25 16:00	2011-03-21 08:00
+%R	116983	109658	109706	764	764	PR_FS	0		2011-02-12 16:00	2011-02-13 08:00
+%R	116984	109658	109648	764	764	PR_FS	0		2011-01-23 16:00	2011-02-13 08:00
+%R	116985	109659	109648	764	764	PR_FS	0		2011-01-23 16:00	2011-03-08 08:00
+%R	116986	109659	109706	764	764	PR_FS	0		2011-02-12 16:00	2011-03-08 08:00
+%R	116987	109660	109706	764	764	PR_FS	0		2011-02-12 16:00	2011-03-08 08:00
+%R	116988	109660	109648	764	764	PR_FS	0		2011-01-23 16:00	2011-03-08 08:00
+%R	116989	109660	109650	764	764	PR_FS	0		2011-02-03 16:00	2011-03-08 08:00
+%R	116990	109658	109650	764	764	PR_FS	0		2011-02-03 16:00	2011-02-13 08:00
+%R	116991	109659	109650	764	764	PR_FS	0		2011-02-03 16:00	2011-03-08 08:00
+%R	116992	109694	109685	764	764	PR_FS	0		2011-06-13 16:00	2011-06-13 16:00
+%R	116993	109694	109686	764	764	PR_FS	0		2011-04-25 16:00	2011-06-13 16:00
+%R	116994	109694	109688	764	764	PR_FS	0		2011-06-07 16:00	2011-06-13 16:00
+%R	116995	109694	109689	764	764	PR_FS	0		2011-05-08 16:00	2011-06-13 16:00
+%R	116996	109694	109693	764	764	PR_FS	0		2011-06-07 16:00	2011-06-13 16:00
+%R	116997	109662	109667	764	764	PR_FS	0		2011-01-27 16:00	2011-06-02 08:00
+%R	116998	109663	109666	764	764	PR_FS	0		2011-05-09 16:00	2011-06-02 08:00
+%R	116999	109677	109678	764	764	PR_FS	0		2011-01-27 16:00	2011-06-02 08:00
+%R	117000	109665	109668	764	764	PR_FS	0		2011-05-09 16:00	2011-06-02 08:00
+%R	117001	109664	109655	764	764	PR_FS	0		2011-05-09 16:00	2011-06-02 08:00
+%R	117002	109694	109654	764	764	PR_FS	0		2011-02-08 16:00	2011-06-13 16:00
+%R	117003	109694	109662	764	764	PR_FS	0		2011-02-08 16:00	2011-06-13 16:00
+%R	117004	109694	109663	764	764	PR_FS	0		2011-05-21 16:00	2011-06-13 16:00
+%R	117005	109694	109677	764	764	PR_FS	0		2011-02-08 16:00	2011-06-13 16:00
+%R	117006	109694	109665	764	764	PR_FS	0		2011-05-21 16:00	2011-06-13 16:00
+%R	117007	109694	109664	764	764	PR_FS	0		2011-05-21 16:00	2011-06-13 16:00
+%R	117008	109655	109672	764	764	PR_FS	0		2011-04-11 16:00	2011-05-05 08:00
+%R	117009	109668	109671	764	764	PR_FS	0		2011-04-11 16:00	2011-04-12 08:00
+%R	117010	109682	109656	764	764	PR_FS	0		2010-12-07 16:00	2011-04-02 08:00
+%R	117011	109713	109665	764	764	PR_FS	0		2011-05-21 16:00	2011-06-13 16:00
+%R	117012	109694	109713	764	764	PR_FS	0		2011-05-21 16:00	2011-06-13 16:00
+%T	TASKRSRC
+%F	taskrsrc_id	task_id	proj_id	cost_qty_link_flag	role_id	acct_id	rsrc_id	pobs_id	skill_level	pend_complete_pct	remain_qty	pend_remain_qty	target_qty	remain_qty_per_hr	pend_act_reg_qty	target_lag_drtn_hr_cnt	target_qty_per_hr	act_ot_qty	pend_act_ot_qty	act_reg_qty	relag_drtn_hr_cnt	ot_factor	cost_per_qty	target_cost	act_reg_cost	act_ot_cost	remain_cost	act_start_date	act_end_date	restart_date	reend_date	target_start_date	target_end_date	rem_late_start_date	rem_late_end_date	rollup_dates_flag	target_crv	remain_crv	actual_crv	ts_pend_act_end_flag	guid	rate_type	act_this_per_cost	act_this_per_qty	curv_id	rsrc_type	cost_per_qty_source_type	create_user	create_date	old_restart_date	old_reend_date	old_remain_drtn_hr_cnt	has_rsrchours	taskrsrc_sum_id
+%R	282559	109627	764	Y			2668				16		16	0.25		0	0.25	0		0	0	0	350	5600	0	0	5600			2010-05-18 08:00	2010-05-26 16:00	2010-05-18 08:00	2010-05-26 16:00	2010-05-18 08:00	2010-05-26 16:00	Y				N	R27W2skxHEO0PDvjSQtuag	COST_PER_QTY	0	0	64	RT_Mat	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282560	109633	764	Y			2668				15		15	0.234375		0	0.234375	0		0	0	0	350	5250	0	0	5250			2010-08-28 08:00	2010-09-05 16:00	2010-08-28 08:00	2010-09-05 16:00	2010-08-28 08:00	2010-09-05 16:00	Y				N	cdOJFoAgP06qpnw38o5J3Q	COST_PER_QTY	0	0	64	RT_Mat	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282561	109637	764	Y			2668				15		15	0.234375		0	0.234375	0		0	0	0	350	5250	0	0	5250			2010-11-03 08:00	2010-11-11 16:00	2010-11-03 08:00	2010-11-11 16:00	2010-11-03 08:00	2010-11-11 16:00	Y				N	kJJReKAGtEOD4Tz/IYGnGQ	COST_PER_QTY	0	0	64	RT_Mat	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282562	109631	764	Y			2668				15		15	0.234375		0	0.234375	0		0	0	0	350	5250	0	0	5250			2010-07-25 08:00	2010-08-02 16:00	2010-07-25 08:00	2010-08-02 16:00	2010-07-25 08:00	2010-08-02 16:00	Y				N	WVkqh3C28EexXfB0rWIcDg	COST_PER_QTY	0	0	64	RT_Mat	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282563	109635	764	Y			2668				15		15	0.234375		0	0.234375	0		0	0	0	350	5250	0	0	5250			2010-09-30 08:00	2010-10-09 16:00	2010-09-30 08:00	2010-10-09 16:00	2010-09-30 08:00	2010-10-09 16:00	Y				N	q2/Liyl/yUShsSC7UnEIrg	COST_PER_QTY	0	0	64	RT_Mat	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282564	109629	764	Y			2668				15		15	0.234375		0	0.234375	0		0	0	0	350	5250	0	0	5250			2010-06-21 08:00	2010-06-29 16:00	2010-06-21 08:00	2010-06-29 16:00	2010-06-21 08:00	2010-06-29 16:00	Y				N	V5IMM7fZcEew/avaIRt7aA	COST_PER_QTY	0	0	64	RT_Mat	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282565	109638	764	Y			2668				3		3	0.09375		0	0.09375	0		0	0	0	350	1050	0	0	1050			2010-12-07 08:00	2010-12-11 16:00	2010-12-07 08:00	2010-12-11 16:00	2011-01-12 08:00	2011-01-16 16:00	Y				N	zklqEQuhKkO7DSfP48qztw	COST_PER_QTY	0	0	64	RT_Mat	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282566	109628	764	Y			2668				97		97	0.57738095		0	0.57738095	0		0	0	0	350	33950	0	0	33950			2010-05-27 08:00	2010-06-20 16:00	2010-05-27 08:00	2010-06-20 16:00	2010-05-27 08:00	2010-06-20 16:00	Y				N	0m45tKrRW0OIsAnatroKyg	COST_PER_QTY	0	0	64	RT_Mat	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282567	109630	764	Y			2668				97		97	0.57738095		0	0.57738095	0		0	0	0	350	33950	0	0	33950			2010-06-30 08:00	2010-07-24 16:00	2010-06-30 08:00	2010-07-24 16:00	2010-06-30 08:00	2010-07-24 16:00	Y				N	P1Hs70T0rEOf6vMwrp4H1w	COST_PER_QTY	0	0	64	RT_Mat	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282568	109634	764	Y			2668				97		97	0.57738095		0	0.57738095	0		0	0	0	350	33950	0	0	33950			2010-09-06 08:00	2010-09-29 16:00	2010-09-06 08:00	2010-09-29 16:00	2010-09-06 08:00	2010-09-29 16:00	Y				N	tH8C1SAeyEaG//UlZTcwgg	COST_PER_QTY	0	0	64	RT_Mat	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282569	109632	764	Y			2668				97		97	0.57738095		0	0.57738095	0		0	0	0	350	33950	0	0	33950			2010-08-03 08:00	2010-08-26 16:00	2010-08-03 08:00	2010-08-26 16:00	2010-08-03 08:00	2010-08-26 16:00	Y				N	RIBdTO4+bkOql5vdGGBWXg	COST_PER_QTY	0	0	64	RT_Mat	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282570	109653	764	Y			2668				97		97	0.57738095		0	0.57738095	0		0	0	0	350	33950	0	0	33950			2010-11-13 08:00	2010-12-06 16:00	2010-11-13 08:00	2010-12-06 16:00	2010-11-13 08:00	2010-12-06 16:00	Y				N	S/LNgDZsYkKzjfHK/UKRJw	COST_PER_QTY	0	0	64	RT_Mat	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282571	109636	764	Y			2668				105		105	0.625		0	0.625	0		0	0	0	350	36750	0	0	36750			2010-10-10 08:00	2010-11-02 16:00	2010-10-10 08:00	2010-11-02 16:00	2010-10-10 08:00	2010-11-02 16:00	Y				N	ApSVlOkFP0i4AkihKYcw1g	COST_PER_QTY	0	0	64	RT_Mat	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282572	109639	764	Y			2668				18		18	0.5625		0	0.5625	0		0	0	0	350	6300	0	0	6300			2010-12-12 08:00	2010-12-15 16:00	2010-12-12 08:00	2010-12-15 16:00	2011-01-17 08:00	2011-01-20 16:00	Y				N	VTm5bI4rp0aRzrVXRMpMXA	COST_PER_QTY	0	0	64	RT_Mat	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282573	109626	764	Y			2669				87		87	2.71875		0	2.71875	0		0	0		300	26100	0	0	26100			2010-02-06 08:00	2010-02-09 16:00	2010-02-06 08:00	2010-02-09 16:00	2010-02-06 08:00	2010-02-09 16:00	Y				N	HObU4M77rUKgWaYMzCkdjw	COST_PER_QTY	0	0	64	RT_Mat	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282574	109616	764	Y			2669				190		190	3.39285714		0	3.39285714	0		0	0		300	57000	0	0	57000			2010-01-27 08:00	2010-02-03 16:00	2010-01-27 08:00	2010-02-03 16:00	2010-01-27 08:00	2010-02-03 16:00	Y				N	2WxVvABPcUeO3XXROytgTg	COST_PER_QTY	0	0	64	RT_Mat	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282575	109618	764	Y			2669				16		16	1		0	1	0		0	0		300	4800	0	0	4800			2010-05-16 08:00	2010-05-17 16:00	2010-05-16 08:00	2010-05-17 16:00	2010-05-16 08:00	2010-05-17 16:00	Y				N	iQqtKmaM80GPm8iTzf+jww	COST_PER_QTY	0	0	64	RT_Mat	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282576	109621	764	Y			2668				104		104	1		0	1	0		0	0	0	350	36400	0	0	36400			2010-04-15 08:00	2010-04-29 16:00	2010-04-15 08:00	2010-04-29 16:00	2010-04-15 08:00	2010-04-29 16:00	Y				N	O1IV1DS4kUaUN3Ui8qrbhg	COST_PER_QTY	0	0	64	RT_Mat	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282577	109617	764	Y			2668				88		88	1		0	1	0		0	0	0	350	30800	0	0	30800			2010-02-10 08:00	2010-02-22 16:00	2010-02-10 08:00	2010-02-22 16:00	2010-02-10 08:00	2010-02-22 16:00	Y				N	mn7mSiFpE0yskj0DO3IuIA	COST_PER_QTY	0	0	64	RT_Mat	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282578	109615	764	Y			2669				16		16	1		0	1	0		0	0		300	4800	0	0	4800			2010-01-25 08:00	2010-01-26 16:00	2010-01-25 08:00	2010-01-26 16:00	2010-01-25 08:00	2010-01-26 16:00	Y				N	F+HHStmVaEaBjuxUkibDjw	COST_PER_QTY	0	0	64	RT_Mat	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282579	109628	764	Y			2670				1		1	0.00595238		0	0.00595238	0		0	0	0	3300	3300	0	0	3300			2010-05-27 08:00	2010-06-20 16:00	2010-05-27 08:00	2010-06-20 16:00			Y				N	BJYeyGabvUWn74QigniM5w	COST_PER_QTY	0	0		RT_Mat	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282580	109630	764	Y			2670				14		14	0.08333333		0	0.08333333	0		0	0	0	3300	46200	0	0	46200			2010-06-30 08:00	2010-07-24 16:00	2010-06-30 08:00	2010-07-24 16:00			Y				N	M1IfM5XjDkWzzqrR8b/PHA	COST_PER_QTY	0	0		RT_Mat	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282581	109632	764	Y			2670				14		14	0.08333333		0	0.08333333	0		0	0	0	3300	46200	0	0	46200			2010-08-03 08:00	2010-08-26 16:00	2010-08-03 08:00	2010-08-26 16:00			Y				N	7ccgPyWRgEWpIjuCk0JRTg	COST_PER_QTY	0	0		RT_Mat	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282582	109634	764	Y			2670				14		14	0.08333333		0	0.08333333	0		0	0	0	3300	46200	0	0	46200			2010-09-06 08:00	2010-09-29 16:00	2010-09-06 08:00	2010-09-29 16:00			Y				N	KLoEY/l0lEaTMHPF0IUSHw	COST_PER_QTY	0	0		RT_Mat	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282583	109636	764	Y			2670				14		14	0.08333333		0	0.08333333	0		0	0	0	3300	46200	0	0	46200			2010-10-10 08:00	2010-11-02 16:00	2010-10-10 08:00	2010-11-02 16:00			Y				N	m6StSTl9mUqvIrdwNvRm+w	COST_PER_QTY	0	0	63	RT_Mat	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282584	109653	764	Y			2670				14		14	0.08333333		0	0.08333333	0		0	0	0	3300	46200	0	0	46200			2010-11-13 08:00	2010-12-06 16:00	2010-11-13 08:00	2010-12-06 16:00			Y				N	h2q0vatTLUa0dkU4KUDSqQ	COST_PER_QTY	0	0		RT_Mat	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282585	109639	764	Y			2670				3		3	0.09375		0	0.09375	0		0	0	0	3300	9900	0	0	9900			2010-12-12 08:00	2010-12-15 16:00	2010-12-12 08:00	2010-12-15 16:00			Y				N	6zusxtPA0EOvNzmd4jp5TA	COST_PER_QTY	0	0		RT_Mat	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282586	109628	764	Y			2421				97		97	0.57738095		0	0.57738095	0		0	0		10	970	0	0	970			2010-05-27 08:00	2010-06-20 16:00	2010-05-27 08:00	2010-06-20 16:00			Y				N	RbRrx/UC8kuJl3i/Lh5FPA	COST_PER_QTY	0	0		RT_Labor	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282587	109630	764	Y			2421				97		97	0.57738095		0	0.57738095	0		0	0		10	970	0	0	970			2010-06-30 08:00	2010-07-24 16:00	2010-06-30 08:00	2010-07-24 16:00			Y				N	HGXov21WFUCTKdu6V1riQg	COST_PER_QTY	0	0		RT_Labor	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282588	109632	764	Y			2421				97		97	0.57738095		0	0.57738095	0		0	0		10	970	0	0	970			2010-08-03 08:00	2010-08-26 16:00	2010-08-03 08:00	2010-08-26 16:00			Y				N	WeHW709iukie6ZJkuX0Z3g	COST_PER_QTY	0	0		RT_Labor	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282589	109634	764	Y			2421				97		97	0.57738095		0	0.57738095	0		0	0		10	970	0	0	970			2010-09-06 08:00	2010-09-29 16:00	2010-09-06 08:00	2010-09-29 16:00			Y				N	taR9FVHy2kalitp4YOu6MA	COST_PER_QTY	0	0		RT_Labor	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282590	109636	764	Y			2421				97		97	0.57738095		0	0.57738095	0		0	0		10	970	0	0	970			2010-10-10 08:00	2010-11-02 16:00	2010-10-10 08:00	2010-11-02 16:00			Y				N	CHZyMNArTUqJJUBsbnOsjA	COST_PER_QTY	0	0	64	RT_Labor	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282591	109653	764	Y			2421				97		97	0.57738095		0	0.57738095	0		0	0		10	970	0	0	970			2010-11-13 08:00	2010-12-06 16:00	2010-11-13 08:00	2010-12-06 16:00			Y				N	Qxic2cwCXkmJgwk8h7SDsw	COST_PER_QTY	0	0		RT_Labor	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282592	109639	764	Y			2421				18		18	0.5625		0	0.5625	0		0	0		10	180	0	0	180			2010-12-12 08:00	2010-12-15 16:00	2010-12-12 08:00	2010-12-15 16:00			Y				N	7mZMmib0+EC/9BgjLmE0cw	COST_PER_QTY	0	0		RT_Labor	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282593	109637	764	Y			2670				3		3	0.046875		0	0.046875	0		0	0	0	3300	9900	0	0	9900			2010-11-03 08:00	2010-11-11 16:00	2010-11-03 08:00	2010-11-11 16:00			Y				N	nlxJ+T0Wpkq+wm51qeBgbQ	COST_PER_QTY	0	0		RT_Mat	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282594	109635	764	Y			2670				3		3	0.046875		0	0.046875	0		0	0	0	3300	9900	0	0	9900			2010-09-30 08:00	2010-10-09 16:00	2010-09-30 08:00	2010-10-09 16:00			Y				N	c5RKePh26Ua7f0i+ti4Lrg	COST_PER_QTY	0	0		RT_Mat	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282595	109633	764	Y			2670				3		3	0.046875		0	0.046875	0		0	0	0	3300	9900	0	0	9900			2010-08-28 08:00	2010-09-05 16:00	2010-08-28 08:00	2010-09-05 16:00			Y				N	s1cO10jdwkur72epyRHBEw	COST_PER_QTY	0	0		RT_Mat	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282596	109631	764	Y			2670				3		3	0.046875		0	0.046875	0		0	0	0	3300	9900	0	0	9900			2010-07-25 08:00	2010-08-02 16:00	2010-07-25 08:00	2010-08-02 16:00			Y				N	HFBvAZct90ir9h3MuQeWlQ	COST_PER_QTY	0	0		RT_Mat	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282597	109629	764	Y			2670				3		3	0.046875		0	0.046875	0		0	0	0	3300	9900	0	0	9900			2010-06-21 08:00	2010-06-29 16:00	2010-06-21 08:00	2010-06-29 16:00			Y				N	K14JJcRRWEW5ZJIyUfyEig	COST_PER_QTY	0	0		RT_Mat	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282598	109637	764	Y			2421				15		15	0.234375		0	0.234375	0		0	0		10	150	0	0	150			2010-11-03 08:00	2010-11-11 16:00	2010-11-03 08:00	2010-11-11 16:00			Y				N	oEldhnkjZkiYHdrRnEN3mg	COST_PER_QTY	0	0		RT_Labor	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282599	109638	764	Y			2421				3		3	0.09375		0	0.09375	0		0	0		10	30	0	0	30			2010-12-07 08:00	2010-12-11 16:00	2010-12-07 08:00	2010-12-11 16:00			Y				N	wPx9JU81uUaw21/U9IJyKg	COST_PER_QTY	0	0		RT_Labor	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282600	109635	764	Y			2421				15		15	0.234375		0	0.234375	0		0	0		10	150	0	0	150			2010-09-30 08:00	2010-10-09 16:00	2010-09-30 08:00	2010-10-09 16:00			Y				N	WGTDlmaB1Eeup4E8Ki+5QA	COST_PER_QTY	0	0		RT_Labor	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282601	109633	764	Y			2421				15		15	0.234375		0	0.234375	0		0	0		10	150	0	0	150			2010-08-28 08:00	2010-09-05 16:00	2010-08-28 08:00	2010-09-05 16:00			Y				N	ff4wTBbLlE+CvLO5ZJaoiA	COST_PER_QTY	0	0		RT_Labor	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282602	109631	764	Y			2421				15		15	0.234375		0	0.234375	0		0	0		10	150	0	0	150			2010-07-25 08:00	2010-08-02 16:00	2010-07-25 08:00	2010-08-02 16:00			Y				N	eOXpfgks7U21+tTc0XYDSA	COST_PER_QTY	0	0		RT_Labor	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282603	109629	764	Y			2421				15		15	0.234375		0	0.234375	0		0	0		10	150	0	0	150			2010-06-21 08:00	2010-06-29 16:00	2010-06-21 08:00	2010-06-29 16:00			Y				N	jefxQ2P0/ECKrHRDvQ6nRw	COST_PER_QTY	0	0		RT_Labor	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282604	109628	764	Y			2666				168		168	1		0	1	0		0	0	0	110	18480	0	0	18480			2010-05-27 08:00	2010-06-20 16:00	2010-05-27 08:00	2010-06-20 16:00			Y				N	jGREMmm+vEOIsbIuyamUiA	COST_PER_QTY	0	0		RT_Labor	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282605	109629	764	Y			2666				64		64	1		0	1	0		0	0	0	110	7040	0	0	7040			2010-06-21 08:00	2010-06-29 16:00	2010-06-21 08:00	2010-06-29 16:00			Y				N	GekOZoaSa0KjuHMHfmniPw	COST_PER_QTY	0	0		RT_Labor	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282606	109630	764	Y			2666				168		168	1		0	1	0		0	0	0	110	18480	0	0	18480			2010-06-30 08:00	2010-07-24 16:00	2010-06-30 08:00	2010-07-24 16:00			Y				N	bDpWgxvo40qU5+q9F1uvVg	COST_PER_QTY	0	0		RT_Labor	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282607	109631	764	Y			2666				64		64	1		0	1	0		0	0	0	110	7040	0	0	7040			2010-07-25 08:00	2010-08-02 16:00	2010-07-25 08:00	2010-08-02 16:00			Y				N	lpPRtvTXxkSWOvHtGvkpng	COST_PER_QTY	0	0		RT_Labor	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282608	109632	764	Y			2666				168		168	1		0	1	0		0	0	0	110	18480	0	0	18480			2010-08-03 08:00	2010-08-26 16:00	2010-08-03 08:00	2010-08-26 16:00			Y				N	s+uvIibvaESp4x36S8PTDg	COST_PER_QTY	0	0		RT_Labor	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282609	109633	764	Y			2666				64		64	1		0	1	0		0	0	0	110	7040	0	0	7040			2010-08-28 08:00	2010-09-05 16:00	2010-08-28 08:00	2010-09-05 16:00			Y				N	kl5k68eEEEeWOAedxh2ZIA	COST_PER_QTY	0	0		RT_Labor	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282610	109634	764	Y			2666				168		168	1		0	1	0		0	0	0	110	18480	0	0	18480			2010-09-06 08:00	2010-09-29 16:00	2010-09-06 08:00	2010-09-29 16:00			Y				N	puKPKO9cIUuy6gNHaoV27A	COST_PER_QTY	0	0		RT_Labor	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282611	109635	764	Y			2666				64		64	1		0	1	0		0	0	0	110	7040	0	0	7040			2010-09-30 08:00	2010-10-09 16:00	2010-09-30 08:00	2010-10-09 16:00			Y				N	HKa4QwiQukCogU7uWZ8hvw	COST_PER_QTY	0	0		RT_Labor	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282612	109636	764	Y			2666				168		168	1		0	1	0		0	0	0	110	18480	0	0	18480			2010-10-10 08:00	2010-11-02 16:00	2010-10-10 08:00	2010-11-02 16:00			Y				N	BrEd9mh8t0G+kvdSw6h+bA	COST_PER_QTY	0	0	63	RT_Labor	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282613	109637	764	Y			2666				64		64	1		0	1	0		0	0	0	110	7040	0	0	7040			2010-11-03 08:00	2010-11-11 16:00	2010-11-03 08:00	2010-11-11 16:00			Y				N	OH9zJCmYUkyyph+Vur90hg	COST_PER_QTY	0	0		RT_Labor	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282614	109653	764	Y			2666				14		14	0.08333333		0	0.08333333	0		0	0	0	110	1540	0	0	1540			2010-11-13 08:00	2010-12-06 16:00	2010-11-13 08:00	2010-12-06 16:00			Y				N	wmBUImhwE0uMFDhTaxulBg	COST_PER_QTY	0	0		RT_Labor	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282615	109638	764	Y			2666				32		32	1		0	1	0		0	0	0	110	3520	0	0	3520			2010-12-07 08:00	2010-12-11 16:00	2010-12-07 08:00	2010-12-11 16:00			Y				N	VWvQF2+5tEWWucqp9VewXA	COST_PER_QTY	0	0		RT_Labor	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282616	109639	764	Y			2666				32		32	1		0	1	0		0	0	0	110	3520	0	0	3520			2010-12-12 08:00	2010-12-15 16:00	2010-12-12 08:00	2010-12-15 16:00			Y				N	kIFqzFK1FkmHDuSqNOB/0g	COST_PER_QTY	0	0		RT_Labor	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282617	109628	764	Y			2667				168		168	1		0	1	0		0	0	0	87	14616	0	0	14616			2010-05-27 08:00	2010-06-20 16:00	2010-05-27 08:00	2010-06-20 16:00			Y				N	nPkNBaeSxUOuIWRwv1Q4TQ	COST_PER_QTY	0	0		RT_Labor	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282618	109629	764	Y			2667				64		64	1		0	1	0		0	0	0	87	5568	0	0	5568			2010-06-21 08:00	2010-06-29 16:00	2010-06-21 08:00	2010-06-29 16:00			Y				N	mEeo4upseUyUq9HgLJff2w	COST_PER_QTY	0	0		RT_Labor	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282619	109630	764	Y			2667				168		168	1		0	1	0		0	0	0	87	14616	0	0	14616			2010-06-30 08:00	2010-07-24 16:00	2010-06-30 08:00	2010-07-24 16:00			Y				N	s3ni3IWYS0GAD1nRpOpu6Q	COST_PER_QTY	0	0		RT_Labor	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282620	109631	764	Y			2667				64		64	1		0	1	0		0	0	0	87	5568	0	0	5568			2010-07-25 08:00	2010-08-02 16:00	2010-07-25 08:00	2010-08-02 16:00			Y				N	p1cWVvjx8Uu9SLrBXwSA8A	COST_PER_QTY	0	0		RT_Labor	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282621	109632	764	Y			2667				168		168	1		0	1	0		0	0	0	87	14616	0	0	14616			2010-08-03 08:00	2010-08-26 16:00	2010-08-03 08:00	2010-08-26 16:00			Y				N	KYuHyWv6/0qpdCEhfvOxig	COST_PER_QTY	0	0		RT_Labor	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282622	109633	764	Y			2667				64		64	1		0	1	0		0	0	0	87	5568	0	0	5568			2010-08-28 08:00	2010-09-05 16:00	2010-08-28 08:00	2010-09-05 16:00			Y				N	ROg687syRkWpxSFSKyi+OA	COST_PER_QTY	0	0		RT_Labor	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282623	109634	764	Y			2667				168		168	1		0	1	0		0	0	0	87	14616	0	0	14616			2010-09-06 08:00	2010-09-29 16:00	2010-09-06 08:00	2010-09-29 16:00			Y				N	xxdd36PvYEeMy8sNzgFJuA	COST_PER_QTY	0	0		RT_Labor	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282624	109635	764	Y			2667				64		64	1		0	1	0		0	0	0	87	5568	0	0	5568			2010-09-30 08:00	2010-10-09 16:00	2010-09-30 08:00	2010-10-09 16:00			Y				N	kKyqb7GOsEW3VFmNW3pYYw	COST_PER_QTY	0	0		RT_Labor	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282625	109636	764	Y			2667				168		168	1		0	1	0		0	0	0	87	14616	0	0	14616			2010-10-10 08:00	2010-11-02 16:00	2010-10-10 08:00	2010-11-02 16:00			Y				N	5138nSyv5ESO/CDk4uj5kA	COST_PER_QTY	0	0	63	RT_Labor	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282626	109637	764	Y			2667				64		64	1		0	1	0		0	0	0	87	5568	0	0	5568			2010-11-03 08:00	2010-11-11 16:00	2010-11-03 08:00	2010-11-11 16:00			Y				N	Ay5IYRMW0EuwR3un/NbQ2g	COST_PER_QTY	0	0		RT_Labor	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282627	109653	764	Y			2667				168		168	1		0	1	0		0	0	0	87	14616	0	0	14616			2010-11-13 08:00	2010-12-06 16:00	2010-11-13 08:00	2010-12-06 16:00			Y				N	8mtmKiHQEUmSnvwFMLvbKQ	COST_PER_QTY	0	0		RT_Labor	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282628	109638	764	Y			2667				32		32	1		0	1	0		0	0	0	87	2784	0	0	2784			2010-12-07 08:00	2010-12-11 16:00	2010-12-07 08:00	2010-12-11 16:00			Y				N	V3KSFKwrRE+BiuzwqkEQ4A	COST_PER_QTY	0	0		RT_Labor	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282629	109639	764	Y			2667				32		32	1		0	1	0		0	0	0	87	2784	0	0	2784			2010-12-12 08:00	2010-12-15 16:00	2010-12-12 08:00	2010-12-15 16:00			Y				N	DZk0j2STmEu1f8rlmMuOUA	COST_PER_QTY	0	0		RT_Labor	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282630	109638	764	Y			2671				3		3	0.09375		0	0.09375	0		0	0	0	95	285	0	0	285			2010-12-07 08:00	2010-12-11 16:00	2010-12-07 08:00	2010-12-11 16:00			Y				N	/cayPf91oUOHI1vpIIeEbg	COST_PER_QTY	0	0		RT_Mat	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282631	109639	764	Y			2671				18		18	0.5625		0	0.5625	0		0	0	0	95	1710	0	0	1710			2010-12-12 08:00	2010-12-15 16:00	2010-12-12 08:00	2010-12-15 16:00			Y				N	EDyPBRFOrEin/7q2ABuMlw	COST_PER_QTY	0	0		RT_Mat	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282632	109628	764	Y			2671				97		97	0.57738095		0	0.57738095	0		0	0	0	95	9215	0	0	9215			2010-05-27 08:00	2010-06-20 16:00	2010-05-27 08:00	2010-06-20 16:00			Y				N	74DqV1LlwkWrhIomZvNOGQ	COST_PER_QTY	0	0		RT_Mat	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282633	109629	764	Y			2671				15		15	0.234375		0	0.234375	0		0	0	0	95	1425	0	0	1425			2010-06-21 08:00	2010-06-29 16:00	2010-06-21 08:00	2010-06-29 16:00			Y				N	n6BWpVqrwEi1cQl2DUPvaw	COST_PER_QTY	0	0		RT_Mat	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282634	109630	764	Y			2671				97		97	0.57738095		0	0.57738095	0		0	0	0	95	9215	0	0	9215			2010-06-30 08:00	2010-07-24 16:00	2010-06-30 08:00	2010-07-24 16:00			Y				N	l5PtckYEM0idVTP52UV8UQ	COST_PER_QTY	0	0		RT_Mat	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282635	109631	764	Y			2671				15		15	0.234375		0	0.234375	0		0	0	0	95	1425	0	0	1425			2010-07-25 08:00	2010-08-02 16:00	2010-07-25 08:00	2010-08-02 16:00			Y				N	W/qPfb6kmEmmBwvVd6ZcAA	COST_PER_QTY	0	0		RT_Mat	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282636	109632	764	Y			2671				97		97	0.57738095		0	0.57738095	0		0	0	0	95	9215	0	0	9215			2010-08-03 08:00	2010-08-26 16:00	2010-08-03 08:00	2010-08-26 16:00			Y				N	z0gPFiEKDki12KBbk3uXjg	COST_PER_QTY	0	0		RT_Mat	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282637	109633	764	Y			2671				15		15	0.234375		0	0.234375	0		0	0	0	95	1425	0	0	1425			2010-08-28 08:00	2010-09-05 16:00	2010-08-28 08:00	2010-09-05 16:00			Y				N	epCi28yODkOuL05VKmITMw	COST_PER_QTY	0	0		RT_Mat	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282638	109634	764	Y			2671				97		97	0.57738095		0	0.57738095	0		0	0	0	95	9215	0	0	9215			2010-09-06 08:00	2010-09-29 16:00	2010-09-06 08:00	2010-09-29 16:00			Y				N	GlJKxqk00UidN4twK1oP3Q	COST_PER_QTY	0	0		RT_Mat	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282639	109635	764	Y			2671				15		15	0.234375		0	0.234375	0		0	0	0	95	1425	0	0	1425			2010-09-30 08:00	2010-10-09 16:00	2010-09-30 08:00	2010-10-09 16:00			Y				N	5s7mNDnBGE+LmuyH7JyVGQ	COST_PER_QTY	0	0		RT_Mat	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282640	109636	764	Y			2671				105		105	0.625		0	0.625	0		0	0	0	95	9975	0	0	9975			2010-10-10 08:00	2010-11-02 16:00	2010-10-10 08:00	2010-11-02 16:00			Y				N	wY+wqP4U0ky+Az28AOmRKg	COST_PER_QTY	0	0	63	RT_Mat	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282641	109637	764	Y			2671				15		15	0.234375		0	0.234375	0		0	0	0	95	1425	0	0	1425			2010-11-03 08:00	2010-11-11 16:00	2010-11-03 08:00	2010-11-11 16:00			Y				N	LA6r0Dwo/ESmopwb3inS0g	COST_PER_QTY	0	0		RT_Mat	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282642	109653	764	Y			2671				97		97	0.57738095		0	0.57738095	0		0	0	0	95	9215	0	0	9215			2010-11-13 08:00	2010-12-06 16:00	2010-11-13 08:00	2010-12-06 16:00			Y				N	TZYJF2y/B0SzJWMCnVkoQw	COST_PER_QTY	0	0		RT_Mat	ST_Rsrc	admin	2010-05-10 09:07					
+%R	282643	109638	764	Y			2670				2		2	0.0625		0	0.0625	0		0	0	0	3300	6600	0	0	6600			2010-12-07 08:00	2010-12-11 16:00	2010-12-07 08:00	2010-12-11 16:00			Y				N	K+i5KmPQ1kSzxEgkJGo7lg	COST_PER_QTY	0	0		RT_Mat	ST_Rsrc	admin	2010-05-10 09:07					
+%E
